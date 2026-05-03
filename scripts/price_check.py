@@ -83,6 +83,9 @@ def main():
 
     save_snapshot(new_snap)
 
+    # 同步更新网页数据
+    _update_site_data(voyages, companies, now)
+
     # 保存结果供邮件脚本使用
     with open(OUTPUT_FILE, "w") as f:
         json.dump({"drops": drops, "count": len(drops), "checked_at": now}, f, ensure_ascii=False, indent=2)
@@ -109,6 +112,37 @@ def main():
         for d in drops:
             print(f"  📉 {d['company_cn']} | {d['cabin']} | ${d['old_price']:,}→${d['price']:,} (-{d['drop_pct']}%)")
     print(f"{'='*50}\n")
+
+
+def _update_site_data(voyages, companies, now):
+    """同步更新 docs/data/site_data.json 中的当前价格"""
+    site_file = ROOT / "docs" / "data" / "site_data.json"
+    if not site_file.exists():
+        return
+
+    with open(site_file) as f:
+        site = json.load(f)
+
+    # 用当前数据更新航次价格
+    current_voyages = {v["id"]: v for v in voyages}
+    for sv in site.get("voyages", []):
+        cv = current_voyages.get(sv.get("id"))
+        if cv:
+            sv["cabins"] = cv.get("cabin_categories", sv.get("cabins", []))
+
+    # 更新公司促销/降价计数
+    for c in site.get("companies", []):
+        co = companies.get(c.get("id"), {})
+        if co:
+            c["promos"] = co.get("promos", 0)
+            c["drops"] = co.get("drops", 0)
+
+    site["updated"] = now[:19]
+
+    with open(site_file, "w") as f:
+        json.dump(site, f, ensure_ascii=False, indent=2)
+
+    print(f"  ✅ 网页数据已同步: {site_file}")
 
 
 if __name__ == "__main__":
