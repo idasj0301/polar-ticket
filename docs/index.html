@@ -278,42 +278,29 @@ function CompanyDetail({co,V,P,cos,onClose}){
   const rl = (co.r||[]).length>1?'南北极':(co.r||[])[0]==='antarctic'?'南极':'北极';
   const ant = coVoyages.filter(v=>v.r==='antarctic');
   const arc = coVoyages.filter(v=>v.r==='arctic');
-  return React.createElement('div',{className:'overlay',onClick:onClose},
-    React.createElement('div',{className:'modal',onClick:e=>e.stopPropagation()},
-      React.createElement('div',{style:{display:'flex',justifyContent:'space-between',alignItems:'flex-start',marginBottom:20}},
-        React.createElement('h2',null,React.createElement(Logo,{co:co,size:40}),co.cn||co.id,React.createElement('span',{style:{fontSize:14,color:'var(--text2)',fontWeight:400,marginLeft:8}},co.en)),
-        React.createElement('button',{className:'close',onClick:onClose},'✕')
-      ),
-      React.createElement('div',{style:{display:'flex',gap:20,marginBottom:20,flexWrap:'wrap'}},
-        React.createElement('div',null,React.createElement('div',{style:{fontSize:20,fontWeight:700}},co.sn),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},'船只')),
-        React.createElement('div',null,React.createElement('div',{style:{fontSize:20,fontWeight:700}},rl),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},'运营区域')),
-        React.createElement('div',null,React.createElement('div',{style:{fontSize:20,fontWeight:700}},co.pos),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},'定位')),
-        React.createElement('div',null,React.createElement('div',{style:{fontSize:20,fontWeight:700,color:'var(--warn)'}},coPromos.length),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},'促销'))
-      ),
-      React.createElement('div',{style:{display:'flex',gap:6,flexWrap:'wrap',marginBottom:20}},(co.feat||[]).map(f=>React.createElement('span',{key:f,style:{fontSize:11,padding:'3px 10px',borderRadius:12,background:'rgba(79,195,247,.06)',color:'var(--text2)'}},f))),
-
-      coPromos.length>0 && React.createElement('div',{className:'sec'},
-        React.createElement('h4',null,'🔥 当前促销'),
-        coPromos.map(p=>React.createElement('div',{className:'promo-inline',key:p.t},React.createElement('b',null,p.t),' — ',p.d,React.createElement('span',{style:{color:'var(--warn)',fontWeight:600,marginLeft:8}},p.v),React.createElement('span',{style:{marginLeft:8,fontSize:10,color:'var(--text2)'}},'截止 '+p.exp)))
-      ),
-
-      React.createElement('div',{className:'sec'},
-        React.createElement('h4',null,'🚢 船队 (',co.sn,'艘)'),
-        (co.ships||[]).map(s=>React.createElement('div',{className:'ship-card',key:s},React.createElement('div',{className:'top'},React.createElement('span',{className:'name'},'🚢 ',s))))
-      ),
-
-      ant.length>0 && React.createElement('div',{className:'sec'},
-        React.createElement('h4',null,'🐧 南极航线 (',ant.length,'个航次)'),
-        ant.map(v=>{const c=v.cabins[0];return React.createElement('div',{className:'ship-card',key:v.id},React.createElement('div',{className:'top'},React.createElement('span',{className:'name'},v.name),React.createElement('span',{style:{fontWeight:700,fontSize:14,color:'var(--accent)'}},fmt(c.price))),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},v.ship,' · ',v.date,' · ',v.days,'天 · ',v.port),React.createElement('div',{style:{fontSize:11,marginTop:4,color:'var(--text2)'}},c.cat,' · ',(c.orig>c.price?React.createElement('span',{style:{color:'var(--green)'}},'↓',Math.round((1-c.price/c.orig)*100),'% '):''),c.avail,'间可用'));})}),
-
-      arc.length>0 && React.createElement('div',{className:'sec'},
-        React.createElement('h4',null,'🐻‍❄️ 北极航线 (',arc.length,'个航次)'),
-        arc.map(v=>{const c=v.cabins[0];return React.createElement('div',{className:'ship-card',key:v.id},React.createElement('div',{className:'top'},React.createElement('span',{className:'name'},v.name),React.createElement('span',{style:{fontWeight:700,fontSize:14,color:'var(--accent)'}},fmt(c.price))),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},v.ship,' · ',v.date,' · ',v.days,'天 · ',v.port));})}),
-
-      React.createElement('div',{className:'sec',style:{textAlign:'center',paddingTop:16,borderTop:'1px solid var(--border)'}},
-        co.domain && React.createElement('a',{href:'https://'+co.domain,target:'_blank',style:{color:'var(--accent)',textDecoration:'none',fontSize:13}},co.domain,' →')
-      )
-    )
+  return (
+    <div className="overlay" onClick={onClose}>
+      <div className="modal" onClick={e=>e.stopPropagation()}>
+        <div style={{display:'flex',justifyContent:'space-between',alignItems:'flex-start',marginBottom:20}}>
+          <h2><Logo co={co} size={40}/>{co.cn||co.id}<span style={{fontSize:14,color:'var(--text2)',fontWeight:400,marginLeft:8}}>{co.en}</span></h2>
+          <button className="close" onClick={onClose}>✕</button>
+        </div>
+        <div style={{display:'flex',gap:20,marginBottom:20,flexWrap:'wrap'}}>
+          <div><div style={{fontSize:20,fontWeight:700}}>{co.sn}</div><div style={{fontSize:11,color:'var(--text2)'}}>船只</div></div>
+          <div><div style={{fontSize:20,fontWeight:700}}>{rl}</div><div style={{fontSize:11,color:'var(--text2)'}}>运营区域</div></div>
+          <div><div style={{fontSize:20,fontWeight:700}}>{co.pos}</div><div style={{fontSize:11,color:'var(--text2)'}}>定位</div></div>
+          <div><div style={{fontSize:20,fontWeight:700,color:'var(--warn)'}}>{coPromos.length}</div><div style={{fontSize:11,color:'var(--text2)'}}>促销</div></div>
+        </div>
+        <div style={{display:'flex',gap:6,flexWrap:'wrap',marginBottom:20}}>{(co.feat||[]).map(f=><span key={f} style={{fontSize:11,padding:'3px 10px',borderRadius:12,background:'rgba(79,195,247,.06)',color:'var(--text2)'}}>{f}</span>)}</div>
+        {coPromos.length>0 && <div className="sec"><h4>🔥 当前促销</h4>{coPromos.map(p=><div className="promo-inline" key={p.t}><b>{p.t}</b> — {p.d}<span style={{color:'var(--warn)',fontWeight:600,marginLeft:8}}>{p.v}</span><span style={{marginLeft:8,fontSize:10,color:'var(--text2)'}}>截止 {p.exp}</span></div>)}</div>}
+        <div className="sec"><h4>🚢 船队 ({co.sn}艘)</h4>{(co.ships||[]).map(s=><div className="ship-card" key={s}><div className="top"><span className="name">🚢 {s}</span></div></div>)}</div>
+        {ant.length>0 && <div className="sec"><h4>🐧 南极航线 ({ant.length}个航次)</h4>{ant.map(v=>{const c=v.cabins[0];return <div className="ship-card" key={v.id}><div className="top"><span className="name">{v.name}</span><span style={{fontWeight:700,fontSize:14,color:'var(--accent)'}}>{fmt(c.price)}</span></div><div style={{fontSize:11,color:'var(--text2)'}}>{v.ship} · {v.date} · {v.days}天 · {v.port}</div><div style={{fontSize:11,marginTop:4,color:'var(--text2)'}}>{c.cat} · {c.orig>c.price&&<span style={{color:'var(--green)'}}>↓{Math.round((1-c.price/c.orig)*100)}% </span>}{c.avail}间可用</div></div>})}</div>}
+        {arc.length>0 && <div className="sec"><h4>🐻‍❄️ 北极航线 ({arc.length}个航次)</h4>{arc.map(v=>{const c=v.cabins[0];return <div className="ship-card" key={v.id}><div className="top"><span className="name">{v.name}</span><span style={{fontWeight:700,fontSize:14,color:'var(--accent)'}}>{fmt(c.price)}</span></div><div style={{fontSize:11,color:'var(--text2)'}}>{v.ship} · {v.date} · {v.days}天 · {v.port}</div></div>})}</div>}
+        <div className="sec" style={{textAlign:'center',paddingTop:16,borderTop:'1px solid var(--border)'}}>
+          {co.domain && <a href={'https://'+co.domain} target="_blank" rel="noopener noreferrer" style={{color:'var(--accent)',textDecoration:'none',fontSize:13}}>{co.domain} →</a>}
+        </div>
+      </div>
+    </div>
   );
 }
 
