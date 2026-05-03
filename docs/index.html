@@ -296,7 +296,7 @@ function NewsView(){
   return (
     <div>
       <div style={{fontSize:18,fontWeight:700,marginBottom:6}}>📰 南极情报站</div>
-      <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>21家极地邮轮公司最新动态 · 婉莹的内容素材库 · 共{NEWS.length}条情报</div>
+      <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>21家极地邮轮公司最新动态 · 新媒体内容素材库 · 共{NEWS.length}条情报</div>
       <div className="filter-row">
         <button className={cat==='all'?'on':''} onClick={()=>setCat('all')}>全部({NEWS.length})</button>
         {Object.keys(cats).sort().map(c=><button key={c} className={cat===c?'on':''} onClick={()=>setCat(c)}>{c}({cats[c]})</button>)}
