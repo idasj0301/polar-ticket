@@ -1,0 +1,160 @@
+{
+  "data": [
+    {
+      "id": "voy_001",
+      "company_id": "quark",
+      "region": "antarctic",
+      "itinerary_name": "Antarctic Explorer: Discovering the 7th Continent",
+      "ship_name": "Ultramarine",
+      "departure_date": "2026-11-21",
+      "duration_days": 11,
+      "departure_port": "Ushuaia, Argentina",
+      "cabin_categories": [
+        {"category": "Explorer Triple", "price": 11539, "currency": "USD", "available": 3, "original_price": 13539},
+        {"category": "Explorer Suite", "price": 14595, "currency": "USD", "available": 8, "original_price": 16595},
+        {"category": "Balcony Suite", "price": 18295, "currency": "USD", "available": 5, "original_price": 20295},
+        {"category": "Deluxe Balcony Suite", "price": 21595, "currency": "USD", "available": 2, "original_price": 23595},
+        {"category": "Terrace Suite", "price": 23595, "currency": "USD", "available": 4, "original_price": 25595},
+        {"category": "Penthouse Suite", "price": 28995, "currency": "USD", "available": 1, "original_price": 30995},
+        {"category": "Owner's Suite", "price": 35995, "currency": "USD", "available": 1, "original_price": 37995}
+      ],
+      "created_at": "2026-05-01T08:00:00",
+      "updated_at": "2026-05-03T08:30:00"
+    },
+    {
+      "id": "voy_002",
+      "company_id": "quark",
+      "region": "arctic",
+      "itinerary_name": "Spitsbergen Highlights: Wildlife Capital",
+      "ship_name": "Ocean Explorer",
+      "departure_date": "2026-06-15",
+      "duration_days": 8,
+      "departure_port": "Longyearbyen, Svalbard",
+      "cabin_categories": [
+        {"category": "Explorer Triple", "price": 7989, "currency": "USD", "available": 2, "original_price": 8989},
+        {"category": "Veranda Stateroom", "price": 10995, "currency": "USD", "available": 6, "original_price": 11995},
+        {"category": "Deluxe Veranda", "price": 13595, "currency": "USD", "available": 3, "original_price": 14595}
+      ],
+      "created_at": "2026-05-01T08:00:00",
+      "updated_at": "2026-05-03T08:30:00"
+    },
+    {
+      "id": "voy_003",
+      "company_id": "aurora",
+      "region": "antarctic",
+      "itinerary_name": "Antarctic Peninsula Adventure",
+      "ship_name": "Douglas Mawson",
+      "departure_date": "2026-12-05",
+      "duration_days": 12,
+      "departure_port": "Ushuaia, Argentina",
+      "cabin_categories": [
+        {"category": "Aurora Stateroom Triple", "price": 10500, "currency": "USD", "available": 4, "original_price": 12000},
+        {"category": "Aurora Stateroom Twin", "price": 13500, "currency": "USD", "available": 0, "original_price": 15500},
+        {"category": "Balcony Stateroom C", "price": 16800, "currency": "USD", "available": 3, "original_price": 19500},
+        {"category": "Balcony Stateroom B", "price": 18500, "currency": "USD", "available": 6, "original_price": 21500},
+        {"category": "Balcony Stateroom A", "price": 20500, "currency": "USD", "available": 2, "original_price": 23500},
+        {"category": "Junior Suite", "price": 25500, "currency": "USD", "available": 1, "original_price": 28500},
+        {"category": "Captain's Suite", "price": 32000, "currency": "USD", "available": 1, "original_price": 35000}
+      ],
+      "created_at": "2026-05-02T09:00:00",
+      "updated_at": "2026-05-03T09:00:00"
+    },
+    {
+      "id": "voy_004",
+      "company_id": "hx",
+      "region": "antarctic",
+      "itinerary_name": "Highlights of Antarctica",
+      "ship_name": "MS Fridtjof Nansen",
+      "departure_date": "2026-12-19",
+      "duration_days": 11,
+      "departure_port": "Buenos Aires → Ushuaia",
+      "cabin_categories": [
+        {"category": "Polar Inside", "price": 8999, "currency": "USD", "available": 12, "original_price": 9999},
+        {"category": "Polar Outside", "price": 10299, "currency": "USD", "available": 8, "original_price": 11299},
+        {"category": "Arctic Superior", "price": 12899, "currency": "USD", "available": 5, "original_price": 14299},
+        {"category": "Expedition Suite", "price": 16899, "currency": "USD", "available": 3, "original_price": 18899}
+      ],
+      "created_at": "2026-05-01T07:00:00",
+      "updated_at": "2026-05-03T08:15:00"
+    },
+    {
+      "id": "voy_005",
+      "company_id": "poseidon",
+      "region": "antarctic",
+      "itinerary_name": "Christmas in Antarctica",
+      "ship_name": "Sea Spirit",
+      "departure_date": "2026-12-18",
+      "duration_days": 12,
+      "departure_port": "Ushuaia, Argentina",
+      "cabin_categories": [
+        {"category": "Triple Suite", "price": 8836, "currency": "USD", "available": 2, "original_price": 9818},
+        {"category": "Main Deck Suite", "price": 11045, "currency": "USD", "available": 3, "original_price": 12272},
+        {"category": "Classic Suite", "price": 12455, "currency": "USD", "available": 5, "original_price": 13839},
+        {"category": "Superior Suite", "price": 14795, "currency": "USD", "available": 4, "original_price": 17405},
+        {"category": "Deluxe Suite", "price": 16195, "currency": "USD", "available": 2, "original_price": 19053},
+        {"category": "Premium Suite", "price": 18995, "currency": "USD", "available": 1, "original_price": 22347},
+        {"category": "Owner's Suite", "price": 24995, "currency": "USD", "available": 1, "original_price": 29405}
+      ],
+      "created_at": "2026-05-01T06:00:00",
+      "updated_at": "2026-05-03T06:30:00"
+    },
+    {
+      "id": "voy_006",
+      "company_id": "ponant",
+      "region": "arctic",
+      "itinerary_name": "The Geographic North Pole",
+      "ship_name": "Le Commandant Charcot",
+      "departure_date": "2026-07-15",
+      "duration_days": 15,
+      "departure_port": "Longyearbyen, Svalbard",
+      "cabin_categories": [
+        {"category": "Prestige Stateroom", "price": 53411, "currency": "USD", "available": 4, "original_price": 62836},
+        {"category": "Deluxe Stateroom", "price": 58200, "currency": "USD", "available": 3, "original_price": 68471},
+        {"category": "Prestige Suite", "price": 72000, "currency": "USD", "available": 2, "original_price": 84706},
+        {"category": "Owner's Suite", "price": 105000, "currency": "USD", "available": 1, "original_price": 123529}
+      ],
+      "created_at": "2026-05-02T10:00:00",
+      "updated_at": "2026-05-03T09:15:00"
+    },
+    {
+      "id": "voy_007",
+      "company_id": "silversea",
+      "region": "antarctic",
+      "itinerary_name": "Antarctica Bridge Fly-Cruise",
+      "ship_name": "Silver Endeavour",
+      "departure_date": "2026-12-10",
+      "duration_days": 6,
+      "departure_port": "Punta Arenas → King George Island",
+      "cabin_categories": [
+        {"category": "Veranda Suite", "price": 18500, "currency": "USD", "available": 3, "original_price": 20500},
+        {"category": "Deluxe Veranda Suite", "price": 21500, "currency": "USD", "available": 4, "original_price": 23500},
+        {"category": "Silver Suite", "price": 32000, "currency": "USD", "available": 2, "original_price": 35000},
+        {"category": "Owner's Suite", "price": 52000, "currency": "USD", "available": 1, "original_price": 55000}
+      ],
+      "created_at": "2026-05-02T08:00:00",
+      "updated_at": "2026-05-03T08:45:00"
+    },
+    {
+      "id": "voy_008",
+      "company_id": "atlas",
+      "region": "antarctic",
+      "itinerary_name": "White Christmas Antarctica",
+      "ship_name": "World Voyager",
+      "departure_date": "2026-12-17",
+      "duration_days": 10,
+      "departure_port": "Ushuaia, Argentina",
+      "cabin_categories": [
+        {"category": "Adventure Oceanview", "price": 8999, "currency": "USD", "available": 2, "original_price": 11249},
+        {"category": "Journey Suite", "price": 12969, "currency": "USD", "available": 6, "original_price": 16211},
+        {"category": "Discovery Suite", "price": 15499, "currency": "USD", "available": 4, "original_price": 19374},
+        {"category": "Navigator Suite", "price": 18999, "currency": "USD", "available": 2, "original_price": 23749}
+      ],
+      "created_at": "2026-05-03T09:00:00",
+      "updated_at": "2026-05-03T09:30:00"
+    }
+  ],
+  "meta": {
+    "total_voyages": 8,
+    "last_updated": "2026-05-03T09:30:00"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "data": [
+    {
+      "id": "promo_001",
+      "company_id": "aurora",
+      "title": "Beyond Borders 特惠",
+      "description": "2026年出发所有南极和北极航次享高达25%折扣，涵盖Greg Mortimer、Sylvia Earle、Douglas Mawson三艘船",
+      "discount": "up to 25%",
+      "code": "BEYOND25",
+      "expires_at": "2026-06-30",
+      "regions": ["antarctic", "arctic"],
+      "discovered_at": "2026-05-01T09:00:00"
+    },
+    {
+      "id": "promo_002",
+      "company_id": "atlas",
+      "title": "南极早鸟优惠",
+      "description": "2026-27南极季所有航次提前预订享20%折扣，含免费升舱机会",
+      "discount": "20%",
+      "code": "EARLYBIRD26",
+      "expires_at": "2026-07-15",
+      "regions": ["antarctic"],
+      "discovered_at": "2026-05-03T09:30:00"
+    },
+    {
+      "id": "promo_003",
+      "company_id": "quark",
+      "title": "Wave Season 极地特惠",
+      "description": "指定北极/南极航次立减$2,000 USD + 额外25%折扣，适用于Ultramarine和Ocean Explorer",
+      "discount": "$2000 off + 25%",
+      "code": "WAVE2026",
+      "expires_at": "2026-06-15",
+      "regions": ["antarctic", "arctic"],
+      "discovered_at": "2026-04-28T08:00:00"
+    },
+    {
+      "id": "promo_004",
+      "company_id": "hx",
+      "title": "免费套房升级",
+      "description": "2026年10-12月出发的南极航次，预订北极高级舱位免费升级至套房",
+      "discount": "Free Suite Upgrade",
+      "code": "SUITEUP26",
+      "expires_at": "2026-06-01",
+      "regions": ["antarctic"],
+      "discovered_at": "2026-05-02T10:00:00"
+    },
+    {
+      "id": "promo_005",
+      "company_id": "poseidon",
+      "title": "2026-27南极季早鸟",
+      "description": "Triple/Main Deck/Classic Suite享10%折扣，Superior及以上套房享15%折扣",
+      "discount": "10-15%",
+      "code": "EARLYPOSEIDON27",
+      "expires_at": "2026-07-31",
+      "regions": ["antarctic"],
+      "discovered_at": "2026-04-25T07:00:00"
+    },
+    {
+      "id": "promo_006",
+      "company_id": "seabourn",
+      "title": "南极双人特价",
+      "description": "Seabourn Venture和Seabourn Pursuit南极航次，第二人半价",
+      "discount": "50% 2nd Guest",
+      "code": "ANTARCTIC50",
+      "expires_at": "2026-05-31",
+      "regions": ["antarctic"],
+      "discovered_at": "2026-05-01T11:00:00"
+    },
+    {
+      "id": "promo_007",
+      "company_id": "ponant",
+      "title": "北极点早鸟优惠",
+      "description": "Le Commandant Charcot 2026年北极点航次，提前预订享15%优惠",
+      "discount": "15%",
+      "code": "NORTHPOLE26",
+      "expires_at": "2026-08-31",
+      "regions": ["arctic"],
+      "discovered_at": "2026-04-30T14:00:00"
+    },
+    {
+      "id": "promo_008",
+      "company_id": "silversea",
+      "title": "Door-to-Door 全包套餐",
+      "description": "南极飞桥航次含往返机票+接送+行前酒店住宿，一站式全包",
+      "discount": "Package Deal",
+      "code": "DOORTODOOR26",
+      "expires_at": "2026-12-31",
+      "regions": ["antarctic"],
+      "discovered_at": "2026-05-02T08:30:00"
+    },
+    {
+      "id": "promo_009",
+      "company_id": "g_adventures",
+      "title": "南极尾单",
+      "description": "南极最后舱位起价$7,999 USD，含乌斯怀亚往返",
+      "discount": "from $7,999",
+      "code": "LASTCHANCE",
+      "expires_at": "2026-05-15",
+      "regions": ["antarctic"],
+      "discovered_at": "2026-05-03T06:45:00"
+    },
+    {
+      "id": "promo_010",
+      "company_id": "atlas",
+      "title": "加拿大北极新航线首发",
+      "description": "2026年9月首发加拿大北极17晚航线，World Traveller首航价",
+      "discount": "Opening Special",
+      "code": "ARCTICNEW26",
+      "expires_at": "2026-09-01",
+      "regions": ["arctic"],
+      "discovered_at": "2026-05-03T09:00:00"
+    }
+  ],
+  "meta": {
+    "total_promotions": 10,
+    "last_updated": "2026-05-03T09:30:00"
+  }
+}

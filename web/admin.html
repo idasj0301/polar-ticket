@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>企微管理 | 极地船票系统</title>
+<style>
+:root { --bg:#0f1923; --bg-card:#1a2736; --border:#2a3f55; --text:#e2e8f0; --text2:#8899aa; --accent:#4fc3f7; --green:#81c784; --warn:#ffb74d; --danger:#ef5350; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif; background:var(--bg); color:var(--text); min-height:100vh; padding:40px 20px; }
+.container { max-width:800px; margin:0 auto; }
+h1 { font-size:22px; margin-bottom:4px; }
+.sub { font-size:13px; color:var(--text2); margin-bottom:24px; }
+.card { background:var(--bg-card); border-radius:12px; border:1px solid var(--border); padding:24px; margin-bottom:20px; }
+.card h2 { font-size:16px; color:var(--accent); margin-bottom:16px; }
+.row { display:flex; gap:12px; flex-wrap:wrap; align-items:center; margin-bottom:14px; }
+.label { font-size:13px; color:var(--text2); min-width:80px; }
+input { flex:1; min-width:200px; padding:10px 14px; border-radius:8px; border:1px solid var(--border); background:rgba(0,0,0,0.25); color:var(--text); font-size:14px; outline:none; font-family:monospace; }
+input:focus { border-color:var(--accent); }
+button { padding:8px 18px; border-radius:8px; font-size:13px; font-weight:600; cursor:pointer; border:1px solid var(--border); background:transparent; color:var(--text); transition:all 0.15s; display:inline-flex; align-items:center; gap:6px; }
+button:hover { opacity:0.85; }
+.btn-primary { background:var(--accent); color:#0f1923; border-color:var(--accent); }
+.btn-green { background:var(--green); color:#0f1923; border-color:var(--green); }
+.btn-warn { color:var(--warn); border-color:rgba(255,183,77,0.4); }
+.btn-danger { color:var(--danger); border-color:rgba(239,83,80,0.4); }
+button:disabled { opacity:0.4; cursor:not-allowed; }
+.log { background:rgba(0,0,0,0.3); border-radius:8px; padding:12px 16px; max-height:220px; overflow-y:auto; font-family:monospace; font-size:12px; color:var(--text2); line-height:1.7; min-height:60px; }
+.log .ok { color:var(--green); } .log .err { color:var(--danger); } .log .warn { color:var(--warn); }
+.dot { width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px; }
+.dot.online { background:var(--green); } .dot.offline { background:var(--text2); }
+.dot.listen { background:var(--warn); animation:pulse 1.5s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+.chip { display:inline-flex; align-items:center; gap:6px; padding:4px 12px; border-radius:16px; margin:4px; background:rgba(79,195,247,0.1); border:1px solid rgba(79,195,247,0.3); font-size:12px; font-family:monospace; cursor:pointer; }
+.chip:hover { background:rgba(79,195,247,0.2); }
+.chip.sel { background:var(--accent); color:#0f1923; font-weight:600; }
+.spin { display:inline-block; width:14px; height:14px; border:2px solid rgba(255,255,255,0.3); border-top:2px solid var(--accent); border-radius:50%; animation:spin 0.7s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+.hint { font-size:13px; color:var(--warn); display:none; }
+.back-link { display:inline-block; margin-bottom:20px; color:var(--accent); text-decoration:none; font-size:13px; }
+.back-link:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+<div class="container">
+    <a href="/" class="back-link">← 返回数据看板</a>
+    <h1>⚙️ 企业微信「艾达」Bot 管理</h1>
+    <p class="sub">Bot ID: aibgfEkFAK2h... | 通过 WebSocket 长连接推送消息</p>
+
+    <!-- 连接 -->
+    <div class="card">
+        <h2>🔗 连接状态</h2>
+        <div class="row">
+            <span class="label">状态</span>
+            <span id="conn-dot" class="dot offline"></span>
+            <span id="conn-txt" style="font-size:14px;">未检测</span>
+            <button class="btn-primary" id="btn-conn" onclick="checkConn()">测试连接</button>
+        </div>
+    </div>
+
+    <!-- 第一步 -->
+    <div class="card">
+        <h2>📡 第一步：捕获聊天 ID</h2>
+        <p style="font-size:13px;color:var(--text2);margin-bottom:12px;">让蒋航或美琳在企业微信里给「艾达」发一条消息，系统会自动捕获会话ID</p>
+        <div class="row">
+            <button class="btn-primary" id="btn-start" onclick="startListen()">🔴 开始监听</button>
+            <button class="btn-danger" id="btn-stop" onclick="stopListen()" style="display:none;">⏹ 停止监听</button>
+            <span class="hint" id="listen-hint">⏳ 等待中... 请让同事在企微给「艾达」发消息</span>
+        </div>
+        <div id="chips-area" style="margin-top:12px; display:none;">
+            <span style="font-size:12px;color:var(--text2);">已捕获:</span>
+            <span id="chips-list"></span>
+        </div>
+    </div>
+
+    <!-- 第二步 -->
+    <div class="card">
+        <h2>💬 第二步：测试发送</h2>
+        <div class="row">
+            <input id="input-chatid" placeholder="chatid（从上方的芯片点击选择，或手动粘贴）">
+        </div>
+        <div class="row">
+            <input id="input-msg" placeholder="消息内容（可选）" style="flex:2;">
+            <button class="btn-green" id="btn-send" onclick="doSend()">📤 发送</button>
+        </div>
+    </div>
+
+    <!-- 第三步 -->
+    <div class="card">
+        <h2>📊 第三步：发送日报</h2>
+        <div class="row">
+            <button class="btn-green" id="btn-daily" onclick="doDaily()">📊 发送完整日报</button>
+            <button class="btn-warn" id="btn-promos" onclick="doPromos()">🔥 发送促销汇总</button>
+        </div>
+    </div>
+
+    <!-- 日志 -->
+    <div class="card">
+        <h2>📋 操作日志</h2>
+        <div class="log" id="log"><span style="color:var(--text2);">就绪，点击上方按钮开始操作</span></div>
+    </div>
+</div>
+
+<script>
+// =========== 纯原生 JS，零依赖 ===========
+var poll = null;
+var selChat = '';
+
+function log(msg, cls) {
+    var el = document.getElementById('log');
+    if (el.firstChild && el.firstChild.nodeType===3 && el.innerHTML.indexOf('就绪')>=0) el.innerHTML='';
+    var t = new Date().toLocaleTimeString();
+    el.innerHTML += '<div class="'+(cls||'')+'">['+t+'] '+msg+'</div>';
+    el.scrollTop = el.scrollHeight;
+}
+
+function busy(id, on) {
+    var b = document.getElementById(id);
+    if (!b) return;
+    if (on) { b.disabled=true; b.dataset.orig=b.innerHTML; b.innerHTML='<span class="spin"></span>'+b.innerHTML.replace(/^[^\s]+\s/,''); }
+    else { b.disabled=false; if (b.dataset.orig) b.innerHTML=b.dataset.orig; }
+}
+
+function api(path, opts) {
+    opts = opts || {};
+    return fetch(location.origin+path, opts).then(function(r){return r.json();}).catch(function(e){return {ok:false,message:e.message};});
+}
+
+async function checkConn() {
+    var d=document.getElementById('conn-dot'), t=document.getElementById('conn-txt');
+    d.className='dot offline'; t.textContent='检测中...';
+    busy('btn-conn', true);
+    var r = await api('/api/bot/test-connection');
+    if (r.ok) { d.className='dot online'; t.textContent='已连接'; log('企微连接正常 ✅','ok'); }
+    else { d.className='dot offline'; t.textContent='未连接'; log('连接失败: '+r.message,'err'); }
+    busy('btn-conn', false);
+}
+
+async function loadChats() {
+    var r = await api('/api/bot/list-chats');
+    var chats = r.chatids || {};
+    var keys = Object.keys(chats);
+    var area = document.getElementById('chips-area');
+    var list = document.getElementById('chips-list');
+    if (keys.length > 0) {
+        area.style.display = 'block';
+        list.innerHTML = '';
+        keys.forEach(function(cid) {
+            var info = chats[cid];
+            var chip = document.createElement('span');
+            chip.className = 'chip';
+            chip.textContent = cid.substring(0,28)+'...';
+            if (info.type_label) chip.textContent += ' ['+info.type_label+']';
+            chip.onclick = function() {
+                document.querySelectorAll('.chip').forEach(function(c){c.classList.remove('sel');});
+                chip.classList.add('sel');
+                selChat = cid;
+                document.getElementById('input-chatid').value = cid;
+            };
+            list.appendChild(chip);
+        });
+        if (!selChat) {
+            selChat = keys[0];
+            document.getElementById('input-chatid').value = keys[0];
+            list.firstChild && list.firstChild.classList.add('sel');
+        }
+    }
+}
+
+async function startListen() {
+    document.getElementById('btn-start').style.display = 'none';
+    document.getElementById('btn-stop').style.display = 'inline-flex';
+    document.getElementById('listen-hint').style.display = 'inline';
+    var d=document.getElementById('conn-dot'), t=document.getElementById('conn-txt');
+    d.className='dot listen'; t.textContent='监听中...';
+    log('开始监听! 请让同事给「艾达」发消息...','ok');
+    var r = await api('/api/bot/capture-start', {method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});
+    if (r.ok) {
+        poll = setInterval(async function() {
+            var s = await api('/api/bot/capture-status');
+            if (!s.running) { stopListen(); log('监听已停止','warn'); return; }
+            var chats = s.captured_chats || {};
+            if (Object.keys(chats).length > 0) {
+                log('捕获到 chatid! 共 '+s.count+' 个','ok');
+                loadChats();
+                stopListen();
+            }
+        }, 2000);
+    } else { log(r.message,'warn'); stopListen(); }
+}
+
+function stopListen() {
+    document.getElementById('btn-start').style.display = 'inline-flex';
+    document.getElementById('btn-stop').style.display = 'none';
+    document.getElementById('listen-hint').style.display = 'none';
+    var d=document.getElementById('conn-dot'), t=document.getElementById('conn-txt');
+    d.className='dot online'; t.textContent='已连接';
+    if (poll) { clearInterval(poll); poll=null; }
+    api('/api/bot/capture-stop', {method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});
+}
+
+async function doSend() {
+    var cid = document.getElementById('input-chatid').value.trim();
+    var msg = document.getElementById('input-msg').value.trim() || '极地船票系统已上线! 🎉';
+    if (!cid) { log('请先输入或选择 chatid','warn'); return; }
+    busy('btn-send', true);
+    var r = await api('/api/bot/send', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({chatid:cid,message:msg})});
+    log(r.ok?'发送成功 ✅':'发送失败: '+r.message, r.ok?'ok':'err');
+    busy('btn-send', false);
+}
+
+async function doDaily() {
+    var cid = document.getElementById('input-chatid').value.trim();
+    if (!cid) { log('请先输入或选择 chatid','warn'); return; }
+    busy('btn-daily', true);
+    log('开始发送日报...','');
+    var r = await api('/api/bot/send-daily', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({chatid:cid})});
+    if (r.ok) {
+        log('日报发送完成: '+r.message,'ok');
+        (r.details||[]).forEach(function(d){log('  '+d.item+': '+(d.ok?'✅':'❌'), d.ok?'ok':'err');});
+    } else log('失败: '+r.message,'err');
+    busy('btn-daily', false);
+}
+
+async function doPromos() {
+    var cid = document.getElementById('input-chatid').value.trim();
+    if (!cid) { log('请先输入或选择 chatid','warn'); return; }
+    busy('btn-promos', true);
+    var r = await api('/api/bot/send-promos', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({chatid:cid})});
+    log(r.ok?'促销推送完成: '+r.message:'失败: '+r.message, r.ok?'ok':'err');
+    busy('btn-promos', false);
+}
+
+// 页面加载时自动检测
+checkConn();
+loadChats();
+</script>
+</body>
+</html>

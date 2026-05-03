@@ -1,0 +1,37 @@
+name: 每日价格检查
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 运行价格检查
+        run: python3 scripts/price_check.py
+
+      - name: 发送邮件（如已配置）
+        if: env.HAS_DROPS == 'true'
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          TO_EMAILS: ${{ secrets.TO_EMAILS }}
+        run: python3 scripts/send_email.py || echo "邮件未配置，跳过"
+
+      - name: 提交数据更新
+        run: |
+          git config user.name "Polar Bot"
+          git config user.email "bot@polar.local"
+          git add data/
+          git diff --staged --quiet || git commit -m "📊 每日价格更新 $(date +%Y-%m-%d)"
+          git push

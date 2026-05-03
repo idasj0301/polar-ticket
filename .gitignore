@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/price_snapshot.json
+data/price_drops.json
+reports/
+scripts/wecom_bot.py
+scripts/wecom_notifier.py
+scripts/daily_runner.py
+price_monitor.py
+server.py
+mcp_server.py
+启动服务器.command
+启动MCP服务.command
+捕获chatid.command

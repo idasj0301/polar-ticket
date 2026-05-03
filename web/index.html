@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>极地船票管理系统</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<style>
+:root{--bg:#0f1923;--card:#1a2736;--card-hover:#1e3044;--border:#2a3f55;--text:#e2e8f0;--text2:#8899aa;--accent:#4fc3f7;--green:#81c784;--warn:#ffb74d;--red:#ef5350}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+.app{max-width:1240px;margin:0 auto;padding:24px 20px}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;background:var(--card);border-radius:14px;margin-bottom:20px;border:1px solid var(--border)}
+.topbar h1{font-size:21px;font-weight:700}
+.topbar .sub{font-size:12px;color:var(--text2)}
+.topbar .badge{font-size:11px;color:var(--green);background:rgba(129,199,132,.12);padding:4px 12px;border-radius:20px}
+.nav{display:flex;gap:4px;margin-bottom:20px;background:var(--card);border-radius:12px;padding:4px;border:1px solid var(--border)}
+.nav button{flex:1;padding:10px 16px;border-radius:10px;border:none;background:none;color:var(--text2);font-size:14px;font-family:inherit;cursor:pointer;transition:.15s}
+.nav button:hover{color:var(--text)}
+.nav button.on{background:var(--accent);color:#0f1923;font-weight:700}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+.stat{background:var(--card);border-radius:12px;padding:18px 20px;border:1px solid var(--border)}
+.stat .n{font-size:30px;font-weight:700;margin-bottom:2px}
+.stat .l{font-size:12px;color:var(--text2)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.card{background:var(--card);border-radius:14px;border:1px solid var(--border);overflow:hidden;cursor:pointer;transition:.15s}
+.card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.card .hd{padding:16px;display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid rgba(42,63,85,.4)}
+.card .hd .cn{font-size:16px;font-weight:700}
+.card .hd .en{font-size:12px;color:var(--text2)}
+.card .tag{font-size:10px;padding:2px 8px;border-radius:10px;font-weight:600}
+.tag-both{background:rgba(129,199,132,.12);color:var(--green)}
+.tag-ant{background:rgba(79,195,247,.12);color:var(--accent)}
+.tag-arc{background:rgba(129,212,250,.12);color:#81d4fa}
+.card .bd{padding:16px}
+.card .row{display:flex;justify-content:space-between;padding:5px 0;font-size:13px}
+.card .row .l{color:var(--text2)}
+.card .row .v{font-weight:500}
+.ships{margin-top:8px;display:flex;gap:4px;flex-wrap:wrap}
+.ships span{font-size:10px;padding:2px 8px;border-radius:4px;background:rgba(79,195,247,.08);color:var(--accent)}
+.card .ft{padding:10px 16px;background:rgba(0,0,0,.2);display:flex;gap:6px}
+.btn{padding:5px 12px;border-radius:6px;font-size:11px;cursor:pointer;border:1px solid var(--border);background:none;color:var(--text);font-family:inherit;transition:.15s;display:inline-flex;align-items:center;gap:4px}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.badge-sm{font-size:10px;padding:2px 8px;border-radius:12px;display:inline-flex;align-items:center;gap:3px}
+.badge-promo{background:rgba(255,183,77,.12);color:var(--warn)}
+.badge-drop{background:rgba(129,199,132,.12);color:var(--green)}
+
+.compare{width:100%;border-collapse:collapse;margin-top:16px}
+.compare th{text-align:left;padding:12px 16px;font-size:11px;color:var(--text2);text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border);font-weight:600}
+.compare td{padding:14px 16px;font-size:14px;border-bottom:1px solid rgba(42,63,85,.3);vertical-align:middle}
+.compare tr:hover td{background:var(--card-hover)}
+.price{font-weight:700;font-size:16px;white-space:nowrap}
+.price .old{font-size:11px;color:var(--text2);text-decoration:line-through;margin-left:6px;font-weight:400}
+.price .off{font-size:10px;color:var(--green);margin-left:4px}
+.best{display:inline-block;padding:2px 6px;border-radius:4px;font-size:10px;font-weight:700;background:rgba(129,199,132,.15);color:var(--green);margin-left:4px}
+.avail{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:600}
+.avail.low{background:rgba(255,183,77,.1);color:var(--warn)}
+.avail.ok{background:rgba(129,199,132,.1);color:var(--green)}
+
+.news-card{background:var(--card);border-radius:14px;padding:20px;border:1px solid var(--border);margin-bottom:10px;display:flex;gap:16px;transition:.15s}
+.news-card:hover{background:var(--card-hover)}
+.news-card .ico{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:13px;flex-shrink:0}
+.news-card .bd{flex:1}
+.news-card .bd h4{font-size:14px;font-weight:600;margin-bottom:4px}
+.news-card .bd p{font-size:12px;color:var(--text2);line-height:1.5}
+.news-card .bd .meta{font-size:10px;color:var(--text2);margin-top:6px}
+.imp{font-size:10px;padding:1px 6px;border-radius:8px;font-weight:600}
+.imp-high{background:rgba(239,83,80,.12);color:var(--red)}
+.imp-med{background:rgba(255,183,77,.12);color:var(--warn)}
+.filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.filter-row button{padding:6px 14px;border-radius:14px;font-size:11px;cursor:pointer;border:1px solid var(--border);background:none;color:var(--text2);font-family:inherit;transition:.15s}
+.filter-row button:hover{border-color:var(--accent);color:var(--accent)}
+.filter-row button.on{background:var(--accent);color:#0f1923;border-color:var(--accent)}
+
+.alert-row{background:var(--card);border-radius:14px;padding:18px 20px;border:1px solid var(--border);margin-bottom:10px;display:flex;align-items:center;gap:16px}
+.alert-row .icon{font-size:22px}
+.alert-row .bd{flex:1}
+.alert-row .bd .t{font-weight:600;font-size:14px}
+.alert-row .bd .d{font-size:12px;color:var(--text2)}
+.alert-row .price-col{text-align:right}
+.alert-row .price-col .new{font-size:20px;font-weight:700;color:var(--green)}
+.alert-row .price-col .old{font-size:12px;color:var(--text2);text-decoration:line-through}
+.alert-row .price-col .pct{font-size:11px;color:var(--green);font-weight:600}
+
+.empty{text-align:center;padding:60px 20px;color:var(--text2)}
+.empty .big{font-size:40px;margin-bottom:10px}
+
+@media(max-width:768px){.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.compare{display:block;overflow-x:auto}}
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+const {useState} = React;
+
+const CO = [
+  {id:"quark",cn:"夸克探险",en:"Quark Expeditions",color:"#4fc3f7",r:["antarctic","arctic"],ships:["Ultramarine","Ocean Explorer","World Explorer"],sn:3,pos:"专业探险",feat:["直升机","帝企鹅营地"],promos:2,drops:1},
+  {id:"oceanwide",cn:"欧海维德",en:"Oceanwide Expeditions",color:"#81c784",r:["antarctic","arctic"],ships:["Hondius","Ortelius","Plancius","Janssonius"],sn:4,pos:"专业探险",feat:["极地潜水","皮划艇"],promos:1,drops:0},
+  {id:"aurora",cn:"极光探险",en:"Aurora Expeditions",color:"#ffb74d",r:["antarctic","arctic"],ships:["Greg Mortimer","Sylvia Earle","Douglas Mawson"],sn:3,pos:"环保探险",feat:["B Corp认证","碳中性","X-BOW船体"],promos:3,drops:2},
+  {id:"hx",cn:"海达路德",en:"HX Hurtigruten",color:"#ce93d8",r:["antarctic","arctic"],ships:["Fridtjof Nansen","Roald Amundsen","Fram"],sn:3,pos:"探险舒适",feat:["混合动力","中文服务","科学中心"],promos:1,drops:0},
+  {id:"poseidon",cn:"波塞冬探险",en:"Poseidon Expeditions",color:"#64b5f6",r:["antarctic","arctic"],ships:["Sea Spirit"],sn:1,pos:"精品探险",feat:["全员套房","100人","1:9配比"],promos:2,drops:1},
+  {id:"lindblad",cn:"国家地理",en:"Lindblad / Nat Geo",color:"#ffcc80",r:["antarctic","arctic"],ships:["NG Endurance","NG Resolution","NG Explorer"],sn:3,pos:"科教探险",feat:["国家地理专家","摄影指导","60年经验"],promos:1,drops:0},
+  {id:"ponant",cn:"庞洛邮轮",en:"Ponant",color:"#b0bec5",r:["antarctic","arctic"],ships:["Le Commandant Charcot","Le Boreal","L'Austral"],sn:10,pos:"法式奢华",feat:["唯一PC2破冰船","北极点","法式美食"],promos:2,drops:1},
+  {id:"silversea",cn:"银海邮轮",en:"Silversea",color:"#90a4ae",r:["antarctic","arctic"],ships:["Silver Endeavour","Silver Cloud","Silver Wind"],sn:3,pos:"超奢华",feat:["全套房管家","飞南极桥","PC6冰级"],promos:1,drops:0},
+  {id:"seabourn",cn:"世鹏邮轮",en:"Seabourn",color:"#4fc3f7",r:["antarctic","arctic"],ships:["Venture","Pursuit"],sn:2,pos:"超奢华探险",feat:["潜水艇","皮划艇","全包式"],promos:2,drops:1},
+  {id:"scenic",cn:"圣景邮轮",en:"Scenic",color:"#ef5350",r:["antarctic","arctic"],ships:["Eclipse I","Eclipse II"],sn:2,pos:"超奢华",feat:["直升机","潜水艇","管家服务"],promos:0,drops:0},
+  {id:"atlas",cn:"阿特拉斯",en:"Atlas Ocean Voyages",color:"#4dd0e1",r:["antarctic","arctic"],ships:["World Navigator","World Traveller","World Voyager"],sn:3,pos:"轻奢探险",feat:["全包式","灵活价格","176人小船"],promos:3,drops:2},
+  {id:"swan_hellenic",cn:"天鹅希腊",en:"Swan Hellenic",color:"#78909c",r:["antarctic","arctic"],ships:["SH Minerva","SH Vega","SH Diana"],sn:3,pos:"文化探险",feat:["5星精品","PC5冰级","文化讲座"],promos:1,drops:0},
+  {id:"viking",cn:"维京探险",en:"Viking Expeditions",color:"#8d6e63",r:["antarctic","arctic"],ships:["Viking Octantis","Viking Polaris"],sn:2,pos:"北欧奢华",feat:["北欧设计","科学实验室","全阳台"],promos:1,drops:0},
+  {id:"hapag_lloyd",cn:"赫伯罗特",en:"Hapag-Lloyd",color:"#ff8a65",r:["antarctic","arctic"],ships:["HANSEATIC insp.","HANSEATIC nat.","HANSEATIC spirit"],sn:3,pos:"德式探险",feat:["PC6冰级","德语为主","专家讲座"],promos:0,drops:0},
+  {id:"g_adventures",cn:"G探险",en:"G Adventures",color:"#66bb6a",r:["antarctic","arctic"],ships:["MS Expedition"],sn:1,pos:"亲民探险",feat:["性价比高","社交氛围","年轻人多"],promos:1,drops:1},
+  {id:"antarctica21",cn:"南极21",en:"Antarctica21",color:"#26c6da",r:["antarctic"],ships:["Magellan Explorer","Ocean Nova"],sn:2,pos:"飞南极专家",feat:["飞越德雷克","免晕船","76人小船"],promos:0,drops:0},
+  {id:"heritage",cn:"遗产探险",en:"Heritage Expeditions",color:"#ef5350",r:["antarctic"],ships:["Heritage Adventurer"],sn:1,pos:"罗斯海专家",feat:["新西兰出发","40年经验"],promos:0,drops:0},
+  {id:"intrepid",cn:"无畏旅行",en:"Intrepid Travel",color:"#ff7043",r:["antarctic"],ships:["Ocean Endeavour","Ocean Explorer"],sn:4,pos:"亲民探险",feat:["B Corp认证","包船模式"],promos:1,drops:0},
+  {id:"albatros",cn:"信天翁探险",en:"Albatros Expeditions",color:"#42a5f5",r:["antarctic","arctic"],ships:["Ocean Albatros","Ocean Victory","MS Seaventure"],sn:4,pos:"北欧探险",feat:["北欧品牌","斯瓦尔巴专家"],promos:1,drops:0},
+  {id:"aqua",cn:"阿卡探险",en:"Aqua Expeditions",color:"#29b6f6",r:["arctic"],ships:["Aqua Lares"],sn:1,pos:"顶奢精品",feat:["2026首航北极","30人超级游艇","冰级1B"],promos:0,drops:0},
+  {id:"secret_atlas",cn:"秘密地图",en:"Secret Atlas",color:"#a1887f",r:["arctic"],ships:["微型探险船(12-48人)"],sn:1,pos:"微型探险",feat:["摄影导向","极小型团队"],promos:0,drops:0}
+];
+
+const VOYAGES = [
+  {id:"v1",co:"quark",r:"antarctic",name:"Antarctic Explorer",ship:"Ultramarine",date:"2026-11-21",days:11,port:"Ushuaia",cabins:[{cat:"Explorer Triple",price:11539,orig:13539,avail:3},{cat:"Explorer Suite",price:14595,orig:16595,avail:8},{cat:"Balcony Suite",price:18295,orig:20295,avail:5}]},
+  {id:"v2",co:"aurora",r:"antarctic",name:"Antarctic Peninsula Adv.",ship:"Douglas Mawson",date:"2026-12-05",days:12,port:"Ushuaia",cabins:[{cat:"Aurora Triple",price:10500,orig:12000,avail:4},{cat:"Balcony C",price:16800,orig:19500,avail:3},{cat:"Balcony B",price:18500,orig:21500,avail:6}]},
+  {id:"v3",co:"hx",r:"antarctic",name:"Highlights of Antarctica",ship:"MS Fridtjof Nansen",date:"2026-12-19",days:11,port:"Buenos Aires→Ushuaia",cabins:[{cat:"Polar Inside",price:8999,orig:9999,avail:12},{cat:"Polar Outside",price:10299,orig:11299,avail:8},{cat:"Arctic Superior",price:12899,orig:14299,avail:5}]},
+  {id:"v4",co:"poseidon",r:"antarctic",name:"Christmas in Antarctica",ship:"Sea Spirit",date:"2026-12-18",days:12,port:"Ushuaia",cabins:[{cat:"Triple Suite",price:8836,orig:9818,avail:2},{cat:"Main Deck Suite",price:11045,orig:12272,avail:3},{cat:"Classic Suite",price:12455,orig:13839,avail:5}]},
+  {id:"v5",co:"silversea",r:"antarctic",name:"Antarctica Bridge Fly-Cruise",ship:"Silver Endeavour",date:"2026-12-10",days:6,port:"Punta Arenas→King George Is.",cabins:[{cat:"Veranda Suite",price:18500,orig:20500,avail:3},{cat:"Deluxe Veranda",price:21500,orig:23500,avail:4}]},
+  {id:"v6",co:"atlas",r:"antarctic",name:"White Christmas Antarctica",ship:"World Voyager",date:"2026-12-17",days:10,port:"Ushuaia",cabins:[{cat:"Adventure Oceanview",price:8999,orig:11249,avail:2},{cat:"Journey Suite",price:12969,orig:16211,avail:6},{cat:"Discovery Suite",price:15499,orig:19374,avail:4}]},
+  {id:"v7",co:"quark",r:"arctic",name:"Spitsbergen Highlights",ship:"Ocean Explorer",date:"2026-06-15",days:8,port:"Longyearbyen",cabins:[{cat:"Explorer Triple",price:7989,orig:8989,avail:2},{cat:"Veranda",price:10995,orig:11995,avail:6}]},
+  {id:"v8",co:"ponant",r:"arctic",name:"The Geographic North Pole",ship:"Le Commandant Charcot",date:"2026-07-15",days:15,port:"Longyearbyen",cabins:[{cat:"Prestige Stateroom",price:53411,orig:62836,avail:4},{cat:"Deluxe Stateroom",price:58200,orig:68471,avail:3}]},
+];
+
+const PROMOS = [
+  {co:"aurora",t:"Beyond Borders",d:"2026年航次高达25%折扣",v:"25%",exp:"2026-06-30"},
+  {co:"atlas",t:"早鸟优惠",d:"南极季提前订享20%折扣+免费升舱",v:"20%",exp:"2026-07-15"},
+  {co:"quark",t:"Wave Season特惠",d:"北极/南极立减$2,000+额外25%折扣",v:"$2,000+25%",exp:"2026-06-15"},
+  {co:"hx",t:"免费升套房",d:"2026年10-12月南极航次免费升级至套房",v:"Free Upgrade",exp:"2026-06-01"},
+  {co:"poseidon",t:"早鸟折扣",d:"2026-27南极季早鸟价10-15%优惠",v:"10-15%",exp:"2026-07-31"},
+  {co:"seabourn",t:"双人特价",d:"南极航次第二人半价+全包服务",v:"50% 2nd",exp:"2026-05-31"},
+  {co:"ponant",t:"北极点早鸟",d:"Charcot北极点航次提前预订享15%优惠",v:"15%",exp:"2026-08-31"},
+  {co:"silversea",t:"Door-to-Door",d:"南极飞桥含往返机票+接送+行前酒店",v:"全包",exp:"2026-12-31"},
+];
+
+const NEWS = [
+  {d:"05-02",co:"aurora",title:"Aurora完成史上最大南极季：30航次、819次登陆",cat:"运营动态",imp:"high",desc:"三艘船首次同时在南极运营，Douglas Mawson号创客船最南纪录(78°44'S)。",src:"Cruise Industry News"},
+  {d:"04-28",co:"silversea",title:"银海将在Puerto Williams开设南极最南端奢华酒店",cat:"新设施",imp:"high",desc:"150间客房「The Cormorant」2026年10月开业，飞南极项目枢纽。",src:"Travel Daily Media"},
+  {d:"04-15",co:"aurora",title:"Douglas Mawson入选《时代》2026全球最佳目的地",cat:"奖项",imp:"high",desc:"同时获评Condé Nast Traveler 2026 Hot List，创新设计获认可。",src:"TIME"},
+  {d:"04-12",co:"ponant",title:"庞洛Charcot号发布2026-27北极冬季16个航次",cat:"航线",imp:"high",desc:"全球唯一PC2破冰船探索北极光、斯瓦尔巴、圣劳伦斯河冬季。",src:"Cruise Industry News"},
+  {d:"04-08",co:"seabourn",title:"Seabourn Venture创纪录：抵达南纬70°",cat:"纪录",imp:"high",desc:"首次探索George VI Sound冰道，嘉年华集团船只最南纪录。",src:"TravelPulse"},
+  {d:"04-01",co:"silversea",title:"银海完成2025-26南极季：38航次含18次飞南极",cat:"运营动态",imp:"med",desc:"罕见观测帝企鹅、Arnoux's喙鲸。单次极地跳水近140人。",src:"Cruise Industry News"},
+  {d:"03-25",co:"quark",title:"夸克「This Is Polar Bonus」：北极2026最高省$2,000",cat:"促销",imp:"med",desc:"可与其他促销叠加。另推出顾问竞赛赢取斯瓦尔巴航次。",src:"TravelPulse"},
+  {d:"03-20",co:"quark",title:"夸克在英国湖区举办首次极地代理商静修会",cat:"市场",imp:"med",desc:"50+代理商参与，含讲座、皮划艇。一位代理商赢得北极游。",src:"Travel Weekly UK"},
+  {d:"03-10",co:"aurora",title:"Aurora时隔15年重返东南极",cat:"航线",imp:"high",desc:"15年来首次重返地球上最偏远区域之一。本季三船同时运营。",src:"Travel And Tour World"},
+  {d:"02-28",co:"quark",title:"夸克因需求旺新增第二个2026日全食航次",cat:"航线",imp:"med",desc:"首个售罄后增开Ocean Explorer号17天航次(8月3-19日)。",src:"TravelPulse"},
+  {d:"02-20",co:"seabourn",title:"世邦发布2026-27极地季：24航线161目的地",cat:"航线",imp:"med",desc:"Pursuit 2026年金伯利为最后一年，2028年起全面转向极地。",src:"Cruise Mapper"},
+  {d:"02-14",co:"ponant",title:"庞洛开售2028年62天南极环大陆航次",cat:"航线",imp:"high",desc:"Charcot号23,000公里环南极，深入罗斯海。需求远超预期。",src:"广州日报"},
+  {d:"01-15",co:"seabourn",title:"世邦宣布2026年终止潜水艇项目",cat:"运营调整",imp:"med",desc:"因客人兴趣有限和监管限制，潜水艇体验3月终止。",src:"Travel Weekly Asia"},
+  {d:"04-20",co:"aqua",title:"Aqua Expeditions 2026年6月首进北极",cat:"新进入者",imp:"med",desc:"30客位超级游艇Aqua Lares(冰级1B)前往斯瓦尔巴。",src:"Cruise Industry News"},
+  {d:"03-01",co:"silversea",title:"银海2026-27南极季扩展至41个航次",cat:"航线",imp:"high",desc:"29个飞南极+12个传统德雷克海峡，依托Cormorant酒店扩容。",src:"Cruise Industry News"},
+  {d:"01-10",co:"aurora",title:"Aurora庆祝极地探险35周年",cat:"里程碑",imp:"med",desc:"推出全球周年特惠，发布全新Active Antarctica沉浸式航次。",src:"Aurora Media Centre"},
+  {d:"03-15",co:"quark",title:"夸克Ultramarine北极2026免单人附加费",cat:"促销",imp:"med",desc:"单人预订阳台套房省高达$10,000。限时优惠。",src:"Travel Weekly AU"},
+  {d:"05-01",co:"seabourn",title:"世邦「Yours to Explore」：免费升两级套房+$1,000消费",cat:"促销",imp:"med",desc:"适用于500+航次，截止5月5日。5月Expedition Month激励。",src:"Porthole Cruise"},
+  {d:"02-01",co:"aurora",title:"Aurora任命Beth Mercier为北美销售副总裁",cat:"人事",imp:"low",desc:"曾在多家奢华邮轮公司担任高管，负责北美市场战略。",src:"Trade Press"},
+  {d:"01-20",co:"aurora",title:"Aurora与Sparro by Brainlabs达成全球媒体合作",cat:"市场",imp:"low",desc:"数据驱动、受众优先的全球数字营销策略。",src:"Mi3"},
+];
+
+function fmt(n){return '$'+n.toLocaleString()}
+
+function getCo(id){return CO.find(c=>c.id===id)||{}}
+
+function App(){
+  const [tab,setTab] = useState('compare');
+  const stats = {total:CO.length,ant:CO.filter(c=>c.r.includes('antarctic')).length,arc:CO.filter(c=>c.r.includes('arctic')).length,promo:CO.filter(c=>c.promos>0).length,drops:CO.filter(c=>c.drops>0).length};
+
+  return (
+    <div className="app">
+      <div className="topbar">
+        <div><h1>❄️ 极地船票</h1><div className="sub">21家极地邮轮公司 · 实时比价 · 情报监控</div></div>
+        <div className="badge">● 数据就绪</div>
+      </div>
+
+      <div className="nav">
+        <button className={tab==='compare'?'on':''} onClick={()=>setTab('compare')}>📊 比价</button>
+        <button className={tab==='companies'?'on':''} onClick={()=>setTab('companies')}>🏢 公司 ({stats.total})</button>
+        <button className={tab==='alerts'?'on':''} onClick={()=>setTab('alerts')}>🔔 降价 ({stats.drops})</button>
+        <button className={tab==='news'?'on':''} onClick={()=>setTab('news')}>📰 情报站</button>
+      </div>
+
+      <div className="stats">
+        <div className="stat"><div className="n" style={{color:'var(--accent)'}}>{stats.total}</div><div className="l">监控公司</div></div>
+        <div className="stat"><div className="n" style={{color:'var(--accent)'}}>{stats.ant}</div><div className="l">南极有船</div></div>
+        <div className="stat"><div className="n" style={{color:'var(--warn)'}}>{stats.promo}</div><div className="l">活跃促销</div></div>
+        <div className="stat"><div className="n" style={{color:'var(--green)'}}>{stats.drops}</div><div className="l">今日降价</div></div>
+      </div>
+
+      {tab==='compare' && <CompareView/>}
+      {tab==='companies' && <CompaniesView/>}
+      {tab==='alerts' && <AlertsView/>}
+      {tab==='news' && <NewsView/>}
+    </div>
+  );
+}
+
+function CompareView(){
+  const group = VOYAGES.filter(v=>v.r==='antarctic'&&v.days>=6&&v.days<=14);
+  const cheapest = Math.min(...group.map(v=>v.cabins[0].price));
+  return (
+    <div>
+      <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>📊 南极航线比价</div>
+      <div style={{overflowX:'auto'}}>
+      <table className="compare">
+        <thead><tr><th>公司</th><th>船只</th><th>航线</th><th>日期</th><th>天数</th><th>最低舱位</th><th>价格</th><th>每日均价</th><th>折扣</th><th>库存</th></tr></thead>
+        <tbody>
+        {group.sort((a,b)=>a.cabins[0].price-b.cabins[0].price).map(v=>{
+          const co=getCo(v.co); const c=v.cabins[0]; const pd=Math.round(c.price/v.days);
+          const disc=c.orig?Math.round((1-c.price/c.orig)*100):0; const isBest=c.price===cheapest;
+          return <tr key={v.id}>
+            <td><b>{co.cn}</b><div style={{fontSize:11,color:'var(--text2)'}}>{co.pos}</div></td>
+            <td>{v.ship}</td>
+            <td style={{maxWidth:200,fontSize:13}}>{v.name}</td>
+            <td style={{whiteSpace:'nowrap'}}>{v.date}</td>
+            <td>{v.days}天</td>
+            <td>{c.cat}</td>
+            <td className="price">{fmt(c.price)}{isBest&&<span className="best">最低</span>}{c.orig>c.price&&<span className="old">{fmt(c.orig)}</span>}{disc>0&&<span className="off">-{disc}%</span>}</td>
+            <td>{fmt(pd)}/天</td>
+            <td>{disc>0?<span style={{color:'var(--green)',fontWeight:600}}>-{disc}%</span>:'—'}</td>
+            <td><span className={'avail '+(c.avail<=2?'low':'ok')}>{c.avail<=2?'仅剩'+c.avail:c.avail+'间'}</span></td>
+          </tr>
+        })}
+        </tbody>
+      </table>
+      </div>
+      <div style={{marginTop:20,fontSize:13,color:'var(--text2)'}}>💡 同类航线(南极半岛6-14天)，按最低价排序。标注「最低」的为当前最优选择。每日均价 = 总价 ÷ 天数。</div>
+    </div>
+  );
+}
+
+function CompaniesView(){
+  const [q,setQ] = useState('');
+  const filtered = q?CO.filter(c=>c.cn.includes(q)||c.en.toLowerCase().includes(q.toLowerCase())||c.pos.includes(q)):CO;
+  return (
+    <div>
+      <input placeholder="🔍 搜索公司..." value={q} onChange={e=>setQ(e.target.value)} style={{width:'100%',padding:'12px 16px',borderRadius:12,border:'1px solid var(--border)',background:'var(--card)',color:'var(--text)',fontSize:14,outline:'none',marginBottom:16,fontFamily:'inherit'}}/>
+      <div className="cards">
+      {filtered.map(c=>{
+        const rl=c.r.length>1?'南北极':c.r[0]==='antarctic'?'南极':'北极';
+        const rc=c.r.length>1?'tag-both':c.r[0]==='antarctic'?'tag-ant':'tag-arc';
+        const ps=PROMOS.filter(p=>p.co===c.id);
+        return <div className="card" key={c.id}>
+          <div className="hd">
+            <div><div className="cn">{c.cn} <span className={'tag '+rc}>{rl}</span></div><div className="en">{c.en} · {c.pos}</div></div>
+          </div>
+          <div className="bd">
+            <div className="row"><span className="l">船只</span><span className="v">{c.sn}艘</span></div>
+            <div className="ships">{c.ships.slice(0,3).map(s=><span key={s}>{s}</span>)}{c.sn>3&&<span>+{c.sn-3}</span>}</div>
+            <div style={{marginTop:8,display:'flex',gap:4,flexWrap:'wrap'}}>{c.feat.map(f=><span key={f} style={{fontSize:10,padding:'1px 6px',borderRadius:4,background:'rgba(79,195,247,.05)',color:'var(--text2)'}}>{f}</span>)}</div>
+            <div style={{marginTop:8,display:'flex',gap:6}}>
+              {ps.length>0&&<span className="badge-sm badge-promo">🔥 {ps.length}条促销</span>}
+              {c.drops>0&&<span className="badge-sm badge-drop">📉 {c.drops}航次降价</span>}
+            </div>
+          </div>
+        </div>
+      })}
+      </div>
+    </div>
+  );
+}
+
+function AlertsView(){
+  const drops=[];
+  VOYAGES.forEach(v=>{v.cabins.forEach(c=>{if(c.orig&&c.price<c.orig){const co=getCo(v.co);drops.push({co,v,c,pct:Math.round((1-c.price/c.orig)*100)});}})});
+  drops.sort((a,b)=>b.pct-a.pct);
+  return (
+    <div>
+      <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>🔔 降价提醒 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{drops.length}条</span></div>
+      {drops.map((d,i)=><div className="alert-row" key={i}>
+        <div className="icon">📉</div>
+        <div className="bd"><div className="t">{d.co.cn} · {d.v.name}</div><div className="d">{d.c.cat} · {d.v.ship} · {d.v.date} · {d.v.days}天</div></div>
+        <div className="price-col"><div className="new">{fmt(d.c.price)}</div><div className="old">{fmt(d.c.orig)}</div><div className="pct">-{d.pct}%</div></div>
+      </div>)}
+      <div style={{marginTop:28,fontSize:18,fontWeight:700,marginBottom:16}}>🔥 活跃促销 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{PROMOS.length}条</span></div>
+      {PROMOS.map((p,i)=>{const co=getCo(p.co);return <div className="alert-row" key={'p'+i} style={{borderLeft:'3px solid var(--warn)'}}>
+        <div className="icon">🔥</div>
+        <div className="bd"><div className="t">{co.cn} · {p.t}</div><div className="d">{p.d} | 截止: {p.exp}</div></div>
+        <div style={{fontWeight:700,color:'var(--warn)',fontSize:15}}>{p.v}</div>
+      </div>})}
+    </div>
+  );
+}
+
+function NewsView(){
+  const [cat,setCat] = useState('all');
+  const cats={}; NEWS.forEach(n=>{cats[n.cat]=(cats[n.cat]||0)+1});
+  const filtered=cat==='all'?NEWS:NEWS.filter(n=>n.cat===cat);
+  return (
+    <div>
+      <div style={{fontSize:18,fontWeight:700,marginBottom:6}}>📰 南极情报站</div>
+      <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>21家极地邮轮公司最新动态 · 婉莹的内容素材库 · 共{NEWS.length}条情报</div>
+      <div className="filter-row">
+        <button className={cat==='all'?'on':''} onClick={()=>setCat('all')}>全部({NEWS.length})</button>
+        {Object.keys(cats).sort().map(c=><button key={c} className={cat===c?'on':''} onClick={()=>setCat(c)}>{c}({cats[c]})</button>)}
+      </div>
+      {filtered.map(n=>{
+        const co=getCo(n.co);
+        return <div className="news-card" key={n.d+n.co+n.title}>
+          <div className="ico" style={{background:co.color||'var(--accent)'}}>{(co.cn||n.co).charAt(0)}</div>
+          <div className="bd">
+            <h4>{n.title} <span className={'imp imp-'+(n.imp==='high'?'high':'med')}>{n.imp==='high'?'重磅':n.imp==='med'?'关注':'一般'}</span></h4>
+            <p>{n.desc}</p>
+            <div className="meta">{co.cn} · {n.d} · {n.src} · {n.cat}</div>
+          </div>
+        </div>
+      })}
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+</script>
+</body>
+</html>

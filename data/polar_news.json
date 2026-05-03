@@ -1,0 +1,242 @@
+{
+  "news": [
+    {
+      "id": "n001",
+      "date": "2026-05-02",
+      "company_id": "aurora",
+      "title": "Aurora Expeditions 完成史上最大南极季：30个航次、819次登陆",
+      "summary": "2025-26南极季创下多项纪录：三艘船首次同时在南极运营，Douglas Mawson号抵达南纬78°44'，创客船最南纪录。",
+      "category": "运营动态",
+      "importance": "high",
+      "source": "Cruise Industry News",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/aurora-expeditions-completes-largest-antarctic-season/"
+    },
+    {
+      "id": "n002",
+      "date": "2026-04-28",
+      "company_id": "silversea",
+      "title": "银海邮轮将在Puerto Williams开设南极最南端奢华酒店「The Cormorant」",
+      "summary": "150间客房的奢华酒店将于2026年10月开业，作为银海飞南极项目的枢纽。酒店设有壁炉酒廊、Latitude 55餐厅、Bar Sur酒吧，可俯瞰比格尔海峡。",
+      "category": "新船/新设施",
+      "importance": "high",
+      "source": "Travel Daily Media",
+      "url": "https://www.traveldailymedia.com/silversea-concludes-landmark-2025-2026-antarctica-season-and-ushers-in-a-new-era-of-luxury-polar-exploration/"
+    },
+    {
+      "id": "n003",
+      "date": "2026-04-15",
+      "company_id": "aurora",
+      "title": "Aurora Expeditions 新船 Douglas Mawson 入选 TIME 2026全球最佳目的地",
+      "summary": "Douglas Mawson号凭借创新设计、可持续性和文化意义，入选《时代》杂志2026年全球最伟大目的地榜单。同时获评Condé Nast Traveler 2026 Hot List。",
+      "category": "奖项荣誉",
+      "importance": "high",
+      "source": "TIME / TravelTalk Media",
+      "url": "https://traveltalkmedia.com.au/aurora-expeditions-ship-makes-time-list/"
+    },
+    {
+      "id": "n004",
+      "date": "2026-04-12",
+      "company_id": "ponant",
+      "title": "庞洛邮轮 Le Commandant Charcot 将执行2026-27北极冬季16个航次",
+      "summary": "从2026年10月至2027年3月，全球唯一奢华PC2破冰船将探索「大北方」：北极光、斯瓦尔巴、圣劳伦斯河冬季、格陵兰等航线。",
+      "category": "航线发布",
+      "importance": "high",
+      "source": "Cruise Industry News",
+      "url": "https://cruiseindustrynews.com/cruise-news/2025/02/ponants-commandant-charcot-to-return-to-the-arctic-canada-for-winter-2026-27/"
+    },
+    {
+      "id": "n005",
+      "date": "2026-04-08",
+      "company_id": "seabourn",
+      "title": "Seabourn Venture 创纪录：抵达南纬70°，探索从未有客船到达的George VI Sound",
+      "summary": "Seabourn Venture在南极探险航次中创造历史：到达70°S——世邦邮轮及嘉年华集团旗下船只的最南纪录。首次探索约300英里的George VI Sound冰道。",
+      "category": "探险纪录",
+      "importance": "high",
+      "source": "TravelPulse",
+      "url": "https://www.travelpulse.com/news/cruise/seabourn-venture-sets-records-in-antarctica"
+    },
+    {
+      "id": "n006",
+      "date": "2026-04-01",
+      "company_id": "silversea",
+      "title": "银海邮轮完成2025-26南极季：38个航次、三艘船运营",
+      "summary": "本季含20次传统德雷克海峡穿越 + 18次飞南极航次。罕见观测包括帝企鹅、Arnoux's喙鲸、座头鲸气泡网捕食。单次极地跳水近140人参与。",
+      "category": "运营动态",
+      "importance": "medium",
+      "source": "Cruise Industry News",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/03/silversea-wraps-up-antarctica-season-with-38-voyages/"
+    },
+    {
+      "id": "n007",
+      "date": "2026-03-25",
+      "company_id": "quark",
+      "title": "夸克探险推出「This Is Polar Bonus」：北极2026航次最高省$2,000",
+      "summary": "适用于北极2026、南极2025-26及北极2027航次，可与其他促销叠加使用。另推出旅游顾问竞赛，赢取斯瓦尔巴探险航次。",
+      "category": "促销活动",
+      "importance": "medium",
+      "source": "TravelPulse",
+      "url": "https://www.travelpulse.com/news/cruise/quark-expeditions-launches-this-is-polar-bonus-for-adventure-seekers"
+    },
+    {
+      "id": "n008",
+      "date": "2026-03-20",
+      "company_id": "quark",
+      "title": "夸克探险在英国湖区举办首次极地代理商静修会，50+代理商参加",
+      "summary": "在湖区Ullswater举办，包含探险讲座、徒步、皮划艇等活动。一位代理商赢得2026年5月北极双人之旅。",
+      "category": "市场活动",
+      "importance": "medium",
+      "source": "Travel Weekly UK",
+      "url": "https://travelweekly.co.uk/news/quark-expeditions-hosts-50-agents-at-polar-retreat-in-lake-district"
+    },
+    {
+      "id": "n009",
+      "date": "2026-03-15",
+      "company_id": "quark",
+      "title": "夸克探险宣布Ultramarine北极2026航次免单人附加费",
+      "summary": "单人旅行者预订Ultramarine北极2026阳台套房可省高达$10,000。数量有限，需通过极地旅行顾问预订。",
+      "category": "促销活动",
+      "importance": "medium",
+      "source": "Travel Weekly Australia",
+      "url": "https://travelweekly.com.au/quark-expeditions-announces-no-solo-supplement-charge-on-its-ultramarine-arctic-2026-voyages/"
+    },
+    {
+      "id": "n010",
+      "date": "2026-03-10",
+      "company_id": "aurora",
+      "title": "Aurora Expeditions 时隔15年重返东南极",
+      "summary": "15年来首次重返东南极，为探险者提供探索地球上最偏远、未被触及地区之一的罕见机会。本季首次实现三船同时在极地运营。",
+      "category": "航线发布",
+      "importance": "high",
+      "source": "Travel And Tour World",
+      "url": "https://www.travelandtourworld.fr/nouvelles/article/Aurora-Expeditions-marque-un-retour-historique-dans-l%27Antarctique-oriental-apr%C3%A8s-quinze-ans-d%27absence--offrant-aux-explorateurs-une-occasion-rare-d%27explorer-cette-nature-sauvage-et-intacte./"
+    },
+    {
+      "id": "n011",
+      "date": "2026-02-20",
+      "company_id": "seabourn",
+      "title": "世邦邮轮发布2026-2027极地探险季：24条独特航线、161个目的地",
+      "summary": "涵盖北极、格陵兰、冰岛、西北航道、南极等。Seabourn Pursuit 2026年金伯利季为最后一次，2028年起将全面转向极地。",
+      "category": "航线发布",
+      "importance": "medium",
+      "source": "Cruise Mapper",
+      "url": "https://www.cruisemapper.com/news/14017-seabourn-launches-2026-2027-expedition-season"
+    },
+    {
+      "id": "n012",
+      "date": "2026-02-14",
+      "company_id": "ponant",
+      "title": "庞洛邮轮开售2028年62天南极环大陆航次",
+      "summary": "Le Commandant Charcot号将于2028年1月从乌斯怀亚出发，执行约23,000公里的南极环大陆航次，深入罗斯海等极少有人到访的区域。需求远超预期。",
+      "category": "航线发布",
+      "importance": "high",
+      "source": "广州日报",
+      "url": "https://news.dayoo.com/gzrbrmt/202602/14/170636_54928931.htm"
+    },
+    {
+      "id": "n013",
+      "date": "2026-02-01",
+      "company_id": "aurora",
+      "title": "Aurora Expeditions任命Beth Mercier为北美销售副总裁",
+      "summary": "Beth Mercier加入Aurora Expeditions，负责北美市场销售战略。此前曾在多家奢华邮轮公司担任高管。",
+      "category": "人事变动",
+      "importance": "low",
+      "source": "Trade Press",
+      "url": ""
+    },
+    {
+      "id": "n014",
+      "date": "2026-01-20",
+      "company_id": "aurora",
+      "title": "Aurora Expeditions与Sparro by Brainlabs达成媒体合作",
+      "summary": "采用数据驱动、受众优先的全球营销策略，提升品牌在主要市场的数字存在感。",
+      "category": "市场活动",
+      "importance": "low",
+      "source": "Mi3",
+      "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
+    },
+    {
+      "id": "n015",
+      "date": "2026-01-15",
+      "company_id": "seabourn",
+      "title": "世邦邮轮宣布2026年结束潜水艇项目",
+      "summary": "由于客人兴趣有限、监管限制和维护成本高等因素，Seabourn Venture和Pursuit上的潜水艇体验将于2026年3月终止。",
+      "category": "运营调整",
+      "importance": "medium",
+      "source": "Travel Weekly Asia",
+      "url": "https://www.travelweekly-asia.com/Cruise-Travel/No-more-submarine-programme-for-Seabourne"
+    },
+    {
+      "id": "n016",
+      "date": "2026-02-28",
+      "company_id": "quark",
+      "title": "夸克探险因需求旺盛增加第二个2026年日全食航次",
+      "summary": "首个日全食航次售罄后，增开Ocean Explorer号17天航次（8月3-19日），与Ultramarine号航次（8月6-18日）并行。从雷克雅未克出发前往东格陵兰。",
+      "category": "航线发布",
+      "importance": "medium",
+      "source": "TravelPulse",
+      "url": "https://www.travelpulse.com/news/cruise/quark-expeditions-to-offer-additional-solar-eclipse-voyage-in-2026"
+    },
+    {
+      "id": "n017",
+      "date": "2026-01-10",
+      "company_id": "aurora",
+      "title": "Aurora Expeditions庆祝极地探险35周年",
+      "summary": "为纪念35年探索历程，推出全球周年特惠，覆盖南极、北极及其他目的地。同步发布全新「Active Antarctica」沉浸式活动航次。",
+      "category": "公司里程碑",
+      "importance": "medium",
+      "source": "Aurora Expeditions Media Centre",
+      "url": "https://www.aurora-expeditions.com/eu/media-centre"
+    },
+    {
+      "id": "n018",
+      "date": "2026-03-01",
+      "company_id": "silversea",
+      "title": "银海邮轮2026-27南极季扩展至41个航次",
+      "summary": "含29个飞南极航次（依托The Cormorant酒店）+ 12个传统德雷克海峡航次。南极飞桥模式持续扩容。",
+      "category": "航线发布",
+      "importance": "high",
+      "source": "Cruise Industry News",
+      "url": ""
+    },
+    {
+      "id": "n019",
+      "date": "2026-04-20",
+      "company_id": "aqua",
+      "title": "Aqua Expeditions 2026年6月首进北极市场",
+      "summary": "30客位超级游艇Aqua Lares（冰级1B）将前往斯瓦尔巴和北极圈，提供5-14晚行程，支持整船包租和单舱预订。",
+      "category": "新进入者",
+      "importance": "medium",
+      "source": "Cruise Industry News",
+      "url": "https://cruiseindustrynews.com/cruise-news/2025/09/aqua-expeditions-heading-to-the-arctic/"
+    },
+    {
+      "id": "n020",
+      "date": "2026-05-01",
+      "company_id": "seabourn",
+      "title": "世邦邮轮「Yours to Explore」活动：免费升两级套房+$1,000船上消费",
+      "summary": "适用于500+航次，截止2026年5月5日。另推出Expedition Month（5月）：代理商网络研讨会、预订激励、£200亚马逊礼品卡抽奖。",
+      "category": "促销活动",
+      "importance": "medium",
+      "source": "Porthole Cruise",
+      "url": "https://porthole.com/seabourn-yours-to-explore-event-adds-suite-upgrades/"
+    }
+  ],
+  "meta": {
+    "total": 20,
+    "last_updated": "2026-05-03",
+    "companies_covered": ["aurora", "silversea", "ponant", "seabourn", "quark", "aqua"],
+    "categories": {
+      "航线发布": 6,
+      "运营动态": 2,
+      "促销活动": 3,
+      "新船/新设施": 1,
+      "探险纪录": 1,
+      "奖项荣誉": 1,
+      "市场活动": 2,
+      "人事变动": 1,
+      "新进入者": 1,
+      "公司里程碑": 1,
+      "运营调整": 1
+    }
+  }
+}

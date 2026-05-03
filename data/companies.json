@@ -1,0 +1,534 @@
+{
+  "companies": [
+    {
+      "id": "quark",
+      "name": "Quark Expeditions",
+      "name_cn": "夸克探险",
+      "website": "https://www.quarkexpeditions.com",
+      "booking_portal": "https://www.quarkexpeditions.com/expeditions",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["Ultramarine", "World Explorer", "Ocean Explorer", "World Voyager"],
+      "ship_count": 4,
+      "positioning": "专业探险",
+      "features": ["直升机", "帝企鹅营地", "北极点", "西北航道"],
+      "booking_contact": {
+        "email": "sales@quarkexpeditions.com",
+        "phone": "+1-647-449-5303",
+        "trade_portal": "https://www.quarkexpeditions.com/trade"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.quarkexpeditions.com/expeditions?region=antarctic",
+        "arctic": "https://www.quarkexpeditions.com/expeditions?region=arctic",
+        "deals": "https://www.quarkexpeditions.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "极地探险先驱品牌，2026年起使用World Voyager替换World Explorer"
+    },
+    {
+      "id": "oceanwide",
+      "name": "Oceanwide Expeditions",
+      "name_cn": "欧海维德探险",
+      "website": "https://oceanwide-expeditions.com",
+      "booking_portal": "https://oceanwide-expeditions.com/destinations",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["Hondius", "Ortelius", "Plancius", "Janssonius"],
+      "ship_count": 4,
+      "positioning": "专业探险",
+      "features": ["潜水", "皮划艇", "雪鞋", "极地露营"],
+      "booking_contact": {
+        "email": "info@oceanwide-expeditions.com",
+        "phone": "+31-118-410-410",
+        "trade_portal": "https://oceanwide-expeditions.com/travel-agents"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://oceanwide-expeditions.com/antarctica",
+        "arctic": "https://oceanwide-expeditions.com/arctic",
+        "deals": "https://oceanwide-expeditions.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "荷兰品牌，活动最丰富的极地探险公司之一，中文官网可用"
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora Expeditions",
+      "name_cn": "极光探险",
+      "website": "https://www.auroraexpeditions.com.au",
+      "booking_portal": "https://www.auroraexpeditions.com.au/destinations",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["Greg Mortimer", "Sylvia Earle", "Douglas Mawson"],
+      "ship_count": 3,
+      "positioning": "环保探险",
+      "features": ["B Corp认证", "碳中性", "公民科学", "X-BOW船体"],
+      "booking_contact": {
+        "email": "info@auroraexpeditions.com.au",
+        "phone": "+61-2-9252-1033",
+        "trade_portal": "https://www.auroraexpeditions.com.au/trade"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.auroraexpeditions.com.au/destinations/antarctica",
+        "arctic": "https://www.auroraexpeditions.com.au/destinations/arctic",
+        "deals": "https://www.auroraexpeditions.com.au/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "澳大利亚品牌，2025年新增Douglas Mawson号，B Corp认证"
+    },
+    {
+      "id": "hx",
+      "name": "HX (Hurtigruten Expeditions)",
+      "name_cn": "海达路德探险",
+      "website": "https://www.travelhx.com",
+      "booking_portal": "https://www.travelhx.com/en-us/expeditions",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["MS Fridtjof Nansen", "MS Roald Amundsen", "MS Fram", "MS Spitsbergen"],
+      "ship_count": 4,
+      "positioning": "探险舒适",
+      "features": ["混合动力", "中文服务", "科学中心", "挪威品质"],
+      "booking_contact": {
+        "email": "sales@travelhx.com",
+        "phone": "+47-810-33-330",
+        "trade_portal": "https://www.travelhx.com/en-us/trade"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.travelhx.com/en-us/expeditions/destination/antarctica",
+        "arctic": "https://www.travelhx.com/en-us/expeditions/destination/arctic",
+        "deals": "https://www.travelhx.com/en-us/offers"
+      },
+      "update_frequency": "daily",
+      "notes": "挪威品牌，2026年庆祝130周年，部分航次有中文探险队员"
+    },
+    {
+      "id": "poseidon",
+      "name": "Poseidon Expeditions",
+      "name_cn": "波塞冬探险",
+      "website": "https://poseidonexpeditions.com",
+      "booking_portal": "https://poseidonexpeditions.com/special/",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["Sea Spirit"],
+      "ship_count": 1,
+      "positioning": "精品探险",
+      "features": ["全员套房", "100人小船", "全包酒水", "极地露营"],
+      "booking_contact": {
+        "email": "SalesUSA@poseidonexpeditions.com",
+        "phone": "+1-347-801-2610",
+        "trade_portal": "https://poseidonexpeditions.com/travel-agents/"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://poseidonexpeditions.com/antarctica/",
+        "arctic": "https://poseidonexpeditions.com/arctic/",
+        "deals": "https://poseidonexpeditions.com/special/"
+      },
+      "update_frequency": "daily",
+      "notes": "小而美的精品品牌，Sea Spirit全员套房，1:9探险队员配比"
+    },
+    {
+      "id": "lindblad",
+      "name": "Lindblad Expeditions / National Geographic",
+      "name_cn": "林德布拉德/国家地理",
+      "website": "https://www.expeditions.com",
+      "booking_portal": "https://www.expeditions.com/destinations",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["National Geographic Endurance", "National Geographic Resolution", "National Geographic Explorer", "National Geographic Orion"],
+      "ship_count": 4,
+      "positioning": "科教探险",
+      "features": ["国家地理专家", "摄影指导", "科学研究", "60年经验"],
+      "booking_contact": {
+        "email": "explore@expeditions.com",
+        "phone": "+1-800-397-3348",
+        "trade_portal": "https://www.expeditions.com/travel-advisors"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.expeditions.com/destinations/antarctica",
+        "arctic": "https://www.expeditions.com/destinations/arctic",
+        "deals": "https://www.expeditions.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "极地探险先驱（1966年起），国家地理摄影师和科学家随行"
+    },
+    {
+      "id": "antarctica21",
+      "name": "Antarctica21",
+      "name_cn": "南极21",
+      "website": "https://www.antarctica21.com",
+      "booking_portal": "https://www.antarctica21.com/journeys",
+      "regions": ["antarctic"],
+      "ships": ["Magellan Explorer", "Ocean Nova", "Magellan Discoverer"],
+      "ship_count": 3,
+      "positioning": "飞南极专家",
+      "features": ["飞越德雷克海峡", "免晕船", "76人小船", "智利出发"],
+      "booking_contact": {
+        "email": "info@antarctica21.com",
+        "phone": "+56-61-271-4100",
+        "trade_portal": "https://www.antarctica21.com/trade"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.antarctica21.com/journeys",
+        "deals": "https://www.antarctica21.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "飞南极模式开创者，2026年底新增Magellan Discoverer混合动力船"
+    },
+    {
+      "id": "ponant",
+      "name": "Ponant",
+      "name_cn": "庞洛邮轮",
+      "website": "https://www.ponant.com",
+      "booking_portal": "https://www.ponant.com/destinations",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["Le Commandant Charcot", "Le Boreal", "L'Austral", "Le Soleal", "Le Lyrial", "Le Bellot", "Le Dumont-d'Urville", "Le Champlain", "Le Bougainville", "Le Jacques Cartier"],
+      "ship_count": 10,
+      "positioning": "法式奢华",
+      "features": ["唯一PC2破冰船", "北极点", "法式美食", "全阳台"],
+      "booking_contact": {
+        "email": "reservation@ponant.com",
+        "phone": "+33-4-88-91-55-00",
+        "trade_portal": "https://www.ponant.com/travel-agents"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.ponant.com/destinations/antarctica",
+        "arctic": "https://www.ponant.com/destinations/arctic",
+        "deals": "https://www.ponant.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "法国奢华品牌，Le Commandant Charcot是全球唯一可达地理北极点的PC2破冰邮轮"
+    },
+    {
+      "id": "silversea",
+      "name": "Silversea Cruises",
+      "name_cn": "银海邮轮",
+      "website": "https://www.silversea.com",
+      "booking_portal": "https://www.silversea.com/destinations",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["Silver Endeavour", "Silver Cloud", "Silver Wind"],
+      "ship_count": 3,
+      "positioning": "超奢华",
+      "features": ["全套房管家", "飞南极桥", "PC6冰级", "无限鱼子酱"],
+      "booking_contact": {
+        "email": "information@silversea.com",
+        "phone": "+1-800-722-9955",
+        "trade_portal": "https://www.silversea.com/travel-agents"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.silversea.com/destinations/antarctica.html",
+        "arctic": "https://www.silversea.com/destinations/arctic-greenland.html",
+        "deals": "https://www.silversea.com/special-offers.html"
+      },
+      "update_frequency": "daily",
+      "notes": "南极2025-26季38个航次，Puerto Williams新酒店2026年10月开业"
+    },
+    {
+      "id": "seabourn",
+      "name": "Seabourn",
+      "name_cn": "世鹏邮轮",
+      "website": "https://www.seabourn.com",
+      "booking_portal": "https://www.seabourn.com/en-us/find-a-cruise",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["Seabourn Venture", "Seabourn Pursuit"],
+      "ship_count": 2,
+      "positioning": "超奢华探险",
+      "features": ["潜水艇", "皮划艇", "全包式", "专家团队"],
+      "booking_contact": {
+        "email": "reservations@seabourn.com",
+        "phone": "+1-800-929-9391",
+        "trade_portal": "https://www.seabourn.com/en-us/travel-advisors"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.seabourn.com/en-us/cruise-destinations/antarctica-cruises",
+        "arctic": "https://www.seabourn.com/en-us/cruise-destinations/arctic-cruises",
+        "deals": "https://www.seabourn.com/en-us/cruise-deals"
+      },
+      "update_frequency": "daily",
+      "notes": "2026-27南极季16个航次计划，2艘探险船运营"
+    },
+    {
+      "id": "scenic",
+      "name": "Scenic Luxury Cruises",
+      "name_cn": "圣景邮轮",
+      "website": "https://www.scenic.com.au",
+      "booking_portal": "https://www.scenic.com.au/cruises",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["Scenic Eclipse", "Scenic Eclipse II"],
+      "ship_count": 2,
+      "positioning": "超奢华探索游艇",
+      "features": ["直升机", "潜水艇", "全阳台套房", "管家服务"],
+      "booking_contact": {
+        "email": "info@scenic.com.au",
+        "phone": "+61-7-5509-7900",
+        "trade_portal": "https://www.scenic.com.au/travel-advisors"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.scenic.com.au/cruises/antarctica",
+        "arctic": "https://www.scenic.com.au/cruises/arctic",
+        "deals": "https://www.scenic.com.au/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "澳大利亚超奢华品牌，Discovery Yacht概念，直升机+潜水艇配置"
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas Ocean Voyages",
+      "name_cn": "阿特拉斯海洋之旅",
+      "website": "https://atlasoceanvoyages.com",
+      "booking_portal": "https://atlasoceanvoyages.com/find-a-voyage",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["World Navigator", "World Traveller", "World Voyager"],
+      "ship_count": 3,
+      "positioning": "轻奢探险",
+      "features": ["176人小船", "全包式", "管家服务", "灵活价格"],
+      "booking_contact": {
+        "email": "info@atlasoceanvoyages.com",
+        "phone": "+1-844-442-8527",
+        "trade_portal": "https://atlasoceanvoyages.com/travel-advisors"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://atlasoceanvoyages.com/destinations/antarctica",
+        "arctic": "https://atlasoceanvoyages.com/destinations/arctic",
+        "deals": "https://atlasoceanvoyages.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "美国品牌，小而美的奢华探险定位，2026年新增加拿大北极航线"
+    },
+    {
+      "id": "swan_hellenic",
+      "name": "Swan Hellenic",
+      "name_cn": "天鹅希腊",
+      "website": "https://www.swanhellenic.com",
+      "booking_portal": "https://www.swanhellenic.com/cruises",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["SH Minerva", "SH Vega", "SH Diana"],
+      "ship_count": 3,
+      "positioning": "文化探险",
+      "features": ["5星精品", "PC5冰级", "半环南极", "文化讲座"],
+      "booking_contact": {
+        "email": "reservations@swanhellenic.com",
+        "phone": "+44-20-7846-0278",
+        "trade_portal": "https://www.swanhellenic.com/trade"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.swanhellenic.com/cruises/antarctica",
+        "arctic": "https://www.swanhellenic.com/cruises/arctic",
+        "deals": "https://www.swanhellenic.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "英国文化探险品牌，2025年获Cruise Critic最佳南极探险奖"
+    },
+    {
+      "id": "viking",
+      "name": "Viking Expeditions",
+      "name_cn": "维京探险",
+      "website": "https://www.viking.com",
+      "booking_portal": "https://www.viking.com/expeditions",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["Viking Octantis", "Viking Polaris"],
+      "ship_count": 2,
+      "positioning": "北欧现代奢华",
+      "features": ["北欧设计", "科学实验室", "PC6冰级", "全阳台"],
+      "booking_contact": {
+        "email": "traveladvisors@viking.com",
+        "phone": "+1-800-207-6786",
+        "trade_portal": "https://www.viking.com/travel-advisors"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.viking.com/expeditions/cruises/antarctica",
+        "arctic": "https://www.viking.com/expeditions/cruises/arctic",
+        "deals": "https://www.viking.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "378人载客量在极地探险船中偏大，北欧设计风格独特"
+    },
+    {
+      "id": "hapag_lloyd",
+      "name": "Hapag-Lloyd Cruises",
+      "name_cn": "赫伯罗特邮轮",
+      "website": "https://www.hl-cruises.com",
+      "booking_portal": "https://www.hl-cruises.com/find-your-cruise",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["HANSEATIC inspiration", "HANSEATIC nature", "HANSEATIC spirit"],
+      "ship_count": 3,
+      "positioning": "德式探险",
+      "features": ["PC6冰级", "德语为主", "专家讲座", "精品服务"],
+      "booking_contact": {
+        "email": "service@hl-cruises.com",
+        "phone": "+49-40-30703070",
+        "trade_portal": "https://www.hl-cruises.com/travel-agents"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.hl-cruises.com/expedition/antarctica",
+        "arctic": "https://www.hl-cruises.com/expedition/arctic",
+        "deals": "https://www.hl-cruises.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "德国品牌，德语高端市场领导者，3艘新船均为2019年后建造"
+    },
+    {
+      "id": "g_adventures",
+      "name": "G Adventures",
+      "name_cn": "G探险",
+      "website": "https://www.gadventures.com",
+      "booking_portal": "https://www.gadventures.com/destinations/",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["MS Expedition"],
+      "ship_count": 1,
+      "positioning": "亲民探险",
+      "features": ["性价比高", "社交氛围", "年轻人多", "中文可选"],
+      "booking_contact": {
+        "email": "sales@gadventures.com",
+        "phone": "+1-416-260-0999",
+        "trade_portal": "https://www.gadventures.com/travel-agents/"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.gadventures.com/destinations/antarctica/",
+        "arctic": "https://www.gadventures.com/destinations/arctic/",
+        "deals": "https://www.gadventures.com/last-minute-deals/"
+      },
+      "update_frequency": "daily",
+      "notes": "加拿大品牌，性价比最高的极地探险选择之一，2026年重返北极"
+    },
+    {
+      "id": "heritage",
+      "name": "Heritage Expeditions",
+      "name_cn": "遗产探险",
+      "website": "https://www.heritage-expeditions.com",
+      "booking_portal": "https://www.heritage-expeditions.com/destinations",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["Heritage Adventurer"],
+      "ship_count": 1,
+      "positioning": "罗斯海专家",
+      "features": ["新西兰出发", "罗斯海", "东非亚南极", "自然历史"],
+      "booking_contact": {
+        "email": "info@heritage-expeditions.com",
+        "phone": "+64-3-365-3500",
+        "trade_portal": "https://www.heritage-expeditions.com/trade"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.heritage-expeditions.com/destinations/antarctica",
+        "deals": "https://www.heritage-expeditions.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "新西兰品牌，罗斯海40年经验，独特的澳洲新西兰客人群体"
+    },
+    {
+      "id": "intrepid",
+      "name": "Intrepid Travel",
+      "name_cn": "无畏旅行",
+      "website": "https://www.intrepidtravel.com",
+      "booking_portal": "https://www.intrepidtravel.com/destinations",
+      "regions": ["antarctic"],
+      "ships": ["Ocean Endeavour", "Ocean Explorer", "Ocean Nova", "World Explorer"],
+      "ship_count": 4,
+      "positioning": "亲民探险",
+      "features": ["B Corp", "可持续发展", "包船模式", "社交氛围"],
+      "booking_contact": {
+        "email": "sales@intrepidtravel.com",
+        "phone": "+61-3-9473-2626",
+        "trade_portal": "https://www.intrepidtravel.com/travel-agents"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://www.intrepidtravel.com/antarctica",
+        "deals": "https://www.intrepidtravel.com/last-minute-deals"
+      },
+      "update_frequency": "daily",
+      "notes": "澳大利亚品牌，B Corp认证，主要采用包船模式运营南极"
+    },
+    {
+      "id": "albatros",
+      "name": "Albatros Expeditions / Polar Latitudes",
+      "name_cn": "信天翁探险/极地纬度",
+      "website": "https://albatros-expeditions.com",
+      "booking_portal": "https://albatros-expeditions.com/our-cruises",
+      "regions": ["antarctic", "arctic"],
+      "ships": ["Ocean Albatros", "Ocean Victory", "MS Seaventure", "Ocean Nova"],
+      "ship_count": 4,
+      "positioning": "北欧探险",
+      "features": ["北欧品牌", "合并运营", "多元船只", "斯瓦尔巴航线"],
+      "booking_contact": {
+        "email": "info@albatros-expeditions.com",
+        "phone": "+45-36-98-58-00",
+        "trade_portal": "https://albatros-expeditions.com/travel-agents"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "antarctic": "https://albatros-expeditions.com/our-cruises/antarctica",
+        "arctic": "https://albatros-expeditions.com/our-cruises/arctic",
+        "deals": "https://albatros-expeditions.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "丹麦品牌，2025年与Polar Latitudes合并，2026年北极季将统一品牌"
+    },
+    {
+      "id": "aqua",
+      "name": "Aqua Expeditions",
+      "name_cn": "阿卡探险",
+      "website": "https://www.aquaexpeditions.com",
+      "booking_portal": "https://www.aquaexpeditions.com/destinations",
+      "regions": ["arctic"],
+      "ships": ["Aqua Mare (TBC)"],
+      "ship_count": 1,
+      "positioning": "顶奢精品",
+      "features": ["小型精品", "顶奢服务", "2026年首航", "斯瓦尔巴"],
+      "booking_contact": {
+        "email": "reservations@aquaexpeditions.com",
+        "phone": "+65-6270-9900",
+        "trade_portal": "https://www.aquaexpeditions.com/travel-advisors"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "arctic": "https://www.aquaexpeditions.com/destinations/arctic",
+        "deals": "https://www.aquaexpeditions.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "新加坡品牌，原以亚马逊/加拉帕戈斯奢华河轮闻名，2026年6月首次进入北极市场"
+    },
+    {
+      "id": "secret_atlas",
+      "name": "Secret Atlas",
+      "name_cn": "秘密地图",
+      "website": "https://www.secretatlas.com",
+      "booking_portal": "https://www.secretatlas.com/expeditions",
+      "regions": ["arctic"],
+      "ships": ["小型探险船（12-48人）"],
+      "ship_count": 1,
+      "positioning": "微型探险",
+      "features": ["12-48人小船", "摄影导向", "深度体验", "斯瓦尔巴专家"],
+      "booking_contact": {
+        "email": "info@secretatlas.com",
+        "phone": "+44-1482-218486",
+        "trade_portal": "https://www.secretatlas.com/trade"
+      },
+      "data_source_type": "website_scrape",
+      "data_urls": {
+        "arctic": "https://www.secretatlas.com/expeditions",
+        "deals": "https://www.secretatlas.com/special-offers"
+      },
+      "update_frequency": "daily",
+      "notes": "英国微型探险品牌，专注极地摄影旅游，斯瓦尔巴极小型团队"
+    }
+  ],
+  "meta": {
+    "total_companies": 21,
+    "last_updated": "2026-05-03",
+    "update_by": "system",
+    "regions": {
+      "antarctic_only": ["antarctica21", "intrepid"],
+      "arctic_only": ["aqua", "secret_atlas"],
+      "both": ["quark", "oceanwide", "aurora", "hx", "poseidon", "lindblad", "ponant", "silversea", "seabourn", "scenic", "atlas", "swan_hellenic", "viking", "hapag_lloyd", "g_adventures", "heritage", "albatros"]
+    }
+  }
+}
