@@ -83,7 +83,22 @@ img.logo-fail + .logo-fallback{display:flex!important}
 .loading{text-align:center;padding:80px 20px}
 .spin{display:inline-block;width:32px;height:32px;border:3px solid rgba(79,195,247,.2);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
-@media(max-width:768px){.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.compare{display:block;overflow-x:auto}}
+.overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.6);z-index:100;display:flex;align-items:center;justify-content:center;padding:20px}
+.modal{background:var(--card);border-radius:20px;border:1px solid var(--border);max-width:640px;width:100%;max-height:85vh;overflow-y:auto;padding:28px}
+.modal h2{font-size:20px;margin-bottom:4px;display:flex;align-items:center;gap:12px}
+.modal .close{width:32px;height:32px;border-radius:50%;border:1px solid var(--border);background:none;color:var(--text);cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.modal .close:hover{background:var(--red);border-color:var(--red)}
+.modal .sec{margin-top:20px}
+.modal .sec h4{font-size:12px;color:var(--text2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;font-weight:600}
+.ship-card{background:rgba(255,255,255,.03);border-radius:12px;padding:14px 16px;margin-bottom:8px;border:1px solid rgba(255,255,255,.06)}
+.ship-card .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.ship-card .top .name{font-weight:600;font-size:14px}
+.route-chips{display:flex;gap:6px;flex-wrap:wrap}
+.route-chip{font-size:10px;padding:3px 10px;border-radius:12px;font-weight:600}
+.route-chip.ant{background:rgba(79,195,247,.1);color:var(--accent)}
+.route-chip.arc{background:rgba(129,212,250,.1);color:#81d4fa}
+.promo-inline{font-size:12px;padding:8px 12px;border-radius:8px;background:rgba(255,183,77,.08);margin-bottom:6px;border-left:3px solid var(--warn)}
+@media(max-width:768px){.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.compare{display:block;overflow-x:auto}.modal{margin:10px;max-height:90vh}}
 </style>
 </head>
 <body>
@@ -111,6 +126,7 @@ function App(){
   const [data,setData] = useState(null);
   const [cos,setCos] = useState([]);
   const [tab,setTab] = useState('compare');
+  const [detailCo,setDetailCo] = useState(null);
   const [loading,setLoading] = useState(true);
 
   useEffect(()=>{
@@ -149,9 +165,10 @@ function App(){
         <div className="stat"><div className="n" style={{color:'var(--green)'}}>{stats.drops}</div><div className="l">今日降价</div></div>
       </div>
       {tab==='compare' && <CompareView V={V} cos={cos}/>}
-      {tab==='companies' && <CompaniesView cos={cos} P={P}/>}
+      {tab==='companies' && <CompaniesView cos={cos} P={P} onDetail={setDetailCo}/>}
       {tab==='alerts' && <AlertsView V={V} P={P} cos={cos}/>}
       {tab==='news' && <NewsView N={N} cos={cos}/>}
+      {detailCo && <CompanyDetail co={detailCo} V={V} P={P} cos={cos} onClose={()=>setDetailCo(null)}/>}
     </div>
   );
 }
@@ -185,7 +202,7 @@ function CompareView({V,cos}){
   );
 }
 
-function CompaniesView({cos,P}){
+function CompaniesView({cos,P,onDetail}){
   const [q,setQ] = useState('');
   const filtered = q?cos.filter(c=>(c.cn||'').includes(q)||(c.en||'').toLowerCase().includes(q.toLowerCase())||(c.pos||'').includes(q)):cos;
   return (
@@ -196,7 +213,7 @@ function CompaniesView({cos,P}){
         const rl=(c.r||[]).length>1?'南北极':(c.r||[])[0]==='antarctic'?'南极':'北极';
         const rc=(c.r||[]).length>1?'tag-both':(c.r||[])[0]==='antarctic'?'tag-ant':'tag-arc';
         const ps=P.filter(p=>p.co===c.id);
-        return <div className="card-row" key={c.id}>
+        return <div className="card-row" key={c.id} onClick={()=>onDetail&&onDetail(c)}>
           <div className="hd"><div style={{display:'flex',alignItems:'flex-start',gap:10}}><Logo co={c} size={32}/><div><div className="cn">{c.cn} <span className={'tag '+rc}>{rl}</span></div><div className="en">{c.en} · {c.pos}</div></div></div></div>
           <div className="bd">
             <div className="row"><span className="l">船只</span><span className="v">{c.sn}艘</span></div>
@@ -252,6 +269,51 @@ function NewsView({N,cos}){
         <div className="bd"><h4>{n.title} <span className={'imp imp-'+(n.imp==='high'?'high':'med')}>{n.imp==='high'?'重磅':'关注'}</span></h4><p>{n.desc}</p><div className="meta">{co.cn||n.co} · {n.d} · {n.src} · {n.cat}</div></div>
       </div>})}
     </div>
+  );
+}
+
+function CompanyDetail({co,V,P,cos,onClose}){
+  const coVoyages = V.filter(v=>v.co===co.id);
+  const coPromos = P.filter(p=>p.co===co.id);
+  const rl = (co.r||[]).length>1?'南北极':(co.r||[])[0]==='antarctic'?'南极':'北极';
+  const ant = coVoyages.filter(v=>v.r==='antarctic');
+  const arc = coVoyages.filter(v=>v.r==='arctic');
+  return React.createElement('div',{className:'overlay',onClick:onClose},
+    React.createElement('div',{className:'modal',onClick:e=>e.stopPropagation()},
+      React.createElement('div',{style:{display:'flex',justifyContent:'space-between',alignItems:'flex-start',marginBottom:20}},
+        React.createElement('h2',null,React.createElement(Logo,{co:co,size:40}),co.cn||co.id,React.createElement('span',{style:{fontSize:14,color:'var(--text2)',fontWeight:400,marginLeft:8}},co.en)),
+        React.createElement('button',{className:'close',onClick:onClose},'✕')
+      ),
+      React.createElement('div',{style:{display:'flex',gap:20,marginBottom:20,flexWrap:'wrap'}},
+        React.createElement('div',null,React.createElement('div',{style:{fontSize:20,fontWeight:700}},co.sn),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},'船只')),
+        React.createElement('div',null,React.createElement('div',{style:{fontSize:20,fontWeight:700}},rl),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},'运营区域')),
+        React.createElement('div',null,React.createElement('div',{style:{fontSize:20,fontWeight:700}},co.pos),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},'定位')),
+        React.createElement('div',null,React.createElement('div',{style:{fontSize:20,fontWeight:700,color:'var(--warn)'}},coPromos.length),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},'促销'))
+      ),
+      React.createElement('div',{style:{display:'flex',gap:6,flexWrap:'wrap',marginBottom:20}},(co.feat||[]).map(f=>React.createElement('span',{key:f,style:{fontSize:11,padding:'3px 10px',borderRadius:12,background:'rgba(79,195,247,.06)',color:'var(--text2)'}},f))),
+
+      coPromos.length>0 && React.createElement('div',{className:'sec'},
+        React.createElement('h4',null,'🔥 当前促销'),
+        coPromos.map(p=>React.createElement('div',{className:'promo-inline',key:p.t},React.createElement('b',null,p.t),' — ',p.d,React.createElement('span',{style:{color:'var(--warn)',fontWeight:600,marginLeft:8}},p.v),React.createElement('span',{style:{marginLeft:8,fontSize:10,color:'var(--text2)'}},'截止 '+p.exp)))
+      ),
+
+      React.createElement('div',{className:'sec'},
+        React.createElement('h4',null,'🚢 船队 (',co.sn,'艘)'),
+        (co.ships||[]).map(s=>React.createElement('div',{className:'ship-card',key:s},React.createElement('div',{className:'top'},React.createElement('span',{className:'name'},'🚢 ',s))))
+      ),
+
+      ant.length>0 && React.createElement('div',{className:'sec'},
+        React.createElement('h4',null,'🐧 南极航线 (',ant.length,'个航次)'),
+        ant.map(v=>{const c=v.cabins[0];return React.createElement('div',{className:'ship-card',key:v.id},React.createElement('div',{className:'top'},React.createElement('span',{className:'name'},v.name),React.createElement('span',{style:{fontWeight:700,fontSize:14,color:'var(--accent)'}},fmt(c.price))),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},v.ship,' · ',v.date,' · ',v.days,'天 · ',v.port),React.createElement('div',{style:{fontSize:11,marginTop:4,color:'var(--text2)'}},c.cat,' · ',(c.orig>c.price?React.createElement('span',{style:{color:'var(--green)'}},'↓',Math.round((1-c.price/c.orig)*100),'% '):''),c.avail,'间可用'));})}),
+
+      arc.length>0 && React.createElement('div',{className:'sec'},
+        React.createElement('h4',null,'🐻‍❄️ 北极航线 (',arc.length,'个航次)'),
+        arc.map(v=>{const c=v.cabins[0];return React.createElement('div',{className:'ship-card',key:v.id},React.createElement('div',{className:'top'},React.createElement('span',{className:'name'},v.name),React.createElement('span',{style:{fontWeight:700,fontSize:14,color:'var(--accent)'}},fmt(c.price))),React.createElement('div',{style:{fontSize:11,color:'var(--text2)'}},v.ship,' · ',v.date,' · ',v.days,'天 · ',v.port));})}),
+
+      React.createElement('div',{className:'sec',style:{textAlign:'center',paddingTop:16,borderTop:'1px solid var(--border)'}},
+        co.domain && React.createElement('a',{href:'https://'+co.domain,target:'_blank',style:{color:'var(--accent)',textDecoration:'none',fontSize:13}},co.domain,' →')
+      )
+    )
   );
 }
 
