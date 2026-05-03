@@ -158,6 +158,7 @@ function App(){
         <button className={tab==='alerts'?'on':''} onClick={()=>setTab('alerts')}>🔔 降价 ({stats.drops})</button>
         <button className={tab==='news'?'on':''} onClick={()=>setTab('news')}>📰 情报站</button>
         <button className={tab==='cabin'?'on':''} onClick={()=>setTab('cabin')}>🚢 舱位</button>
+        <button className={tab==='query'?'on':''} onClick={()=>setTab('query')}>💬 智能查询</button>
       </div>
       <div className="stats">
         <div className="stat"><div className="n" style={{color:'var(--accent)'}}>{stats.total}</div><div className="l">监控公司</div></div>
@@ -170,6 +171,7 @@ function App(){
       {tab==='alerts' && <AlertsView V={V} P={P} cos={cos}/>}
       {tab==='news' && <NewsView N={N} cos={cos}/>}
       {tab==='cabin' && <CabinView V={V} cos={cos}/>}
+      {tab==='query' && <QueryView V={V} P={P} N={N} cos={cos}/>}
       {detailCo && <CompanyDetail co={detailCo} V={V} P={P} cos={cos} onClose={()=>setDetailCo(null)}/>}
     </div>
   );
@@ -315,6 +317,111 @@ function CabinView({V,cos}){
         })}
         </tbody>
       </table></div>
+    </div>
+  );
+}
+
+function QueryView({V,P,N,cos}){
+  const [q,setQ] = useState('12月南极 优惠最大');
+  const [results,setResults] = useState(null);
+  const parseIntent = (text) => {
+    const t = text.toLowerCase();
+    const intent = {region:null,months:[],budget:null,identity:[],prefs:[],cheapest:false,compare:false,news:false};
+    // 区域
+    if(/南极|企鹅|南极光/.test(t)) intent.region='antarctic';
+    else if(/北极|北极熊|斯瓦尔巴|格陵兰|朗伊尔/.test(t)) intent.region='arctic';
+    // 月份
+    const monMap={1:'01',2:'02',3:'03',4:'04',5:'05',6:'06',7:'07',8:'08',9:'09',10:'10',11:'11',12:'12'};
+    const m = t.match(/(\d{1,2})\s*月/); if(m) intent.months.push(monMap[parseInt(m[1])]||m[1]);
+    if(/春节/.test(t)){intent.months.push('01');intent.year='2027';}
+    if(/元旦|圣诞|跨年/.test(t)) intent.months.push('12');
+    if(/暑假/.test(t)){intent.months.push('07','08');}
+    if(/寒假/.test(t)){intent.months.push('01','02');}
+    // 预算
+    const b = t.match(/(\d+)\s*万/); if(b){const rmb=parseInt(b[1])*10000;intent.budget=rmb;}
+    if(/\$(\d+)/.test(t)||/(\d+)\s*美元/.test(t)){const m2=t.match(/\$?\s*(\d[\d,]*)\s*(美元|usd)/i)||t.match(/\$(\d[\d,]*)/);if(m2)intent.budget=parseInt(m2[1].replace(/,/g,''))||intent.budget;}
+    // 身份/偏好
+    if(/夫妻|情侣|蜜月|二人/.test(t)) intent.identity.push('couple');
+    if(/带爸妈|带父母|老人|长辈/.test(t)) intent.identity.push('elderly');
+    if(/单人|一个人|独行/.test(t)) intent.identity.push('solo');
+    if(/带小孩|亲子/.test(t)) intent.identity.push('family');
+    if(/中文/.test(t)) intent.prefs.push('chinese');
+    if(/豪华|奢华|最好的|顶级/.test(t)) intent.prefs.push('luxury');
+    if(/省钱|便宜|性价比|经济/.test(t)) intent.prefs.push('budget');
+    if(/飞南极|不晕船|飞越德雷克/.test(t)) intent.prefs.push('fly');
+    if(/折扣最大|优惠最多|促销最大/.test(t)) intent.prefs.push('maxdiscount');
+    if(/对比|比较|哪个好/.test(t)) intent.compare=true;
+    if(/情报|新闻|动态/.test(t)) intent.news=true;
+    if(/探险|刺激|户外/.test(t)) intent.prefs.push('adventure');
+    if(/摄影|拍照/.test(t)) intent.prefs.push('photo');
+    if(/新船|最新的船/.test(t)) intent.prefs.push('newship');
+    if(/不限预算|不管价格|都行/.test(t)) intent.budget=null;
+    return intent;
+  };
+  const doQuery = (text) => {
+    const query = text || q;
+    if(!query.trim()) return;
+    if(text) setQ(text);
+    const intent = parseIntent(query);
+    let voyages = [...V];
+    // 区域过滤
+    if(intent.region) voyages = voyages.filter(v=>v.r===intent.region);
+    // 月份过滤
+    if(intent.months.length) voyages = voyages.filter(v=>intent.months.some(m=>v.date.includes('-'+m+'-')));
+    // 预算过滤 (找最低舱位价)
+    if(intent.budget) voyages = voyages.filter(v=>v.cabins[0].price <= intent.budget);
+    // 偏好: max discount
+    if(intent.prefs.includes('maxdiscount')) voyages.sort((a,b)=>{const da=a.cabins[0].orig?a.cabins[0].orig-a.cabins[0].price:0;const db=b.cabins[0].orig?b.cabins[0].orig-b.cabins[0].price:0;return db-da;});
+    // 偏好: fly
+    else if(intent.prefs.includes('fly')) voyages = voyages.filter(v=>v.name.toLowerCase().includes('fly')||(getCo(v.co,cos).feat||[]).some(f=>f.includes('飞')));
+    // 偏好: chinese
+    else if(intent.prefs.includes('chinese')) voyages = voyages.filter(v=>(getCo(v.co,cos).feat||[]).some(f=>f.includes('中文'))||v.co==='66expeditions');
+    // 偏好: budget
+    else if(intent.prefs.includes('budget')) voyages.sort((a,b)=>a.cabins[0].price-b.cabins[0].price);
+    // 偏好: luxury
+    else if(intent.prefs.includes('luxury')) voyages = voyages.filter(v=>{const co=getCo(v.co,cos);return co.pos&&(co.pos.includes('奢华')||co.pos.includes('超奢'));});
+    // 默认按价格排序
+    else voyages.sort((a,b)=>a.cabins[0].price-b.cabins[0].price);
+    // 夫妻/情侣: 过滤三人舱
+    if(intent.identity.includes('couple')) voyages = voyages.map(v=>({...v,cabins:v.cabins.filter(c=>!c.cat.includes('Triple')&&!c.cat.includes('三人'))})).filter(v=>v.cabins.length>0);
+    // 带爸妈: 过滤旧船
+    if(intent.identity.includes('elderly')) voyages = voyages.filter(v=>v.days<=15);
+    setResults({intent,voyages:voyages.slice(0,10)});
+  };
+  useEffect(()=>{doQuery();},[]);
+  const chips = ['12月南极 优惠最大','南极 夫妻 蜜月 豪华','南极 10万以内 中文','飞南极 不晕船','北极 暑假 性价比','带爸妈 南极 不折腾','春节 南极 折扣最大','圣诞 南极 情侣'];
+  return (
+    <div>
+      <div style={{fontSize:18,fontWeight:700,marginBottom:4}}>💬 智能查询</div>
+      <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>输入自然语言查询，例如「12月南极 蜜月 10万以内 中文」</div>
+      <div style={{display:'flex',gap:8,marginBottom:12}}>
+        <input value={q} onChange={e=>setQ(e.target.value)} onKeyDown={e=>e.key==='Enter'&&doQuery()} placeholder="输入查询... 如：12月南极 夫妻 性价比" style={{flex:1,padding:'12px 16px',borderRadius:12,border:'1px solid var(--border)',background:'var(--card)',color:'var(--text)',fontSize:15,outline:'none',fontFamily:'inherit'}}/>
+        <button onClick={doQuery} style={{padding:'12px 24px',borderRadius:12,background:'var(--accent)',color:'#0f1923',border:'none',fontWeight:700,fontSize:15,cursor:'pointer',fontFamily:'inherit'}}>🔍 查询</button>
+      </div>
+      <div className="filter-row" style={{marginBottom:16}}>{chips.map(c=><button key={c} onClick={()=>doQuery(c)}>{c}</button>)}</div>
+      {results && (
+        <div>
+          <div style={{fontSize:13,color:'var(--text2)',marginBottom:12}}>找到 <b style={{color:'var(--accent)'}}>{results.voyages.length}</b> 个匹配航次 · 意图: {results.intent.region==='antarctic'?'🐧南极':results.intent.region==='arctic'?'🐻‍❄️北极':'全区域'}{results.intent.months.length?' · '+results.intent.months.join('/')+'月':''}{results.intent.budget?' · ¥'+results.intent.budget.toLocaleString()+'以内':''}{results.intent.prefs.length?' · '+results.intent.prefs.join('+'):''}</div>
+          {results.voyages.map(v=>{
+            const co=getCo(v.co,cos); const c=v.cabins[0]; const pd=Math.round(c.price/(v.days||1));
+            const disc=c.orig>c.price?Math.round((1-c.price/c.orig)*100):0;
+            const coPromos=P.filter(p=>p.co===v.co).slice(0,2);
+            return <div key={v.id} style={{background:'var(--card)',borderRadius:14,border:'1px solid var(--border)',padding:20,marginBottom:10,display:'flex',gap:16,alignItems:'flex-start'}}>
+              <Logo co={co} size={40}/>
+              <div style={{flex:1}}>
+                <div style={{display:'flex',justifyContent:'space-between',alignItems:'flex-start'}}>
+                  <div><div style={{fontWeight:700,fontSize:16}}>{co.cn} · {v.name}</div><div style={{fontSize:12,color:'var(--text2)',marginTop:2}}>🚢 {v.ship} · {v.date} · {v.days}天 · {v.port} · 每日均价 {fmt(pd)}</div></div>
+                  <div style={{textAlign:'right'}}><div className="price">{fmt(c.price)}{disc>0&&<span className="off">-{disc}%</span>}</div>{c.orig>c.price&&<div className="old">{fmt(c.orig)}</div>}</div>
+                </div>
+                <div style={{marginTop:8,display:'flex',gap:12,flexWrap:'wrap'}}>
+                  {v.cabins.slice(0,4).map((cb,i)=><span key={i} style={{fontSize:11,padding:'2px 8px',borderRadius:8,background:cb.avail===0?'rgba(239,83,80,.1)':cb.avail<=2?'rgba(255,183,77,.1)':'rgba(79,195,247,.06)',color:cb.avail===0?'var(--red)':cb.avail<=2?'var(--warn)':'var(--text2)'}}>{cb.cat}: {cb.avail===0?'售罄':cb.avail+'间'} {fmt(cb.price)}</span>)}</div>
+                {coPromos.length>0 && <div style={{marginTop:8,display:'flex',gap:6,flexWrap:'wrap'}}>{coPromos.map(p=><span key={p.t} style={{fontSize:10,padding:'2px 8px',borderRadius:8,background:'rgba(255,183,77,.1)',color:'var(--warn)',fontWeight:600}}>🔥 {p.t}: {p.v}</span>)}</div>}
+              </div>
+            </div>
+          })}
+          {results.voyages.length===0 && <div className="empty"><div className="big">🔍</div><p>没找到匹配的航次，试试放宽条件</p><p style={{fontSize:12,color:'var(--text2)',marginTop:4}}>例如：去掉预算限制、换一个月份、或者只搜区域</p></div>}
+        </div>
+      )}
     </div>
   );
 }
