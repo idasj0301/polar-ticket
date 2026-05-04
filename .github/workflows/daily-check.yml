@@ -5,9 +5,6 @@ on:
     - cron: '0 0,6 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -18,25 +15,5 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 列出文件确认路径
-        run: |
-          pwd
-          ls docs/data/
-          ls data/ 2>/dev/null || echo "data/ 不存在"
-          cat docs/data/site_data.json | python3 -c "import sys,json; d=json.load(sys.stdin); print('voyages:',len(d.get('voyages',[])),'promotions:',len(d.get('promotions',[])))"
-
       - name: 运行价格检查
         run: python3 scripts/price_check.py
-
-      - name: 提交更新
-        run: |
-          git config user.name "Polar Bot"
-          git config user.email "bot@polar.local"
-          git add docs/data/site_data.json data/price_snapshot.json data/price_drops.json 2>/dev/null || true
-          if git diff --cached --quiet 2>/dev/null; then
-            echo "✅ 无变更"
-          else
-            git commit -m "📊 每日更新 $(date +%Y-%m-%d)"
-            git push
-            echo "✅ 已推送"
-          fi
