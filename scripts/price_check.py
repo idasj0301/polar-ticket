@@ -6,17 +6,16 @@ from pathlib import Path
 from datetime import datetime
 
 ROOT = Path(__file__).parent.parent
-DATA = ROOT / "data"
-VOYAGES_FILE = DATA / "voyages.json"
-SNAPSHOT_FILE = DATA / "price_snapshot.json"
-OUTPUT_FILE = DATA / "price_drops.json"
+SITE_DATA = ROOT / "docs" / "data" / "site_data.json"
+CO_DATA = ROOT / "docs" / "data" / "companies.json"
+SNAPSHOT_FILE = ROOT / "data" / "price_snapshot.json"
 
 DROP_THRESHOLD = 5  # 降价超过5%才报警
 
 
 def load_voyages():
-    with open(VOYAGES_FILE) as f:
-        return json.load(f).get("data", [])
+    with open(SITE_DATA) as f:
+        return json.load(f).get("voyages", [])
 
 
 def load_snapshot():
@@ -32,9 +31,9 @@ def save_snapshot(snap):
 
 
 def load_companies():
-    with open(DATA / "companies.json") as f:
+    with open(CO_DATA) as f:
         data = json.load(f)
-    return {c["id"]: c for c in data.get("companies", [])}
+    return {c["id"]: c for c in data}
 
 
 def main():
@@ -87,7 +86,8 @@ def main():
     _update_site_data(voyages, companies, now)
 
     # 保存结果供邮件脚本使用
-    with open(OUTPUT_FILE, "w") as f:
+    drops_file = ROOT / "data" / "price_drops.json"
+    with open(drops_file, "w") as f:
         json.dump({"drops": drops, "count": len(drops), "checked_at": now}, f, ensure_ascii=False, indent=2)
 
     # 设置 GitHub Actions 环境变量
@@ -115,12 +115,11 @@ def main():
 
 
 def _update_site_data(voyages, companies, now):
-    """同步更新 docs/data/site_data.json 中的当前价格"""
-    site_file = ROOT / "docs" / "data" / "site_data.json"
-    if not site_file.exists():
+    """同步更新 site_data.json 中的当前价格和时间戳"""
+    if not SITE_DATA.exists():
         return
 
-    with open(site_file) as f:
+    with open(SITE_DATA) as f:
         site = json.load(f)
 
     # 用当前数据更新航次价格
@@ -139,10 +138,10 @@ def _update_site_data(voyages, companies, now):
 
     site["updated"] = now[:19]
 
-    with open(site_file, "w") as f:
+    with open(SITE_DATA, "w") as f:
         json.dump(site, f, ensure_ascii=False, indent=2)
 
-    print(f"  ✅ 网页数据已同步: {site_file}")
+    print(f"  ✅ 网页数据已同步")
 
 
 if __name__ == "__main__":

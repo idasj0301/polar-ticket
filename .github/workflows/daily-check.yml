@@ -5,6 +5,9 @@ on:
     - cron: '0 0,6 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -32,6 +35,10 @@ jobs:
         run: |
           git config user.name "Polar Bot"
           git config user.email "bot@polar.local"
-          git add data/
-          git diff --staged --quiet || git commit -m "📊 每日价格更新 $(date +%Y-%m-%d)"
-          git push
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无变更"
+          else
+            git commit -m "📊 每日价格更新 $(date +%Y-%m-%d)"
+            git push
+          fi
