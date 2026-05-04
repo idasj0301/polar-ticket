@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>极地船票管理系统</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
@@ -139,9 +142,10 @@ function App(){
   const [loading,setLoading] = useState(true);
 
   useEffect(()=>{
+    const _ts = '?v='+Date.now();
     Promise.all([
-      fetch('./data/site_data.json').then(r=>r.json()),
-      fetch('./data/companies.json').then(r=>r.json())
+      fetch('./data/site_data.json'+_ts).then(r=>r.json()),
+      fetch('./data/companies.json'+_ts).then(r=>r.json())
     ]).then(([d,c])=>{
       setData(d); setCos(c); setLoading(false);
     }).catch(()=>{
