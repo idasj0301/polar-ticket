@@ -22,6 +22,7 @@ RSS_FEEDS = [
     "https://cruiseindustrynews.com/feed/",
     "https://www.seatrade-cruise.com/rss.xml",
     "https://www.travelpulse.com/feed",
+    "https://news.qq.com/rss/n/world.xml",  # 腾讯新闻国际频道（含中文极地新闻）
 ]
 
 # 极地关键词（英文 + 公司名 + 中文）
