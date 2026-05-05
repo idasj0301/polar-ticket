@@ -731,6 +731,26 @@
   "news": [
     {
       "d": "2026-05-05",
+      "co": "lindblad",
+      "title": "Lindblad Expeditions 报告 2026 年第一季度财务业绩",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "Lindblad Expeditions 公布了截至 2026 年 3 月 31 日的第一季度财务业绩。首席执行官 Natalya Leahy 表示：“在复杂的宏观和地缘政治环境中，我们的团队",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-expeditions-reports-2026-first-quarter-financial-results/"
+    },
+    {
+      "d": "2026-05-05",
+      "co": "unknown",
+      "title": "新的 2026 年邮轮探险报告现已发布",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "全球探险邮轮市场正处于拐点，随着邮轮行业新闻全新的 2026 年探险邮轮市场报告的捕捉，预计将很快再次开始大幅增长。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/new-2026-cruise-expedition-report-out-now/"
+    },
+    {
+      "d": "2026-05-05",
       "co": "antarctica21",
       "title": "Antarctica21完成2025-26季：接近满舱运营",
       "cat": "行业动态",
@@ -1050,5 +1070,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-04T12:00:00"
+  "updated": "2026-05-05T14:09:23"
 }
