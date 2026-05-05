@@ -138,27 +138,31 @@ def is_duplicate(title):
     return title.strip().lower()[:60] in EXISTING_TITLES
 
 
-def auto_translate_title(title, company_id):
-    """英文标题加公司中文名前缀"""
-    # 如果标题已经有中文，不处理
-    if any('一' <= c <= '鿿' for c in title):
-        return title
+def translate_text(text, target='zh-CN'):
+    """使用 Google Translate 免费接口翻译文本"""
+    if not text or len(text) < 3:
+        return text
+    # 如果已经有中文，不翻译
+    if any('一' <= c <= '鿿' for c in text):
+        return text
+    try:
+        import urllib.parse
+        encoded = urllib.parse.quote(text[:500])
+        url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl={target}&dt=t&q={encoded}"
+        req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode("utf-8", errors="replace"))
+            result = "".join(part[0] for part in data[0] if part[0])
+            return result if result else text
+    except Exception:
+        return text
 
-    # 公司中文名映射
-    cn_names = {
-        "quark": "夸克探险", "oceanwide": "Oceanwide", "aurora": "极光探险",
-        "hx": "海达路德", "poseidon": "波塞冬探险", "lindblad": "Lindblad",
-        "ponant": "庞洛邮轮", "silversea": "银海邮轮", "seabourn": "世邦邮轮",
-        "scenic": "圣景邮轮", "atlas": "阿特拉斯", "swan_hellenic": "天鹅希腊",
-        "viking": "维京探险", "hapag_lloyd": "赫伯罗特", "g_adventures": "G探险",
-        "antarctica21": "Antarctica21", "heritage": "遗产探险", "intrepid": "无畏旅行",
-        "albatros": "信天翁探险", "aqua": "阿卡探险", "secret_atlas": "秘密地图",
-        "66expeditions": "66度探险", "antarpply": "南极探险", "polar_latitudes": "极地纬度",
-    }
-    prefix = cn_names.get(company_id, "")
-    if prefix and prefix not in title:
-        return f"{prefix}: {title}"
-    return title
+
+def auto_translate(title, desc, company_id):
+    """翻译英文标题和描述为中文"""
+    title_cn = translate_text(title)
+    desc_cn = translate_text(desc) if desc else desc
+    return title_cn, desc_cn
 
 
 def guess_company(title, desc):
@@ -235,10 +239,10 @@ def main():
             new_articles.append({
                 "d": a["date"],
                 "co": co,
-                "title": auto_translate_title(a["title"], co)[:120],
+                "title": auto_translate(a["title"], a["desc"], co)[0][:120],
                 "cat": cat,
                 "imp": "high" if cat in ("紧急", "纪录", "新船/新设施") else "med",
-                "desc": a["desc"][:150],
+                "desc": auto_translate(a["title"], a["desc"], co)[1][:150],
                 "src": feed_url.split("/")[2].replace("www.", ""),
                 "url": a["link"],
             })
