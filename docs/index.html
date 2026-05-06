@@ -360,7 +360,7 @@ function CabinView({V,cos}){
       </div>
       <div className="compare-wrap">
       <table className="compare">
-        <thead><tr><th>公司</th><th>航次</th><th>船只</th><th>舱位</th><th>价格</th><th>原价</th><th>折扣</th><th>库存</th></tr></thead>
+        <thead><tr><th>公司</th><th>航次</th><th>船只</th><th>舱位</th><th>价格</th><th>原价</th><th>折扣</th><th>库存</th><th></th></tr></thead>
         <tbody>
         {filtered.map((c,i)=>{
           const disc=c.orig>c.price?Math.round((1-c.price/c.orig)*100):0;
@@ -375,6 +375,7 @@ function CabinView({V,cos}){
             <td style={{fontSize:13,color:'var(--text2)',textDecoration:c.orig>c.price?'line-through':'none',whiteSpace:'nowrap'}}>{c.orig>c.price?fmt(c.orig):'—'}</td>
             <td>{disc>0?<span style={{color:'var(--green)',fontWeight:600}}>-{disc}%</span>:'—'}</td>
             <td><span className={'avail '+(status==='sold'?'low':status==='low'?'low':'ok')} style={status==='sold'?{background:'rgba(239,83,80,.12)',color:'var(--red)'}:status==='low'?{background:'rgba(255,183,77,.1)',color:'var(--warn)'}:{}}>{statusLabel}</span></td>
+            <td>{c.co.domain&&<a href={'https://'+c.co.domain+'/expeditions'} target='_blank' rel='noopener noreferrer' style={{fontSize:10,color:'var(--accent)',whiteSpace:'nowrap',textDecoration:'none'}}>查看 →</a>}</td>
           </tr>
         })}
         </tbody>
