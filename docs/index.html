@@ -195,7 +195,7 @@ function App(){
       {tab==='alerts' && <AlertsView V={V} P={P} cos={cos}/>}
       {tab==='news' && <NewsView N={N} cos={cos}/>}
       {tab==='cabin' && <CabinView V={V} cos={cos}/>}
-      {tab==='query' && <QueryView V={V} P={P} N={N} cos={cos}/>}
+      {tab==='query' && <QueryView V={V} P={P} N={N} cos={cos} onDetail={setDetailCo}/>}
       {detailCo && <CompanyDetail co={detailCo} V={V} P={P} cos={cos} onClose={()=>setDetailCo(null)}/>}
     </div>
   );
@@ -367,7 +367,7 @@ function CabinView({V,cos}){
   );
 }
 
-function QueryView({V,P,N,cos}){
+function QueryView({V,P,N,cos,onDetail}){
   const [q,setQ] = useState('12月南极 优惠最大');
   const [results,setResults] = useState(null);
   const parseIntent = (text) => {
@@ -476,7 +476,7 @@ function QueryView({V,P,N,cos}){
             const co=getCo(v.co,cos); const c=v.cabins[0]; const pd=Math.round(c.price/(v.days||1));
             const disc=c.orig>c.price?Math.round((1-c.price/c.orig)*100):0;
             const coPromos=P.filter(p=>p.co===v.co).slice(0,2);
-            return <div key={v.id} className="query-result" style={{background:'var(--card)',borderRadius:14,border:'1px solid var(--border)',padding:20,marginBottom:10,display:'flex',gap:16,alignItems:'flex-start'}}>
+            return <div key={v.id} className="query-result" onClick={()=>onDetail&&onDetail(co)} style={{background:'var(--card)',borderRadius:14,border:'1px solid var(--border)',padding:20,marginBottom:10,display:'flex',gap:16,alignItems:'flex-start',cursor:'pointer',transition:'all .15s'}}>
               <Logo co={co} size={40}/>
               <div style={{flex:1}}>
                 <div style={{display:'flex',justifyContent:'space-between',alignItems:'flex-start'}}>
