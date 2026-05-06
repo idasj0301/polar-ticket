@@ -236,7 +236,7 @@ function CompareView({V,cos}){
               <div className="price-main">{fmt(c.price)}{isBest&&<span className="best">最低</span>}</div>
               <div className="price-sub">{fmt(pd)}/天{c.orig>c.price&&<span> · 原{fmt(c.orig)}</span>}{disc>0&&<span className="price-disc">↓{disc}%</span>}</div>
             </td>
-            <td><span className={'avail '+(c.avail<=2?'low':'ok';setTab(t);try{localStorage.setItem('polarTab',t)}catch(e){}}}>{c.avail<=2?'仅剩'+c.avail:c.avail+'间'}</span></td>
+            <td><span className={'avail '+(c.avail<=2?'low':'ok')}>{c.avail<=2?'仅剩'+c.avail:c.avail+'间'}</span></td>
           </tr>
         })}
         </tbody>
@@ -309,12 +309,12 @@ function NewsView({N,cos}){
       <div style={{fontSize:18,fontWeight:700,marginBottom:6}}>📰 南极情报站</div>
       <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>21家极地邮轮公司最新动态 · 新媒体内容素材库 · 共{N.length}条情报</div>
       <div className="filter-row">
-        <button className={cat==='all'?'on':''} onClick={()=>setCat('all';setTab(t);try{localStorage.setItem('polarTab',t)}catch(e){}}}>全部({N.length})</button>
+        <button className={cat==='all'?'on':''} onClick={()=>setCat('all')}>全部({N.length})</button>
         {Object.keys(cats).sort().map(c=><button key={c} className={cat===c?'on':''} onClick={()=>setCat(c)}>{c}({cats[c]})</button>)}
       </div>
       {filtered.map(n=>{const co=getCo(n.co,cos);return <div className="news-card" key={n.d+n.co+n.title} style={{cursor:n.url?'pointer':'default'}} onClick={()=>{if(n.url)window.open(n.url,'_blank')}}>
         <Logo co={co} size={36}/>
-        <div className="bd"><h4>{n.title} <span className={'imp imp-'+(n.imp==='high'?'high':'med';setTab(t);try{localStorage.setItem('polarTab',t)}catch(e){}}}>{n.imp==='high'?'重磅':'关注'}</span></h4><p>{n.desc}</p><div className="meta">{co.cn||n.co} · {n.d} · {n.src} · {n.cat}</div></div>
+        <div className="bd"><h4>{n.title} <span className={'imp imp-'+(n.imp==='high'?'high':'med')}>{n.imp==='high'?'重磅':'关注'}</span></h4><p>{n.desc}</p><div className="meta">{co.cn||n.co} · {n.d} · {n.src} · {n.cat}</div></div>
       </div>})}
     </div>
   );
