@@ -351,12 +351,12 @@ function CabinView({V,cos}){
           const status=c.avail===0?'sold':c.avail<=2?'low':'ok';
           const statusLabel=c.avail===0?'售罄':c.avail<=2?'仅剩'+c.avail:'余'+c.avail;
           return <tr key={i} style={c.avail===0?{opacity:.5}:{}}>
-            <td><div style={{display:'flex',alignItems:'center'}}><Logo co={c.co} size={18}/><span style={{marginLeft:6,fontWeight:600,fontSize:13}}>{c.co.cn||c.voyage.co}</span></div></td>
-            <td style={{fontSize:12,maxWidth:160}}>{c.voyage.name}</td>
-            <td style={{fontSize:11}}>{c.voyage.ship}</td>
-            <td style={{fontWeight:500}}>{c.cat}</td>
-            <td style={{fontWeight:700,color:'var(--accent)',whiteSpace:'nowrap'}}>{fmt(c.price)}</td>
-            <td style={{fontSize:12,color:'var(--text2)',textDecoration:c.orig>c.price?'line-through':'none',whiteSpace:'nowrap'}}>{c.orig>c.price?fmt(c.orig):'—'}</td>
+            <td><div style={{display:'flex',alignItems:'center'}}><Logo co={c.co} size={22}/><span style={{marginLeft:8,fontWeight:600,fontSize:14}}>{c.co.cn||c.voyage.co}</span></div></td>
+            <td style={{maxWidth:180,fontSize:14}}>{c.voyage.name}</td>
+            <td style={{fontSize:13}}>{c.voyage.ship}</td>
+            <td style={{fontWeight:500,fontSize:13}}>{c.cat}</td>
+            <td style={{fontWeight:700,color:'var(--accent)',whiteSpace:'nowrap',fontSize:15}}>{fmt(c.price)}</td>
+            <td style={{fontSize:13,color:'var(--text2)',textDecoration:c.orig>c.price?'line-through':'none',whiteSpace:'nowrap'}}>{c.orig>c.price?fmt(c.orig):'—'}</td>
             <td>{disc>0?<span style={{color:'var(--green)',fontWeight:600}}>-{disc}%</span>:'—'}</td>
             <td><span className={'avail '+(status==='sold'?'low':status==='low'?'low':'ok')} style={status==='sold'?{background:'rgba(239,83,80,.12)',color:'var(--red)'}:status==='low'?{background:'rgba(255,183,77,.1)',color:'var(--warn)'}:{}}>{statusLabel}</span></td>
           </tr>
