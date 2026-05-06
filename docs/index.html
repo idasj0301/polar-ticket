@@ -392,7 +392,7 @@ function QueryView({V,P,N,cos}){
   };
   const doQuery = (text) => {
     const query = text || q;
-    if(!query.trim()) return;
+    if(!query.trim()||!V||!V.length) {setResults({intent:{},voyages:[],error:'数据加载中，请稍候再试'});return;}
     if(text) setQ(text);
     const intent = parseIntent(query);
     let voyages = [...V];
@@ -420,7 +420,7 @@ function QueryView({V,P,N,cos}){
     if(intent.identity.includes('elderly')) voyages = voyages.filter(v=>v.days<=15);
     setResults({intent,voyages:voyages.slice(0,10)});
   };
-  useEffect(()=>{doQuery();},[]);
+  useEffect(()=>{if(V&&V.length)doQuery();},[V]);
   const chips = ['12月南极 优惠最大','南极 夫妻 蜜月 豪华','南极 10万以内 中文','飞南极 不晕船','北极 暑假 性价比','带爸妈 南极 不折腾','格陵兰 北极','法罗群岛','斯瓦尔巴 北极熊'];
   return (
     <div>
@@ -451,7 +451,7 @@ function QueryView({V,P,N,cos}){
               </div>
             </div>
           })}
-          {results.voyages.length===0 && <div className="empty"><div className="big">🔍</div><p>没找到匹配的航次，试试放宽条件</p><p style={{fontSize:12,color:'var(--text2)',marginTop:4}}>例如：去掉预算限制、换一个月份、或者只搜区域</p></div>}
+          {results.voyages.length===0 && <div className="empty"><div className="big">🔍</div><p>{results.error||'没找到匹配的航次，试试放宽条件'}</p><p style={{fontSize:12,color:'var(--text2)',marginTop:4}}>例如：只搜区域名(南极/北极)、去掉预算限制、或换月份</p></div>}
         </div>
       )}
     </div>
