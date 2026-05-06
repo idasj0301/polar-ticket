@@ -419,6 +419,7 @@ function QueryView({V,P,N,cos}){
     // 带爸妈: 过滤旧船
     if(intent.identity.includes('elderly')) voyages = voyages.filter(v=>v.days<=15);
     setResults({intent,voyages:voyages.slice(0,10)});
+    setTimeout(()=>{const r=document.getElementById('query-results');if(r)r.scrollIntoView({behavior:'smooth',block:'start'});},100);
   };
   useEffect(()=>{if(V&&V.length)doQuery();},[V]);
   const chips = ['12月南极 优惠最大','南极 夫妻 蜜月 豪华','南极 10万以内 中文','飞南极 不晕船','北极 暑假 性价比','带爸妈 南极 不折腾','格陵兰 北极','法罗群岛','斯瓦尔巴 北极熊'];
@@ -428,12 +429,13 @@ function QueryView({V,P,N,cos}){
       <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>输入自然语言查询，例如「12月南极 蜜月 10万以内 中文」</div>
       <div style={{display:'flex',gap:8,marginBottom:12}}>
         <input value={q} onChange={e=>setQ(e.target.value)} onKeyDown={e=>e.key==='Enter'&&doQuery()} placeholder="输入查询... 如：12月南极 夫妻 性价比" style={{flex:1,padding:'12px 16px',borderRadius:12,border:'1px solid var(--border)',background:'var(--card)',color:'var(--text)',fontSize:15,outline:'none',fontFamily:'inherit'}}/>
-        <button onClick={doQuery} style={{padding:'12px 24px',borderRadius:12,background:'var(--accent)',color:'#0f1923',border:'none',fontWeight:700,fontSize:15,cursor:'pointer',fontFamily:'inherit'}}>🔍 查询</button>
+        <button onClick={()=>doQuery()} style={{padding:'12px 24px',borderRadius:12,background:'var(--accent)',color:'#0f1923',border:'none',fontWeight:700,fontSize:15,cursor:'pointer',fontFamily:'inherit'}}>🔍 查询</button>
       </div>
       <div className="filter-row" style={{marginBottom:16}}>{chips.map(c=><button key={c} onClick={()=>doQuery(c)}>{c}</button>)}</div>
       {results && (
-        <div>
-          <div style={{fontSize:13,color:'var(--text2)',marginBottom:12}}>找到 <b style={{color:'var(--accent)'}}>{results.voyages.length}</b> 个匹配航次 · 意图: {results.intent.region==='antarctic'?'🐧南极':results.intent.region==='arctic'?'🐻‍❄️北极':'全区域'}{results.intent.months.length?' · '+results.intent.months.join('/')+'月':''}{results.intent.budget?' · ¥'+results.intent.budget.toLocaleString()+'以内':''}{results.intent.prefs.length?' · '+results.intent.prefs.join('+'):''}</div>
+        <div id="query-results">
+          <div style={{fontSize:16,fontWeight:700,marginBottom:4}}>{results.error||'搜索结果'}</div>
+          <div style={{fontSize:13,color:'var(--text2)',marginBottom:16}}>匹配 <b style={{color:'var(--accent)',fontSize:16}}>{results.voyages.length}</b> 个航次{results.intent.region==='antarctic'?' · 🐧南极':results.intent.region==='arctic'?' · 🐻‍❄️北极':''}{results.intent.months.length?' · '+results.intent.months.join('/')+'月':''}{results.intent.budget?' · ¥'+results.intent.budget.toLocaleString()+'以内':''}</div>
           {results.voyages.map(v=>{
             const co=getCo(v.co,cos); const c=v.cabins[0]; const pd=Math.round(c.price/(v.days||1));
             const disc=c.orig>c.price?Math.round((1-c.price/c.orig)*100):0;
