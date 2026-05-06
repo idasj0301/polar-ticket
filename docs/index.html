@@ -370,7 +370,8 @@ function QueryView({V,P,N,cos}){
     if(/新船|最新的船/.test(t)) intent.prefs.push('newship');
     if(/不限预算|不管价格|都行/.test(t)) intent.budget=null;
     // 固定词条：地名
-    if(/法罗群岛|法罗/.test(t)){intent.prefs.push('faroe');intent.region='arctic';}
+    if(/法罗群岛|法罗/.test(t)){intent.prefs.push('faroe');if(!intent.region)intent.region='arctic';}
+    if(/雷克雅未克|阿克雷里/.test(t)){intent.prefs.push('iceland');if(!intent.region)intent.region='arctic';}
     if(/冰岛/.test(t)) intent.prefs.push('iceland');
     if(/格陵兰/.test(t)){intent.prefs.push('greenland');if(!intent.region)intent.region='arctic';}
     if(/斯瓦尔巴|朗伊尔/.test(t)){intent.prefs.push('svalbard');if(!intent.region)intent.region='arctic';}
