@@ -43,12 +43,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/site_data.json data/price_snapshot.json data/price_drops.json data/.news_cache.json 2>/dev/null || true
-          if git diff --cached --quiet; then
-            echo "无变更"
+          git add docs/data/site_data.json data/.news_cache.json data/price_snapshot.json data/price_drops.json 2>/dev/null || true
+          if git diff --cached --quiet 2>/dev/null; then
+            echo "✅ 无变更"
           else
-            git commit -m "📊 自动更新 $(date +%Y-%m-%dT%H:%M)"
-            git pull --rebase
-            git push
-            echo "已推送"
+            git commit -m "🤖 自动更新 $(date +%m-%d)"
+            git push origin main || echo "⚠️ 推送失败，跳过"
           fi
