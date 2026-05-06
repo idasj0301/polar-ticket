@@ -23,10 +23,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Micr
 .nav button{flex:1;padding:10px 16px;border-radius:10px;border:none;background:none;color:var(--text2);font-size:14px;font-family:inherit;cursor:pointer;transition:.15s}
 .nav button:hover{color:var(--text)}
 .nav button.on{background:var(--accent);color:#0f1923;font-weight:700}
-.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:20px}
-.stat{padding:14px 16px}
-.stat .n{font-size:26px}
-.stat .l{font-size:11px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
 .stat{background:var(--card);border-radius:12px;padding:18px 20px;border:1px solid var(--border)}
 .stat .n{font-size:30px;font-weight:700;margin-bottom:2px}
 .stat .l{font-size:12px;color:var(--text2)}
@@ -190,7 +187,6 @@ function App(){
       <div className="stats">
         <div className="stat"><div className="n" style={{color:'var(--accent)'}}>{stats.total}</div><div className="l">监控公司</div></div>
         <div className="stat"><div className="n" style={{color:'var(--accent)'}}>{stats.ant}</div><div className="l">南极有船</div></div>
-        <div className="stat"><div className="n" style={{color:'#81d4fa'}}>{stats.arc}</div><div className="l">北极有船</div></div>
         <div className="stat"><div className="n" style={{color:'var(--warn)'}}>{stats.promo}</div><div className="l">活跃促销</div></div>
         <div className="stat"><div className="n" style={{color:'var(--green)'}}>{stats.drops}</div><div className="l">今日降价</div></div>
       </div>
@@ -206,28 +202,51 @@ function App(){
 }
 
 function CompareView({V,cos,onDetail}){
-  const antGroup = V.filter(v=>v.r==='antarctic'&&v.days>=6&&v.days<=14);
-  const arcGroup = V.filter(v=>v.r==='arctic'&&v.days>=6);
-  const tbl = (list,title,icon) => {
-    if(!list.length) return <div style={{flex:1,padding:20,color:'var(--text2)',fontSize:14}}>{icon} {title}: 暂无数据</div>;
-    return <div style={{flex:1,minWidth:0}}><div style={{fontSize:16,fontWeight:700,marginBottom:12}}>{icon} {title}</div>
-    <div className="compare-wrap"><table className="compare"><colgroup><col className="col-co"/><col className="col-route"/><col className="col-date"/><col className="col-days"/><col className="col-port"/><col className="col-cabin"/><col className="col-price"/><col className="col-avail"/></colgroup>
-    <thead><tr><th>公司</th><th>航线·船只</th><th>日期</th><th>天数</th><th>出发港</th><th>舱位</th><th className="th-right">价格</th><th>库存</th></tr></thead><tbody>
-    {list.sort((a,b)=>a.cabins[0].price-b.cabins[0].price).map(v=>{
-      const co=getCo(v.co,cos);const c=v.cabins[0];const pd=Math.round(c.price/v.days);
-      const disc=(c.orig&&c.orig>c.price)?Math.round((1-c.price/c.orig)*100):0;
-      return <tr key={v.id} onClick={()=>onDetail&&onDetail(co)} style={{cursor:'pointer'}}>
-      <td><div style={{display:'flex',alignItems:'center',gap:8}}><Logo co={co} size={24}/><div><div style={{fontWeight:700,fontSize:13}}>{co.cn||v.co}</div><span className="pos-tag">{co.pos||''}</span></div></div></td>
-      <td><div style={{fontSize:12}}>{v.name}</div><div style={{fontSize:10,color:'var(--text2)'}}>🚢 {v.ship}</div></td>
-      <td style={{whiteSpace:'nowrap',fontSize:12}}>{v.date}</td><td style={{fontSize:13}}>{v.days}天</td>
-      <td className="col-port" title={v.port}>{v.port||'—'}</td><td style={{fontSize:12}}>{c.cat}</td>
-      <td className="td-price"><div className="price-main">{fmt(c.price)}</div><div className="price-sub">{fmt(pd)}/天{disc>0&&<span className="price-disc">↓{disc}%</span>}</div></td>
-      <td><span className={'avail '+(c.avail<=2?'low':'ok')}>{c.avail<=2?'仅剩'+c.avail:c.avail+'间'}</span></td>
-      </tr>
-    })}</tbody></table></div></div>;
-  };
-  return <div style={{display:'flex',gap:24,flexWrap:'wrap'}}>{tbl(antGroup,'南极航线比价','🐧')}{tbl(arcGroup,'北极航线比价','🐻‍❄️')}</div>;
+  const group = V.filter(v=>v.r==='antarctic'&&v.days>=6&&v.days<=14);
+  const cheapest = group.length?Math.min(...group.map(v=>v.cabins[0].price)):0;
+  return (
+    <div>
+      <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>📊 南极航线比价</div>
+      <div className="compare-wrap">
+      <table className="compare">
+        <colgroup><col className="col-co"/><col className="col-route"/><col className="col-date"/><col className="col-days"/><col className="col-port"/><col className="col-cabin"/><col className="col-price"/><col className="col-avail"/></colgroup>
+        <thead><tr><th>公司</th><th>航线·船只</th><th>日期</th><th>天数</th><th>出发港</th><th>舱位</th><th className="th-right">价格</th><th>库存</th></tr></thead>
+        <tbody>
+        {group.sort((a,b)=>a.cabins[0].price-b.cabins[0].price).map(v=>{
+          const co=getCo(v.co,cos); const c=v.cabins[0]; const pd=Math.round(c.price/v.days);
+          const disc=(c.orig&&c.orig>c.price)?Math.round((1-c.price/c.orig)*100):0; const isBest=c.price===cheapest;
+          return <tr key={v.id} onClick={()=>onDetail&&onDetail(co)} style={{cursor:'pointer'}}>
+            <td>
+              <div style={{display:'flex',alignItems:'center',gap:10}}>
+                <Logo co={co} size={28}/>
+                <div style={{flex:1}}>
+                  <div style={{fontWeight:700,fontSize:14,lineHeight:1.3}}>{co.cn||v.co}</div>
+                  <div style={{fontSize:10,color:'var(--text2)',lineHeight:1.3}}>{co.en||''}</div>
+                  <span className="pos-tag">{co.pos||''}</span>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div style={{fontSize:13}}>{v.name}</div>
+              <div style={{fontSize:11,color:'var(--text2)',marginTop:2}}>🚢 {v.ship}</div>
+            </td>
+            <td style={{whiteSpace:'nowrap',fontSize:13}}>{v.date}</td>
+            <td style={{fontSize:14,fontWeight:500}}>{v.days}天</td>
+            <td className="col-port" title={v.port}>{v.port||'—'}</td>
+            <td style={{fontSize:13}}>{c.cat}</td>
+            <td className="td-price">
+              <div className="price-main">{fmt(c.price)}{isBest&&<span className="best">最低</span>}</div>
+              <div className="price-sub">{fmt(pd)}/天{c.orig>c.price&&<span> · 原{fmt(c.orig)}</span>}{disc>0&&<span className="price-disc">↓{disc}%</span>}</div>
+            </td>
+            <td><span className={'avail '+(c.avail<=2?'low':'ok')}>{c.avail<=2?'仅剩'+c.avail:c.avail+'间'}</span></td>
+          </tr>
+        })}
+        </tbody>
+      </table></div>
+    </div>
+  );
 }
+
 function CompaniesView({cos,P,onDetail}){
   const [q,setQ] = useState('');
   const filtered = q?cos.filter(c=>(c.cn||'').includes(q)||(c.en||'').toLowerCase().includes(q.toLowerCase())||(c.pos||'').includes(q)):cos;
@@ -258,36 +277,26 @@ function CompaniesView({cos,P,onDetail}){
 }
 
 function AlertsView({V,P,cos}){
-  const [rFilter,setRFilter] = useState('all');
   const drops=[];
   V.forEach(v=>{v.cabins.forEach(c=>{if(c.orig&&c.price<c.orig){const co=getCo(v.co,cos);drops.push({co,v,c,pct:Math.round((1-c.price/c.orig)*100)});}})});
   drops.sort((a,b)=>b.pct-a.pct);
-  const fd = rFilter==='all'?drops:drops.filter(d=>d.v.r===rFilter);
-  const fp = rFilter==='all'?P:P.filter(p=>{const co=getCo(p.co,cos)||{};return (co.r||[]).includes(rFilter);});
   return (
-    <div>
-      <div className="filter-row" style={{marginBottom:12}}>
-        <button className={rFilter==='all'?'on':''} onClick={()=>setRFilter('all')}>全部</button>
-        <button className={rFilter==='antarctic'?'on':''} onClick={()=>setRFilter('antarctic')}>🐧 南极</button>
-        <button className={rFilter==='arctic'?'on':''} onClick={()=>setRFilter('arctic')}>🐻‍❄️ 北极</button>
+    <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:20}} className="alerts-grid">
+      <div>
+        <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>📉 降价提醒 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{drops.length}条</span></div>
+        {drops.length===0 && <div style={{color:'var(--text2)',fontSize:13,padding:20}}>暂无降价航次</div>}
+        {drops.map((d,i)=><div className="alert-row" key={i}>
+          <div className="icon">📉</div>
+          <div className="bd"><div className="t">{(d.co.cn||d.v.co)} · {d.v.name}</div><div className="d">{d.c.cat} · {d.v.ship} · {d.v.date} · {d.v.days}天</div></div>
+          <div className="price-col"><div className="new">{fmt(d.c.price)}</div><div className="old">{fmt(d.c.orig)}</div><div className="pct">-{d.pct}%</div></div>
+        </div>)}
       </div>
-      <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:20}} className="alerts-grid">
-        <div>
-          <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>📉 降价提醒 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{fd.length}条</span></div>
-          {fd.length===0 && <div style={{color:'var(--text2)',fontSize:13,padding:20}}>暂无降价航次</div>}
-          {fd.map((d,i)=><div className="alert-row" key={i}>
-            <div className="icon">📉</div>
-            <div className="bd"><div className="t">{(d.co.cn||d.v.co)} · {d.v.name}</div><div className="d">{d.c.cat} · {d.v.ship} · {d.v.date} · {d.v.days}天</div></div>
-            <div className="price-col"><div className="new">{fmt(d.c.price)}</div><div className="old">{fmt(d.c.orig)}</div><div className="pct">-{d.pct}%</div></div>
-          </div>)}
-        </div>
-        <div>
-          <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>🔥 活跃促销 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{fp.length}条</span></div>
-          {fp.map((p,i)=>{const co=getCo(p.co,cos);return <div className="alert-row" key={'p'+i} style={{borderLeft:'3px solid var(--warn)'}}>
-            <div className="icon">🔥</div><div className="bd"><div className="t">{(co.cn||p.co)} · {p.t}</div><div className="d">{p.d} | 截止: {p.exp}</div></div>
-            <div style={{fontWeight:700,color:'var(--warn)',fontSize:15}}>{p.v}</div>
-          </div>})}
-        </div>
+      <div>
+        <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>🔥 活跃促销 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{P.length}条</span></div>
+        {P.map((p,i)=>{const co=getCo(p.co,cos);return <div className="alert-row" key={'p'+i} style={{borderLeft:'3px solid var(--warn)'}}>
+          <div className="icon">🔥</div><div className="bd"><div className="t">{(co.cn||p.co)} · {p.t}</div><div className="d">{p.d} | 截止: {p.exp}</div></div>
+          <div style={{fontWeight:700,color:'var(--warn)',fontSize:15}}>{p.v}</div>
+        </div>})}
       </div>
     </div>
   );
@@ -315,7 +324,6 @@ function NewsView({N,cos}){
 
 function CabinView({V,cos}){
   const [filter,setFilter] = useState('all');
-  const [rFilter,setRFilter] = useState('all');
   const allCabins = [];
   V.forEach(v=>{
     const co=getCo(v.co,cos);
@@ -324,21 +332,15 @@ function CabinView({V,cos}){
     });
   });
   const stats = {total:allCabins.length,sold:allCabins.filter(c=>c.avail===0).length,low:allCabins.filter(c=>c.avail>0&&c.avail<=2).length,ok:allCabins.filter(c=>c.avail>2).length};
-  const rf = rFilter==='all'?allCabins:allCabins.filter(c=>c.voyage.r===rFilter);
-  const filtered = filter==='sold'?rf.filter(c=>c.avail===0):filter==='low'?rf.filter(c=>c.avail>0&&c.avail<=2):rf;
+  const filtered = filter==='sold'?allCabins.filter(c=>c.avail===0):filter==='low'?allCabins.filter(c=>c.avail>0&&c.avail<=2):allCabins;
   return (
     <div>
       <div style={{fontSize:18,fontWeight:700,marginBottom:6}}>🚢 舱位库存监控</div>
-      <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>共 {rf.length} 个舱位类型 · 售罄 {rf.filter(c=>c.avail===0).length} · 紧张 {rf.filter(c=>c.avail>0&&c.avail<=2).length} · 充足 {rf.filter(c=>c.avail>2).length}</div>
+      <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>共 {stats.total} 个舱位类型 · 售罄 {stats.sold} · 紧张 {stats.low} · 充足 {stats.ok}</div>
       <div className="filter-row">
-        <button className={rFilter==='all'?'on':''} onClick={()=>setRFilter('all')} style={{fontSize:12}}>全部</button>
-        <button className={rFilter==='antarctic'?'on':''} onClick={()=>setRFilter('antarctic')} style={{fontSize:12}}>🐧 南极</button>
-        <button className={rFilter==='arctic'?'on':''} onClick={()=>setRFilter('arctic')} style={{fontSize:12}}>🐻‍❄️ 北极</button>
-      </div>
-      <div className="filter-row">
-        <button className={filter==='all'?'on':''} onClick={()=>setFilter('all')}>全部 ({rf.length})</button>
-        <button className={filter==='sold'?'on':''} onClick={()=>setFilter('sold')} style={filter==='sold'?{}:{color:'var(--red)',borderColor:'rgba(239,83,80,.3)'}}>🔴 售罄 ({rf.filter(c=>c.avail===0).length})</button>
-        <button className={filter==='low'?'on':''} onClick={()=>setFilter('low')} style={filter==='low'?{}:{color:'var(--warn)',borderColor:'rgba(255,183,77,.3)'}}>🟡 紧张 ({rf.filter(c=>c.avail>0&&c.avail<=2).length})</button>
+        <button className={filter==='all'?'on':''} onClick={()=>setFilter('all')}>全部 ({stats.total})</button>
+        <button className={filter==='sold'?'on':''} onClick={()=>setFilter('sold')} style={filter==='sold'?{}:{color:'var(--red)',borderColor:'rgba(239,83,80,.3)'}}>🔴 售罄 ({stats.sold})</button>
+        <button className={filter==='low'?'on':''} onClick={()=>setFilter('low')} style={filter==='low'?{}:{color:'var(--warn)',borderColor:'rgba(255,183,77,.3)'}}>🟡 紧张 ({stats.low})</button>
       </div>
       <div className="compare-wrap">
       <table className="compare">
