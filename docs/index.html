@@ -101,7 +101,7 @@ img.logo-fail + .logo-fallback{display:flex!important}
 .route-chip.ant{background:rgba(79,195,247,.1);color:var(--accent)}
 .route-chip.arc{background:rgba(129,212,250,.1);color:#81d4fa}
 .promo-inline{font-size:12px;padding:8px 12px;border-radius:8px;background:rgba(255,183,77,.08);margin-bottom:6px;border-left:3px solid var(--warn)}
-@media(max-width:768px){.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.modal{margin:10px;max-height:90vh}
+@media(max-width:768px){.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.modal{margin:10px;max-height:90vh}.alerts-grid{grid-template-columns:1fr!important}
 .compare-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -12px;padding:0 12px}
 .compare{min-width:700px;font-size:12px}
 .compare th,.compare td{padding:8px 10px;font-size:11px}
@@ -253,18 +253,23 @@ function AlertsView({V,P,cos}){
   V.forEach(v=>{v.cabins.forEach(c=>{if(c.orig&&c.price<c.orig){const co=getCo(v.co,cos);drops.push({co,v,c,pct:Math.round((1-c.price/c.orig)*100)});}})});
   drops.sort((a,b)=>b.pct-a.pct);
   return (
-    <div>
-      <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>🔔 降价提醒 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{drops.length}条</span></div>
-      {drops.map((d,i)=><div className="alert-row" key={i}>
-        <div className="icon">📉</div>
-        <div className="bd"><div className="t">{(d.co.cn||d.v.co)} · {d.v.name}</div><div className="d">{d.c.cat} · {d.v.ship} · {d.v.date} · {d.v.days}天</div></div>
-        <div className="price-col"><div className="new">{fmt(d.c.price)}</div><div className="old">{fmt(d.c.orig)}</div><div className="pct">-{d.pct}%</div></div>
-      </div>)}
-      <div style={{marginTop:28,fontSize:18,fontWeight:700,marginBottom:16}}>🔥 活跃促销</div>
-      {P.map((p,i)=>{const co=getCo(p.co,cos);return <div className="alert-row" key={'p'+i} style={{borderLeft:'3px solid var(--warn)'}}>
-        <div className="icon">🔥</div><div className="bd"><div className="t">{(co.cn||p.co)} · {p.t}</div><div className="d">{p.d} | 截止: {p.exp}</div></div>
-        <div style={{fontWeight:700,color:'var(--warn)',fontSize:15}}>{p.v}</div>
-      </div>})}
+    <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:20}} className="alerts-grid">
+      <div>
+        <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>📉 降价提醒 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{drops.length}条</span></div>
+        {drops.length===0 && <div style={{color:'var(--text2)',fontSize:13,padding:20}}>暂无降价航次</div>}
+        {drops.map((d,i)=><div className="alert-row" key={i}>
+          <div className="icon">📉</div>
+          <div className="bd"><div className="t">{(d.co.cn||d.v.co)} · {d.v.name}</div><div className="d">{d.c.cat} · {d.v.ship} · {d.v.date} · {d.v.days}天</div></div>
+          <div className="price-col"><div className="new">{fmt(d.c.price)}</div><div className="old">{fmt(d.c.orig)}</div><div className="pct">-{d.pct}%</div></div>
+        </div>)}
+      </div>
+      <div>
+        <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>🔥 活跃促销 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{P.length}条</span></div>
+        {P.map((p,i)=>{const co=getCo(p.co,cos);return <div className="alert-row" key={'p'+i} style={{borderLeft:'3px solid var(--warn)'}}>
+          <div className="icon">🔥</div><div className="bd"><div className="t">{(co.cn||p.co)} · {p.t}</div><div className="d">{p.d} | 截止: {p.exp}</div></div>
+          <div style={{fontWeight:700,color:'var(--warn)',fontSize:15}}>{p.v}</div>
+        </div>})}
+      </div>
     </div>
   );
 }
