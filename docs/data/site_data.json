@@ -1,85 +1,947 @@
 {
   "voyages": [
-    {"id":"v1","co":"quark","r":"antarctic","name":"Antarctic Explorer","ship":"Ultramarine","date":"2026-11-21","days":11,"port":"Ushuaia","cabins":[{"cat":"Explorer Triple","price":11539,"orig":13539,"avail":3},{"cat":"Explorer Suite","price":14595,"orig":16595,"avail":8},{"cat":"Balcony Suite","price":18295,"orig":20295,"avail":5}]},
-    {"id":"v2","co":"aurora","r":"antarctic","name":"Antarctic Peninsula Adv.","ship":"Douglas Mawson","date":"2026-12-05","days":12,"port":"Ushuaia","cabins":[{"cat":"Aurora Triple","price":10500,"orig":12000,"avail":4},{"cat":"Balcony C","price":16800,"orig":19500,"avail":3},{"cat":"Balcony B","price":18500,"orig":21500,"avail":6}]},
-    {"id":"v3","co":"hx","r":"antarctic","name":"Highlights of Antarctica","ship":"MS Fridtjof Nansen","date":"2026-12-19","days":11,"port":"Buenos Aires→Ushuaia","cabins":[{"cat":"Polar Inside","price":8999,"orig":9999,"avail":12},{"cat":"Polar Outside","price":10299,"orig":11299,"avail":8},{"cat":"Arctic Superior","price":12899,"orig":14299,"avail":5}]},
-    {"id":"v4","co":"poseidon","r":"antarctic","name":"Christmas in Antarctica","ship":"Sea Spirit","date":"2026-12-18","days":12,"port":"Ushuaia","cabins":[{"cat":"Triple Suite","price":8836,"orig":9818,"avail":2},{"cat":"Main Deck Suite","price":11045,"orig":12272,"avail":3},{"cat":"Classic Suite","price":12455,"orig":13839,"avail":5}]},
-    {"id":"v5","co":"silversea","r":"antarctic","name":"Antarctica Bridge Fly-Cruise","ship":"Silver Endeavour","date":"2026-12-10","days":6,"port":"Punta Arenas→King George Is.","cabins":[{"cat":"Veranda Suite","price":18500,"orig":20500,"avail":3},{"cat":"Deluxe Veranda","price":21500,"orig":23500,"avail":4}]},
-    {"id":"v6","co":"atlas","r":"antarctic","name":"White Christmas Antarctica","ship":"World Voyager","date":"2026-12-17","days":10,"port":"Ushuaia","cabins":[{"cat":"Adventure Oceanview","price":8999,"orig":0,"avail":2,"note":"Explorer's Choice 40%折扣后价"},{"cat":"Journey Suite","price":12969,"orig":0,"avail":6,"note":"含双倍礼遇"},{"cat":"Discovery Suite","price":15499,"orig":0,"avail":4,"note":"含双倍礼遇"}]},
-    {"id":"v7","co":"quark","r":"arctic","name":"Spitsbergen Highlights","ship":"Ocean Explorer","date":"2026-06-15","days":8,"port":"Longyearbyen","cabins":[{"cat":"Explorer Triple","price":7989,"orig":8989,"avail":2},{"cat":"Veranda","price":10995,"orig":11995,"avail":6}]},
-    {"id":"v8","co":"ponant","r":"arctic","name":"The Geographic North Pole","ship":"Le Commandant Charcot","date":"2026-07-15","days":15,"port":"Longyearbyen","cabins":[{"cat":"Prestige Stateroom","price":53411,"orig":62836,"avail":4},{"cat":"Deluxe Stateroom","price":58200,"orig":68471,"avail":3}]},
-    {"id":"v9","co":"66expeditions","r":"arctic","name":"斯瓦尔巴巡游（北极魂魅）","ship":"海神号 MS Seaventure","date":"2026-07-20","days":10,"port":"朗伊尔城","cabins":[{"cat":"三人舱","price":69100,"orig":75100,"avail":3},{"cat":"舷窗双人","price":82000,"orig":89000,"avail":2},{"cat":"方窗双人","price":95000,"orig":102000,"avail":1},{"cat":"豪华套房","price":128000,"orig":135000,"avail":0}]},
-    {"id":"v9b","co":"66expeditions","r":"antarctic","name":"南极半岛巡游（海神号）","ship":"海神号 MS Seaventure","date":"2026-11-14","days":12,"port":"乌斯怀亚","cabins":[{"cat":"三人舱","price":83500,"orig":91500,"avail":4},{"cat":"舷窗双人","price":98000,"orig":106000,"avail":3},{"cat":"方窗双人","price":112000,"orig":120000,"avail":2},{"cat":"豪华套房","price":145000,"orig":155000,"avail":0}]},
-    {"id":"v9c","co":"66expeditions","r":"arctic","name":"斯瓦尔巴群岛巡游","ship":"海神号 MS Seaventure","date":"2026-07-11","days":13,"port":"朗伊尔城","cabins":[{"cat":"三人舱","price":98999,"orig":98999,"avail":0},{"cat":"舷窗双人","price":118000,"orig":118000,"avail":0},{"cat":"方窗双人","price":135000,"orig":135000,"avail":1},{"cat":"豪华套房","price":168000,"orig":168000,"avail":0}]},
-    {"id":"v9d","co":"66expeditions","r":"arctic","name":"北极四岛经典巡游","ship":"海神号 MS Seaventure","date":"2026-08-18","days":17,"port":"朗伊尔城","cabins":[{"cat":"三人舱","price":114999,"orig":114999,"avail":0},{"cat":"舷窗双人","price":135000,"orig":135000,"avail":1},{"cat":"方窗双人","price":158000,"orig":158000,"avail":1},{"cat":"豪华套房","price":198000,"orig":198000,"avail":0}]},
-    {"id":"v10","co":"antarpply","r":"antarctic","name":"Antarctic Peninsula Classic","ship":"Ushuaia","date":"2026-12-15","days":10,"port":"Ushuaia","cabins":[{"cat":"Triple Share","price":5999,"orig":6999,"avail":2},{"cat":"Twin Semi-Private","price":7999,"orig":8999,"avail":4},{"cat":"Twin Private","price":9999,"orig":10999,"avail":6},{"cat":"Suite","price":12999,"orig":13999,"avail":3}]},
-    {"id":"v11","co":"polar_latitudes","r":"antarctic","name":"Antarctic Peninsula Explorer","ship":"Discoverer","date":"2026-12-20","days":12,"port":"Ushuaia","cabins":[{"cat":"Adventurer Suite","price":11500,"orig":13500,"avail":1},{"cat":"Explorer Suite","price":14500,"orig":16500,"avail":3},{"cat":"Balcony Suite","price":18500,"orig":20500,"avail":4},{"cat":"Owner's Suite","price":25000,"orig":27000,"avail":0}]}
+    {
+      "id": "v1",
+      "co": "quark",
+      "r": "antarctic",
+      "name": "Antarctic Explorer",
+      "ship": "Ultramarine",
+      "date": "2026-11-21",
+      "days": 11,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Explorer Triple",
+          "price": 11539,
+          "orig": 13539,
+          "avail": 3
+        },
+        {
+          "cat": "Explorer Suite",
+          "price": 14595,
+          "orig": 16595,
+          "avail": 8
+        },
+        {
+          "cat": "Balcony Suite",
+          "price": 18295,
+          "orig": 20295,
+          "avail": 5
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "co": "aurora",
+      "r": "antarctic",
+      "name": "Antarctic Peninsula Adv.",
+      "ship": "Douglas Mawson",
+      "date": "2026-12-05",
+      "days": 12,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Aurora Triple",
+          "price": 10500,
+          "orig": 12000,
+          "avail": 4
+        },
+        {
+          "cat": "Balcony C",
+          "price": 16800,
+          "orig": 19500,
+          "avail": 3
+        },
+        {
+          "cat": "Balcony B",
+          "price": 18500,
+          "orig": 21500,
+          "avail": 6
+        }
+      ]
+    },
+    {
+      "id": "v3",
+      "co": "hx",
+      "r": "antarctic",
+      "name": "Highlights of Antarctica",
+      "ship": "MS Fridtjof Nansen",
+      "date": "2026-12-19",
+      "days": 11,
+      "port": "Buenos Aires→Ushuaia",
+      "cabins": [
+        {
+          "cat": "Polar Inside",
+          "price": 8999,
+          "orig": 9999,
+          "avail": 12
+        },
+        {
+          "cat": "Polar Outside",
+          "price": 10299,
+          "orig": 11299,
+          "avail": 8
+        },
+        {
+          "cat": "Arctic Superior",
+          "price": 12899,
+          "orig": 14299,
+          "avail": 5
+        }
+      ]
+    },
+    {
+      "id": "v4",
+      "co": "poseidon",
+      "r": "antarctic",
+      "name": "Christmas in Antarctica",
+      "ship": "Sea Spirit",
+      "date": "2026-12-18",
+      "days": 12,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Triple Suite",
+          "price": 8836,
+          "orig": 9818,
+          "avail": 2
+        },
+        {
+          "cat": "Main Deck Suite",
+          "price": 11045,
+          "orig": 12272,
+          "avail": 3
+        },
+        {
+          "cat": "Classic Suite",
+          "price": 12455,
+          "orig": 13839,
+          "avail": 5
+        }
+      ]
+    },
+    {
+      "id": "v5",
+      "co": "silversea",
+      "r": "antarctic",
+      "name": "Antarctica Bridge Fly-Cruise",
+      "ship": "Silver Endeavour",
+      "date": "2026-12-10",
+      "days": 6,
+      "port": "Punta Arenas→King George Is.",
+      "cabins": [
+        {
+          "cat": "Veranda Suite",
+          "price": 18500,
+          "orig": 20500,
+          "avail": 3
+        },
+        {
+          "cat": "Deluxe Veranda",
+          "price": 21500,
+          "orig": 23500,
+          "avail": 4
+        }
+      ]
+    },
+    {
+      "id": "v6",
+      "co": "atlas",
+      "r": "antarctic",
+      "name": "White Christmas Antarctica",
+      "ship": "World Voyager",
+      "date": "2026-12-17",
+      "days": 10,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Adventure Oceanview",
+          "price": 8999,
+          "orig": 0,
+          "avail": 2,
+          "note": "Explorer's Choice 40%折扣后价"
+        },
+        {
+          "cat": "Journey Suite",
+          "price": 12969,
+          "orig": 0,
+          "avail": 6,
+          "note": "含双倍礼遇"
+        },
+        {
+          "cat": "Discovery Suite",
+          "price": 15499,
+          "orig": 0,
+          "avail": 4,
+          "note": "含双倍礼遇"
+        }
+      ]
+    },
+    {
+      "id": "v7",
+      "co": "quark",
+      "r": "arctic",
+      "name": "Spitsbergen Highlights",
+      "ship": "Ocean Explorer",
+      "date": "2026-06-15",
+      "days": 8,
+      "port": "Longyearbyen",
+      "cabins": [
+        {
+          "cat": "Explorer Triple",
+          "price": 7989,
+          "orig": 8989,
+          "avail": 2
+        },
+        {
+          "cat": "Veranda",
+          "price": 10995,
+          "orig": 11995,
+          "avail": 6
+        }
+      ]
+    },
+    {
+      "id": "v8",
+      "co": "ponant",
+      "r": "arctic",
+      "name": "The Geographic North Pole",
+      "ship": "Le Commandant Charcot",
+      "date": "2026-07-15",
+      "days": 15,
+      "port": "Longyearbyen",
+      "cabins": [
+        {
+          "cat": "Prestige Stateroom",
+          "price": 53411,
+          "orig": 62836,
+          "avail": 4
+        },
+        {
+          "cat": "Deluxe Stateroom",
+          "price": 58200,
+          "orig": 68471,
+          "avail": 3
+        }
+      ]
+    },
+    {
+      "id": "v9",
+      "co": "66expeditions",
+      "r": "arctic",
+      "name": "斯瓦尔巴巡游（北极魂魅）",
+      "ship": "海神号 MS Seaventure",
+      "date": "2026-07-20",
+      "days": 10,
+      "port": "朗伊尔城",
+      "cabins": [
+        {
+          "cat": "三人舱",
+          "price": 69100,
+          "orig": 75100,
+          "avail": 3
+        },
+        {
+          "cat": "舷窗双人",
+          "price": 82000,
+          "orig": 89000,
+          "avail": 2
+        },
+        {
+          "cat": "方窗双人",
+          "price": 95000,
+          "orig": 102000,
+          "avail": 1
+        },
+        {
+          "cat": "豪华套房",
+          "price": 128000,
+          "orig": 135000,
+          "avail": 0
+        }
+      ]
+    },
+    {
+      "id": "v9b",
+      "co": "66expeditions",
+      "r": "antarctic",
+      "name": "南极半岛巡游（海神号）",
+      "ship": "海神号 MS Seaventure",
+      "date": "2026-11-14",
+      "days": 12,
+      "port": "乌斯怀亚",
+      "cabins": [
+        {
+          "cat": "三人舱",
+          "price": 83500,
+          "orig": 91500,
+          "avail": 4
+        },
+        {
+          "cat": "舷窗双人",
+          "price": 98000,
+          "orig": 106000,
+          "avail": 3
+        },
+        {
+          "cat": "方窗双人",
+          "price": 112000,
+          "orig": 120000,
+          "avail": 2
+        },
+        {
+          "cat": "豪华套房",
+          "price": 145000,
+          "orig": 155000,
+          "avail": 0
+        }
+      ]
+    },
+    {
+      "id": "v9c",
+      "co": "66expeditions",
+      "r": "arctic",
+      "name": "斯瓦尔巴群岛巡游",
+      "ship": "海神号 MS Seaventure",
+      "date": "2026-07-11",
+      "days": 13,
+      "port": "朗伊尔城",
+      "cabins": [
+        {
+          "cat": "三人舱",
+          "price": 98999,
+          "orig": 98999,
+          "avail": 0
+        },
+        {
+          "cat": "舷窗双人",
+          "price": 118000,
+          "orig": 118000,
+          "avail": 0
+        },
+        {
+          "cat": "方窗双人",
+          "price": 135000,
+          "orig": 135000,
+          "avail": 1
+        },
+        {
+          "cat": "豪华套房",
+          "price": 168000,
+          "orig": 168000,
+          "avail": 0
+        }
+      ]
+    },
+    {
+      "id": "v9d",
+      "co": "66expeditions",
+      "r": "arctic",
+      "name": "北极四岛经典巡游",
+      "ship": "海神号 MS Seaventure",
+      "date": "2026-08-18",
+      "days": 17,
+      "port": "朗伊尔城",
+      "cabins": [
+        {
+          "cat": "三人舱",
+          "price": 114999,
+          "orig": 114999,
+          "avail": 0
+        },
+        {
+          "cat": "舷窗双人",
+          "price": 135000,
+          "orig": 135000,
+          "avail": 1
+        },
+        {
+          "cat": "方窗双人",
+          "price": 158000,
+          "orig": 158000,
+          "avail": 1
+        },
+        {
+          "cat": "豪华套房",
+          "price": 198000,
+          "orig": 198000,
+          "avail": 0
+        }
+      ]
+    },
+    {
+      "id": "v10",
+      "co": "antarpply",
+      "r": "antarctic",
+      "name": "Antarctic Peninsula Classic",
+      "ship": "Ushuaia",
+      "date": "2026-12-15",
+      "days": 10,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Triple Share",
+          "price": 5999,
+          "orig": 6999,
+          "avail": 2
+        },
+        {
+          "cat": "Twin Semi-Private",
+          "price": 7999,
+          "orig": 8999,
+          "avail": 4
+        },
+        {
+          "cat": "Twin Private",
+          "price": 9999,
+          "orig": 10999,
+          "avail": 6
+        },
+        {
+          "cat": "Suite",
+          "price": 12999,
+          "orig": 13999,
+          "avail": 3
+        }
+      ]
+    },
+    {
+      "id": "v11",
+      "co": "polar_latitudes",
+      "r": "antarctic",
+      "name": "Antarctic Peninsula Explorer",
+      "ship": "Discoverer",
+      "date": "2026-12-20",
+      "days": 12,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Adventurer Suite",
+          "price": 11500,
+          "orig": 13500,
+          "avail": 1
+        },
+        {
+          "cat": "Explorer Suite",
+          "price": 14500,
+          "orig": 16500,
+          "avail": 3
+        },
+        {
+          "cat": "Balcony Suite",
+          "price": 18500,
+          "orig": 20500,
+          "avail": 4
+        },
+        {
+          "cat": "Owner's Suite",
+          "price": 25000,
+          "orig": 27000,
+          "avail": 0
+        }
+      ]
+    }
   ],
   "promotions": [
-    {"co":"66expeditions","t":"南极早鸟特惠","d":"南极半岛12天 ¥91,500→¥83,500 · 赠冲锋衣+保暖杯+WiFi · 中文服务","v":"-8.7%","exp":"2026-11-14"},
-    {"co":"66expeditions","t":"斯瓦尔巴巡游特价","d":"斯瓦尔巴10天 ¥75,100→¥69,100 · 一价全包 · 白天鹅宾馆大厨","v":"-8%","exp":"2026-07-20"},
-    {"co":"66expeditions","t":"西格陵兰冰川之旅","d":"西格陵兰13天 ¥83,800→¥77,800 · 格陵兰深度探索","v":"-7%","exp":"2026-06-02"},
-    {"co":"quark","t":"This Is Polar Bonus","d":"北极/南极指定航次立减$2,000+额外25%折扣 · 可叠加使用","v":"$2,000+25%","exp":"2026-06-15"},
-    {"co":"quark","t":"单人免附加费","d":"Ultramarine北极2026阳台套房单人免附加费 · 省高达$10,000","v":"免单差","exp":"售完即止"},
-    {"co":"oceanwide","t":"南极促销季","d":"南极半岛/威德尔海/三岛航线特价 · Falklands-South Georgia-Antarctic Peninsula","v":"特价","exp":"售完即止"},
-    {"co":"aurora","t":"Beyond Borders 全球特惠","d":"2026年出发所有南北极航次享高达25%折扣 · 35周年庆","v":"25%","exp":"2026-06-30"},
-    {"co":"aurora","t":"2027早鸟特惠","d":"2027年新航次享25%折扣 · 单人舱免附加费 · B Corp认证","v":"25%","exp":"2026-12-31"},
-    {"co":"hx","t":"130周年庆典特惠","d":"全航线最高35%折扣 · 含南极/北极/加拉帕戈斯/阿拉斯加","v":"35%","exp":"2026-12-31"},
-    {"co":"hx","t":"免费套房升级","d":"2026年10-12月南极航次预订北极高级舱免费升级套房","v":"Free Upgrade","exp":"2026-06-01"},
-    {"co":"poseidon","t":"2026-27南极季早鸟","d":"Triple/Classic Suite享10% · Superior及以上享15%折扣","v":"10-15%","exp":"2026-07-31"},
-    {"co":"poseidon","t":"北极2027早鸟","d":"2027年北极航次最高享25%折扣 · 含日全食格陵兰航次","v":"25%","exp":"2026-09-30"},
-    {"co":"lindblad","t":"2026航次特惠","d":"指定2026-27航次享最高20%折扣+50%减免订金 · 含南极/阿拉斯加/加拉帕戈斯","v":"20%","exp":"2026-05-28"},
-    {"co":"lindblad","t":"$1,500/人限时优惠","d":"2026年4-5月预订指定航次每人减$1,500 · 需全额付款","v":"$1,500/人","exp":"2026-05-28"},
-    {"co":"lindblad","t":"代理激励：售三免一","d":"售出3个2026北极/欧洲/地中海航次即获免费舱位","v":"Free Cruise","exp":"2026-04-30"},
-    {"co":"antarctica21","t":"飞南极特惠","d":"2026-27季Magellan Explorer/Discoverer飞南极立减$4,000/人","v":"$4,000","exp":"2026-06-30"},
-    {"co":"antarctica21","t":"2027-28季早鸟","d":"经典南极/极圈航线最高省$5,000/人 · 2026年11月新船首航","v":"$5,000","exp":"2026-03-31"},
-    {"co":"ponant","t":"Smithsonian联名特惠","d":"30+航次每舱$1,000船上消费 · 含岸上观光+双专家随行","v":"$1,000","exp":"2026-03-31"},
-    {"co":"ponant","t":"PONANT Bonus","d":"指定2026航次最高享30%折扣 · 背靠背航次第二程额外10%","v":"30%","exp":"2026-12-31"},
-    {"co":"ponant","t":"北极点早鸟","d":"Le Commandant Charcot北极点航次提前预订享15%优惠","v":"15%","exp":"2026-08-31"},
-    {"co":"silversea","t":"Wave Season特惠","d":"800+航次最高享40%折扣 · 含2028年前所有经典+探险船 · 订金仅15%","v":"40%","exp":"已过期"},
-    {"co":"silversea","t":"Door-to-Door全包","d":"南极飞桥含往返机票+接送+行前酒店 · Puerto Williams新酒店10月开业","v":"全包","exp":"2026-12-31"},
-    {"co":"seabourn","t":"Yours to Explore","d":"免费升两级Veranda套房+最高$1,000消费 · 500+航次 · 5月5日截止","v":"升舱+$1,000","exp":"2026-05-05"},
-    {"co":"seabourn","t":"南极双人特价","d":"南极航次第二人半价+全包式奢华服务","v":"50% 2nd","exp":"2026-05-31"},
-    {"co":"scenic","t":"2-for-1+免费机票","d":"指定2026-29航次2-for-1票价+免费机票 · 南极含直升机观光","v":"50%+机票","exp":"已过期"},
-    {"co":"scenic","t":"新四档定价体系","d":"2026年3月起取消2-for-1改为四档灵活定价 · 最高省$4,000/套房","v":"新定价","exp":"2026-12-31"},
-    {"co":"atlas","t":"Explorer's Choice","d":"2026航次最高享40%折扣+双倍礼遇 · 可选机票补贴/酒店/WiFi","v":"40%","exp":"2026-03-31"},
-    {"co":"atlas","t":"双倍机票补贴","d":"地中海/北欧/北极航线每套房最高$3,000机票补贴 · 6月30日截止","v":"$3,000","exp":"2026-06-30"},
-    {"co":"swan_hellenic","t":"北极探索特惠","d":"2026北极航次最高省$3,700/人+$300船上消费+免费WiFi","v":"$3,700","exp":"售完即止"},
-    {"co":"swan_hellenic","t":"亚太免费机票","d":"亚太航次免费往返机票+最高$1,500/人优惠+$500消费","v":"免费机票","exp":"已过期"},
-    {"co":"viking","t":"30周年特惠","d":"2026-28航次最高享30%折扣+免费国际机票+订金仅$25","v":"30%+机票","exp":"2026-05-31"},
-    {"co":"viking","t":"第二人半价(中国)","d":"豪华阳台房及以上第二人半价+免费经济舱(限1,000张)","v":"50% 2nd","exp":"2026-04-30"},
-    {"co":"hapag_lloyd","t":"早鸟优惠","d":"2026-27季最高省$1,650/人 · 2026年起全船队英德双语","v":"$1,650","exp":"2026-05-31"},
-    {"co":"hapag_lloyd","t":"新双价体系","d":"Platinum(灵活改签)+Silver(超值) · 2026年起软饮免费","v":"新定价","exp":"2026-12-31"},
-    {"co":"g_adventures","t":"Great Adventure Sale","d":"600+行程最高享25%折扣 · 极地航次: 北极25%/南极20%/苏格兰30%","v":"25%","exp":"已过期"},
-    {"co":"g_adventures","t":"Travel Frenzy","d":"500+行程最高30%折扣 · G Expedition极地特价","v":"30%","exp":"2026-03-31"},
-    {"co":"heritage","t":"新船首航特惠","d":"Heritage Discoverer首航南极三岛21天 · 老客40%/新客30%折扣","v":"30-40%","exp":"2026-06-30"},
-    {"co":"heritage","t":"2027-28早鸟","d":"日本/韩国/印尼/菲律宾/金伯利等航线最高享20%折扣","v":"20%","exp":"已过期"},
-    {"co":"intrepid","t":"南极特惠","d":"Ocean Nova/Ocean Albatros南极航次最高享20%折扣","v":"20%","exp":"售完即止"},
-    {"co":"antarpply","t":"南极经济之选","d":"Ushuaia号南极10天最低$5,999起 · 90人小船 · 高性价比","v":"入门价","exp":"2026-12-31"},
-    {"co":"polar_latitudes","t":"南极中高端探险","d":"Discoverer/Ocean Victory南极半岛11-14天 · PC6冰级新船","v":"在售","exp":"2026-12-31"}
+    {
+      "co": "66expeditions",
+      "t": "南极早鸟特惠",
+      "d": "南极半岛12天 ¥91,500→¥83,500 · 赠冲锋衣+保暖杯+WiFi · 中文服务",
+      "v": "-8.7%",
+      "exp": "2026-11-14"
+    },
+    {
+      "co": "66expeditions",
+      "t": "斯瓦尔巴巡游特价",
+      "d": "斯瓦尔巴10天 ¥75,100→¥69,100 · 一价全包 · 白天鹅宾馆大厨",
+      "v": "-8%",
+      "exp": "2026-07-20"
+    },
+    {
+      "co": "66expeditions",
+      "t": "西格陵兰冰川之旅",
+      "d": "西格陵兰13天 ¥83,800→¥77,800 · 格陵兰深度探索",
+      "v": "-7%",
+      "exp": "2026-06-02"
+    },
+    {
+      "co": "quark",
+      "t": "This Is Polar Bonus",
+      "d": "北极/南极指定航次立减$2,000+额外25%折扣 · 可叠加使用",
+      "v": "$2,000+25%",
+      "exp": "2026-06-15"
+    },
+    {
+      "co": "quark",
+      "t": "单人免附加费",
+      "d": "Ultramarine北极2026阳台套房单人免附加费 · 省高达$10,000",
+      "v": "免单差",
+      "exp": "售完即止"
+    },
+    {
+      "co": "oceanwide",
+      "t": "南极促销季",
+      "d": "南极半岛/威德尔海/三岛航线特价 · Falklands-South Georgia-Antarctic Peninsula",
+      "v": "特价",
+      "exp": "售完即止"
+    },
+    {
+      "co": "aurora",
+      "t": "Beyond Borders 全球特惠",
+      "d": "2026年出发所有南北极航次享高达25%折扣 · 35周年庆",
+      "v": "25%",
+      "exp": "2026-06-30"
+    },
+    {
+      "co": "aurora",
+      "t": "2027早鸟特惠",
+      "d": "2027年新航次享25%折扣 · 单人舱免附加费 · B Corp认证",
+      "v": "25%",
+      "exp": "2026-12-31"
+    },
+    {
+      "co": "hx",
+      "t": "130周年庆典特惠",
+      "d": "全航线最高35%折扣 · 含南极/北极/加拉帕戈斯/阿拉斯加",
+      "v": "35%",
+      "exp": "2026-12-31"
+    },
+    {
+      "co": "hx",
+      "t": "免费套房升级",
+      "d": "2026年10-12月南极航次预订北极高级舱免费升级套房",
+      "v": "Free Upgrade",
+      "exp": "2026-06-01"
+    },
+    {
+      "co": "poseidon",
+      "t": "2026-27南极季早鸟",
+      "d": "Triple/Classic Suite享10% · Superior及以上享15%折扣",
+      "v": "10-15%",
+      "exp": "2026-07-31"
+    },
+    {
+      "co": "poseidon",
+      "t": "北极2027早鸟",
+      "d": "2027年北极航次最高享25%折扣 · 含日全食格陵兰航次",
+      "v": "25%",
+      "exp": "2026-09-30"
+    },
+    {
+      "co": "lindblad",
+      "t": "2026航次特惠",
+      "d": "指定2026-27航次享最高20%折扣+50%减免订金 · 含南极/阿拉斯加/加拉帕戈斯",
+      "v": "20%",
+      "exp": "2026-05-28"
+    },
+    {
+      "co": "lindblad",
+      "t": "$1,500/人限时优惠",
+      "d": "2026年4-5月预订指定航次每人减$1,500 · 需全额付款",
+      "v": "$1,500/人",
+      "exp": "2026-05-28"
+    },
+    {
+      "co": "lindblad",
+      "t": "代理激励：售三免一",
+      "d": "售出3个2026北极/欧洲/地中海航次即获免费舱位",
+      "v": "Free Cruise",
+      "exp": "2026-04-30"
+    },
+    {
+      "co": "antarctica21",
+      "t": "飞南极特惠",
+      "d": "2026-27季Magellan Explorer/Discoverer飞南极立减$4,000/人",
+      "v": "$4,000",
+      "exp": "2026-06-30"
+    },
+    {
+      "co": "antarctica21",
+      "t": "2027-28季早鸟",
+      "d": "经典南极/极圈航线最高省$5,000/人 · 2026年11月新船首航",
+      "v": "$5,000",
+      "exp": "2026-03-31"
+    },
+    {
+      "co": "ponant",
+      "t": "Smithsonian联名特惠",
+      "d": "30+航次每舱$1,000船上消费 · 含岸上观光+双专家随行",
+      "v": "$1,000",
+      "exp": "2026-03-31"
+    },
+    {
+      "co": "ponant",
+      "t": "PONANT Bonus",
+      "d": "指定2026航次最高享30%折扣 · 背靠背航次第二程额外10%",
+      "v": "30%",
+      "exp": "2026-12-31"
+    },
+    {
+      "co": "ponant",
+      "t": "北极点早鸟",
+      "d": "Le Commandant Charcot北极点航次提前预订享15%优惠",
+      "v": "15%",
+      "exp": "2026-08-31"
+    },
+    {
+      "co": "silversea",
+      "t": "Wave Season特惠",
+      "d": "800+航次最高享40%折扣 · 含2028年前所有经典+探险船 · 订金仅15%",
+      "v": "40%",
+      "exp": "已过期"
+    },
+    {
+      "co": "silversea",
+      "t": "Door-to-Door全包",
+      "d": "南极飞桥含往返机票+接送+行前酒店 · Puerto Williams新酒店10月开业",
+      "v": "全包",
+      "exp": "2026-12-31"
+    },
+    {
+      "co": "seabourn",
+      "t": "Yours to Explore",
+      "d": "免费升两级Veranda套房+最高$1,000消费 · 500+航次 · 5月5日截止",
+      "v": "升舱+$1,000",
+      "exp": "2026-05-05"
+    },
+    {
+      "co": "seabourn",
+      "t": "南极双人特价",
+      "d": "南极航次第二人半价+全包式奢华服务",
+      "v": "50% 2nd",
+      "exp": "2026-05-31"
+    },
+    {
+      "co": "scenic",
+      "t": "2-for-1+免费机票",
+      "d": "指定2026-29航次2-for-1票价+免费机票 · 南极含直升机观光",
+      "v": "50%+机票",
+      "exp": "已过期"
+    },
+    {
+      "co": "scenic",
+      "t": "新四档定价体系",
+      "d": "2026年3月起取消2-for-1改为四档灵活定价 · 最高省$4,000/套房",
+      "v": "新定价",
+      "exp": "2026-12-31"
+    },
+    {
+      "co": "atlas",
+      "t": "Explorer's Choice",
+      "d": "2026航次最高享40%折扣+双倍礼遇 · 可选机票补贴/酒店/WiFi",
+      "v": "40%",
+      "exp": "2026-03-31"
+    },
+    {
+      "co": "atlas",
+      "t": "双倍机票补贴",
+      "d": "地中海/北欧/北极航线每套房最高$3,000机票补贴 · 6月30日截止",
+      "v": "$3,000",
+      "exp": "2026-06-30"
+    },
+    {
+      "co": "swan_hellenic",
+      "t": "北极探索特惠",
+      "d": "2026北极航次最高省$3,700/人+$300船上消费+免费WiFi",
+      "v": "$3,700",
+      "exp": "售完即止"
+    },
+    {
+      "co": "swan_hellenic",
+      "t": "亚太免费机票",
+      "d": "亚太航次免费往返机票+最高$1,500/人优惠+$500消费",
+      "v": "免费机票",
+      "exp": "已过期"
+    },
+    {
+      "co": "viking",
+      "t": "30周年特惠",
+      "d": "2026-28航次最高享30%折扣+免费国际机票+订金仅$25",
+      "v": "30%+机票",
+      "exp": "2026-05-31"
+    },
+    {
+      "co": "viking",
+      "t": "第二人半价(中国)",
+      "d": "豪华阳台房及以上第二人半价+免费经济舱(限1,000张)",
+      "v": "50% 2nd",
+      "exp": "2026-04-30"
+    },
+    {
+      "co": "hapag_lloyd",
+      "t": "早鸟优惠",
+      "d": "2026-27季最高省$1,650/人 · 2026年起全船队英德双语",
+      "v": "$1,650",
+      "exp": "2026-05-31"
+    },
+    {
+      "co": "hapag_lloyd",
+      "t": "新双价体系",
+      "d": "Platinum(灵活改签)+Silver(超值) · 2026年起软饮免费",
+      "v": "新定价",
+      "exp": "2026-12-31"
+    },
+    {
+      "co": "g_adventures",
+      "t": "Great Adventure Sale",
+      "d": "600+行程最高享25%折扣 · 极地航次: 北极25%/南极20%/苏格兰30%",
+      "v": "25%",
+      "exp": "已过期"
+    },
+    {
+      "co": "g_adventures",
+      "t": "Travel Frenzy",
+      "d": "500+行程最高30%折扣 · G Expedition极地特价",
+      "v": "30%",
+      "exp": "2026-03-31"
+    },
+    {
+      "co": "heritage",
+      "t": "新船首航特惠",
+      "d": "Heritage Discoverer首航南极三岛21天 · 老客40%/新客30%折扣",
+      "v": "30-40%",
+      "exp": "2026-06-30"
+    },
+    {
+      "co": "heritage",
+      "t": "2027-28早鸟",
+      "d": "日本/韩国/印尼/菲律宾/金伯利等航线最高享20%折扣",
+      "v": "20%",
+      "exp": "已过期"
+    },
+    {
+      "co": "intrepid",
+      "t": "南极特惠",
+      "d": "Ocean Nova/Ocean Albatros南极航次最高享20%折扣",
+      "v": "20%",
+      "exp": "售完即止"
+    },
+    {
+      "co": "antarpply",
+      "t": "南极经济之选",
+      "d": "Ushuaia号南极10天最低$5,999起 · 90人小船 · 高性价比",
+      "v": "入门价",
+      "exp": "2026-12-31"
+    },
+    {
+      "co": "polar_latitudes",
+      "t": "南极中高端探险",
+      "d": "Discoverer/Ocean Victory南极半岛11-14天 · PC6冰级新船",
+      "v": "在售",
+      "exp": "2026-12-31"
+    }
   ],
   "news": [
-    {"d":"05-04","co":"oceanwide","title":"⚠️ 洪迪斯号爆发汉坦病毒：3人死亡，WHO介入","cat":"紧急","imp":"high","desc":"Oceanwide Expeditions旗下Hondius号在南极航次后横跨大西洋途中爆发汉坦病毒。6人感染，3人死亡。佛得角拒绝靠港，荷兰政府协调包机接回。WHO已全面介入。","src":"USA Today / 腾讯新闻","url":"https://news.qq.com/rain/a/20260504A03PVJ00"},
-    {"d":"05-02","co":"aurora","title":"Aurora完成史上最大南极季：30航次、819次登陆","cat":"运营动态","imp":"high","desc":"三艘船首次同时在南极运营，Douglas Mawson号创客船最南纪录(78°44'S)。","src":"Cruise Industry News","url":"https://cruiseindustrynews.com/cruise-news/2026/05/aurora-expeditions-completes-largest-antarctic-season/"},
-    {"d":"04-28","co":"silversea","title":"银海将在Puerto Williams开设南极最南端奢华酒店","cat":"新设施","imp":"high","desc":"150间客房「The Cormorant」2026年10月开业，飞南极项目枢纽。","src":"Travel Daily Media","url":"https://www.traveldailymedia.com/silversea-concludes-landmark-2025-2026-antarctica-season-and-ushers-in-a-new-era-of-luxury-polar-exploration/"},
-    {"d":"04-15","co":"aurora","title":"Douglas Mawson入选《时代》2026全球最佳目的地","cat":"奖项","imp":"high","desc":"同时获评Condé Nast Traveler 2026 Hot List。","src":"TIME","url":"https://traveltalkmedia.com.au/aurora-expeditions-ship-makes-time-list/"},
-    {"d":"04-12","co":"ponant","title":"庞洛Charcot号发布2026-27北极冬季16个航次","cat":"航线","imp":"high","desc":"全球唯一PC2破冰船探索北极光、斯瓦尔巴、圣劳伦斯河冬季。","src":"Cruise Industry News","url":"https://cruiseindustrynews.com/cruise-news/2025/02/ponants-commandant-charcot-to-return-to-the-arctic-canada-for-winter-2026-27/"},
-    {"d":"04-08","co":"seabourn","title":"Seabourn Venture创纪录：抵达南纬70°","cat":"纪录","imp":"high","desc":"首次探索George VI Sound冰道，嘉年华集团船只最南纪录。","src":"TravelPulse","url":"https://www.travelpulse.com/news/cruise/seabourn-venture-sets-records-in-antarctica"},
-    {"d":"04-01","co":"silversea","title":"银海完成2025-26南极季：38航次含18次飞南极","cat":"运营动态","imp":"med","desc":"38航次3艘船运营，罕见观测帝企鹅群落和Arnoux's喙鲸，单次极地跳水近140人参与。创单季最多飞南极纪录。","src":"Cruise Industry News","url":"https://cruiseindustrynews.com/cruise-news/2026/03/silversea-wraps-up-antarctica-season-with-38-voyages/"},
-    {"d":"03-25","co":"quark","title":"夸克「This Is Polar Bonus」：北极2026最高省$2,000","cat":"促销","imp":"med","desc":"可与其他促销叠加。另推出顾问竞赛赢取斯瓦尔巴航次。","src":"TravelPulse","url":"https://www.travelpulse.com/news/cruise/quark-expeditions-launches-this-is-polar-bonus-for-adventure-seekers"},
-    {"d":"03-20","co":"quark","title":"夸克在英国湖区举办首次极地代理商静修会","cat":"市场","imp":"med","desc":"50+代理商参与，含讲座、皮划艇。一位代理商赢得北极游。","src":"Travel Weekly UK","url":"https://travelweekly.co.uk/news/quark-expeditions-hosts-50-agents-at-polar-retreat-in-lake-district"},
-    {"d":"03-10","co":"aurora","title":"Aurora时隔15年重返东南极","cat":"航线","imp":"high","desc":"15年来首次重返地球上最偏远区域之一。本季三船同时运营。","src":"Travel And Tour World","url":"https://www.travelandtourworld.fr/nouvelles/article/Aurora-Expeditions-marque-un-retour-historique-dans-l%27Antarctique-oriental-apr%C3%A8s-quinze-ans-d%27absence--offrant-aux-explorateurs-une-occasion-rare-d%27explorer-cette-nature-sauvage-et-intacte./"},
-    {"d":"02-28","co":"quark","title":"夸克因需求旺新增第二个2026日全食航次","cat":"航线","imp":"med","desc":"首个售罄后增开Ocean Explorer号17天航次(8月3-19日)。","src":"TravelPulse","url":"https://www.travelpulse.com/news/cruise/quark-expeditions-to-offer-additional-solar-eclipse-voyage-in-2026"},
-    {"d":"02-20","co":"seabourn","title":"世邦发布2026-27极地季：24航线161目的地","cat":"航线","imp":"med","desc":"Pursuit 2026年金伯利为最后一年，2028年起全面转向极地。","src":"Cruise Mapper","url":"https://www.cruisemapper.com/news/14017-seabourn-launches-2026-2027-expedition-season"},
-    {"d":"02-14","co":"ponant","title":"庞洛开售2028年62天南极环大陆航次","cat":"航线","imp":"high","desc":"Charcot号23,000公里环南极，深入罗斯海。需求远超预期。","src":"广州日报","url":"https://news.dayoo.com/gzrbrmt/202602/14/170636_54928931.htm"},
-    {"d":"01-15","co":"seabourn","title":"世邦宣布2026年终止潜水艇项目","cat":"运营调整","imp":"med","desc":"因客人兴趣有限和监管限制，潜水艇体验3月终止。","src":"Travel Weekly Asia","url":"https://www.travelweekly-asia.com/Cruise-Travel/No-more-submarine-programme-for-Seabourne"},
-    {"d":"04-20","co":"aqua","title":"Aqua Expeditions 2026年6月首进北极","cat":"新进入者","imp":"med","desc":"30客位超级游艇Aqua Lares(冰级1B)前往斯瓦尔巴。","src":"Cruise Industry News","url":"https://cruiseindustrynews.com/cruise-news/2025/09/aqua-expeditions-heading-to-the-arctic/"},
-    {"d":"03-01","co":"silversea","title":"银海2026-27南极季扩展至41个航次","cat":"航线","imp":"high","desc":"29个飞南极+12个传统德雷克海峡，依托Cormorant酒店扩容。","src":"Cruise Industry News","url":"https://cruiseindustrynews.com/cruise-news/2026/03/silversea-wraps-up-antarctica-season-with-38-voyages/"},
-    {"d":"01-10","co":"aurora","title":"Aurora庆祝极地探险35周年","cat":"里程碑","imp":"med","desc":"推出全球周年特惠，发布全新Active Antarctica沉浸式航次。","src":"Aurora Media Centre","url":"https://www.aurora-expeditions.com/eu/media-centre"},
-    {"d":"03-15","co":"quark","title":"夸克Ultramarine北极2026免单人附加费","cat":"促销","imp":"med","desc":"单人预订阳台套房省高达$10,000。限时优惠。","src":"Travel Weekly AU","url":"https://travelweekly.com.au/quark-expeditions-announces-no-solo-supplement-charge-on-its-ultramarine-arctic-2026-voyages/"},
-    {"d":"05-01","co":"seabourn","title":"世邦「Yours to Explore」：免费升两级套房+$1,000消费","cat":"促销","imp":"med","desc":"适用于500+航次，截止5月5日。5月Expedition Month激励。","src":"Porthole Cruise","url":"https://porthole.com/seabourn-yours-to-explore-event-adds-suite-upgrades/"},
-    {"d":"02-01","co":"aurora","title":"Aurora任命Beth Mercier为北美销售副总裁","cat":"人事","imp":"low","desc":"曾在多家奢华邮轮公司担任高管，负责北美市场战略。","src":"Trade Press","url":""},
-    {"d":"01-20","co":"aurora","title":"Aurora与Sparro by Brainlabs达成全球媒体合作","cat":"市场","imp":"low","desc":"数据驱动、受众优先的全球数字营销策略。","src":"Mi3","url":"https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"}
+    {
+      "d": "05-04",
+      "co": "oceanwide",
+      "title": "⚠️ 洪迪斯号爆发汉坦病毒：3人死亡，WHO介入",
+      "cat": "紧急",
+      "imp": "high",
+      "desc": "Oceanwide Expeditions旗下Hondius号在南极航次后横跨大西洋途中爆发汉坦病毒。6人感染，3人死亡。佛得角拒绝靠港，荷兰政府协调包机接回。WHO已全面介入。",
+      "src": "USA Today / 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260504A03PVJ00"
+    },
+    {
+      "d": "05-02",
+      "co": "aurora",
+      "title": "Aurora完成史上最大南极季：30航次、819次登陆",
+      "cat": "运营动态",
+      "imp": "high",
+      "desc": "三艘船首次同时在南极运营，Douglas Mawson号创客船最南纪录(78°44'S)。",
+      "src": "Cruise Industry News",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/aurora-expeditions-completes-largest-antarctic-season/"
+    },
+    {
+      "d": "04-28",
+      "co": "silversea",
+      "title": "银海将在Puerto Williams开设南极最南端奢华酒店",
+      "cat": "新设施",
+      "imp": "high",
+      "desc": "150间客房「The Cormorant」2026年10月开业，飞南极项目枢纽。",
+      "src": "Travel Daily Media",
+      "url": "https://www.traveldailymedia.com/silversea-concludes-landmark-2025-2026-antarctica-season-and-ushers-in-a-new-era-of-luxury-polar-exploration/"
+    },
+    {
+      "d": "04-15",
+      "co": "aurora",
+      "title": "Douglas Mawson入选《时代》2026全球最佳目的地",
+      "cat": "奖项",
+      "imp": "high",
+      "desc": "同时获评Condé Nast Traveler 2026 Hot List。",
+      "src": "TIME",
+      "url": "https://traveltalkmedia.com.au/aurora-expeditions-ship-makes-time-list/"
+    },
+    {
+      "d": "04-12",
+      "co": "ponant",
+      "title": "庞洛Charcot号发布2026-27北极冬季16个航次",
+      "cat": "航线",
+      "imp": "high",
+      "desc": "全球唯一PC2破冰船探索北极光、斯瓦尔巴、圣劳伦斯河冬季。",
+      "src": "Cruise Industry News",
+      "url": "https://cruiseindustrynews.com/cruise-news/2025/02/ponants-commandant-charcot-to-return-to-the-arctic-canada-for-winter-2026-27/"
+    },
+    {
+      "d": "04-08",
+      "co": "seabourn",
+      "title": "Seabourn Venture创纪录：抵达南纬70°",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "首次探索George VI Sound冰道，嘉年华集团船只最南纪录。",
+      "src": "TravelPulse",
+      "url": "https://www.travelpulse.com/news/cruise/seabourn-venture-sets-records-in-antarctica"
+    },
+    {
+      "d": "04-01",
+      "co": "silversea",
+      "title": "银海完成2025-26南极季：38航次含18次飞南极",
+      "cat": "运营动态",
+      "imp": "med",
+      "desc": "38航次3艘船运营，罕见观测帝企鹅群落和Arnoux's喙鲸，单次极地跳水近140人参与。创单季最多飞南极纪录。",
+      "src": "Cruise Industry News",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/03/silversea-wraps-up-antarctica-season-with-38-voyages/"
+    },
+    {
+      "d": "03-25",
+      "co": "quark",
+      "title": "夸克「This Is Polar Bonus」：北极2026最高省$2,000",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "可与其他促销叠加。另推出顾问竞赛赢取斯瓦尔巴航次。",
+      "src": "TravelPulse",
+      "url": "https://www.travelpulse.com/news/cruise/quark-expeditions-launches-this-is-polar-bonus-for-adventure-seekers"
+    },
+    {
+      "d": "03-20",
+      "co": "quark",
+      "title": "夸克在英国湖区举办首次极地代理商静修会",
+      "cat": "市场",
+      "imp": "med",
+      "desc": "50+代理商参与，含讲座、皮划艇。一位代理商赢得北极游。",
+      "src": "Travel Weekly UK",
+      "url": "https://travelweekly.co.uk/news/quark-expeditions-hosts-50-agents-at-polar-retreat-in-lake-district"
+    },
+    {
+      "d": "03-10",
+      "co": "aurora",
+      "title": "Aurora时隔15年重返东南极",
+      "cat": "航线",
+      "imp": "high",
+      "desc": "15年来首次重返地球上最偏远区域之一。本季三船同时运营。",
+      "src": "Travel And Tour World",
+      "url": "https://www.travelandtourworld.fr/nouvelles/article/Aurora-Expeditions-marque-un-retour-historique-dans-l%27Antarctique-oriental-apr%C3%A8s-quinze-ans-d%27absence--offrant-aux-explorateurs-une-occasion-rare-d%27explorer-cette-nature-sauvage-et-intacte./"
+    },
+    {
+      "d": "02-28",
+      "co": "quark",
+      "title": "夸克因需求旺新增第二个2026日全食航次",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "首个售罄后增开Ocean Explorer号17天航次(8月3-19日)。",
+      "src": "TravelPulse",
+      "url": "https://www.travelpulse.com/news/cruise/quark-expeditions-to-offer-additional-solar-eclipse-voyage-in-2026"
+    },
+    {
+      "d": "02-20",
+      "co": "seabourn",
+      "title": "世邦发布2026-27极地季：24航线161目的地",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Pursuit 2026年金伯利为最后一年，2028年起全面转向极地。",
+      "src": "Cruise Mapper",
+      "url": "https://www.cruisemapper.com/news/14017-seabourn-launches-2026-2027-expedition-season"
+    },
+    {
+      "d": "02-14",
+      "co": "ponant",
+      "title": "庞洛开售2028年62天南极环大陆航次",
+      "cat": "航线",
+      "imp": "high",
+      "desc": "Charcot号23,000公里环南极，深入罗斯海。需求远超预期。",
+      "src": "广州日报",
+      "url": "https://news.dayoo.com/gzrbrmt/202602/14/170636_54928931.htm"
+    },
+    {
+      "d": "01-15",
+      "co": "seabourn",
+      "title": "世邦宣布2026年终止潜水艇项目",
+      "cat": "运营调整",
+      "imp": "med",
+      "desc": "因客人兴趣有限和监管限制，潜水艇体验3月终止。",
+      "src": "Travel Weekly Asia",
+      "url": "https://www.travelweekly-asia.com/Cruise-Travel/No-more-submarine-programme-for-Seabourne"
+    },
+    {
+      "d": "04-20",
+      "co": "aqua",
+      "title": "Aqua Expeditions 2026年6月首进北极",
+      "cat": "新进入者",
+      "imp": "med",
+      "desc": "30客位超级游艇Aqua Lares(冰级1B)前往斯瓦尔巴。",
+      "src": "Cruise Industry News",
+      "url": "https://cruiseindustrynews.com/cruise-news/2025/09/aqua-expeditions-heading-to-the-arctic/"
+    },
+    {
+      "d": "03-01",
+      "co": "silversea",
+      "title": "银海2026-27南极季扩展至41个航次",
+      "cat": "航线",
+      "imp": "high",
+      "desc": "29个飞南极+12个传统德雷克海峡，依托Cormorant酒店扩容。",
+      "src": "Cruise Industry News",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/03/silversea-wraps-up-antarctica-season-with-38-voyages/"
+    },
+    {
+      "d": "01-10",
+      "co": "aurora",
+      "title": "Aurora庆祝极地探险35周年",
+      "cat": "里程碑",
+      "imp": "med",
+      "desc": "推出全球周年特惠，发布全新Active Antarctica沉浸式航次。",
+      "src": "Aurora Media Centre",
+      "url": "https://www.aurora-expeditions.com/eu/media-centre"
+    },
+    {
+      "d": "03-15",
+      "co": "quark",
+      "title": "夸克Ultramarine北极2026免单人附加费",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "单人预订阳台套房省高达$10,000。限时优惠。",
+      "src": "Travel Weekly AU",
+      "url": "https://travelweekly.com.au/quark-expeditions-announces-no-solo-supplement-charge-on-its-ultramarine-arctic-2026-voyages/"
+    },
+    {
+      "d": "05-01",
+      "co": "seabourn",
+      "title": "世邦「Yours to Explore」：免费升两级套房+$1,000消费",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "适用于500+航次，截止5月5日。5月Expedition Month激励。",
+      "src": "Porthole Cruise",
+      "url": "https://porthole.com/seabourn-yours-to-explore-event-adds-suite-upgrades/"
+    },
+    {
+      "d": "02-01",
+      "co": "aurora",
+      "title": "Aurora任命Beth Mercier为北美销售副总裁",
+      "cat": "人事",
+      "imp": "low",
+      "desc": "曾在多家奢华邮轮公司担任高管，负责北美市场战略。",
+      "src": "Trade Press",
+      "url": ""
+    },
+    {
+      "d": "01-20",
+      "co": "aurora",
+      "title": "Aurora与Sparro by Brainlabs达成全球媒体合作",
+      "cat": "市场",
+      "imp": "low",
+      "desc": "数据驱动、受众优先的全球数字营销策略，覆盖北美、欧洲及亚太主要市场。",
+      "src": "Mi3",
+      "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
+    }
   ],
   "updated": "2026-05-04T10:00:00"
 }
