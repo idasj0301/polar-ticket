@@ -190,7 +190,7 @@ function App(){
         <div className="stat"><div className="n" style={{color:'var(--warn)'}}>{stats.promo}</div><div className="l">活跃促销</div></div>
         <div className="stat"><div className="n" style={{color:'var(--green)'}}>{stats.drops}</div><div className="l">今日降价</div></div>
       </div>
-      {tab==='compare' && <CompareView V={V} cos={cos}/>}
+      {tab==='compare' && <CompareView V={V} cos={cos} onDetail={setDetailCo}/>}
       {tab==='companies' && <CompaniesView cos={cos} P={P} onDetail={setDetailCo}/>}
       {tab==='alerts' && <AlertsView V={V} P={P} cos={cos}/>}
       {tab==='news' && <NewsView N={N} cos={cos}/>}
@@ -201,7 +201,7 @@ function App(){
   );
 }
 
-function CompareView({V,cos}){
+function CompareView({V,cos,onDetail}){
   const group = V.filter(v=>v.r==='antarctic'&&v.days>=6&&v.days<=14);
   const cheapest = group.length?Math.min(...group.map(v=>v.cabins[0].price)):0;
   return (
@@ -215,7 +215,7 @@ function CompareView({V,cos}){
         {group.sort((a,b)=>a.cabins[0].price-b.cabins[0].price).map(v=>{
           const co=getCo(v.co,cos); const c=v.cabins[0]; const pd=Math.round(c.price/v.days);
           const disc=(c.orig&&c.orig>c.price)?Math.round((1-c.price/c.orig)*100):0; const isBest=c.price===cheapest;
-          return <tr key={v.id}>
+          return <tr key={v.id} onClick={()=>onDetail&&onDetail(co)} style={{cursor:'pointer'}}>
             <td>
               <div style={{display:'flex',alignItems:'center',gap:10}}>
                 <Logo co={co} size={28}/>
