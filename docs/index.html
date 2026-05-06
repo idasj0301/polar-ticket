@@ -303,7 +303,7 @@ function AlertsView({V,P,cos}){
   V.forEach(v=>{v.cabins.forEach(c=>{if(c.orig&&c.price<c.orig){const co=getCo(v.co,cos);drops.push({co,v,c,pct:Math.round((1-c.price/c.orig)*100)});}})});
   drops.sort((a,b)=>b.pct-a.pct);
   const filteredDrops = rFilter==='all'?drops:drops.filter(d=>d.v.r===rFilter);
-  const filteredPromos = rFilter==='all'?P:P.filter(p=>{const co=getCo(p.co,cos);return co.r&&co.r.includes(rFilter);});
+  const filteredPromos = rFilter==='all'?P:P.filter(p=>{const co=getCo(p.co,cos)||{};return (co.r||[]).includes(rFilter);});
   return (
     <div>
       <div className="filter-row" style={{marginBottom:12}}>
@@ -369,16 +369,16 @@ function CabinView({V,cos}){
   return (
     <div>
       <div style={{fontSize:18,fontWeight:700,marginBottom:6}}>🚢 舱位库存监控</div>
-      <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>共 {stats.total} 个舱位类型 · 售罄 {stats.sold} · 紧张 {stats.low} · 充足 {stats.ok}</div>
+      <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>共 {regionFiltered.length} 个舱位类型 · 售罄 {regionFiltered.filter(c=>c.avail===0).length} · 紧张 {regionFiltered.filter(c=>c.avail>0&&c.avail<=2).length} · 充足 {regionFiltered.filter(c=>c.avail>2).length}</div>
       <div className="filter-row">
         <button className={rFilter==='all'?'on':''} onClick={()=>setRFilter('all')} style={{fontSize:12}}>全部</button>
         <button className={rFilter==='antarctic'?'on':''} onClick={()=>setRFilter('antarctic')} style={{fontSize:12}}>🐧 南极</button>
         <button className={rFilter==='arctic'?'on':''} onClick={()=>setRFilter('arctic')} style={{fontSize:12}}>🐻‍❄️ 北极</button>
       </div>
       <div className="filter-row">
-        <button className={filter==='all'?'on':''} onClick={()=>setFilter('all')}>全部 ({stats.total})</button>
-        <button className={filter==='sold'?'on':''} onClick={()=>setFilter('sold')} style={filter==='sold'?{}:{color:'var(--red)',borderColor:'rgba(239,83,80,.3)'}}>🔴 售罄 ({stats.sold})</button>
-        <button className={filter==='low'?'on':''} onClick={()=>setFilter('low')} style={filter==='low'?{}:{color:'var(--warn)',borderColor:'rgba(255,183,77,.3)'}}>🟡 紧张 ({stats.low})</button>
+        <button className={filter==='all'?'on':''} onClick={()=>setFilter('all')}>全部 ({regionFiltered.length})</button>
+        <button className={filter==='sold'?'on':''} onClick={()=>setFilter('sold')} style={filter==='sold'?{}:{color:'var(--red)',borderColor:'rgba(239,83,80,.3)'}}>🔴 售罄 ({regionFiltered.filter(c=>c.avail===0).length})</button>
+        <button className={filter==='low'?'on':''} onClick={()=>setFilter('low')} style={filter==='low'?{}:{color:'var(--warn)',borderColor:'rgba(255,183,77,.3)'}}>🟡 紧张 ({regionFiltered.filter(c=>c.avail>0&&c.avail<=2).length})</button>
       </div>
       <div className="compare-wrap">
       <table className="compare">
