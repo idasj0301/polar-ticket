@@ -49,8 +49,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Micr
 .compare{width:100%;min-width:860px;border-collapse:separate;border-spacing:0;margin-top:16px;table-layout:fixed}
 .compare col.col-co{width:14%}.compare col.col-route{width:21%}.compare col.col-date{width:10%}.compare col.col-days{width:6%}.compare col.col-port{width:11%}.compare col.col-cabin{width:13%}.compare col.col-price{width:17%}.compare col.col-avail{width:8%}
 .compare thead tr{background:rgba(0,0,0,.15)}
-.compare th{text-align:left;padding:12px 14px;font-size:10px;color:var(--text2);text-transform:uppercase;letter-spacing:.8px;border-bottom:1px solid var(--border);font-weight:600;white-space:nowrap}
-.compare td{padding:16px 14px;font-size:13px;border-bottom:1px solid rgba(42,63,85,.15);vertical-align:middle;word-break:break-word}
+.compare th{text-align:left;padding:12px 14px;font-size:10px;color:var(--text2);text-transform:uppercase;letter-spacing:.8px;border-bottom:1px solid var(--border);font-weight:600;white-space:nowrap;vertical-align:bottom}
+.compare td{padding:16px 14px;font-size:13px;border-bottom:1px solid rgba(42,63,85,.15);vertical-align:top;overflow:hidden}
 .compare tbody tr{transition:background .15s}
 .compare tbody tr:hover td{background:var(--card-hover)}
 .th-right{text-align:right!important}
@@ -108,7 +108,7 @@ img.logo-fail + .logo-fallback{display:flex!important}
 .route-chip.ant{background:rgba(79,195,247,.1);color:var(--accent)}
 .route-chip.arc{background:rgba(129,212,250,.1);color:#81d4fa}
 .promo-inline{font-size:12px;padding:8px 12px;border-radius:8px;background:rgba(255,183,77,.08);margin-bottom:6px;border-left:3px solid var(--warn)}
-@media(max-width:768px){.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.modal{margin:10px;max-height:90vh}
+@media(max-width:768px){.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.modal{margin:10px;max-height:90vh}.alerts-grid{grid-template-columns:1fr!important}
 .compare-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -12px;padding:0 12px;position:relative}
 .compare-wrap::after{content:'← 滑动查看更多 →';position:absolute;right:8px;top:50%;transform:translateY(-50%);font-size:10px;color:var(--text2);background:rgba(15,25,35,.8);padding:4px 8px;border-radius:8px;pointer-events:none}
 .compare{min-width:700px;font-size:12px}
@@ -278,18 +278,23 @@ function AlertsView({V,P,cos}){
   V.forEach(v=>{v.cabins.forEach(c=>{if(c.orig&&c.price<c.orig){const co=getCo(v.co,cos);drops.push({co,v,c,pct:Math.round((1-c.price/c.orig)*100)});}})});
   drops.sort((a,b)=>b.pct-a.pct);
   return (
-    <div>
-      <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>🔔 降价提醒 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{drops.length}条</span></div>
-      {drops.map((d,i)=><div className="alert-row" key={i}>
-        <div className="icon">📉</div>
-        <div className="bd"><div className="t">{(d.co.cn||d.v.co)} · {d.v.name}</div><div className="d">{d.c.cat} · {d.v.ship} · {d.v.date} · {d.v.days}天</div></div>
-        <div className="price-col"><div className="new">{fmt(d.c.price)}</div><div className="old">{fmt(d.c.orig)}</div><div className="pct">-{d.pct}%</div></div>
-      </div>)}
-      <div style={{marginTop:28,fontSize:18,fontWeight:700,marginBottom:16}}>🔥 活跃促销</div>
-      {P.map((p,i)=>{const co=getCo(p.co,cos);return <div className="alert-row" key={'p'+i} style={{borderLeft:'3px solid var(--warn)'}}>
-        <div className="icon">🔥</div><div className="bd"><div className="t">{(co.cn||p.co)} · {p.t}</div><div className="d">{p.d} | 截止: {p.exp}</div></div>
-        <div style={{fontWeight:700,color:'var(--warn)',fontSize:15}}>{p.v}</div>
-      </div>})}
+    <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:20}} className="alerts-grid">
+      <div>
+        <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>📉 降价提醒 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{drops.length}条</span></div>
+        {drops.length===0 && <div style={{color:'var(--text2)',fontSize:13,padding:20}}>暂无降价航次</div>}
+        {drops.map((d,i)=><div className="alert-row" key={i}>
+          <div className="icon">📉</div>
+          <div className="bd"><div className="t">{(d.co.cn||d.v.co)} · {d.v.name}</div><div className="d">{d.c.cat} · {d.v.ship} · {d.v.date} · {d.v.days}天</div></div>
+          <div className="price-col"><div className="new">{fmt(d.c.price)}</div><div className="old">{fmt(d.c.orig)}</div><div className="pct">-{d.pct}%</div></div>
+        </div>)}
+      </div>
+      <div>
+        <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>🔥 活跃促销 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{P.length}条</span></div>
+        {P.map((p,i)=>{const co=getCo(p.co,cos);return <div className="alert-row" key={'p'+i} style={{borderLeft:'3px solid var(--warn)'}}>
+          <div className="icon">🔥</div><div className="bd"><div className="t">{(co.cn||p.co)} · {p.t}</div><div className="d">{p.d} | 截止: {p.exp}</div></div>
+          <div style={{fontWeight:700,color:'var(--warn)',fontSize:15}}>{p.v}</div>
+        </div>})}
+      </div>
     </div>
   );
 }
