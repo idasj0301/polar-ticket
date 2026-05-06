@@ -46,24 +46,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Micr
 .badge-sm{font-size:10px;padding:2px 8px;border-radius:12px;display:inline-flex;align-items:center;gap:3px}
 .badge-promo{background:rgba(255,183,77,.12);color:var(--warn)}
 .badge-drop{background:rgba(129,199,132,.12);color:var(--green)}
-.compare{width:100%;min-width:860px;border-collapse:separate;border-spacing:0;margin-top:16px;table-layout:fixed}
-.compare col.col-co{width:14%}.compare col.col-route{width:21%}.compare col.col-date{width:10%}.compare col.col-days{width:6%}.compare col.col-port{width:11%}.compare col.col-cabin{width:13%}.compare col.col-price{width:17%}.compare col.col-avail{width:8%}
-.compare thead tr{background:rgba(0,0,0,.15)}
-.compare th{text-align:left;padding:12px 14px;font-size:10px;color:var(--text2);text-transform:uppercase;letter-spacing:.8px;border-bottom:1px solid var(--border);font-weight:600;white-space:nowrap;vertical-align:bottom}
-.compare td{padding:16px 14px;font-size:13px;border-bottom:1px solid rgba(42,63,85,.15);vertical-align:top;overflow:hidden}
-.compare tbody tr{transition:background .15s}
-.compare tbody tr:hover td{background:var(--card-hover)}
-.th-right{text-align:right!important}
-.td-price{text-align:right}
-.price-main{font-weight:700;font-size:17px;color:var(--accent)}
-.price-sub{font-size:11px;color:var(--text2);margin-top:2px}
-.price-disc{color:var(--green);font-weight:600;margin-left:4px}
-.best{display:inline-block;padding:1px 6px;border-radius:4px;font-size:10px;font-weight:700;background:rgba(129,199,132,.15);color:var(--green);margin-left:4px;vertical-align:middle}
-.avail{display:inline-block;padding:3px 10px;border-radius:10px;font-size:11px;font-weight:600}
+.compare{width:100%;border-collapse:collapse;margin-top:16px}
+.compare th{text-align:left;padding:12px 16px;font-size:11px;color:var(--text2);text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--border);font-weight:600}
+.compare td{padding:14px 16px;font-size:14px;border-bottom:1px solid rgba(42,63,85,.3);vertical-align:middle}
+.compare tr:hover td{background:var(--card-hover)}
+.price{font-weight:700;font-size:16px;white-space:nowrap}
+.price .old{font-size:11px;color:var(--text2);text-decoration:line-through;margin-left:6px;font-weight:400}
+.price .off{font-size:10px;color:var(--green);margin-left:4px}
+.best{display:inline-block;padding:2px 6px;border-radius:4px;font-size:10px;font-weight:700;background:rgba(129,199,132,.15);color:var(--green);margin-left:4px}
+.avail{display:inline-block;padding:2px 8px;border-radius:10px;font-size:10px;font-weight:600}
 .avail.low{background:rgba(255,183,77,.1);color:var(--warn)}
 .avail.ok{background:rgba(129,199,132,.1);color:var(--green)}
-.pos-tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:10px;font-weight:600;line-height:1.4;background:rgba(79,195,247,.08);color:var(--accent);margin-top:4px;letter-spacing:.5px}
-.col-port{max-width:110px;overflow:hidden;text-overflow:ellipsis;font-size:11px;cursor:default}
 .news-card{background:var(--card);border-radius:14px;padding:20px;border:1px solid var(--border);margin-bottom:10px;display:flex;gap:16px;transition:.15s}
 .news-card:hover{background:var(--card-hover)}
 .news-card .ico{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:13px;flex-shrink:0;overflow:hidden}
@@ -108,9 +101,8 @@ img.logo-fail + .logo-fallback{display:flex!important}
 .route-chip.ant{background:rgba(79,195,247,.1);color:var(--accent)}
 .route-chip.arc{background:rgba(129,212,250,.1);color:#81d4fa}
 .promo-inline{font-size:12px;padding:8px 12px;border-radius:8px;background:rgba(255,183,77,.08);margin-bottom:6px;border-left:3px solid var(--warn)}
-@media(max-width:768px){.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.modal{margin:10px;max-height:90vh}.alerts-grid{grid-template-columns:1fr!important}
-.compare-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -12px;padding:0 12px;position:relative}
-.compare-wrap::after{content:'← 滑动查看更多 →';position:absolute;right:8px;top:50%;transform:translateY(-50%);font-size:10px;color:var(--text2);background:rgba(15,25,35,.8);padding:4px 8px;border-radius:8px;pointer-events:none}
+@media(max-width:768px){.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.modal{margin:10px;max-height:90vh}
+.compare-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -12px;padding:0 12px}
 .compare{min-width:700px;font-size:12px}
 .compare th,.compare td{padding:8px 10px;font-size:11px}
 .compare .price{font-size:13px}
@@ -145,8 +137,7 @@ function Logo({co,size}){
 function App(){
   const [data,setData] = useState(null);
   const [cos,setCos] = useState([]);
-  const savedTab = (()=>{try{return localStorage.getItem('polarTab')||'compare'}catch(e){return 'compare'}})();
-  const [tab,setTab] = useState(savedTab);
+  const [tab,setTab] = useState('compare');
   const [detailCo,setDetailCo] = useState(null);
   const [loading,setLoading] = useState(true);
 
@@ -175,12 +166,12 @@ function App(){
         <div className="badge">● 数据就绪</div>
       </div>
       <div className="nav">
-        <button className={tab==='compare'?'on':''} onClick={()=>{const t='compare'}}>📊 比价</button>
-        <button className={tab==='companies'?'on':''} onClick={()=>{const t='companies'}}>🏢 公司 ({stats.total})</button>
-        <button className={tab==='alerts'?'on':''} onClick={()=>{const t='alerts'}}>🔔 降价 ({stats.drops})</button>
-        <button className={tab==='news'?'on':''} onClick={()=>{const t='news'}}>📰 情报站</button>
-        <button className={tab==='cabin'?'on':''} onClick={()=>{const t='cabin'}}>🚢 舱位</button>
-        <button className={tab==='query'?'on':''} onClick={()=>{const t='query'}}>💬 智能查询</button>
+        <button className={tab==='compare'?'on':''} onClick={()=>setTab('compare')}>📊 比价</button>
+        <button className={tab==='companies'?'on':''} onClick={()=>setTab('companies')}>🏢 公司 ({stats.total})</button>
+        <button className={tab==='alerts'?'on':''} onClick={()=>setTab('alerts')}>🔔 降价 ({stats.drops})</button>
+        <button className={tab==='news'?'on':''} onClick={()=>setTab('news')}>📰 情报站</button>
+        <button className={tab==='cabin'?'on':''} onClick={()=>setTab('cabin')}>🚢 舱位</button>
+        <button className={tab==='query'?'on':''} onClick={()=>setTab('query')}>💬 智能查询</button>
       </div>
       <div className="stats">
         <div className="stat"><div className="n" style={{color:'var(--accent)'}}>{stats.total}</div><div className="l">监控公司</div></div>
@@ -197,7 +188,7 @@ function App(){
       {detailCo && <CompanyDetail co={detailCo} V={V} P={P} cos={cos} onClose={()=>setDetailCo(null)}/>}
     </div>
   );
-}}
+}
 
 function CompareView({V,cos}){
   const group = V.filter(v=>v.r==='antarctic'&&v.days>=6&&v.days<=14);
@@ -207,38 +198,21 @@ function CompareView({V,cos}){
       <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>📊 南极航线比价</div>
       <div className="compare-wrap">
       <table className="compare">
-        <colgroup><col className="col-co"/><col className="col-route"/><col className="col-date"/><col className="col-days"/><col className="col-port"/><col className="col-cabin"/><col className="col-price"/><col className="col-avail"/></colgroup>
-        <thead><tr><th>公司</th><th>航线·船只</th><th>日期</th><th>天数</th><th>出发港</th><th>舱位</th><th className="th-right">价格</th><th>库存</th></tr></thead>
+        <thead><tr><th>公司</th><th>船只</th><th>航线</th><th>日期</th><th>天数</th><th>最低舱位</th><th>价格</th><th>每日均价</th><th>折扣</th><th>库存</th></tr></thead>
         <tbody>
         {group.sort((a,b)=>a.cabins[0].price-b.cabins[0].price).map(v=>{
           const co=getCo(v.co,cos); const c=v.cabins[0]; const pd=Math.round(c.price/v.days);
           const disc=(c.orig&&c.orig>c.price)?Math.round((1-c.price/c.orig)*100):0; const isBest=c.price===cheapest;
           return <tr key={v.id}>
-            <td>
-              <div style={{display:'flex',alignItems:'center',gap:10}}>
-                <Logo co={co} size={28}/>
-                <div style={{flex:1}}>
-                  <div style={{fontWeight:700,fontSize:14,lineHeight:1.3}}>{co.cn||v.co}</div>
-                  <div style={{fontSize:10,color:'var(--text2)',lineHeight:1.3}}>{co.en||''}</div>
-                  <span className="pos-tag">{co.pos||''}</span>
-                </div>
-              </div>
-            </td>
-            <td>
-              <div style={{fontSize:13}}>{v.name}</div>
-              <div style={{fontSize:11,color:'var(--text2)',marginTop:2}}>🚢 {v.ship}</div>
-            </td>
-            <td style={{whiteSpace:'nowrap',fontSize:13}}>{v.date}</td>
-            <td style={{fontSize:14,fontWeight:500}}>{v.days}天</td>
-            <td className="col-port" title={v.port}>{v.port||'—'}</td>
-            <td style={{fontSize:13}}>{c.cat}</td>
-            <td className="td-price">
-              <div className="price-main">{fmt(c.price)}{isBest&&<span className="best">最低</span>}</div>
-              <div className="price-sub">{fmt(pd)}/天{c.orig>c.price&&<span> · 原{fmt(c.orig)}</span>}{disc>0&&<span className="price-disc">↓{disc}%</span>}</div>
-            </td>
+            <td><div style={{display:'flex',alignItems:'center'}}><Logo co={co} size={22}/><div><b>{co.cn||v.co}</b><span style={{fontSize:10,color:'var(--text2)',marginLeft:6}}>{co.en||''}</span><div style={{fontSize:11,color:'var(--text2)'}}>{co.pos||''}</div></div></div></td>
+            <td>{v.ship}</td><td style={{maxWidth:200,fontSize:13}}>{v.name}</td><td style={{whiteSpace:'nowrap'}}>{v.date}</td><td>{v.days}天</td>
+            <td>{c.cat}</td>
+            <td className="price">{fmt(c.price)}{isBest&&<span className="best">最低</span>}{c.orig>c.price&&<span className="old">{fmt(c.orig)}</span>}{disc>0&&<span className="off">-{disc}%</span>}</td>
+            <td>{fmt(pd)}/天</td>
+            <td>{disc>0?<span style={{color:'var(--green)',fontWeight:600}}>-{disc}%</span>:'—'}</td>
             <td><span className={'avail '+(c.avail<=2?'low':'ok')}>{c.avail<=2?'仅剩'+c.avail:c.avail+'间'}</span></td>
           </tr>
-        )}
+        })}
         </tbody>
       </table></div>
     </div>
@@ -279,23 +253,18 @@ function AlertsView({V,P,cos}){
   V.forEach(v=>{v.cabins.forEach(c=>{if(c.orig&&c.price<c.orig){const co=getCo(v.co,cos);drops.push({co,v,c,pct:Math.round((1-c.price/c.orig)*100)});}})});
   drops.sort((a,b)=>b.pct-a.pct);
   return (
-    <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:20}} className="alerts-grid">
-      <div>
-        <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>📉 降价提醒 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{drops.length}条</span></div>
-        {drops.length===0 && <div style={{color:'var(--text2)',fontSize:13,padding:20}}>暂无降价航次</div>}
-        {drops.map((d,i)=><div className="alert-row" key={i}>
-          <div className="icon">📉</div>
-          <div className="bd"><div className="t">{(d.co.cn||d.v.co)} · {d.v.name}</div><div className="d">{d.c.cat} · {d.v.ship} · {d.v.date} · {d.v.days}天</div></div>
-          <div className="price-col"><div className="new">{fmt(d.c.price)}</div><div className="old">{fmt(d.c.orig)}</div><div className="pct">-{d.pct}%</div></div>
-        </div>)}
-      </div>
-      <div>
-        <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>🔥 活跃促销 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{P.length}条</span></div>
-        {P.map((p,i)=>{const co=getCo(p.co,cos);return <div className="alert-row" key={'p'+i} style={{borderLeft:'3px solid var(--warn)'}}>
-          <div className="icon">🔥</div><div className="bd"><div className="t">{(co.cn||p.co)} · {p.t}</div><div className="d">{p.d} | 截止: {p.exp}</div></div>
-          <div style={{fontWeight:700,color:'var(--warn)',fontSize:15}}>{p.v}</div>
-        </div>})}
-      </div>
+    <div>
+      <div style={{fontSize:18,fontWeight:700,marginBottom:16}}>🔔 降价提醒 <span style={{fontSize:13,color:'var(--text2)',fontWeight:400}}>{drops.length}条</span></div>
+      {drops.map((d,i)=><div className="alert-row" key={i}>
+        <div className="icon">📉</div>
+        <div className="bd"><div className="t">{(d.co.cn||d.v.co)} · {d.v.name}</div><div className="d">{d.c.cat} · {d.v.ship} · {d.v.date} · {d.v.days}天</div></div>
+        <div className="price-col"><div className="new">{fmt(d.c.price)}</div><div className="old">{fmt(d.c.orig)}</div><div className="pct">-{d.pct}%</div></div>
+      </div>)}
+      <div style={{marginTop:28,fontSize:18,fontWeight:700,marginBottom:16}}>🔥 活跃促销</div>
+      {P.map((p,i)=>{const co=getCo(p.co,cos);return <div className="alert-row" key={'p'+i} style={{borderLeft:'3px solid var(--warn)'}}>
+        <div className="icon">🔥</div><div className="bd"><div className="t">{(co.cn||p.co)} · {p.t}</div><div className="d">{p.d} | 截止: {p.exp}</div></div>
+        <div style={{fontWeight:700,color:'var(--warn)',fontSize:15}}>{p.v}</div>
+      </div>})}
     </div>
   );
 }
@@ -336,7 +305,7 @@ function CabinView({V,cos}){
       <div style={{fontSize:18,fontWeight:700,marginBottom:6}}>🚢 舱位库存监控</div>
       <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>共 {stats.total} 个舱位类型 · 售罄 {stats.sold} · 紧张 {stats.low} · 充足 {stats.ok}</div>
       <div className="filter-row">
-        <button className={filter==='all'?'on':''} onClick={()=>setFilter('all'}}>全部 ({stats.total})</button>
+        <button className={filter==='all'?'on':''} onClick={()=>setFilter('all')}>全部 ({stats.total})</button>
         <button className={filter==='sold'?'on':''} onClick={()=>setFilter('sold')} style={filter==='sold'?{}:{color:'var(--red)',borderColor:'rgba(239,83,80,.3)'}}>🔴 售罄 ({stats.sold})</button>
         <button className={filter==='low'?'on':''} onClick={()=>setFilter('low')} style={filter==='low'?{}:{color:'var(--warn)',borderColor:'rgba(255,183,77,.3)'}}>🟡 紧张 ({stats.low})</button>
       </div>
@@ -358,7 +327,7 @@ function CabinView({V,cos}){
             <td>{disc>0?<span style={{color:'var(--green)',fontWeight:600}}>-{disc}%</span>:'—'}</td>
             <td><span className={'avail '+(status==='sold'?'low':status==='low'?'low':'ok')} style={status==='sold'?{background:'rgba(239,83,80,.12)',color:'var(--red)'}:status==='low'?{background:'rgba(255,183,77,.1)',color:'var(--warn)'}:{}}>{statusLabel}</span></td>
           </tr>
-        )}
+        })}
         </tbody>
       </table></div>
     </div>
@@ -423,7 +392,7 @@ function QueryView({V,P,N,cos}){
   };
   const doQuery = (text) => {
     const query = text || q;
-    if(!query.trim()||!V||!V.length) {setResults({intent:{},voyages:[],error:'数据加载中，请稍候再试'});return;}
+    if(!query.trim()) return;
     if(text) setQ(text);
     const intent = parseIntent(query);
     let voyages = [...V];
@@ -450,9 +419,8 @@ function QueryView({V,P,N,cos}){
     // 带爸妈: 过滤旧船
     if(intent.identity.includes('elderly')) voyages = voyages.filter(v=>v.days<=15);
     setResults({intent,voyages:voyages.slice(0,10)});
-    setTimeout(()=>{const r=document.getElementById('query-results');if(r)r.scrollIntoView({behavior:'smooth',block:'start'});},100);
   };
-  useEffect(()=>{if(V&&V.length)doQuery();},[V]);
+  useEffect(()=>{doQuery();},[]);
   const chips = ['12月南极 优惠最大','南极 夫妻 蜜月 豪华','南极 10万以内 中文','飞南极 不晕船','北极 暑假 性价比','带爸妈 南极 不折腾','格陵兰 北极','法罗群岛','斯瓦尔巴 北极熊'];
   return (
     <div>
@@ -460,13 +428,12 @@ function QueryView({V,P,N,cos}){
       <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>输入自然语言查询，例如「12月南极 蜜月 10万以内 中文」</div>
       <div style={{display:'flex',gap:8,marginBottom:12}}>
         <input value={q} onChange={e=>setQ(e.target.value)} onKeyDown={e=>e.key==='Enter'&&doQuery()} placeholder="输入查询... 如：12月南极 夫妻 性价比" style={{flex:1,padding:'12px 16px',borderRadius:12,border:'1px solid var(--border)',background:'var(--card)',color:'var(--text)',fontSize:15,outline:'none',fontFamily:'inherit'}}/>
-        <button onClick={()=>doQuery()} style={{padding:'12px 24px',borderRadius:12,background:'var(--accent)',color:'#0f1923',border:'none',fontWeight:700,fontSize:15,cursor:'pointer',fontFamily:'inherit'}}>🔍 查询</button>
+        <button onClick={doQuery} style={{padding:'12px 24px',borderRadius:12,background:'var(--accent)',color:'#0f1923',border:'none',fontWeight:700,fontSize:15,cursor:'pointer',fontFamily:'inherit'}}>🔍 查询</button>
       </div>
       <div className="filter-row" style={{marginBottom:16}}>{chips.map(c=><button key={c} onClick={()=>doQuery(c)}>{c}</button>)}</div>
       {results && (
-        <div id="query-results">
-          <div style={{fontSize:16,fontWeight:700,marginBottom:4}}>{results.error||'搜索结果'}</div>
-          <div style={{fontSize:13,color:'var(--text2)',marginBottom:16}}>匹配 <b style={{color:'var(--accent)',fontSize:16}}>{results.voyages.length}</b> 个航次{results.intent.region==='antarctic'?' · 🐧南极':results.intent.region==='arctic'?' · 🐻‍❄️北极':''}{results.intent.months.length?' · '+results.intent.months.join('/')+'月':''}{results.intent.budget?' · ¥'+results.intent.budget.toLocaleString()+'以内':''}</div>
+        <div>
+          <div style={{fontSize:13,color:'var(--text2)',marginBottom:12}}>找到 <b style={{color:'var(--accent)'}}>{results.voyages.length}</b> 个匹配航次 · 意图: {results.intent.region==='antarctic'?'🐧南极':results.intent.region==='arctic'?'🐻‍❄️北极':'全区域'}{results.intent.months.length?' · '+results.intent.months.join('/')+'月':''}{results.intent.budget?' · ¥'+results.intent.budget.toLocaleString()+'以内':''}{results.intent.prefs.length?' · '+results.intent.prefs.join('+'):''}</div>
           {results.voyages.map(v=>{
             const co=getCo(v.co,cos); const c=v.cabins[0]; const pd=Math.round(c.price/(v.days||1));
             const disc=c.orig>c.price?Math.round((1-c.price/c.orig)*100):0;
@@ -484,7 +451,7 @@ function QueryView({V,P,N,cos}){
               </div>
             </div>
           })}
-          {results.voyages.length===0 && <div className="empty"><div className="big">🔍</div><p>{results.error||'没找到匹配的航次，试试放宽条件'}</p><p style={{fontSize:12,color:'var(--text2)',marginTop:4}}>例如：只搜区域名(南极/北极)、去掉预算限制、或换月份</p></div>}
+          {results.voyages.length===0 && <div className="empty"><div className="big">🔍</div><p>没找到匹配的航次，试试放宽条件</p><p style={{fontSize:12,color:'var(--text2)',marginTop:4}}>例如：去掉预算限制、换一个月份、或者只搜区域</p></div>}
         </div>
       )}
     </div>
@@ -513,8 +480,8 @@ function CompanyDetail({co,V,P,cos,onClose}){
         <div style={{display:'flex',gap:6,flexWrap:'wrap',marginBottom:20}}>{(co.feat||[]).map(f=><span key={f} style={{fontSize:11,padding:'3px 10px',borderRadius:12,background:'rgba(79,195,247,.06)',color:'var(--text2)'}}>{f}</span>)}</div>
         {coPromos.length>0 && <div className="sec"><h4>🔥 当前促销 ({coPromos.length}条)</h4>{coPromos.map(p=><div className="promo-inline" key={p.t}><b>{p.t}</b> — {p.d}<span style={{color:'var(--warn)',fontWeight:600,marginLeft:8}}>{p.v}</span><span style={{marginLeft:8,fontSize:10,color:'var(--text2)'}}>截止 {p.exp}</span></div>)}</div>}
         <div className="sec"><h4>🚢 船队 ({co.sn}艘)</h4>{(co.ships||[]).map(s=><div className="ship-card" key={s}><div className="top"><span className="name">🚢 {s}</span></div></div>)}</div>
-        {ant.length>0 && <div className="sec"><h4>🐧 南极航线 ({ant.length}个航次)</h4>{ant.map(v=>{const c=v.cabins[0];return <div className="ship-card" key={v.id}><div className="top"><span className="name">{v.name}</span><span style={{fontWeight:700,fontSize:14,color:'var(--accent)'}}>{fmt(c.price)}</span></div><div style={{fontSize:11,color:'var(--text2)'}}>{v.ship} · {v.date} · {v.days}天 · 🛳️{v.port||'待定'}</div><div style={{fontSize:11,marginTop:6}}>{v.cabins.map((c,i)=><span key={i} style={{marginRight:10,fontSize:11,color:c.avail===0?'var(--red)':c.avail<=2?'var(--warn)':'var(--text2)'}}>{c.cat}: {c.avail===0?'售罄':c.avail+'间'}{c.orig>c.price&&<span style={{color:'var(--green)',marginLeft:2}}>↓{Math.round((1-c.price/c.orig)*100)}%</span>}</span>)}</div></div>})}</div>}
-        {arc.length>0 && <div className="sec"><h4>🐻‍❄️ 北极航线 ({arc.length}个航次)</h4>{arc.map(v=>{const c=v.cabins[0];return <div className="ship-card" key={v.id}><div className="top"><span className="name">{v.name}</span><span style={{fontWeight:700,fontSize:14,color:'var(--accent)'}}>{fmt(c.price)}</span></div><div style={{fontSize:11,color:'var(--text2)'}}>{v.ship} · {v.date} · {v.days}天 · 🛳️{v.port||'待定'}</div><div style={{fontSize:11,marginTop:6}}>{v.cabins.map((c,i)=><span key={i} style={{marginRight:10,fontSize:11,color:c.avail===0?'var(--red)':c.avail<=2?'var(--warn)':'var(--text2)'}}>{c.cat}: {c.avail===0?'售罄':c.avail+'间'}{c.orig>c.price&&<span style={{color:'var(--green)',marginLeft:2}}>↓{Math.round((1-c.price/c.orig)*100)}%</span>}</span>)}</div></div>})}</div>}
+        {ant.length>0 && <div className="sec"><h4>🐧 南极航线 ({ant.length}个航次)</h4>{ant.map(v=>{const c=v.cabins[0];return <div className="ship-card" key={v.id}><div className="top"><span className="name">{v.name}</span><span style={{fontWeight:700,fontSize:14,color:'var(--accent)'}}>{fmt(c.price)}</span></div><div style={{fontSize:11,color:'var(--text2)'}}>{v.ship} · {v.date} · {v.days}天 · {v.port}</div><div style={{fontSize:11,marginTop:6}}>{v.cabins.map((c,i)=><span key={i} style={{marginRight:10,fontSize:11,color:c.avail===0?'var(--red)':c.avail<=2?'var(--warn)':'var(--text2)'}}>{c.cat}: {c.avail===0?'售罄':c.avail+'间'}{c.orig>c.price&&<span style={{color:'var(--green)',marginLeft:2}}>↓{Math.round((1-c.price/c.orig)*100)}%</span>}</span>)}</div></div>})}</div>}
+        {arc.length>0 && <div className="sec"><h4>🐻‍❄️ 北极航线 ({arc.length}个航次)</h4>{arc.map(v=>{const c=v.cabins[0];return <div className="ship-card" key={v.id}><div className="top"><span className="name">{v.name}</span><span style={{fontWeight:700,fontSize:14,color:'var(--accent)'}}>{fmt(c.price)}</span></div><div style={{fontSize:11,color:'var(--text2)'}}>{v.ship} · {v.date} · {v.days}天 · {v.port}</div><div style={{fontSize:11,marginTop:6}}>{v.cabins.map((c,i)=><span key={i} style={{marginRight:10,fontSize:11,color:c.avail===0?'var(--red)':c.avail<=2?'var(--warn)':'var(--text2)'}}>{c.cat}: {c.avail===0?'售罄':c.avail+'间'}{c.orig>c.price&&<span style={{color:'var(--green)',marginLeft:2}}>↓{Math.round((1-c.price/c.orig)*100)}%</span>}</span>)}</div></div>})}</div>}
         <div className="sec" style={{textAlign:'center',paddingTop:16,borderTop:'1px solid var(--border)'}}>
           {co.domain && <a href={'https://'+co.domain} target="_blank" rel="noopener noreferrer" style={{color:'var(--accent)',textDecoration:'none',fontSize:13}}>{co.domain} →</a>}
         </div>
