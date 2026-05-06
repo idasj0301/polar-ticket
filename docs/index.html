@@ -208,25 +208,26 @@ function App(){
 function CompareView({V,cos,onDetail}){
   const antGroup = V.filter(v=>v.r==='antarctic'&&v.days>=6&&v.days<=14);
   const arcGroup = V.filter(v=>v.r==='arctic'&&v.days>=6);
-  const renderTable = (group,title,icon) => {
-    if(!group.length) return <div style={{flex:1}}><div style={{fontSize:16,fontWeight:700,marginBottom:12}}>{icon} {title}</div><div style={{color:'var(--text2)',fontSize:13}}>暂无数据</div></div>;
+  const tbl = (list,title,icon) => {
+    if(!list.length) return <div style={{flex:1,padding:20,color:'var(--text2)',fontSize:14}}>{icon} {title}: 暂无数据</div>;
     return <div style={{flex:1,minWidth:0}}><div style={{fontSize:16,fontWeight:700,marginBottom:12}}>{icon} {title}</div>
     <div className="compare-wrap"><table className="compare"><colgroup><col className="col-co"/><col className="col-route"/><col className="col-date"/><col className="col-days"/><col className="col-port"/><col className="col-cabin"/><col className="col-price"/><col className="col-avail"/></colgroup>
     <thead><tr><th>公司</th><th>航线·船只</th><th>日期</th><th>天数</th><th>出发港</th><th>舱位</th><th className="th-right">价格</th><th>库存</th></tr></thead><tbody>
-    {group.sort((a,b)=>a.cabins[0].price-b.cabins[0].price).map(v=>{const co=getCo(v.co,cos);const c=v.cabins[0];const pd=Math.round(c.price/v.days);const disc=(c.orig&&c.orig>c.price)?Math.round((1-c.price/c.orig)*100):0;
-    return <tr key={v.id} onClick={()=>onDetail&&onDetail(co)} style={{cursor:'pointer'}}>
-    <td><div style={{display:'flex',alignItems:'center',gap:8}}><Logo co={co} size={24}/><div style={{flex:1}}><div style={{fontWeight:700,fontSize:13}}>{co.cn||v.co}</div><span className="pos-tag">{co.pos||''}</span></div></div></td>
-    <td><div style={{fontSize:12}}>{v.name}</div><div style={{fontSize:10,color:'var(--text2)'}}>🚢 {v.ship}</div></td>
-    <td style={{whiteSpace:'nowrap',fontSize:12}}>{v.date}</td><td style={{fontSize:13}}>{v.days}天</td>
-    <td className="col-port" title={v.port}>{v.port||'—'}</td><td style={{fontSize:12}}>{c.cat}</td>
-    <td className="td-price"><div className="price-main">{fmt(c.price)}</div><div className="price-sub">{fmt(pd)}/天{disc>0&&<span className="price-disc">↓{disc}%</span>}</div></td>
-    <td><span className={'avail '+(c.avail<=2?'low':'ok')}>{c.avail<=2?'仅剩'+c.avail:c.avail+'间'}</span></td>
-    </tr>})}
-    </tbody></table></div></div>;
+    {list.sort((a,b)=>a.cabins[0].price-b.cabins[0].price).map(v=>{
+      const co=getCo(v.co,cos);const c=v.cabins[0];const pd=Math.round(c.price/v.days);
+      const disc=(c.orig&&c.orig>c.price)?Math.round((1-c.price/c.orig)*100):0;
+      return <tr key={v.id} onClick={()=>onDetail&&onDetail(co)} style={{cursor:'pointer'}}>
+      <td><div style={{display:'flex',alignItems:'center',gap:8}}><Logo co={co} size={24}/><div><div style={{fontWeight:700,fontSize:13}}>{co.cn||v.co}</div><span className="pos-tag">{co.pos||''}</span></div></div></td>
+      <td><div style={{fontSize:12}}>{v.name}</div><div style={{fontSize:10,color:'var(--text2)'}}>🚢 {v.ship}</div></td>
+      <td style={{whiteSpace:'nowrap',fontSize:12}}>{v.date}</td><td style={{fontSize:13}}>{v.days}天</td>
+      <td className="col-port" title={v.port}>{v.port||'—'}</td><td style={{fontSize:12}}>{c.cat}</td>
+      <td className="td-price"><div className="price-main">{fmt(c.price)}</div><div className="price-sub">{fmt(pd)}/天{disc>0&&<span className="price-disc">↓{disc}%</span>}</div></td>
+      <td><span className={'avail '+(c.avail<=2?'low':'ok')}>{c.avail<=2?'仅剩'+c.avail:c.avail+'间'}</span></td>
+      </tr>
+    })}</tbody></table></div></div>;
   };
-  return <div style={{display:'flex',gap:24,flexWrap:'wrap'}}>
-    {renderTable(antGroup,'南极航线比价','🐧')}
-    {renderTable(arcGroup,'北极航线比价','🐻‍❄️')}
+  return <div style={{display:'flex',gap:24,flexWrap:'wrap'}}>{tbl(antGroup,'南极航线比价','🐧')}{tbl(arcGroup,'北极航线比价','🐻‍❄️')}</div>;
+}
 function CompaniesView({cos,P,onDetail}){
   const [q,setQ] = useState('');
   const filtered = q?cos.filter(c=>(c.cn||'').includes(q)||(c.en||'').toLowerCase().includes(q.toLowerCase())||(c.pos||'').includes(q)):cos;
