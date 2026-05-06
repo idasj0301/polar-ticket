@@ -730,6 +730,46 @@
   ],
   "news": [
     {
+      "d": "2026-05-06",
+      "co": "oceanwide",
+      "title": "泛海安排从洪迪斯出发的医疗后送",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Oceanwide Expeditions 周二下午证实，正在安排两名需要紧急护理的乘客以及另一名与 M 号上死亡乘客有关的乘客的医疗后送。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/oceanwide-arranges-medical-evacuations-from-hondius/"
+    },
+    {
+      "d": "2026-05-06",
+      "co": "oceanwide",
+      "title": "世界卫生组织报告 7 例病例，泛海提供 Hondius 最新情况",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "根据 5 月 5 日的新闻更新，Oceanwide Expeditions 提供了 Hondius 号船上持续医疗状况的最新情况，该船仍在佛得角海岸附近。世界卫生组织",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/oceanwide-provides-update-on-hondius-situation-as-who-reports-7-cases/"
+    },
+    {
+      "d": "2026-05-06",
+      "co": "lindblad",
+      "title": "Lindblad Expeditions 第一季度入住率创历史新高",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "Lindblad Expeditions 第一季度的入住率创历史新高，达到 93%，尽管该公司的可用宾客过夜数增长了 6% 以上，首席执行官 Natalya Leahy 也指出了公司的纪律",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-expeditions-posts-record-q1-occupancy/"
+    },
+    {
+      "d": "2026-05-06",
+      "co": "lindblad",
+      "title": "Lindblad 第一季度实现盈利，入住率创历史新高，'27 销售加速",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "2026 年的预订量仍然“非常健康”，地缘政治波动对发展机队和陆地体验的雄心没有影响。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/lindblad-swings-to-q1-profit-record-occupancy-27-sales-accelerate"
+    },
+    {
       "d": "2026-05-05",
       "co": "lindblad",
       "title": "Lindblad Expeditions 报告 2026 年第一季度财务业绩",
@@ -1070,5 +1110,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-05T14:09:23"
+  "updated": "2026-05-06T03:40:40"
 }
