@@ -175,12 +175,12 @@ function App(){
         <div className="badge">● 数据就绪</div>
       </div>
       <div className="nav">
-        <button className={tab==='compare'?'on':''} onClick={()=>{const t='compare';setTab(t);try{localStorage.setItem('polarTab',t)}catch(e){}}}>📊 比价</button>
-        <button className={tab==='companies'?'on':''} onClick={()=>{const t='companies';setTab(t);try{localStorage.setItem('polarTab',t)}catch(e){}}}>🏢 公司 ({stats.total})</button>
-        <button className={tab==='alerts'?'on':''} onClick={()=>{const t='alerts';setTab(t);try{localStorage.setItem('polarTab',t)}catch(e){}}}>🔔 降价 ({stats.drops})</button>
-        <button className={tab==='news'?'on':''} onClick={()=>{const t='news';setTab(t);try{localStorage.setItem('polarTab',t)}catch(e){}}}>📰 情报站</button>
-        <button className={tab==='cabin'?'on':''} onClick={()=>{const t='cabin';setTab(t);try{localStorage.setItem('polarTab',t)}catch(e){}}}>🚢 舱位</button>
-        <button className={tab==='query'?'on':''} onClick={()=>{const t='query';setTab(t);try{localStorage.setItem('polarTab',t)}catch(e){}}}>💬 智能查询</button>
+        <button className={tab==='compare'?'on':''} onClick={()=>{const t='compare'}}>📊 比价</button>
+        <button className={tab==='companies'?'on':''} onClick={()=>{const t='companies'}}>🏢 公司 ({stats.total})</button>
+        <button className={tab==='alerts'?'on':''} onClick={()=>{const t='alerts'}}>🔔 降价 ({stats.drops})</button>
+        <button className={tab==='news'?'on':''} onClick={()=>{const t='news'}}>📰 情报站</button>
+        <button className={tab==='cabin'?'on':''} onClick={()=>{const t='cabin'}}>🚢 舱位</button>
+        <button className={tab==='query'?'on':''} onClick={()=>{const t='query'}}>💬 智能查询</button>
       </div>
       <div className="stats">
         <div className="stat"><div className="n" style={{color:'var(--accent)'}}>{stats.total}</div><div className="l">监控公司</div></div>
@@ -197,7 +197,7 @@ function App(){
       {detailCo && <CompanyDetail co={detailCo} V={V} P={P} cos={cos} onClose={()=>setDetailCo(null)}/>}
     </div>
   );
-}
+}}
 
 function CompareView({V,cos}){
   const group = V.filter(v=>v.r==='antarctic'&&v.days>=6&&v.days<=14);
@@ -238,7 +238,7 @@ function CompareView({V,cos}){
             </td>
             <td><span className={'avail '+(c.avail<=2?'low':'ok')}>{c.avail<=2?'仅剩'+c.avail:c.avail+'间'}</span></td>
           </tr>
-        })}
+        )}
         </tbody>
       </table></div>
     </div>
@@ -336,7 +336,7 @@ function CabinView({V,cos}){
       <div style={{fontSize:18,fontWeight:700,marginBottom:6}}>🚢 舱位库存监控</div>
       <div style={{fontSize:12,color:'var(--text2)',marginBottom:14}}>共 {stats.total} 个舱位类型 · 售罄 {stats.sold} · 紧张 {stats.low} · 充足 {stats.ok}</div>
       <div className="filter-row">
-        <button className={filter==='all'?'on':''} onClick={()=>setFilter('all';setTab(t);try{localStorage.setItem('polarTab',t)}catch(e){}}}>全部 ({stats.total})</button>
+        <button className={filter==='all'?'on':''} onClick={()=>setFilter('all'}}>全部 ({stats.total})</button>
         <button className={filter==='sold'?'on':''} onClick={()=>setFilter('sold')} style={filter==='sold'?{}:{color:'var(--red)',borderColor:'rgba(239,83,80,.3)'}}>🔴 售罄 ({stats.sold})</button>
         <button className={filter==='low'?'on':''} onClick={()=>setFilter('low')} style={filter==='low'?{}:{color:'var(--warn)',borderColor:'rgba(255,183,77,.3)'}}>🟡 紧张 ({stats.low})</button>
       </div>
@@ -358,7 +358,7 @@ function CabinView({V,cos}){
             <td>{disc>0?<span style={{color:'var(--green)',fontWeight:600}}>-{disc}%</span>:'—'}</td>
             <td><span className={'avail '+(status==='sold'?'low':status==='low'?'low':'ok')} style={status==='sold'?{background:'rgba(239,83,80,.12)',color:'var(--red)'}:status==='low'?{background:'rgba(255,183,77,.1)',color:'var(--warn)'}:{}}>{statusLabel}</span></td>
           </tr>
-        })}
+        )}
         </tbody>
       </table></div>
     </div>
