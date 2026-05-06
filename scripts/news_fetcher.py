@@ -159,10 +159,17 @@ def translate_text(text, target='zh-CN'):
 
 
 def auto_translate(title, desc, company_id):
-    """翻译英文标题和描述为中文"""
-    title_cn = translate_text(title)
-    desc_cn = translate_text(desc) if desc else desc
-    return title_cn, desc_cn
+    """翻译英文标题和描述为中文（一起翻保持术语一致）"""
+    # 如果已有中文，不翻译
+    if any('一' <= c <= '鿿' for c in title):
+        return title, desc
+    # 标题和描述一起翻译，用 ||| 分隔
+    combined = f"{title[:200]} ||| {desc[:200]}" if desc else title[:200]
+    result = translate_text(combined)
+    if '|||' in result:
+        parts = result.split('|||', 1)
+        return parts[0].strip()[:120], parts[1].strip()[:150] if len(parts)>1 else desc
+    return result[:120], desc
 
 
 def guess_company(title, desc):

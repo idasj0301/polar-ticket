@@ -202,9 +202,9 @@ function CompareView({V,cos}){
         <tbody>
         {group.sort((a,b)=>a.cabins[0].price-b.cabins[0].price).map(v=>{
           const co=getCo(v.co,cos); const c=v.cabins[0]; const pd=Math.round(c.price/v.days);
-          const disc=c.orig?Math.round((1-c.price/c.orig)*100):0; const isBest=c.price===cheapest;
+          const disc=(c.orig&&c.orig>c.price)?Math.round((1-c.price/c.orig)*100):0; const isBest=c.price===cheapest;
           return <tr key={v.id}>
-            <td><div style={{display:'flex',alignItems:'center'}}><Logo co={co} size={22}/><div><b>{co.cn||v.co}</b><div style={{fontSize:11,color:'var(--text2)'}}>{co.pos||''}</div></div></div></td>
+            <td><div style={{display:'flex',alignItems:'center'}}><Logo co={co} size={22}/><div><b>{co.cn||v.co}</b><span style={{fontSize:10,color:'var(--text2)',marginLeft:6}}>{co.en||''}</span><div style={{fontSize:11,color:'var(--text2)'}}>{co.pos||''}</div></div></div></td>
             <td>{v.ship}</td><td style={{maxWidth:200,fontSize:13}}>{v.name}</td><td style={{whiteSpace:'nowrap'}}>{v.date}</td><td>{v.days}天</td>
             <td>{c.cat}</td>
             <td className="price">{fmt(c.price)}{isBest&&<span className="best">最低</span>}{c.orig>c.price&&<span className="old">{fmt(c.orig)}</span>}{disc>0&&<span className="off">-{disc}%</span>}</td>
@@ -369,6 +369,24 @@ function QueryView({V,P,N,cos}){
     if(/摄影|拍照/.test(t)) intent.prefs.push('photo');
     if(/新船|最新的船/.test(t)) intent.prefs.push('newship');
     if(/不限预算|不管价格|都行/.test(t)) intent.budget=null;
+    // 固定词条：地名
+    if(/法罗群岛|法罗/.test(t)){intent.prefs.push('faroe');intent.region='arctic';}
+    if(/冰岛/.test(t)) intent.prefs.push('iceland');
+    if(/格陵兰/.test(t)){intent.prefs.push('greenland');if(!intent.region)intent.region='arctic';}
+    if(/斯瓦尔巴|朗伊尔/.test(t)){intent.prefs.push('svalbard');if(!intent.region)intent.region='arctic';}
+    if(/乌斯怀亚|德雷克/.test(t)&&!intent.region)intent.region='antarctic';
+    if(/罗斯海/.test(t)){intent.prefs.push('ross');intent.region='antarctic';}
+    if(/南乔治亚|福克兰|马岛/.test(t)){intent.prefs.push('south_georgia');intent.region='antarctic';}
+    if(/威德尔/.test(t)){intent.prefs.push('weddell');intent.region='antarctic';}
+    // 船名匹配
+    if(/南森|nansen/i.test(t)) intent.prefs.push('ship_nansen');
+    if(/阿蒙森|amundsen/i.test(t)) intent.prefs.push('ship_amundsen');
+    if(/charcot|指挥官/.test(t)) intent.prefs.push('ship_charcot');
+    if(/海神|seaventure/i.test(t)) intent.prefs.push('ship_seaventure');
+    if(/ultramarine/i.test(t)) intent.prefs.push('ship_ultramarine');
+    // 舱位偏好
+    if(/阳台|balcony/.test(t)) intent.prefs.push('balcony');
+    if(/套房|suite/.test(t)) intent.prefs.push('suite');
     return intent;
   };
   const doQuery = (text) => {
@@ -402,7 +420,7 @@ function QueryView({V,P,N,cos}){
     setResults({intent,voyages:voyages.slice(0,10)});
   };
   useEffect(()=>{doQuery();},[]);
-  const chips = ['12月南极 优惠最大','南极 夫妻 蜜月 豪华','南极 10万以内 中文','飞南极 不晕船','北极 暑假 性价比','带爸妈 南极 不折腾','春节 南极 折扣最大','圣诞 南极 情侣'];
+  const chips = ['12月南极 优惠最大','南极 夫妻 蜜月 豪华','南极 10万以内 中文','飞南极 不晕船','北极 暑假 性价比','带爸妈 南极 不折腾','格陵兰 北极','法罗群岛','斯瓦尔巴 北极熊'];
   return (
     <div>
       <div style={{fontSize:18,fontWeight:700,marginBottom:4}}>💬 智能查询</div>
