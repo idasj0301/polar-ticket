@@ -372,7 +372,7 @@ function QueryView({V,P,N,cos}){
   const [results,setResults] = useState(null);
   const parseIntent = (text) => {
     const t = text.toLowerCase();
-    const intent = {region:null,months:[],budget:null,identity:[],prefs:[],cheapest:false,compare:false,news:false};
+    const intent = {region:null,months:[],year:null,budget:null,identity:[],prefs:[],cheapest:false,compare:false,news:false};
     // 区域
     if(/南极|企鹅|南极光/.test(t)) intent.region='antarctic';
     else if(/北极|北极熊|斯瓦尔巴|格陵兰|朗伊尔/.test(t)) intent.region='arctic';
@@ -383,6 +383,7 @@ function QueryView({V,P,N,cos}){
     if(/元旦|圣诞|跨年/.test(t)) intent.months.push('12');
     if(/暑假/.test(t)){intent.months.push('07','08');}
     if(/寒假/.test(t)){intent.months.push('01','02');}
+    const ym = t.match(/20(\d{2})\s*年/); if(ym) intent.year='20'+ym[1];
     // 预算
     const b = t.match(/(\d+)\s*万/); if(b){const rmb=parseInt(b[1])*10000;intent.budget=rmb;}
     if(/\$(\d+)/.test(t)||/(\d+)\s*美元/.test(t)){const m2=t.match(/\$?\s*(\d[\d,]*)\s*(美元|usd)/i)||t.match(/\$(\d[\d,]*)/);if(m2)intent.budget=parseInt(m2[1].replace(/,/g,''))||intent.budget;}
@@ -436,6 +437,7 @@ function QueryView({V,P,N,cos}){
     if(intent.region) voyages = voyages.filter(v=>v.r===intent.region);
     // 月份过滤
     if(intent.months.length) voyages = voyages.filter(v=>intent.months.some(m=>v.date.includes('-'+m+'-')));
+    if(intent.year) voyages = voyages.filter(v=>v.date.startsWith(intent.year));
     // 预算过滤 (找最低舱位价)
     if(intent.budget) voyages = voyages.filter(v=>v.cabins[0].price <= intent.budget);
     // 偏好: max discount
@@ -469,7 +471,7 @@ function QueryView({V,P,N,cos}){
       <div className="filter-row" style={{marginBottom:16}}>{chips.map(c=><button key={c} onClick={()=>doQuery(c)}>{c}</button>)}</div>
       {results && (
         <div>
-          <div style={{fontSize:13,color:'var(--text2)',marginBottom:12}}>找到 <b style={{color:'var(--accent)'}}>{results.voyages.length}</b> 个匹配航次 · 意图: {results.intent.region==='antarctic'?'🐧南极':results.intent.region==='arctic'?'🐻‍❄️北极':'全区域'}{results.intent.months.length?' · '+results.intent.months.join('/')+'月':''}{results.intent.budget?' · ¥'+results.intent.budget.toLocaleString()+'以内':''}{results.intent.prefs.length?' · '+results.intent.prefs.join('+'):''}</div>
+          <div style={{fontSize:13,color:'var(--text2)',marginBottom:12}}>找到 <b style={{color:'var(--accent)'}}>{results.voyages.length}</b> 个匹配航次 · 意图: {results.intent.region==='antarctic'?'🐧南极':results.intent.region==='arctic'?'🐻‍❄️北极':'全区域'}{results.intent.year?' · '+results.intent.year+'年':''}{results.intent.months.length?' · '+results.intent.months.join('/')+'月':''}{results.intent.budget?' · ¥'+results.intent.budget.toLocaleString()+'以内':''}{results.intent.prefs.length?' · '+results.intent.prefs.join('+'):''}</div>
           {results.voyages.map(v=>{
             const co=getCo(v.co,cos); const c=v.cabins[0]; const pd=Math.round(c.price/(v.days||1));
             const disc=c.orig>c.price?Math.round((1-c.price/c.orig)*100):0;
@@ -487,7 +489,7 @@ function QueryView({V,P,N,cos}){
               </div>
             </div>
           })}
-          {results.voyages.length===0 && <div className="empty"><div className="big">🔍</div><p>没找到匹配的航次，试试放宽条件</p><p style={{fontSize:12,color:'var(--text2)',marginTop:4}}>例如：去掉预算限制、换一个月份、或者只搜区域</p></div>}
+          {results.voyages.length===0 && <div className="empty"><div className="big">🔍</div><p>{results.intent&&results.intent.year?'暂无'+results.intent.year+'年航次数据':(results.error||'没找到匹配的航次，试试放宽条件')}</p><p style={{fontSize:12,color:'var(--text2)',marginTop:4}}>{results.intent&&results.intent.year?'该年份航次尚未录入，可尝试去掉年份搜索':''}</p></div>}
         </div>
       )}
     </div>
