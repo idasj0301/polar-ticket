@@ -37,9 +37,7 @@ jobs:
           key: price-snapshot-${{ github.run_id }}
 
       - name: 新闻抓取
-        run: |
-          rm -f data/.news_cache.json
-          python3 scripts/news_fetcher.py
+        run: python3 scripts/news_fetcher.py
 
       - name: 提交更新
         run: |
