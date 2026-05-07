@@ -440,6 +440,291 @@
           "avail": 0
         }
       ]
+    },
+    {
+      "id": "v12",
+      "co": "quark",
+      "r": "arctic",
+      "name": "Spitsbergen Highlights",
+      "ship": "Ultramarine",
+      "date": "2027-05-15",
+      "days": 8,
+      "port": "Longyearbyen",
+      "cabins": [
+        {
+          "cat": "Explorer Triple",
+          "price": 7995,
+          "orig": 8995,
+          "avail": 4
+        },
+        {
+          "cat": "Explorer Suite",
+          "price": 10995,
+          "orig": 11995,
+          "avail": 6
+        }
+      ]
+    },
+    {
+      "id": "v13",
+      "co": "quark",
+      "r": "arctic",
+      "name": "Northwest Passage",
+      "ship": "Ultramarine",
+      "date": "2027-08-16",
+      "days": 16,
+      "port": "Reykjavik",
+      "cabins": [
+        {
+          "cat": "Explorer Triple",
+          "price": 29426,
+          "orig": 32426,
+          "avail": 2
+        },
+        {
+          "cat": "Balcony Suite",
+          "price": 38995,
+          "orig": 40995,
+          "avail": 3
+        }
+      ]
+    },
+    {
+      "id": "v14",
+      "co": "aurora",
+      "r": "arctic",
+      "name": "Jewels of the Arctic",
+      "ship": "Greg Mortimer",
+      "date": "2027-07-18",
+      "days": 15,
+      "port": "Longyearbyen",
+      "cabins": [
+        {
+          "cat": "Aurora Triple",
+          "price": 17987,
+          "orig": 25695,
+          "avail": 3
+        },
+        {
+          "cat": "Balcony Stateroom",
+          "price": 22695,
+          "orig": 31695,
+          "avail": 5
+        }
+      ]
+    },
+    {
+      "id": "v15",
+      "co": "ponant",
+      "r": "arctic",
+      "name": "Geographic North Pole",
+      "ship": "Le Commandant Charcot",
+      "date": "2027-07-27",
+      "days": 12,
+      "port": "Longyearbyen",
+      "cabins": [
+        {
+          "cat": "Prestige Stateroom",
+          "price": 38440,
+          "orig": 45223,
+          "avail": 3
+        },
+        {
+          "cat": "Deluxe Suite",
+          "price": 55440,
+          "orig": 65223,
+          "avail": 2
+        }
+      ]
+    },
+    {
+      "id": "v16",
+      "co": "hx",
+      "r": "arctic",
+      "name": "Svalbard in Spring",
+      "ship": "MS Spitsbergen",
+      "date": "2027-05-29",
+      "days": 9,
+      "port": "Longyearbyen",
+      "cabins": [
+        {
+          "cat": "Polar Inside",
+          "price": 6655,
+          "orig": 7895,
+          "avail": 5
+        },
+        {
+          "cat": "Arctic Superior",
+          "price": 9895,
+          "orig": 10995,
+          "avail": 4
+        }
+      ]
+    },
+    {
+      "id": "v17",
+      "co": "hx",
+      "r": "arctic",
+      "name": "Ultimate Norway: Northern Lights",
+      "ship": "MS Trollfjord",
+      "date": "2027-11-15",
+      "days": 8,
+      "port": "Oslo",
+      "cabins": [
+        {
+          "cat": "Polar Inside",
+          "price": 4233,
+          "orig": 4995,
+          "avail": 8
+        },
+        {
+          "cat": "Arctic Superior",
+          "price": 5895,
+          "orig": 6995,
+          "avail": 6
+        }
+      ]
+    },
+    {
+      "id": "v18",
+      "co": "quark",
+      "r": "antarctic",
+      "name": "Antarctic Explorer",
+      "ship": "Ultramarine",
+      "date": "2028-01-15",
+      "days": 11,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Explorer Triple",
+          "price": 12495,
+          "orig": 14495,
+          "avail": 5
+        },
+        {
+          "cat": "Balcony Suite",
+          "price": 19995,
+          "orig": 21995,
+          "avail": 4
+        }
+      ]
+    },
+    {
+      "id": "v19",
+      "co": "quark",
+      "r": "antarctic",
+      "name": "Antarctic Express: Crossing the Circle",
+      "ship": "World Voyager",
+      "date": "2028-02-17",
+      "days": 11,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Explorer Triple",
+          "price": 15495,
+          "orig": 17495,
+          "avail": 3
+        },
+        {
+          "cat": "Balcony Suite",
+          "price": 22995,
+          "orig": 24995,
+          "avail": 2
+        }
+      ]
+    },
+    {
+      "id": "v20",
+      "co": "aurora",
+      "r": "antarctic",
+      "name": "Across the Antarctic Circle: Fly the Drake",
+      "ship": "Douglas Mawson",
+      "date": "2028-02-07",
+      "days": 12,
+      "port": "Punta Arenas",
+      "cabins": [
+        {
+          "cat": "Aurora Triple",
+          "price": 16500,
+          "orig": 19500,
+          "avail": 3
+        },
+        {
+          "cat": "Balcony Stateroom",
+          "price": 22500,
+          "orig": 25500,
+          "avail": 4
+        }
+      ]
+    },
+    {
+      "id": "v21",
+      "co": "ponant",
+      "r": "antarctic",
+      "name": "62天南极环大陆(首航)",
+      "ship": "Le Commandant Charcot",
+      "date": "2028-01-11",
+      "days": 62,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Prestige Stateroom",
+          "price": 147360,
+          "orig": 0,
+          "avail": 2,
+          "note": "全环南极首航"
+        },
+        {
+          "cat": "Deluxe Suite",
+          "price": 83520,
+          "orig": 0,
+          "avail": 1,
+          "note": "东段:Hobart→Ushuaia"
+        }
+      ]
+    },
+    {
+      "id": "v22",
+      "co": "silversea",
+      "r": "antarctic",
+      "name": "Antarctica Bridge Fly-Cruise",
+      "ship": "Silver Cloud",
+      "date": "2028-02-08",
+      "days": 10,
+      "port": "Puerto Williams",
+      "cabins": [
+        {
+          "cat": "Veranda Suite",
+          "price": 19100,
+          "orig": 21900,
+          "avail": 3
+        },
+        {
+          "cat": "Deluxe Veranda",
+          "price": 23500,
+          "orig": 25900,
+          "avail": 4
+        }
+      ]
+    },
+    {
+      "id": "v23",
+      "co": "seabourn",
+      "r": "antarctic",
+      "name": "Pole to Pole: 96天极点到极点",
+      "ship": "Seabourn Venture",
+      "date": "2028-08-17",
+      "days": 96,
+      "port": "Reykjavik→Ushuaia",
+      "cabins": [
+        {
+          "cat": "Veranda Suite",
+          "price": 89995,
+          "orig": 0,
+          "avail": 2,
+          "note": "40周年纪念航次"
+        }
+      ]
     }
   ],
   "promotions": [
@@ -1043,5 +1328,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-06T14:29:07"
+  "updated": "2026-05-07T11:00:00"
 }
