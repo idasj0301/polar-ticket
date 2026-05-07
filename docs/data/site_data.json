@@ -725,6 +725,326 @@
           "note": "40周年纪念航次"
         }
       ]
+    },
+    {
+      "id": "v24",
+      "co": "quark",
+      "r": "antarctic",
+      "name": "Antarctic Explorer 2027-28季",
+      "ship": "Ultramarine",
+      "date": "2027-11-20",
+      "days": 11,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Explorer Triple",
+          "price": 12995,
+          "orig": 14995,
+          "avail": 6
+        },
+        {
+          "cat": "Balcony Suite",
+          "price": 20995,
+          "orig": 22995,
+          "avail": 5
+        }
+      ]
+    },
+    {
+      "id": "v25",
+      "co": "aurora",
+      "r": "antarctic",
+      "name": "Antarctic Peninsula 2027-28季",
+      "ship": "Sylvia Earle",
+      "date": "2027-12-10",
+      "days": 12,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Aurora Triple",
+          "price": 11995,
+          "orig": 13995,
+          "avail": 4
+        },
+        {
+          "cat": "Balcony Stateroom",
+          "price": 18995,
+          "orig": 20995,
+          "avail": 5
+        }
+      ]
+    },
+    {
+      "id": "v26",
+      "co": "hx",
+      "r": "antarctic",
+      "name": "Highlights of Antarctica 2027-28",
+      "ship": "MS Roald Amundsen",
+      "date": "2027-12-15",
+      "days": 11,
+      "port": "Buenos Aires→Ushuaia",
+      "cabins": [
+        {
+          "cat": "Polar Inside",
+          "price": 9895,
+          "orig": 10995,
+          "avail": 10
+        },
+        {
+          "cat": "Arctic Superior",
+          "price": 13995,
+          "orig": 15495,
+          "avail": 6
+        }
+      ]
+    },
+    {
+      "id": "v27",
+      "co": "silversea",
+      "r": "antarctic",
+      "name": "Antarctica Bridge 2027-28",
+      "ship": "Silver Endeavour",
+      "date": "2027-12-08",
+      "days": 10,
+      "port": "Puerto Williams",
+      "cabins": [
+        {
+          "cat": "Veranda Suite",
+          "price": 20500,
+          "orig": 22500,
+          "avail": 3
+        },
+        {
+          "cat": "Deluxe Veranda",
+          "price": 24500,
+          "orig": 26900,
+          "avail": 4
+        }
+      ]
+    },
+    {
+      "id": "v28",
+      "co": "atlas",
+      "r": "antarctic",
+      "name": "Antarctic Discovery 2027-28",
+      "ship": "World Traveller",
+      "date": "2027-12-20",
+      "days": 9,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Adventure Oceanview",
+          "price": 10498,
+          "orig": 13122,
+          "avail": 4
+        },
+        {
+          "cat": "Journey Suite",
+          "price": 14598,
+          "orig": 18247,
+          "avail": 5
+        }
+      ]
+    },
+    {
+      "id": "v29",
+      "co": "atlas",
+      "r": "antarctic",
+      "name": "Drake Fly & Sail",
+      "ship": "World Navigator",
+      "date": "2028-01-15",
+      "days": 9,
+      "port": "King George Is.→Ushuaia",
+      "cabins": [
+        {
+          "cat": "Adventure Oceanview",
+          "price": 13098,
+          "orig": 14553,
+          "avail": 3
+        }
+      ]
+    },
+    {
+      "id": "v30",
+      "co": "seabourn",
+      "r": "antarctic",
+      "name": "Antarctica Exploration 2027",
+      "ship": "Seabourn Venture",
+      "date": "2027-12-19",
+      "days": 13,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Veranda Suite",
+          "price": 17663,
+          "orig": 19625,
+          "avail": 3
+        },
+        {
+          "cat": "Penthouse Suite",
+          "price": 28500,
+          "orig": 31500,
+          "avail": 2
+        }
+      ]
+    },
+    {
+      "id": "v31",
+      "co": "seabourn",
+      "r": "antarctic",
+      "name": "Antarctica Hosted",
+      "ship": "Seabourn Pursuit",
+      "date": "2028-02-14",
+      "days": 11,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Veranda Suite",
+          "price": 15500,
+          "orig": 17200,
+          "avail": 4
+        }
+      ]
+    },
+    {
+      "id": "v32",
+      "co": "scenic",
+      "r": "antarctic",
+      "name": "Antarctica in Depth 2027",
+      "ship": "Scenic Eclipse II",
+      "date": "2027-12-10",
+      "days": 13,
+      "port": "Buenos Aires→Ushuaia",
+      "cabins": [
+        {
+          "cat": "Verandah Suite",
+          "price": 21827,
+          "orig": 24252,
+          "avail": 3
+        },
+        {
+          "cat": "Grand Deluxe Suite",
+          "price": 29800,
+          "orig": 33111,
+          "avail": 2
+        }
+      ]
+    },
+    {
+      "id": "v33",
+      "co": "scenic",
+      "r": "antarctic",
+      "name": "Beyond Antarctic Circle",
+      "ship": "Scenic Eclipse II",
+      "date": "2027-12-21",
+      "days": 15,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Verandah Suite",
+          "price": 25600,
+          "orig": 28444,
+          "avail": 2
+        }
+      ]
+    },
+    {
+      "id": "v34",
+      "co": "viking",
+      "r": "antarctic",
+      "name": "Antarctic Explorer 2027",
+      "ship": "Viking Polaris",
+      "date": "2027-12-29",
+      "days": 11,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Nordic Balcony",
+          "price": 10995,
+          "orig": 12995,
+          "avail": 8
+        },
+        {
+          "cat": "Penthouse Suite",
+          "price": 18995,
+          "orig": 20995,
+          "avail": 4
+        }
+      ]
+    },
+    {
+      "id": "v35",
+      "co": "viking",
+      "r": "antarctic",
+      "name": "Antarctica & South Georgia",
+      "ship": "Viking Octantis",
+      "date": "2028-02-05",
+      "days": 18,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Nordic Balcony",
+          "price": 18995,
+          "orig": 21995,
+          "avail": 5
+        }
+      ]
+    },
+    {
+      "id": "v36",
+      "co": "swan_hellenic",
+      "r": "antarctic",
+      "name": "Grand Voyage: Ushuaia→Dunedin",
+      "ship": "SH Minerva",
+      "date": "2027-02-03",
+      "days": 32,
+      "port": "Ushuaia→Dunedin",
+      "cabins": [
+        {
+          "cat": "Balcony Stateroom",
+          "price": 26295,
+          "orig": 0,
+          "avail": 2,
+          "note": "横跨罗斯海"
+        }
+      ]
+    },
+    {
+      "id": "v37",
+      "co": "swan_hellenic",
+      "r": "antarctic",
+      "name": "Weddell Sea Expedition",
+      "ship": "SH Vega",
+      "date": "2027-01-22",
+      "days": 11,
+      "port": "Ushuaia",
+      "cabins": [
+        {
+          "cat": "Balcony Stateroom",
+          "price": 13700,
+          "orig": 15200,
+          "avail": 3
+        }
+      ]
+    },
+    {
+      "id": "v38",
+      "co": "swan_hellenic",
+      "r": "antarctic",
+      "name": "Grand Voyage: Ushuaia→Dunedin 2028",
+      "ship": "SH Minerva",
+      "date": "2028-02-04",
+      "days": 32,
+      "port": "Ushuaia→Dunedin",
+      "cabins": [
+        {
+          "cat": "Balcony Stateroom",
+          "price": 29175,
+          "orig": 0,
+          "avail": 2,
+          "note": "横跨罗斯海2028"
+        }
+      ]
     }
   ],
   "promotions": [
@@ -1328,5 +1648,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-07T11:00:00"
+  "updated": "2026-05-07T12:00:00"
 }
