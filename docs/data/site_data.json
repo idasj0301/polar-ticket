@@ -1339,6 +1339,36 @@
   "news": [
     {
       "d": "2026-05-07",
+      "co": "lindblad",
+      "title": "Lindblad：每晚可用宾客净收益 1,631 美元",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "根据首席执行官 Off 的说法，Lindblad Expeditions 在 2026 年第一季度创下了每晚每晚净收益 1,631 美元的纪录，这是该公司历史上最高的季度数字",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-1631-net-yield-per-available-guest-night/"
+    },
+    {
+      "d": "2026-05-07",
+      "co": "seabourn",
+      "title": "世邦邮轮：融合酒店业的“艺术与科学”",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "世邦邮轮总裁马克·塔米斯表示，全球不确定性正在给超豪华邮轮市场的客人带来紧迫感。尽管实体奢侈品的销售可能已经放缓",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/seabourn-blending-art-and-science-of-hospitality/"
+    },
+    {
+      "d": "2026-05-07",
+      "co": "unknown",
+      "title": "北极联合搜救活动应对新出现的威胁",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "此次演习考验了恶劣条件和通信能力下降下的协调和决策能力。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/safety-security/joint-arctic-search-and-rescue-event-addresses-emerging-threats"
+    },
+    {
+      "d": "2026-05-07",
       "co": "viking",
       "title": "维京 2028-29 年远征航程可供预订",
       "cat": "航线",
@@ -1728,5 +1758,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-07T03:40:21"
+  "updated": "2026-05-07T14:28:42"
 }
