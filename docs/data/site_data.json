@@ -1339,6 +1339,46 @@
   "news": [
     {
       "d": "2026-05-08",
+      "co": "atlas",
+      "title": "Atlas Ocean 推出 13 次探险活动，揭开 2028 年北极季节的面纱",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "该公司在一份新闻稿中宣布，Atlas Ocean Voyages 的 2028 年北极季将有 13 趟旅程，从 7 晚到 17 晚不等。  提供穿越斯瓦尔巴群岛、格陵兰岛、我的行程",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/atlas-ocean-unveils-2028-arctic-season-with-13-expeditions/"
+    },
+    {
+      "d": "2026-05-08",
+      "co": "ponant",
+      "title": "Ponant：目标驱动的客人和小型船舶体验",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "美洲区首席执行官塞缪尔·张伯伦 (Samuel Chamberlain) 表示，Ponant 的目标客户是非传统游轮和目标驱动的豪华旅行者。谈到吸引这些客人的挑战",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/ponant-goal-driven-guests-and-small-ship-experiences/"
+    },
+    {
+      "d": "2026-05-08",
+      "co": "silversea",
+      "title": "银海邮轮：吸引新游轮",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "银海邮轮总裁伯特·埃尔南德斯 (Bert Hernandez) 表示，航班中断和有限的假期时间是阻碍豪华游轮新手登船的最大障碍之一。埃尔南德斯",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/silversea-attracting-new-to-cruise/"
+    },
+    {
+      "d": "2026-05-08",
+      "co": "lindblad",
+      "title": "Lindblad 加强船体清洁和速度优化以抑制燃料成本",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "由于中东冲突导致燃油价格上涨，Lindblad Expeditions 再次努力减少其探险船队的消耗，加强船体清洁和螺旋桨污染",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-ramps-up-hull-cleaning-speed-optimization-to-curb-fuel-costs/"
+    },
+    {
+      "d": "2026-05-08",
       "co": "ponant",
       "title": "Ponant 和 Aviate 宣布英国贸易伙伴关系",
       "cat": "行业动态",
@@ -1768,5 +1808,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-08T03:34:38"
+  "updated": "2026-05-08T14:02:52"
 }
