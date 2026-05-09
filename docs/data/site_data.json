@@ -1340,6 +1340,16 @@
     {
       "d": "2026-05-09",
       "co": "ponant",
+      "title": "Ponant 推出免费海洋图像集以支持极地研究",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Ponant Explorations Group 和伍兹霍尔海洋研究所 (WHOI) 推出了一系列来自北极和南极洲的开放获取图像。  海洋局海洋图像 B 的一部分",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/ponant-launches-free-ocean-image-collection-to-support-polar-research/"
+    },
+    {
+      "d": "2026-05-09",
+      "co": "ponant",
       "title": "Ponant 和 Woods Hole 推出海洋图像库、下一代技术",
       "cat": "新船/新设施",
       "imp": "high",
@@ -1818,5 +1828,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-09T03:34:49"
+  "updated": "2026-05-09T13:37:57"
 }
