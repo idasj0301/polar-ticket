@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-05-09",
+      "co": "ponant",
+      "title": "Ponant 和 Woods Hole 推出海洋图像库、下一代技术",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "开放获取的极地图像将提高人们的认识，而人工智能驱动的鲸鱼探测和船上的机器人技术正在推动科学教育和研究。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/ponant-woods-hole-launch-ocean-image-bank-next-gen-tech"
+    },
+    {
       "d": "2026-05-08",
       "co": "atlas",
       "title": "Atlas Ocean 推出 13 次探险活动，揭开 2028 年北极季节的面纱",
@@ -1808,5 +1818,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-08T14:02:52"
+  "updated": "2026-05-09T03:34:49"
 }
