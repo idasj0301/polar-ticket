@@ -1338,6 +1338,46 @@
   ],
   "news": [
     {
+      "d": "2026-05-12",
+      "co": "ponant",
+      "title": "波南特：作为北极星进行探索",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Ponant Explorations 全球业务副首席执行官 Belinda Hindmarsh 表示，创建理想的部署是探险邮轮公司面临的最大挑战之一",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/ponant-exploration-as-north-star/"
+    },
+    {
+      "d": "2026-05-12",
+      "co": "atlas",
+      "title": "《阿特拉斯冒险家》首季揭晓",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Atlas Ocean Voyages 宣布了 Atlas Adventurer 的首季。这艘可容纳 400 名客人的豪华探险帆船将于 2028 年 11 月加入其船队。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/atlas-adventurers-inaugural-season-revealed/"
+    },
+    {
+      "d": "2026-05-12",
+      "co": "unknown",
+      "title": "乌斯怀亚港口工人警告 2026-27 南极季节面临风险",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "乌斯怀亚港口工人发出公开警告，由于联邦政府正在接管该港口，因此无法保证即将到来的 2026-27 南极游轮季节。该公司的工人",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/ushuaia-port-workers-warn-2026-27-antarctic-season-at-risk/"
+    },
+    {
+      "d": "2026-05-12",
+      "co": "scenic",
+      "title": "风景优美的 Eclipse 船只两次停靠塞维利亚",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "塞维利亚游轮港口在船头对船头停泊操作中同时容纳了姊妹船 Scenic Eclipse 和 Scenic Eclipse II。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/seville-hosts-scenic-double-call"
+    },
+    {
       "d": "2026-05-11",
       "co": "silversea",
       "title": "升级版Silver Spirit欢迎客人重回欧洲",
@@ -1858,5 +1898,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-12T03:44:20"
+  "updated": "2026-05-12T14:39:43"
 }
