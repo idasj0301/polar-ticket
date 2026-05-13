@@ -1339,6 +1339,26 @@
   "news": [
     {
       "d": "2026-05-13",
+      "co": "swan_hellenic",
+      "title": "Swan Hellenic 锁定 2026 年剩余北极航行价格",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "Swan Hellenic 为 2026 年北极夏季季节的所有剩余航班提供价格保证。  该邮轮公司在一份新闻稿中表示，它将吸收因 ri 造成的任何增加",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/swan-hellenic-locks-in-prices-for-remaining-2026-arctic-sailings/"
+    },
+    {
+      "d": "2026-05-13",
+      "co": "ponant",
+      "title": "Le Commandant Charcot 在达门造船厂完成升级",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Ponant 的 Le Commandant Charcot 最近在法国布雷斯特的达门造船厂完成了干船坞。据该设施称，这艘 2021 年建造的船舶进行了一系列工作，包括爆破和喷漆。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/le-commandant-charcot-completes-upgrades-at-damen-shipyard/"
+    },
+    {
+      "d": "2026-05-13",
       "co": "scenic",
       "title": "塞维利亚风景优美的 Eclipse I 和 II 泊位弓对弓",
       "cat": "行业动态",
@@ -1918,5 +1938,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-13T03:53:37"
+  "updated": "2026-05-13T14:47:19"
 }
