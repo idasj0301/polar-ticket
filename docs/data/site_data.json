@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-05-13",
+      "co": "scenic",
+      "title": "塞维利亚风景优美的 Eclipse I 和 II 泊位弓对弓",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "塞维利亚游轮港口见证了两艘船在 Muelle de las Delicias 的“弓对弓”停泊。  根据一份声明，这一里程碑事件发生在 5 月 9 日至 10 日风景区日食期间",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/scenic-eclipse-i-and-ii-berth-bow-to-bow-in-seville/"
+    },
+    {
+      "d": "2026-05-13",
+      "co": "oceanwide",
+      "title": "Hondius 载有 25 名船员从特内里费岛飞往鹿特丹",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "据Oceanwide Ex称，Hondius号于当地时间5月11日19:00从特内里费岛格拉纳迪拉出发，目前正在前往荷兰鹿特丹的途中，预计于5月17日晚抵达",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/hondius-departs-tenerife-for-rotterdam-with-25-crew-aboard/"
+    },
+    {
       "d": "2026-05-12",
       "co": "ponant",
       "title": "波南特：作为北极星进行探索",
@@ -1898,5 +1918,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-12T14:39:43"
+  "updated": "2026-05-13T03:53:37"
 }
