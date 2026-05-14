@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-05-14",
+      "co": "oceanwide",
+      "title": "更新：Hondius 于 5 月 18 日抵达鹿特丹",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "据 Oceanwide Expeditions 称，Hondius 号预计将于 5 月 18 日星期一抵达鹿特丹，船上有 27 人。该船有25名船员和两名来自荷兰国家的医务人员",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/update-hondius-arrives-in-rotterdam-on-may-18/"
+    },
+    {
       "d": "2026-05-13",
       "co": "swan_hellenic",
       "title": "Swan Hellenic 锁定 2026 年剩余北极航行价格",
@@ -1938,5 +1948,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-13T14:47:19"
+  "updated": "2026-05-14T03:53:17"
 }
