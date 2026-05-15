@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-05-15",
+      "co": "seabourn",
+      "title": "世邦邮轮 2026 年阿拉斯加赛季以 Encore 首次停靠温哥华拉开帷幕",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Seabourn Encore 首次抵达温哥华，标志着 Seabourn 2026 年阿拉斯加航季的开始，也是该船首次在该地区航行。  根据一份声明，该船",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/seabourns-2026-alaska-season-begins-with-encores-first-vancouver-call/"
+    },
+    {
+      "d": "2026-05-15",
+      "co": "aurora",
+      "title": "极光探险公司首席执行官迈克尔希思辞职",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "他带领公司度过了新冠疫情后的复苏期，并帮助其为全球增长做好了准备。正在招募继任者。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/aurora-expeditions-ceo-michael-heath-resigns"
+    },
+    {
       "d": "2026-05-14",
       "co": "oceanwide",
       "title": "更新：Hondius 于 5 月 18 日抵达鹿特丹",
@@ -1948,5 +1968,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-15T03:56:56"
+  "updated": "2026-05-15T14:20:38"
 }
