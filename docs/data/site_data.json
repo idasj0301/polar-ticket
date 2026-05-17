@@ -1338,6 +1338,36 @@
   ],
   "news": [
     {
+      "d": "2026-05-17",
+      "co": "hx",
+      "title": "Hurtigruten 为 2027-28 年精选航班提供 10% 折扣",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "海达路德推出了针对 2027-28 季精选航班的促销活动，现已开放预订。  该游轮公司对其原始航程的部分出发航班提供 10% 的折扣",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/hurtigruten-offers-10-discount-on-select-2027-28-sailings/"
+    },
+    {
+      "d": "2026-05-17",
+      "co": "lindblad",
+      "title": "Lindblad 推出旅行顾问资源中心",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "国家地理 - Lindblad Expeditions 推出了旅行顾问资源中心，这是一个为销售合作伙伴提供资源的集中平台。  旨在简化旅行顾问开展业务的方式",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-unveils-resource-hub-for-travel-advisors/"
+    },
+    {
+      "d": "2026-05-17",
+      "co": "seabourn",
+      "title": "Seabourn Pursuit 为巴布亚新几内亚社区提供旋风救援",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "据该公司称，Seabourn Pursuit 于 5 月 11 日在阿洛陶停留期间，已向巴布亚新几内亚受飓风“梅拉”影响的社区运送了 4 吨救援物资。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/seabourn-pursuit-delivers-cyclone-relief-to-papua-new-guinea-communities/"
+    },
+    {
       "d": "2026-05-16",
       "co": "aurora",
       "title": "极光探险公司首席执行官迈克尔·希思 (Michael Heath) 任职四年后辞职",
@@ -1978,5 +2008,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-17T03:57:24"
+  "updated": "2026-05-17T13:42:52"
 }
