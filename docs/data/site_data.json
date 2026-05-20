@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-05-20",
+      "co": "oceanwide",
+      "title": "洪迪乌斯抵达鹿特丹；两次航程因清洁而取消",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "据泛海探险公司称，Hondius 号于 5 月 18 日安全抵达鹿特丹，并已开始进行长期清洁和消毒过程。该船于当地时间11:00靠岸，无任何症状",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/hondius-arrives-in-rotterdam-two-voyages-cancelled-for-cleaning/"
+    },
+    {
       "d": "2026-05-19",
       "co": "hapag_lloyd",
       "title": "随着需求增长，赫伯罗特在 2028 年之前增加更多日本航线",
@@ -2048,5 +2058,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-19T15:36:30"
+  "updated": "2026-05-20T04:04:34"
 }
