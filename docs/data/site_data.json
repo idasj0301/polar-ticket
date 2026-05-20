@@ -1339,6 +1339,36 @@
   "news": [
     {
       "d": "2026-05-20",
+      "co": "silversea",
+      "title": "银海邮轮的阿拉斯加、北极季节开始",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "据新闻稿称，银海邮轮上周拉开了 2026 年阿拉斯加和北极季节的序幕。  5 月 14 日，客人们参加了第一次阿拉斯加航行，而北极季节则于第二天开始。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/silverseas-alaska-arctic-seasons-begin/"
+    },
+    {
+      "d": "2026-05-20",
+      "co": "oceanwide",
+      "title": "泛海首席执行官：没有迹象表明汉坦病毒与船舶状况有关",
+      "cat": "紧急",
+      "imp": "high",
+      "desc": "Oceanwide Expeditions 首席执行官 Rémi Bouysset 就 Hondius 号上的汉坦病毒爆发发表了一份声明，称这是“我们公司历史上最困难的情况之一”。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/oceanwide-ceo-no-indication-hantavirus-linked-to-vessel-conditions/"
+    },
+    {
+      "d": "2026-05-20",
+      "co": "unknown",
+      "title": "乌斯怀亚港口工人威胁无限期封锁，指控违反安全规定",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "自 1 月份以来被锁在乌斯怀亚港之外的港口工人现已确认，他们将在 2026-27 南极邮轮季节期间进一步升级抗议行动。他们声称该港口正在运营",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/ushuaia-port-workers-threaten-indefinite-blockades-allege-safety-violations/"
+    },
+    {
+      "d": "2026-05-20",
       "co": "oceanwide",
       "title": "洪迪乌斯抵达鹿特丹；两次航程因清洁而取消",
       "cat": "航线",
@@ -2058,5 +2088,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-20T04:04:34"
+  "updated": "2026-05-20T15:36:08"
 }
