@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-05-22",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗特将日本邮轮计划扩展至 2028 年",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "赫伯罗特游轮宣布到 2028 年扩大其船队的日本行程，其中包括连接所有四个主要岛屿的探险航线和新的阿拉斯加航线。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/hapag-lloyd-expands-japan-cruise-programme-through-2028"
+    },
+    {
       "d": "2026-05-20",
       "co": "silversea",
       "title": "银海邮轮的阿拉斯加、北极季节开始",
@@ -2088,5 +2098,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-21T15:40:00"
+  "updated": "2026-05-22T04:08:43"
 }
