@@ -1339,6 +1339,36 @@
   "news": [
     {
       "d": "2026-05-22",
+      "co": "unknown",
+      "title": "荷美航运公司 2028 年 Grand Voyages 开放预订",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "荷美邮轮公司于 4 月下旬宣布，已开始接受 2028 年两趟 Grand Voyages 的预订。福伦丹号为期 129 天的大世界航程将包括完整的南极体验和",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/booking-open-for-holland-america-lines-2028-grand-voyages/"
+    },
+    {
+      "d": "2026-05-22",
+      "co": "seabourn",
+      "title": "世邦邮轮以当地风味庆祝安可 (Encore) 首个阿拉斯加季节",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "世邦邮轮 (Seabourn Encore) 打造了一个阿拉斯加风格的烹饪项目，为世邦安可号 (Seabourn Encore) 的第一个阿拉斯加季节提供更加身临其境的体验。安可号 (Encore) 首次亮相温哥华并成为明星",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/seabourn-honors-encores-first-alaska-season-with-local-flavors/"
+    },
+    {
+      "d": "2026-05-22",
+      "co": "hx",
+      "title": "Hurtigruten 的 Midnatsol 整修后恢复服务",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Hurtigruten 的 Midnatsol 在北欧进行干船坞后，最近推出了更新的功能并更新了公共区域。本月早些时候暂停在挪威的服务后，2003-bui",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/hurtigrutens-midnatsol-resumes-service-after-refit/"
+    },
+    {
+      "d": "2026-05-22",
       "co": "hapag_lloyd",
       "title": "赫伯罗特将日本邮轮计划扩展至 2028 年",
       "cat": "航线",
@@ -2098,5 +2128,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-22T04:08:43"
+  "updated": "2026-05-22T14:49:36"
 }
