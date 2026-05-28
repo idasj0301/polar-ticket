@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-05-28",
+      "co": "ponant",
+      "title": "为 Ponant 2027 年探险家俱乐部航程推出的扬声器",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Ponant Explorations Group 宣布了与探索者俱乐部 (The Explorers Club) 合作的 2027 年航程系列的发言人。进入第四个年头，2027 年版将有 12 条行程，",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/speakers-unveiled-for-ponants-2027-explorers-club-voyages/"
+    },
+    {
       "d": "2026-05-27",
       "co": "oceanwide",
       "title": "Hondius 鹿特丹清洁服务延迟；船长被护送到波兰",
@@ -2168,5 +2178,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-27T15:57:49"
+  "updated": "2026-05-28T04:07:14"
 }
