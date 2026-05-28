@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-05-28",
+      "co": "swan_hellenic",
+      "title": "Swan Hellenic 着眼于拉丁美洲的进一步增长",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "据该地区销售总监古斯塔沃·贝内蒂 (Gustavo Benetti) 称，Swan Hellenic 在整个拉丁美洲市场正在经历显着增长。在经历了强劲的 2025 年之后，他表示公司",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/swan-hellenic-eyes-further-growth-in-latin-america/"
+    },
+    {
+      "d": "2026-05-28",
       "co": "ponant",
       "title": "为 Ponant 2027 年探险家俱乐部航程推出的扬声器",
       "cat": "航线",
@@ -2178,5 +2188,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-05-28T04:07:14"
+  "updated": "2026-05-28T16:11:58"
 }
