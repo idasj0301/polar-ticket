@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-06-01",
+      "co": "oceanwide",
+      "title": "Hondius 经过深度清洁和消毒后获准运营",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "据泛海探险公司称，在鹿特丹完成深度清洁和消毒过程后，Hondius 号现已获准恢复全面运营。荷兰健康管理局",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hondius-cleared-for-operations-after-deep-clean-and-disinfection/"
+    },
+    {
+      "d": "2026-06-01",
       "co": "silversea",
       "title": "银海邮轮在里斯本结束 2026 年世界邮轮之旅",
       "cat": "行业动态",
@@ -2228,5 +2238,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-06-01T04:49:13"
+  "updated": "2026-06-01T17:52:07"
 }
