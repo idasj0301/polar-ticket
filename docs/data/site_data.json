@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-02",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗特在欧洲推出世界音乐节目",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "赫伯罗特邮轮宣布 2026 年和 2027 年推出四趟特别的世界音乐巡游，国际艺术家将在可容纳 400 名乘客的 Europa 游轮上在独特的环境中进行表演",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/hapag-lloyd-launches-world-music-programme-on-europa"
+    },
+    {
       "d": "2026-06-01",
       "co": "oceanwide",
       "title": "Hondius 经过深度清洁和消毒后获准运营",
@@ -2238,5 +2248,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-06-02T04:38:15"
+  "updated": "2026-06-02T16:43:20"
 }
