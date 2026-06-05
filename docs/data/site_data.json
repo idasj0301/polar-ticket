@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-05",
+      "co": "seabourn",
+      "title": "Seabourn Quest 完成重大内饰检修",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "世邦探索号 (Seabourn Quest) 已从干船坞返回，世邦称这是其历史上最全面的内饰更新。   现在这艘船已经翻新，它将继续进行地中海航行",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/seabourn-quest-completes-major-interior-overhaul/"
+    },
+    {
       "d": "2026-06-04",
       "co": "hapag_lloyd",
       "title": "赫伯罗特宣布 2026-27 年推出 4 条世界音乐主题游轮",
@@ -2288,5 +2298,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-06-05T04:15:26"
+  "updated": "2026-06-05T15:18:41"
 }
