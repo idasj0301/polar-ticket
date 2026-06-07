@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-07",
+      "co": "seabourn",
+      "title": "前旅居者抵达日本，开启三井首航",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "前世邦旅居号最近抵达日本，为商船三井集团旗下的三井远洋邮轮进行首航。上个月在温哥华完成了该奢侈品牌的最后一次巡游",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/former-sojourn-arrives-in-japan-ahead-of-maiden-cruise-for-mitsui/"
+    },
+    {
       "d": "2026-06-05",
       "co": "seabourn",
       "title": "Seabourn Quest 完成重大内饰检修",
@@ -2298,5 +2308,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-06-07T04:24:59"
+  "updated": "2026-06-07T14:05:19"
 }
