@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-10",
+      "co": "poseidon",
+      "title": "适用于波塞冬探险的单船策略",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Poseidon Expeditions 运营着 114 名乘客的 Sea Spirit 帆船探险航线。在过去十年中，运营商竞相增加新船的探险市场中，单船标准",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/single-ship-strategy-working-for-poseidon-expeditions/"
+    },
+    {
       "d": "2026-06-09",
       "co": "atlas",
       "title": "Atlas 庆祝销售额同比增长 49%",
@@ -2318,5 +2328,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-06-10T04:13:02"
+  "updated": "2026-06-10T15:50:37"
 }
