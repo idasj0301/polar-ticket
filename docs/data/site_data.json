@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-11",
+      "co": "unknown",
+      "title": "大洋洲游轮聚焦 2027 年北欧季节",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "据媒体报道，大洋洲邮轮公司 (Oceania Cruises) 公布了 2027 年北欧邮轮季的详细信息，其中三艘邮轮将横跨斯堪的纳维亚半岛、不列颠群岛、冰岛、格陵兰岛和挪威。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/oceania-cruises-spotlights-2027-northern-europe-season/"
+    },
+    {
       "d": "2026-06-10",
       "co": "poseidon",
       "title": "适用于波塞冬探险的单船策略",
@@ -2328,5 +2338,5 @@
       "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-06-11T04:25:53"
+  "updated": "2026-06-11T16:11:56"
 }
