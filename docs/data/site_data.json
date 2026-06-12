@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-12",
+      "co": "aurora",
+      "title": "极光探险队报告南极洲强劲增长",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "极光探险公司在一份新闻稿中表示，其 2025-26 南极季节在北美市场实现了强劲增长。其美国预订量同比增长 37%",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/aurora-expeditions-reports-strong-growth-for-antarctica/"
+    },
+    {
       "d": "2026-06-11",
       "co": "unknown",
       "title": "大洋洲游轮聚焦 2027 年北欧季节",
@@ -2326,17 +2336,7 @@
       "desc": "曾在多家奢华邮轮公司担任高管，负责北美市场战略。",
       "src": "Trade Press",
       "url": ""
-    },
-    {
-      "d": "01-20",
-      "co": "aurora",
-      "title": "Aurora与Sparro by Brainlabs达成全球媒体合作",
-      "cat": "市场",
-      "imp": "low",
-      "desc": "数据驱动、受众优先的全球数字营销策略，覆盖北美、欧洲及亚太主要市场。",
-      "src": "Mi3",
-      "url": "https://www.mi-3.com.au/27-01-2026/aurora-expeditions-strikes-media-partnership-sparro-brainlabs"
     }
   ],
-  "updated": "2026-06-12T04:38:38"
+  "updated": "2026-06-12T15:27:38"
 }
