@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-13",
+      "co": "aurora",
+      "title": "道格拉斯·莫森在诺曼底登陆周年纪念日首次拜访卡昂",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "据报道，Aurora Expeditions 的 Douglas Mawson 号于 6 月 5 日至 7 日首次停靠法国卡昂-乌伊斯特勒昂港，恰逢诺曼底登陆和诺曼底战役 82 周年纪念日",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/douglas-mawson-makes-maiden-call-to-caen-during-d-day-anniversary/"
+    },
+    {
       "d": "2026-06-12",
       "co": "aurora",
       "title": "极光探险队报告南极洲强劲增长",
@@ -2326,17 +2336,7 @@
       "desc": "适用于500+航次，截止5月5日。5月Expedition Month激励。",
       "src": "Porthole Cruise",
       "url": "https://porthole.com/seabourn-yours-to-explore-event-adds-suite-upgrades/"
-    },
-    {
-      "d": "02-01",
-      "co": "aurora",
-      "title": "Aurora任命Beth Mercier为北美销售副总裁",
-      "cat": "人事",
-      "imp": "low",
-      "desc": "曾在多家奢华邮轮公司担任高管，负责北美市场战略。",
-      "src": "Trade Press",
-      "url": ""
     }
   ],
-  "updated": "2026-06-13T04:17:13"
+  "updated": "2026-06-13T14:11:10"
 }
