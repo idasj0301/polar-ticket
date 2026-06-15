@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-15",
+      "co": "atlas",
+      "title": "Atlas Ocean Voyages 推出 Inner Circle 宾客推荐计划",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Atlas Ocean Voyages 正在推出 Atlas Inner Circle，这是一项新的推荐计划，奖励过去和新的 Atlas 客人。因此，推荐首次 Atlas 旅行者的客人将获得价值 250 美元的 Future Cru",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/atlas-ocean-voyages-introduces-inner-circle-guest-referral-program/"
+    },
+    {
       "d": "2026-06-13",
       "co": "aurora",
       "title": "道格拉斯·莫森在诺曼底登陆周年纪念日首次拜访卡昂",
@@ -2326,17 +2336,7 @@
       "desc": "单人预订阳台套房省高达$10,000。限时优惠。",
       "src": "Travel Weekly AU",
       "url": "https://travelweekly.com.au/quark-expeditions-announces-no-solo-supplement-charge-on-its-ultramarine-arctic-2026-voyages/"
-    },
-    {
-      "d": "05-01",
-      "co": "seabourn",
-      "title": "世邦「Yours to Explore」：免费升两级套房+$1,000消费",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "适用于500+航次，截止5月5日。5月Expedition Month激励。",
-      "src": "Porthole Cruise",
-      "url": "https://porthole.com/seabourn-yours-to-explore-event-adds-suite-upgrades/"
     }
   ],
-  "updated": "2026-06-15T04:59:46"
+  "updated": "2026-06-15T17:21:27"
 }
