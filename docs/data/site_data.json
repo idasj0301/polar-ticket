@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-06-16",
+      "co": "hapag_lloyd",
+      "title": "汉萨精神号在北极季节之前完成了第一个干船坞",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "汉萨精神号 (Hanseatic Spirit) 为赫伯罗特游轮 (Hapag-Lloyd Cruises) 进行了首次定期进坞，在不来梅港 (Bremerhaven) 的劳埃德造船厂 (Lloyd Werft) 停留了 10 天。该船重新粉刷一新，公共空间也进行了翻新",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hanseatic-spirit-completes-first-drydock-ahead-of-arctic-season/"
+    },
+    {
+      "d": "2026-06-16",
+      "co": "unknown",
+      "title": "弗雷德.奥尔森公布 2027 年秋冬计划，共 20 个航次",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "弗雷德.奥尔森游轮公司 (Olsen Cruise Lines) 推出了全新的 2027 年秋冬计划。 2027 年 10 月至 12 月期间有 20 个航班出发，让客人在北极观赏北极光",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/fred-olsen-unveils-autumn-winter-2027-program-with-20-sailings/"
+    },
+    {
       "d": "2026-06-15",
       "co": "atlas",
       "title": "Atlas Ocean Voyages 推出 Inner Circle 宾客推荐计划",
@@ -2316,27 +2336,7 @@
       "desc": "29个飞南极+12个传统德雷克海峡，依托Cormorant酒店扩容。",
       "src": "Cruise Industry News",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/03/silversea-wraps-up-antarctica-season-with-38-voyages/"
-    },
-    {
-      "d": "01-10",
-      "co": "aurora",
-      "title": "Aurora庆祝极地探险35周年",
-      "cat": "里程碑",
-      "imp": "med",
-      "desc": "推出全球周年特惠，发布全新Active Antarctica沉浸式航次。",
-      "src": "Aurora Media Centre",
-      "url": "https://www.aurora-expeditions.com/eu/media-centre"
-    },
-    {
-      "d": "03-15",
-      "co": "quark",
-      "title": "夸克Ultramarine北极2026免单人附加费",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "单人预订阳台套房省高达$10,000。限时优惠。",
-      "src": "Travel Weekly AU",
-      "url": "https://travelweekly.com.au/quark-expeditions-announces-no-solo-supplement-charge-on-its-ultramarine-arctic-2026-voyages/"
     }
   ],
-  "updated": "2026-06-16T05:00:15"
+  "updated": "2026-06-16T17:04:55"
 }
