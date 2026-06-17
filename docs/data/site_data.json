@@ -1339,6 +1339,56 @@
   "news": [
     {
       "d": "2026-06-17",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗特将于 2027 年回归“海上盖茨比之夜”游轮",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "沿着蔚蓝海岸的“海上盖茨比之夜”短途游轮将返回赫伯罗特的欧罗巴。继邮轮公司表示 2026 年成功推出以及热情的宾客反馈之后",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hapag-lloyd-bringing-back-gatsby-nights-at-sea-cruise-in-2027/"
+    },
+    {
+      "d": "2026-06-17",
+      "co": "hx",
+      "title": "海达路德 (Hurtigruten) 的 Vesteralen 以新概念重新推出",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "海达路德重新推出了 Vesteralen 号，其独特的船上概念受到该公司 133 年挪威海岸航行历史的启发，将这一传统带入了宾客们的生活中。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hurtigrutens-vesteralen-relaunches-with-new-concept/"
+    },
+    {
+      "d": "2026-06-17",
+      "co": "ponant",
+      "title": "Ponant Explorations 开启 2028 年北极季预订",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Ponant Explorations 公布了 2028 年北极季节，现已开放预订。该航季的航行时间为 2028 年 5 月至 10 月，由四艘船运营超过 35 个班次。它",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/ponant-explorations-opens-2028-arctic-season-for-booking/"
+    },
+    {
+      "d": "2026-06-17",
+      "co": "aurora",
+      "title": "Karen Kuttner-Dimitry 出任 Aurora Expeditions 副总裁",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "她在国家地理-林德布拉德探险队工作了二十多年后加入。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/karen-kuttner-dimitry-takes-vp-role-at-aurora-expeditions"
+    },
+    {
+      "d": "2026-06-17",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗特的 Hanseatic Spirit 完成重大改装",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "赫伯罗特游轮的 Hanseatic Spirit 在不来梅港劳埃德造船厂为期 10 天的停靠期间进行了大规模整修，更新了公共区域、水疗设施和餐厅",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/refurb-design-interiors/hapag-lloyd-s-hanseatic-spirit-completes-major-refit"
+    },
+    {
+      "d": "2026-06-17",
       "co": "swan_hellenic",
       "title": "SH Minerva 获得 DCA ESG 认证",
       "cat": "行业动态",
@@ -2286,57 +2336,7 @@
       "desc": "15年来首次重返地球上最偏远区域之一。本季三船同时运营。",
       "src": "Travel And Tour World",
       "url": "https://www.travelandtourworld.fr/nouvelles/article/Aurora-Expeditions-marque-un-retour-historique-dans-l%27Antarctique-oriental-apr%C3%A8s-quinze-ans-d%27absence--offrant-aux-explorateurs-une-occasion-rare-d%27explorer-cette-nature-sauvage-et-intacte./"
-    },
-    {
-      "d": "02-28",
-      "co": "quark",
-      "title": "夸克因需求旺新增第二个2026日全食航次",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "首个售罄后增开Ocean Explorer号17天航次(8月3-19日)。",
-      "src": "TravelPulse",
-      "url": "https://www.travelpulse.com/news/cruise/quark-expeditions-to-offer-additional-solar-eclipse-voyage-in-2026"
-    },
-    {
-      "d": "02-20",
-      "co": "seabourn",
-      "title": "世邦发布2026-27极地季：24航线161目的地",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Pursuit 2026年金伯利为最后一年，2028年起全面转向极地。",
-      "src": "Cruise Mapper",
-      "url": "https://www.cruisemapper.com/news/14017-seabourn-launches-2026-2027-expedition-season"
-    },
-    {
-      "d": "02-14",
-      "co": "ponant",
-      "title": "庞洛开售2028年62天南极环大陆航次",
-      "cat": "航线",
-      "imp": "high",
-      "desc": "Charcot号23,000公里环南极，深入罗斯海。需求远超预期。",
-      "src": "广州日报",
-      "url": "https://news.dayoo.com/gzrbrmt/202602/14/170636_54928931.htm"
-    },
-    {
-      "d": "01-15",
-      "co": "seabourn",
-      "title": "世邦宣布2026年终止潜水艇项目",
-      "cat": "运营调整",
-      "imp": "med",
-      "desc": "因客人兴趣有限和监管限制，潜水艇体验3月终止。",
-      "src": "Travel Weekly Asia",
-      "url": "https://www.travelweekly-asia.com/Cruise-Travel/No-more-submarine-programme-for-Seabourne"
-    },
-    {
-      "d": "04-20",
-      "co": "aqua",
-      "title": "Aqua Expeditions 2026年6月首进北极",
-      "cat": "新进入者",
-      "imp": "med",
-      "desc": "30客位超级游艇Aqua Lares(冰级1B)前往斯瓦尔巴。",
-      "src": "Cruise Industry News",
-      "url": "https://cruiseindustrynews.com/cruise-news/2025/09/aqua-expeditions-heading-to-the-arctic/"
     }
   ],
-  "updated": "2026-06-17T04:44:57"
+  "updated": "2026-06-17T15:47:35"
 }
