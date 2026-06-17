@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-17",
+      "co": "swan_hellenic",
+      "title": "SH Minerva 获得 DCA ESG 认证",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Swan Hellenic 的 Minerva 已获得 Dream&Charme（一家国际认可的酒店业专业认证机构）颁发的 DCA ESG 认证。审核在船上进行",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/sh-minerva-receives-dca-esg-certification/"
+    },
+    {
       "d": "2026-06-16",
       "co": "hapag_lloyd",
       "title": "汉萨精神号在北极季节之前完成了第一个干船坞",
@@ -2326,17 +2336,7 @@
       "desc": "30客位超级游艇Aqua Lares(冰级1B)前往斯瓦尔巴。",
       "src": "Cruise Industry News",
       "url": "https://cruiseindustrynews.com/cruise-news/2025/09/aqua-expeditions-heading-to-the-arctic/"
-    },
-    {
-      "d": "03-01",
-      "co": "silversea",
-      "title": "银海2026-27南极季扩展至41个航次",
-      "cat": "航线",
-      "imp": "high",
-      "desc": "29个飞南极+12个传统德雷克海峡，依托Cormorant酒店扩容。",
-      "src": "Cruise Industry News",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/03/silversea-wraps-up-antarctica-season-with-38-voyages/"
     }
   ],
-  "updated": "2026-06-16T17:04:55"
+  "updated": "2026-06-17T04:44:57"
 }
