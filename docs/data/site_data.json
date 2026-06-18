@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-18",
+      "co": "swan_hellenic",
+      "title": "SH Minerva 成为第一艘获得 DCA ESG 认证的探险船",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "Swan Hellenic 的 SH Minerva 成为第一艘获得国际认可机构 Dream&Charme DCA ESG 认证的探险游轮。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/environmental-health/sh-minerva-becomes-first-expedition-ship-to-receive-dca-esg-certification"
+    },
+    {
       "d": "2026-06-17",
       "co": "hapag_lloyd",
       "title": "赫伯罗特将于 2027 年回归“海上盖茨比之夜”游轮",
@@ -2326,17 +2336,7 @@
       "desc": "50+代理商参与，含讲座、皮划艇。一位代理商赢得北极游。",
       "src": "Travel Weekly UK",
       "url": "https://travelweekly.co.uk/news/quark-expeditions-hosts-50-agents-at-polar-retreat-in-lake-district"
-    },
-    {
-      "d": "03-10",
-      "co": "aurora",
-      "title": "Aurora时隔15年重返东南极",
-      "cat": "航线",
-      "imp": "high",
-      "desc": "15年来首次重返地球上最偏远区域之一。本季三船同时运营。",
-      "src": "Travel And Tour World",
-      "url": "https://www.travelandtourworld.fr/nouvelles/article/Aurora-Expeditions-marque-un-retour-historique-dans-l%27Antarctique-oriental-apr%C3%A8s-quinze-ans-d%27absence--offrant-aux-explorateurs-une-occasion-rare-d%27explorer-cette-nature-sauvage-et-intacte./"
     }
   ],
-  "updated": "2026-06-17T15:47:35"
+  "updated": "2026-06-18T04:38:52"
 }
