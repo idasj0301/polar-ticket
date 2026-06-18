@@ -1339,6 +1339,26 @@
   "news": [
     {
       "d": "2026-06-18",
+      "co": "atlas",
+      "title": "Atlas Ocean 的 Atlas Adventurer 处于水箱测试阶段",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "神秘邮轮公司的阿特拉斯冒险号号在中国招商局造船厂建造之前正处于水箱测试阶段。根据首席执行官 Mário Ferreira 分享的最新消息，规模模型",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/atlas-oceans-atlas-adventurer-in-tank-testing-phase/"
+    },
+    {
+      "d": "2026-06-18",
+      "co": "unknown",
+      "title": "Australis 认为随着乘客人口结构的变化，全球需求将增长",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "随着 Australis 在巴塔哥尼亚结束其 35 周年纪念季，这家智利探险游轮公司看到了强劲的乘客需求、复苏的欧洲市场以及不断扩大的人口。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/australis-sees-global-demand-growth-as-passenger-demographics-shift/"
+    },
+    {
+      "d": "2026-06-18",
       "co": "swan_hellenic",
       "title": "SH Minerva 成为第一艘获得 DCA ESG 认证的探险船",
       "cat": "纪录",
@@ -2316,27 +2336,7 @@
       "desc": "38航次3艘船运营，罕见观测帝企鹅群落和Arnoux's喙鲸，单次极地跳水近140人参与。创单季最多飞南极纪录。",
       "src": "Cruise Industry News",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/03/silversea-wraps-up-antarctica-season-with-38-voyages/"
-    },
-    {
-      "d": "03-25",
-      "co": "quark",
-      "title": "夸克「This Is Polar Bonus」：北极2026最高省$2,000",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "可与其他促销叠加。另推出顾问竞赛赢取斯瓦尔巴航次。",
-      "src": "TravelPulse",
-      "url": "https://www.travelpulse.com/news/cruise/quark-expeditions-launches-this-is-polar-bonus-for-adventure-seekers"
-    },
-    {
-      "d": "03-20",
-      "co": "quark",
-      "title": "夸克在英国湖区举办首次极地代理商静修会",
-      "cat": "市场",
-      "imp": "med",
-      "desc": "50+代理商参与，含讲座、皮划艇。一位代理商赢得北极游。",
-      "src": "Travel Weekly UK",
-      "url": "https://travelweekly.co.uk/news/quark-expeditions-hosts-50-agents-at-polar-retreat-in-lake-district"
     }
   ],
-  "updated": "2026-06-18T04:38:52"
+  "updated": "2026-06-18T15:37:40"
 }
