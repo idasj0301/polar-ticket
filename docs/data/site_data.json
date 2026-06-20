@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-20",
+      "co": "unknown",
+      "title": "诺丹 (Noordam) 搭乘荷兰美国航空 28 晚阿拉斯加游轮",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "本月早些时候，Noordam 号从西雅图出发，开启了荷美航运公司为期 28 晚的传奇阿拉斯加北极圈至日航程。作为该公司在世界上最长的邮轮之一",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/noordam-on-holland-americas-28-night-cruise-to-alaska/"
+    },
+    {
       "d": "2026-06-19",
       "co": "hx",
       "title": "HX Greenland 预订保证延长至 2027 年航班",
@@ -2326,17 +2336,7 @@
       "desc": "Oceanwide Expeditions旗下Hondius号在南极航次后横跨大西洋途中爆发汉坦病毒。6人感染，3人死亡。佛得角拒绝靠港，荷兰政府协调包机接回。WHO已全面介入。",
       "src": "USA Today / 腾讯新闻",
       "url": "https://news.qq.com/rain/a/20260504A03PVJ00"
-    },
-    {
-      "d": "05-02",
-      "co": "aurora",
-      "title": "Aurora完成史上最大南极季：30航次、819次登陆",
-      "cat": "运营动态",
-      "imp": "high",
-      "desc": "三艘船首次同时在南极运营，Douglas Mawson号创客船最南纪录(78°44'S)。",
-      "src": "Cruise Industry News",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/aurora-expeditions-completes-largest-antarctic-season/"
     }
   ],
-  "updated": "2026-06-20T04:10:34"
+  "updated": "2026-06-20T14:14:57"
 }
