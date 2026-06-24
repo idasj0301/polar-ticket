@@ -1338,6 +1338,36 @@
   ],
   "news": [
     {
+      "d": "2026-06-24",
+      "co": "hx",
+      "title": "Hurtigruten 夏季促销提供沿海航行 50% 折扣",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "海达路德 (Hurtigruten) 为北美游客推出了年度夏季特惠，截至 2027 年 4 月，精选挪威沿海出发航班可享受高达 50% 的折扣。特惠活动通过 J",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hurtigruten-summer-sale-offers-50-off-coastal-voyages/"
+    },
+    {
+      "d": "2026-06-24",
+      "co": "oceanwide",
+      "title": "泛海探险队 Hondius 船员隔离后回国",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Oceanwide Expeditions宣布，2026年6月18日星期四，Hondius号所有剩余隔离船员已完成隔离期并返回祖国",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/oceanwide-expeditions-hondius-crew-return-home-after-quarantine/"
+    },
+    {
+      "d": "2026-06-24",
+      "co": "hx",
+      "title": "HX 的 Fram 在北极试验鲸鱼探测技术",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "研究人员正在 HX 的 Fram 上测试智能视觉检测系统，以改善北极水域的鲸鱼检测，并保护海洋哺乳动物免受日益增加的船只交通的影响。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/hx-s-fram-trials-whale-detection-technology-in-arctic"
+    },
+    {
       "d": "2026-06-23",
       "co": "hx",
       "title": "Hurtigruten 完成 4.3 亿欧元债务再融资",
@@ -2306,37 +2336,7 @@
       "desc": "两名患有急性呼吸道症状、需要紧急医疗护理的船员仍留在佛得角附近的船上。尚未发现其他有症状的人。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/oceanwide-expeditions-timeline-updates-hondius-medical-situation"
-    },
-    {
-      "d": "2026-05-06",
-      "co": "oceanwide",
-      "title": "远征船 Hondius 上三人死亡疑似汉坦病毒",
-      "cat": "紧急",
-      "imp": "high",
-      "desc": "此外，泛海探险公司表示，一名乘客正在约翰内斯堡接受重症监护，两名船员需要紧急医疗护理。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/hantavirus-suspected-in-three-deaths-on-expedition-ship-hondius"
-    },
-    {
-      "d": "2026-05-06",
-      "co": "oceanwide",
-      "title": "泛海探险队实现特里斯坦·达库尼亚三重登陆",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "泛海探险队十多年来首次成功地将乘客降落在偏远的特里斯坦达库尼亚群岛的所有三个主要岛屿上。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/oceanwide-expeditions-achieves-tristan-da-cunha-triple-landing"
-    },
-    {
-      "d": "2026-05-06",
-      "co": "ponant",
-      "title": "Ponant Explorations 推出 2028 年史密森尼旅程和日食巡航",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Ponant Explorations 宣布与史密森尼旅程 (Smithsonian Journeys) 合作首次选择 2028 年航程，将探险巡航专业知识与教育计划相结合。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/ponant-unveils-2028-smithsonian-journeys-voyages-with-eclipse-cruise"
     }
   ],
-  "updated": "2026-06-24T04:02:53"
+  "updated": "2026-06-24T14:42:41"
 }
