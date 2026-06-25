@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-25",
+      "co": "swan_hellenic",
+      "title": "Gordon Dirker 回到 Swan Hellenic，这次担任美洲高级副总裁",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "该公司还聘请了詹妮弗·扎米特 (Jennifer Zammit) 负责加拿大销售，并聘请简·马丁 (Jane Martin) 负责美国的国内主机客户。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/gordon-dirker-back-to-swan-hellenic-this-time-as-svp-americas"
+    },
+    {
       "d": "2026-06-24",
       "co": "hx",
       "title": "Hurtigruten 夏季促销提供沿海航行 50% 折扣",
@@ -2326,17 +2336,7 @@
       "desc": "2026 年的预订量仍然“非常健康”，地缘政治波动对发展机队和陆地体验的雄心没有影响。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/lindblad-swings-to-q1-profit-record-occupancy-27-sales-accelerate"
-    },
-    {
-      "d": "2026-05-06",
-      "co": "oceanwide",
-      "title": "Oceanwide Expeditions 时间表更新了 Hondius 的医疗状况",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "两名患有急性呼吸道症状、需要紧急医疗护理的船员仍留在佛得角附近的船上。尚未发现其他有症状的人。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/oceanwide-expeditions-timeline-updates-hondius-medical-situation"
     }
   ],
-  "updated": "2026-06-24T14:42:41"
+  "updated": "2026-06-25T04:03:27"
 }
