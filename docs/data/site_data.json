@@ -1338,6 +1338,46 @@
   ],
   "news": [
     {
+      "d": "2026-06-26",
+      "co": "swan_hellenic",
+      "title": "Swan Hellenic 宣布三名高级任命",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Swan Hellenic 通过三项高级任命加强了其在美洲的商业领导力，以加速旅游业的增长。戈登·德克 (Gordon Dirker) 被任命为高级 VI",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/swan-hellenic-announces-three-senior-appointments/"
+    },
+    {
+      "d": "2026-06-26",
+      "co": "scenic",
+      "title": "Scenic 与两位名厨一起揭开探索之旅的味道",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Scenic 宣布将乘坐 Scenic Eclipse I 和 II 号进行两次穿越北欧和地中海的探索之旅。  这些身临其境的美食之旅将由主厨 Gabriel R 带领",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/scenic-unveils-tastes-of-discovery-voyages-with-two-celebrity-chefs/"
+    },
+    {
+      "d": "2026-06-26",
+      "co": "ponant",
+      "title": "波南特聘请吉诺·安德烈塔 (Gino Andreetta) 担任首席客户兼接待官",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "这位 Club Med 资深人士将领导一个旨在提升端到端宾客体验的新部门。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/ponant-hires-gino-andreetta-as-chief-client-hospitality-officer"
+    },
+    {
+      "d": "2026-06-26",
+      "co": "scenic",
+      "title": "风景区主席将主持美国第 250 次游轮",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Glen Moroney 将参加 Scenic Eclipse 十月的东海岸航行。该公司还推出了独立日奖金储蓄活动。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/scenic-chairman-to-host-america-s-250th-cruise"
+    },
+    {
       "d": "2026-06-25",
       "co": "swan_hellenic",
       "title": "Gordon Dirker 回到 Swan Hellenic，这次担任美洲高级副总裁",
@@ -2296,47 +2336,7 @@
       "desc": "维京号已开始接受 2028-29 年探险航行的预订。  维京游轮在一份声明中表示，本季包括北极、南极洲和五大湖航线新发布的出发日期。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/vikings-2028-29-expedition-voyages-available-for-booking/"
-    },
-    {
-      "d": "2026-05-06",
-      "co": "ponant",
-      "title": "波南特：宾客洞察和现实世界中的新行程探索",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Ponan 邮轮研发总监 Sylviane de Tracy 表示，开发新行程需要在宾客洞察、监管理解和现实世界搜寻之间取得平衡",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/ponant-guest-insight-and-real-world-scouting-for-new-itineraries/"
-    },
-    {
-      "d": "2026-05-06",
-      "co": "lindblad",
-      "title": "Lindblad Expeditions 关注舰队扩张",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Lindblad Expeditions 首席执行官 Natalya Leahy 表示，该公司正在积极寻求扩大其探险船队。 Leahy 在公司 2026 年第一季度财报电话会议上表示，机队增长正在转变",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-expeditions-eyes-fleet-expansion/"
-    },
-    {
-      "d": "2026-05-06",
-      "co": "oceanwide",
-      "title": "泛海安排从洪迪斯出发的医疗后送",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Oceanwide Expeditions 周二下午证实，正在安排两名需要紧急护理的乘客以及另一名与 M 号上死亡乘客有关的乘客的医疗后送。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/oceanwide-arranges-medical-evacuations-from-hondius/"
-    },
-    {
-      "d": "2026-05-06",
-      "co": "lindblad",
-      "title": "Lindblad 第一季度实现盈利，入住率创历史新高，27 年销售加速",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "2026 年的预订量仍然“非常健康”，地缘政治波动对发展机队和陆地体验的雄心没有影响。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/lindblad-swings-to-q1-profit-record-occupancy-27-sales-accelerate"
     }
   ],
-  "updated": "2026-06-25T14:42:12"
+  "updated": "2026-06-26T04:10:43"
 }
