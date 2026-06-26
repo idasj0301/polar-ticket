@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-06-26",
+      "co": "ponant",
+      "title": "Ponant Exploration 任命 Andreetta 为首席客户兼酒店官",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Ponant Explorations 已任命 Gino Andreetta 为其首席客户兼接待官。自 2026 年 7 月 1 日起，他将领导新成立的客户和酒店部门，将",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/ponant-exploration-names-andreetta-as-chief-client-hospitality-officer/"
+    },
+    {
+      "d": "2026-06-26",
       "co": "swan_hellenic",
       "title": "Swan Hellenic 宣布三名高级任命",
       "cat": "行业动态",
@@ -2326,17 +2336,7 @@
       "desc": "",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/lindblad-expeditions-holdings-to-report-q1-results-may-5"
-    },
-    {
-      "d": "2026-05-06",
-      "co": "viking",
-      "title": "维京 2028-29 年远征航程可供预订",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "维京号已开始接受 2028-29 年探险航行的预订。  维京游轮在一份声明中表示，本季包括北极、南极洲和五大湖航线新发布的出发日期。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/vikings-2028-29-expedition-voyages-available-for-booking/"
     }
   ],
-  "updated": "2026-06-26T04:10:43"
+  "updated": "2026-06-26T14:35:24"
 }
