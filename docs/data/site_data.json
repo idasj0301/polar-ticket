@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-27",
+      "co": "aurora",
+      "title": "极光探险展示北极光航行",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "极光探险公司重点介绍了其北极航程系列，旨在最大限度地增加客人目睹北极光和参观地球上最偏远地区的机会",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/aurora-expeditions-with-northern-lights-in-greenland/"
+    },
+    {
       "d": "2026-06-26",
       "co": "ponant",
       "title": "Ponant Exploration 任命 Andreetta 为首席客户兼酒店官",
@@ -2326,17 +2336,7 @@
       "desc": "Ponant Explorations 宣布与史密森尼旅程 (Smithsonian Journeys) 合作首次选择 2028 年航程，将探险巡航专业知识与教育计划相结合。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/ports-destinations/ponant-unveils-2028-smithsonian-journeys-voyages-with-eclipse-cruise"
-    },
-    {
-      "d": "2026-05-07",
-      "co": "lindblad",
-      "title": "Lindblad Expeditions Holdings 将于 5 月 5 日公布第一季度业绩",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/lindblad-expeditions-holdings-to-report-q1-results-may-5"
     }
   ],
-  "updated": "2026-06-27T03:56:20"
+  "updated": "2026-06-27T13:54:04"
 }
