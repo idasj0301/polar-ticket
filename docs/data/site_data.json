@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-06-28",
+      "co": "antarctica21",
+      "title": "Antarctica21 启动南极旅游设计师大赛",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Antarctica21 宣布启动南极旅行设计师大赛，这是一项以成绩为基础的 FAM 计划，面向美国和加拿大想要开始与他们合作的旅行顾问开放",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/antarctica21-launches-antarctic-travel-designers-contest/"
+    },
+    {
       "d": "2026-06-27",
       "co": "aurora",
       "title": "极光探险展示北极光航行",
@@ -2326,17 +2336,7 @@
       "desc": "泛海探险队十多年来首次成功地将乘客降落在偏远的特里斯坦达库尼亚群岛的所有三个主要岛屿上。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/oceanwide-expeditions-achieves-tristan-da-cunha-triple-landing"
-    },
-    {
-      "d": "2026-05-07",
-      "co": "ponant",
-      "title": "Ponant Explorations 推出 2028 年史密森尼旅程和日食巡航",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Ponant Explorations 宣布与史密森尼旅程 (Smithsonian Journeys) 合作首次选择 2028 年航程，将探险巡航专业知识与教育计划相结合。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/ponant-unveils-2028-smithsonian-journeys-voyages-with-eclipse-cruise"
     }
   ],
-  "updated": "2026-06-28T04:18:59"
+  "updated": "2026-06-28T13:59:45"
 }
