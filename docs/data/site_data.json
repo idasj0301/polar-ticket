@@ -1338,6 +1338,36 @@
   ],
   "news": [
     {
+      "d": "2026-06-29",
+      "co": "quark",
+      "title": "夸克展示北极 2028 和南极 2028-29 计划",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Quark Expeditions 已启动北极 2028 赛季和南极 2028-29 赛季，这是该公司 35 年历史上最早启动的赛季。该计划拥有 70 多个出发航班",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/quark-showcases-arctic-2028-and-antarctic-2028-29-program/"
+    },
+    {
+      "d": "2026-06-29",
+      "co": "seabourn",
+      "title": "我的第一次邮轮连接：Marisa Christenson，HAL 和 Seabourn 餐饮运营 AVP",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "Holland America Line & Seabourn 食品和饮料运营及开发副总裁 Marisa Christenson 分享了她在邮轮行业的第一次经历。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/my-first-cruise-connections-marisa-christenson-avp-f-b-operations-hal-and-seabourn"
+    },
+    {
+      "d": "2026-06-29",
+      "co": "quark",
+      "title": "夸克推出北极 2028 和南极 2028/2029 季节",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "夸克探险队的北极 2028 和南极 2028/2029 季节有新的摄影项目、探险延期和烹饪体验。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/quark-launched-arctic-2028-and-antarctic-2028-2029-seasons"
+    },
+    {
       "d": "2026-06-28",
       "co": "antarctica21",
       "title": "Antarctica21 启动南极旅游设计师大赛",
@@ -2306,37 +2336,7 @@
       "desc": "2026 年的预订量仍然“非常健康”，地缘政治波动对发展机队和陆地体验的雄心没有影响。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/lindblad-swings-to-q1-profit-record-occupancy-27-sales-accelerate"
-    },
-    {
-      "d": "2026-05-07",
-      "co": "oceanwide",
-      "title": "Oceanwide Expeditions 时间表更新了 Hondius 的医疗状况",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "两名患有急性呼吸道症状、需要紧急医疗护理的船员仍留在佛得角附近的船上。尚未发现其他有症状的人。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/oceanwide-expeditions-timeline-updates-hondius-medical-situation"
-    },
-    {
-      "d": "2026-05-07",
-      "co": "oceanwide",
-      "title": "远征船 Hondius 上三人死亡疑似汉坦病毒",
-      "cat": "紧急",
-      "imp": "high",
-      "desc": "此外，泛海探险公司表示，一名乘客正在约翰内斯堡接受重症监护，两名船员需要紧急医疗护理。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/hantavirus-suspected-in-three-deaths-on-expedition-ship-hondius"
-    },
-    {
-      "d": "2026-05-07",
-      "co": "oceanwide",
-      "title": "泛海探险队实现特里斯坦·达库尼亚三重登陆",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "泛海探险队十多年来首次成功地将乘客降落在偏远的特里斯坦达库尼亚群岛的所有三个主要岛屿上。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/oceanwide-expeditions-achieves-tristan-da-cunha-triple-landing"
     }
   ],
-  "updated": "2026-06-29T04:25:44"
+  "updated": "2026-06-29T15:55:58"
 }
