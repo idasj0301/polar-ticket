@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-01",
+      "co": "swan_hellenic",
+      "title": "Swan Hellenic 2027 年亚太航线数量增加一倍",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Swan Hellenic 已将 2027 年亚太航季的文化探险航程从 5 趟扩大到 10 趟，其中增加了新西兰航线并增强了日本航线。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/swan-hellenic-doubles-asia-pacific-voyages-for-2027"
+    },
+    {
       "d": "2026-06-29",
       "co": "quark",
       "title": "夸克展示北极 2028 和南极 2028-29 计划",
@@ -2326,17 +2336,7 @@
       "desc": "Ponan 邮轮研发总监 Sylviane de Tracy 表示，开发新行程需要在宾客洞察、监管理解和现实世界搜寻之间取得平衡",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/ponant-guest-insight-and-real-world-scouting-for-new-itineraries/"
-    },
-    {
-      "d": "2026-05-07",
-      "co": "lindblad",
-      "title": "Lindblad 第一季度实现盈利，入住率创历史新高，27 年销售加速",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "2026 年的预订量仍然“非常健康”，地缘政治波动对发展机队和陆地体验的雄心没有影响。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/lindblad-swings-to-q1-profit-record-occupancy-27-sales-accelerate"
     }
   ],
-  "updated": "2026-07-01T04:21:14"
+  "updated": "2026-07-01T14:47:30"
 }
