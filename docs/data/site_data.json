@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-07-03",
+      "co": "oceanwide",
+      "title": "泛海绘制了 2027 年前往南极洲别林斯高晋海的罕见航线",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "Oceanwide Expeditions 将于 2027 年 1 月推出 Ortelius 号全新 24 晚探险之旅，深入南大洋最偏远且人迹罕至的海域之一——B 洲。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/oceanwide-charts-rare-course-to-antarcticas-bellingshausen-sea-in-2027/"
+    },
+    {
+      "d": "2026-07-03",
       "co": "hapag_lloyd",
       "title": "Europa 将迎来 10 位米其林星级厨师参加烹饪庆典",
       "cat": "奖项",
@@ -2326,17 +2336,7 @@
       "desc": "世邦邮轮总裁马克·塔米斯表示，全球不确定性正在给超豪华邮轮市场的客人带来紧迫感。尽管实体奢侈品的销售可能已经放缓",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/seabourn-blending-art-and-science-of-hospitality/"
-    },
-    {
-      "d": "2026-05-07",
-      "co": "unknown",
-      "title": "北极联合搜救活动应对新出现的威胁",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "此次演习考验了恶劣条件和通信能力下降下的协调和决策能力。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/safety-security/joint-arctic-search-and-rescue-event-addresses-emerging-threats"
     }
   ],
-  "updated": "2026-07-03T03:45:57"
+  "updated": "2026-07-03T14:20:16"
 }
