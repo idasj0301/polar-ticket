@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-05",
+      "co": "unknown",
+      "title": "MSC Preziosa 将于 2026 年首次访问斯瓦尔巴群岛",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "MSC Preziosa 号最近抵达斯瓦尔巴群岛，这是其计划于 2026 年两次访问挪威群岛中的第一次。这艘 MSC 邮轮从夏季母港汉堡出发，抵达斯瓦尔巴群岛",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/msc-preziosa-makes-first-visit-to-svalbard-in-2026/"
+    },
+    {
       "d": "2026-07-03",
       "co": "oceanwide",
       "title": "泛海绘制了 2027 年前往南极洲别林斯高晋海的罕见航线",
@@ -2326,17 +2336,7 @@
       "desc": "根据首席执行官 Off 的说法，Lindblad Expeditions 在 2026 年第一季度创下了每晚每晚净收益 1,631 美元的纪录，这是该公司历史上最高的季度数字",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-1631-net-yield-per-available-guest-night/"
-    },
-    {
-      "d": "2026-05-07",
-      "co": "seabourn",
-      "title": "世邦邮轮：融合酒店业的“艺术与科学”",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "世邦邮轮总裁马克·塔米斯表示，全球不确定性正在给超豪华邮轮市场的客人带来紧迫感。尽管实体奢侈品的销售可能已经放缓",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/seabourn-blending-art-and-science-of-hospitality/"
     }
   ],
-  "updated": "2026-07-05T03:56:47"
+  "updated": "2026-07-05T13:50:51"
 }
