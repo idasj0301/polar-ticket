@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-06",
+      "co": "silversea",
+      "title": "Riviera Travel 任命 Hunter Swindle 为北美销售副总裁",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "他在加入 Silversea 之前，还拥有豪华酒店和 Google 的销售背景。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/riviera-travel-appoints-hunter-swindle-vp-sales-north-america"
+    },
+    {
       "d": "2026-07-05",
       "co": "unknown",
       "title": "MSC Preziosa 将于 2026 年首次访问斯瓦尔巴群岛",
@@ -2326,17 +2336,7 @@
       "desc": "Ponant Explorations 在 2027 年季节到来之前与 Aviate 联手，为英国带来了完整包装的豪华探索邮轮产品。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/ponant-and-aviate-announce-uk-trade-partnership"
-    },
-    {
-      "d": "2026-05-07",
-      "co": "lindblad",
-      "title": "Lindblad：每晚可用宾客净收益 1,631 美元",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "根据首席执行官 Off 的说法，Lindblad Expeditions 在 2026 年第一季度创下了每晚每晚净收益 1,631 美元的纪录，这是该公司历史上最高的季度数字",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-1631-net-yield-per-available-guest-night/"
     }
   ],
-  "updated": "2026-07-06T04:03:12"
+  "updated": "2026-07-06T15:44:29"
 }
