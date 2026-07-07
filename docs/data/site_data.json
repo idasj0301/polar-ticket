@@ -1338,6 +1338,36 @@
   ],
   "news": [
     {
+      "d": "2026-07-07",
+      "co": "oceanwide",
+      "title": "泛海首席执行官在汉坦病毒爆发后发表声明",
+      "cat": "紧急",
+      "imp": "high",
+      "desc": "Oceanwide Expeditions 证实，Hondius 号在从乌斯怀出发期间爆发汉坦病毒，造成 3 人死亡，另外乘客和船员接受了治疗",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/oceanwide-ceo-issues-statement-following-hantavirus-outbreak/"
+    },
+    {
+      "d": "2026-07-07",
+      "co": "ponant",
+      "title": "Ponant：巴哈马和北加勒比海 2028 年新行程",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Ponant Explorations 推出了 2028 年新的加勒比航线“北加勒比的珠宝”，其中有四趟航班从多米尼加共和国的拉罗马纳出发，前往 拿骚。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/ponant-new-2028-itinerary-to-bahamas-and-northern-caribbean/"
+    },
+    {
+      "d": "2026-07-07",
+      "co": "ponant",
+      "title": "DR Monte Cristi 是 Ponant 2028 年新加勒比航线的独家航线",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "此外，还有令人眼花缭乱的特克斯和凯科斯群岛珊瑚礁、红树林、沙洲登陆和丰富的文化历史。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/monte-cristi-dr-exclusive-in-ponant-s-new-2028-caribbean-route"
+    },
+    {
       "d": "2026-07-06",
       "co": "silversea",
       "title": "Riviera Travel 任命 Hunter Swindle 为北美销售副总裁",
@@ -2306,37 +2336,7 @@
       "desc": "美洲区首席执行官塞缪尔·张伯伦 (Samuel Chamberlain) 表示，Ponant 的目标客户是非传统游轮和目标驱动的豪华旅行者。谈到吸引这些客人的挑战",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/ponant-goal-driven-guests-and-small-ship-experiences/"
-    },
-    {
-      "d": "2026-05-08",
-      "co": "silversea",
-      "title": "银海邮轮：吸引新游轮",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "银海邮轮总裁伯特·埃尔南德斯 (Bert Hernandez) 表示，航班中断和有限的假期时间是阻碍豪华游轮新手登船的最大障碍之一。埃尔南德斯",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/silversea-attracting-new-to-cruise/"
-    },
-    {
-      "d": "2026-05-08",
-      "co": "lindblad",
-      "title": "Lindblad 加强船体清洁和速度优化以抑制燃料成本",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "由于中东冲突导致燃油价格上涨，Lindblad Expeditions 再次努力减少其探险船队的消耗，加强船体清洁和螺旋桨污染",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-ramps-up-hull-cleaning-speed-optimization-to-curb-fuel-costs/"
-    },
-    {
-      "d": "2026-05-08",
-      "co": "ponant",
-      "title": "Ponant 和 Aviate 宣布英国贸易伙伴关系",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Ponant Explorations 在 2027 年季节到来之前与 Aviate 联手，为英国带来了完整包装的豪华探索邮轮产品。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/ponant-and-aviate-announce-uk-trade-partnership"
     }
   ],
-  "updated": "2026-07-06T15:44:29"
+  "updated": "2026-07-07T03:54:28"
 }
