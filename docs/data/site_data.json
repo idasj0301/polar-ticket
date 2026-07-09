@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-07-09",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗特将汉萨性质从极地航线转向印度洋航线",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "赫伯罗特游轮宣布其 2027/28 航季的五艘豪华和探险船队将推出新的首航航线。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/hapag-lloyd-cruises-unveils-2027-28-premiere-routes"
+    },
+    {
+      "d": "2026-07-09",
       "co": "seabourn",
       "title": "突然间，一大堆夏季邮轮销售",
       "cat": "促销",
@@ -2326,17 +2336,7 @@
       "desc": "银魂号在地中海干船坞进行了一系列升级后，于本月早些时候恢复了银海邮轮的服务。在造船厂呆了一个多月后，2",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/upgraded-silver-spirit-welcomes-guests-back-in-europe/"
-    },
-    {
-      "d": "2026-05-10",
-      "co": "silversea",
-      "title": "银海邮轮通过活动、赠品向旅行顾问致敬",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "银海邮轮正在庆祝旅行顾问感谢月，并开展了一项活动，强调顾问在创造旅行体验方面所发挥的作用。该公司在一份新闻稿中表示，“非凡的 J",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/silversea-honors-travel-advisors-with-campaign-giveaway/"
     }
   ],
-  "updated": "2026-07-09T03:47:37"
+  "updated": "2026-07-09T15:20:48"
 }
