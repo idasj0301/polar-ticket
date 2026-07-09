@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-09",
+      "co": "seabourn",
+      "title": "突然间，一大堆夏季邮轮销售",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "一些最新的优惠来自挪威邮轮公司、歌诗达邮轮公司、世邦邮轮公司、Uniworld 和 Star Clippers。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/marketing/suddenly-a-bevy-of-summer-cruise-sales"
+    },
+    {
       "d": "2026-07-08",
       "co": "hx",
       "title": "HX 纪念首次极地探险 130 周年",
@@ -2326,17 +2336,7 @@
       "desc": "银海邮轮正在庆祝旅行顾问感谢月，并开展了一项活动，强调顾问在创造旅行体验方面所发挥的作用。该公司在一份新闻稿中表示，“非凡的 J",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/silversea-honors-travel-advisors-with-campaign-giveaway/"
-    },
-    {
-      "d": "2026-05-10",
-      "co": "lindblad",
-      "title": "Lindblad 将食品准备浪费减少高达 75%",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Lindblad Expeditions 首席执行官 Natalya Leahy 在公司第一季度财报电话会议上表示，宾客晚餐报名计划已将 Lindblad Expeditions 船上的食物准备浪费减少了 75%。什",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-cuts-food-prep-waste-up-to-75/"
     }
   ],
-  "updated": "2026-07-08T14:26:37"
+  "updated": "2026-07-09T03:47:37"
 }
