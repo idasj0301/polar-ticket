@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-10",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗展示 2026-27 圣诞和新年航程",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "赫伯罗特游轮重点关注其 2026-27 年圣诞节和新年游轮，其航线横跨加勒比海、印度洋、北欧风景和南极洲。该公司表示",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/hapag-showcases-2026-27-christmas-and-new-year-sailings/"
+    },
+    {
       "d": "2026-07-09",
       "co": "hapag_lloyd",
       "title": "赫伯罗特将汉萨性质从极地航线转向印度洋航线",
@@ -2326,17 +2336,7 @@
       "desc": "塞维利亚游轮港口在船头对船头停泊操作中同时容纳了姊妹船 Scenic Eclipse 和 Scenic Eclipse II。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/ports-destinations/seville-hosts-scenic-double-call"
-    },
-    {
-      "d": "2026-05-11",
-      "co": "silversea",
-      "title": "升级版Silver Spirit欢迎客人重回欧洲",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "银魂号在地中海干船坞进行了一系列升级后，于本月早些时候恢复了银海邮轮的服务。在造船厂呆了一个多月后，2",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/upgraded-silver-spirit-welcomes-guests-back-in-europe/"
     }
   ],
-  "updated": "2026-07-10T03:49:17"
+  "updated": "2026-07-10T14:39:19"
 }
