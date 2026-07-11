@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-07-11",
+      "co": "ponant",
+      "title": "Ponant 于 2027 年 28 月开通地中海、北欧和大西洋航线",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "Ponant Explorations 宣布，将于 2027 年 10 月至 2028 年 11 月期间提供超过 150 个穿越地中海、北欧和大西洋群岛的出发航班，目前这些航班已开通",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/ponant-opens-2027-28-med-northern-europe-and-atlantic-sailings/"
+    },
+    {
+      "d": "2026-07-11",
+      "co": "unknown",
+      "title": "荷美号：福伦丹 28 晚游轮前往冰岛和格陵兰",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "荷美航运公司的福伦丹号于 6 月下旬从波士顿出发，开始了为期 28 晚的航行，前往加拿大、冰岛和格陵兰岛。作为该公司传奇航程计划的一部分，为期一个月的旅程",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/holland-america-volendam-sailing-28-night-cruise-to-iceland-and-greenland/"
+    },
+    {
       "d": "2026-07-10",
       "co": "hapag_lloyd",
       "title": "赫伯罗展示 2026-27 圣诞和新年航程",
@@ -2316,27 +2336,7 @@
       "desc": "Atlas Ocean Voyages 宣布了 Atlas Adventurer 的首季。这艘可容纳 400 名客人的豪华探险帆船将于 2028 年 11 月加入其船队。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/atlas-adventurers-inaugural-season-revealed/"
-    },
-    {
-      "d": "2026-05-12",
-      "co": "unknown",
-      "title": "乌斯怀亚港口工人警告 2026-27 南极季节面临风险",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "乌斯怀亚港口工人发出公开警告，由于联邦政府正在接管该港口，因此无法保证即将到来的 2026-27 南极游轮季节。该公司的工人",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/ushuaia-port-workers-warn-2026-27-antarctic-season-at-risk/"
-    },
-    {
-      "d": "2026-05-12",
-      "co": "scenic",
-      "title": "风景优美的 Eclipse 船只两次停靠塞维利亚",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "塞维利亚游轮港口在船头对船头停泊操作中同时容纳了姊妹船 Scenic Eclipse 和 Scenic Eclipse II。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/seville-hosts-scenic-double-call"
     }
   ],
-  "updated": "2026-07-11T03:15:26"
+  "updated": "2026-07-11T13:38:11"
 }
