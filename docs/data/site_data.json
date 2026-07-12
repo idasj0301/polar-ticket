@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-07-12",
+      "co": "aurora",
+      "title": "道格拉斯·莫森 (Douglas Mawson) 首次停靠巴斯蒂亚港",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Aurora Expeditions 的道格拉斯·莫森 (Douglas Mawson) 于 7 月 8 日在法国科西嘉岛巴斯蒂亚港进行了首航。这是这艘去年年底下水的船的处女航季。  安德烈·吉上尉",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/douglas-mawson-makes-maiden-call-at-port-of-bastia/"
+    },
+    {
+      "d": "2026-07-12",
+      "co": "atlas",
+      "title": "Atlas Ocean 为 2027-28 南极洲增加了更多飞翔德雷克的选项",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Atlas Ocean Voyages 在 2027-28 年的南极洲飞行巡航探险中增加了 6 个出发班次。  该游轮公司 2027-28 季的航线已扩大，新增两种航线：Drake Expre",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/atlas-ocean-adds-more-fly-the-drake-options-for-2027-28-antarctica/"
+    },
+    {
       "d": "2026-07-11",
       "co": "ponant",
       "title": "Ponant 于 2027 年 28 月开通地中海、北欧和大西洋航线",
@@ -2316,27 +2336,7 @@
       "desc": "据Oceanwide Ex称，Hondius号于当地时间5月11日19:00从特内里费岛格拉纳迪拉出发，目前正在前往荷兰鹿特丹的途中，预计于5月17日晚抵达",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/hondius-departs-tenerife-for-rotterdam-with-25-crew-aboard/"
-    },
-    {
-      "d": "2026-05-12",
-      "co": "ponant",
-      "title": "波南特：作为北极星进行探索",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Ponant Explorations 全球业务副首席执行官 Belinda Hindmarsh 表示，创建理想的部署是探险邮轮公司面临的最大挑战之一",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/ponant-exploration-as-north-star/"
-    },
-    {
-      "d": "2026-05-12",
-      "co": "atlas",
-      "title": "《阿特拉斯冒险家》首季揭晓",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Atlas Ocean Voyages 宣布了 Atlas Adventurer 的首季。这艘可容纳 400 名客人的豪华探险帆船将于 2028 年 11 月加入其船队。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/atlas-adventurers-inaugural-season-revealed/"
     }
   ],
-  "updated": "2026-07-11T13:38:11"
+  "updated": "2026-07-12T03:27:13"
 }
