@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-07-12",
+      "co": "seabourn",
+      "title": "Seabourn 推出探索等待活动，可享受 15% 优惠",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "Seabourn 宣布推出“探索等待活动”，通过 en 的全球精选航线提供高达 15% 的折扣，以及高达 15% 的押金折扣。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/seabourn-unveils-exploration-awaits-event-with-15-savings/"
+    },
+    {
+      "d": "2026-07-12",
       "co": "aurora",
       "title": "道格拉斯·莫森 (Douglas Mawson) 首次停靠巴斯蒂亚港",
       "cat": "新船/新设施",
@@ -2326,17 +2336,7 @@
       "desc": "塞维利亚游轮港口见证了两艘船在 Muelle de las Delicias 的“弓对弓”停泊。  根据一份声明，这一里程碑事件发生在 5 月 9 日至 10 日风景区日食期间",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/scenic-eclipse-i-and-ii-berth-bow-to-bow-in-seville/"
-    },
-    {
-      "d": "2026-05-13",
-      "co": "oceanwide",
-      "title": "Hondius 载有 25 名船员从特内里费岛飞往鹿特丹",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "据Oceanwide Ex称，Hondius号于当地时间5月11日19:00从特内里费岛格拉纳迪拉出发，目前正在前往荷兰鹿特丹的途中，预计于5月17日晚抵达",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/hondius-departs-tenerife-for-rotterdam-with-25-crew-aboard/"
     }
   ],
-  "updated": "2026-07-12T03:27:13"
+  "updated": "2026-07-12T13:38:03"
 }
