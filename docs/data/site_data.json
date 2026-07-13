@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-13",
+      "co": "atlas",
+      "title": "Atlas Ocean Voyages 增加了南极洲飞游轮班次",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "2027/28 赛季又增加了 6 个日期，并且 2026 年 12 月的两次旅行的可用空间有限。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/atlas-ocean-voyages-increases-antarctica-fly-cruise-departures"
+    },
+    {
       "d": "2026-07-12",
       "co": "seabourn",
       "title": "Seabourn 推出探索等待活动，可享受 15% 优惠",
@@ -2326,17 +2336,7 @@
       "desc": "Ponant 的 Le Commandant Charcot 最近在法国布雷斯特的达门造船厂完成了干船坞。据该设施称，这艘 2021 年建造的船舶进行了一系列工作，包括爆破和喷漆。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/le-commandant-charcot-completes-upgrades-at-damen-shipyard/"
-    },
-    {
-      "d": "2026-05-13",
-      "co": "scenic",
-      "title": "塞维利亚风景优美的 Eclipse I 和 II 泊位弓对弓",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "塞维利亚游轮港口见证了两艘船在 Muelle de las Delicias 的“弓对弓”停泊。  根据一份声明，这一里程碑事件发生在 5 月 9 日至 10 日风景区日食期间",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/scenic-eclipse-i-and-ii-berth-bow-to-bow-in-seville/"
     }
   ],
-  "updated": "2026-07-13T03:30:02"
+  "updated": "2026-07-13T14:45:57"
 }
