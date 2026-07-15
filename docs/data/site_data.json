@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-07-15",
+      "co": "ponant",
+      "title": "Ponant 于 2028 年扩大史密森尼之旅航程",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "十五个新项目包括意大利亚得里亚海海岸和哥斯达黎加生态探险。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/ponant-expands-smithsonian-journeys-voyages-in-2028"
+    },
+    {
+      "d": "2026-07-15",
       "co": "silversea",
       "title": "Silversea 与 PerryGolf 合作开启新高尔夫之旅",
       "cat": "新船/新设施",
@@ -2326,17 +2336,7 @@
       "desc": "据 Oceanwide Expeditions 称，Hondius 号预计将于 5 月 18 日星期一抵达鹿特丹，船上有 27 人。该船有25名船员和两名来自荷兰国家的医务人员",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/update-hondius-arrives-in-rotterdam-on-may-18/"
-    },
-    {
-      "d": "2026-05-13",
-      "co": "swan_hellenic",
-      "title": "Swan Hellenic 锁定 2026 年剩余北极航行价格",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "Swan Hellenic 为 2026 年北极夏季季节的所有剩余航班提供价格保证。  该邮轮公司在一份新闻稿中表示，它将吸收因 ri 造成的任何增加",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/swan-hellenic-locks-in-prices-for-remaining-2026-arctic-sailings/"
     }
   ],
-  "updated": "2026-07-15T02:50:57"
+  "updated": "2026-07-15T13:52:19"
 }
