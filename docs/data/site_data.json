@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-16",
+      "co": "silversea",
+      "title": "Silversea 与 PerryGolf 合作打造优质高尔夫之旅",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "银海邮轮与 PerryGolf 合作推出了一系列以高尔夫为主题的全新航线，为乘客提供前往世界著名球场的机会，包括皇家利物浦球场和未来的莱德杯主办方",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/silversea-partners-with-perrygolf-for-premium-golf-voyages"
+    },
+    {
       "d": "2026-07-15",
       "co": "ponant",
       "title": "Ponant 于 2028 年扩大史密森尼之旅航程",
@@ -2326,17 +2336,7 @@
       "desc": "他带领公司度过了新冠疫情后的复苏期，并帮助其为全球增长做好了准备。正在招募继任者。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/aurora-expeditions-ceo-michael-heath-resigns"
-    },
-    {
-      "d": "2026-05-14",
-      "co": "oceanwide",
-      "title": "更新：Hondius 于 5 月 18 日抵达鹿特丹",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "据 Oceanwide Expeditions 称，Hondius 号预计将于 5 月 18 日星期一抵达鹿特丹，船上有 27 人。该船有25名船员和两名来自荷兰国家的医务人员",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/update-hondius-arrives-in-rotterdam-on-may-18/"
     }
   ],
-  "updated": "2026-07-15T13:52:19"
+  "updated": "2026-07-16T03:11:51"
 }
