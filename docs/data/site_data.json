@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-07-18",
+      "co": "seabourn",
+      "title": "世邦邮轮推出红宝石系列庆祝成立 40 周年",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "世邦邮轮推出了“红宝石系列”，这是一个为纪念公司成立 40 周年而精心策划的 2028 年 54 趟航程系列，现已开放其船队预订。钍",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/seabourn-unveils-the-ruby-collection-to-celebrate-40-years/"
+    },
+    {
+      "d": "2026-07-18",
       "co": "ponant",
       "title": "Ponant 扩大史密森尼 2028 年旅程计划",
       "cat": "航线",
@@ -2326,17 +2336,7 @@
       "desc": "国家地理 - Lindblad Expeditions 推出了旅行顾问资源中心，这是一个为销售合作伙伴提供资源的集中平台。  旨在简化旅行顾问开展业务的方式",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-unveils-resource-hub-for-travel-advisors/"
-    },
-    {
-      "d": "2026-05-17",
-      "co": "seabourn",
-      "title": "Seabourn Pursuit 为巴布亚新几内亚社区提供旋风救援",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "据该公司称，Seabourn Pursuit 于 5 月 11 日在阿洛陶停留期间，已向巴布亚新几内亚受飓风“梅拉”影响的社区运送了 4 吨救援物资。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/seabourn-pursuit-delivers-cyclone-relief-to-papua-new-guinea-communities/"
     }
   ],
-  "updated": "2026-07-18T02:52:14"
+  "updated": "2026-07-18T13:26:05"
 }
