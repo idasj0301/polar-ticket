@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-07-19",
+      "co": "ponant",
+      "title": "Le Boreal 首次访问博德鲁姆",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "根据博德鲁姆邮轮港口分享的最新消息，Ponant 旗下的 Le Boreal 于本月早些时候首次访问博德鲁姆邮轮港口。地方当局、港口官员和船舶官员齐聚船上",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/le-boreal-makes-maiden-visit-to-bodrum/"
+    },
+    {
+      "d": "2026-07-19",
       "co": "hapag_lloyd",
       "title": "Europa 2 将于 2027 年举办三场 Art 2 Sea 主题游轮",
       "cat": "行业动态",
@@ -2326,17 +2336,7 @@
       "desc": "该公司在一份新闻稿中表示，Heritage Expeditions 的日本之旅将在澳大利亚旅游节目 Travel Oz Global 中进行专题报道。  5 月 17 日星期日上午 9:30（澳大利亚东部时间）在第 10 频道首播",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/heritage-expeditions-japan-voyages-to-feature-on-australian-travel-show/"
-    },
-    {
-      "d": "2026-05-17",
-      "co": "hx",
-      "title": "Hurtigruten 为 2027-28 年精选航班提供 10% 折扣",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "海达路德推出了针对 2027-28 季精选航班的促销活动，现已开放预订。  该游轮公司对其原始航程的部分出发航班提供 10% 的折扣",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/hurtigruten-offers-10-discount-on-select-2027-28-sailings/"
     }
   ],
-  "updated": "2026-07-19T03:23:12"
+  "updated": "2026-07-19T13:35:05"
 }
