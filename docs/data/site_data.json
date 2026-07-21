@@ -1339,6 +1339,26 @@
   "news": [
     {
       "d": "2026-07-21",
+      "co": "unknown",
+      "title": "弗雷德.奥尔森将于 2028 年航行亚马逊和南极洲大航程",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "弗雷德.奥尔森游轮公司将于 2028 年开启为期 87 晚的亚马逊和南极洲大航程。“亚马逊和南极洲冒险之旅”中北欧化工号将于 1 月从南安普顿出发",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/fred-olsen-to-sail-amazon-and-antarctica-grand-voyage-in-2028/"
+    },
+    {
+      "d": "2026-07-21",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗特公布 2027-28 赛季首航航线",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "赫伯罗特邮轮为其五艘邮轮推出了新的航线，每年停靠 500 多个港口。这个季节将在印度洋提供有史以来第一个冬季巡航，",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/hapag-lloyd-unveils-premiere-itineraries-for-2027-28-season/"
+    },
+    {
+      "d": "2026-07-21",
       "co": "scenic",
       "title": "Scenic Group 推出 2028-29 Scenic Eclipse II 航行",
       "cat": "航线",
@@ -2316,27 +2336,7 @@
       "desc": "Oceanwide Expeditions 首席执行官 Rémi Bouysset 就 Hondius 号上的汉坦病毒爆发发表了一份声明，称这是“我们公司历史上最困难的情况之一”。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/oceanwide-ceo-no-indication-hantavirus-linked-to-vessel-conditions/"
-    },
-    {
-      "d": "2026-05-20",
-      "co": "unknown",
-      "title": "乌斯怀亚港口工人威胁无限期封锁，指控违反安全规定",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "自 1 月份以来被锁在乌斯怀亚港之外的港口工人现已确认，他们将在 2026-27 南极邮轮季节期间进一步升级抗议行动。他们声称该港口正在运营",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/ushuaia-port-workers-threaten-indefinite-blockades-allege-safety-violations/"
-    },
-    {
-      "d": "2026-05-20",
-      "co": "oceanwide",
-      "title": "洪迪乌斯抵达鹿特丹；两次航程因清洁而取消",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "据泛海探险公司称，Hondius 号于 5 月 18 日安全抵达鹿特丹，并已开始进行长期清洁和消毒过程。该船于当地时间11:00靠岸，无任何症状",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/hondius-arrives-in-rotterdam-two-voyages-cancelled-for-cleaning/"
     }
   ],
-  "updated": "2026-07-21T03:17:55"
+  "updated": "2026-07-21T14:04:53"
 }
