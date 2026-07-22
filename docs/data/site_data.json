@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-22",
+      "co": "unknown",
+      "title": "Pearl Expeditions 2027 年金伯利终极套餐",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "在工作中的牛站和自然保护区住宿，并搭配帕斯帕雷珍珠 (Paspaley Pearl) 的探险游船。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/pearl-expeditions-ultimate-2027-kimberley-package"
+    },
+    {
       "d": "2026-07-21",
       "co": "unknown",
       "title": "弗雷德.奥尔森将于 2028 年航行亚马逊和南极洲大航程",
@@ -2326,17 +2336,7 @@
       "desc": "据新闻稿称，银海邮轮上周拉开了 2026 年阿拉斯加和北极季节的序幕。  5 月 14 日，客人们参加了第一次阿拉斯加航行，而北极季节则于第二天开始。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/silverseas-alaska-arctic-seasons-begin/"
-    },
-    {
-      "d": "2026-05-20",
-      "co": "oceanwide",
-      "title": "泛海首席执行官：没有迹象表明汉坦病毒与船舶状况有关",
-      "cat": "紧急",
-      "imp": "high",
-      "desc": "Oceanwide Expeditions 首席执行官 Rémi Bouysset 就 Hondius 号上的汉坦病毒爆发发表了一份声明，称这是“我们公司历史上最困难的情况之一”。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/oceanwide-ceo-no-indication-hantavirus-linked-to-vessel-conditions/"
     }
   ],
-  "updated": "2026-07-22T03:15:56"
+  "updated": "2026-07-22T14:07:21"
 }
