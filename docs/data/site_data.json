@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-23",
+      "co": "polar_latitudes",
+      "title": "极地纬度：扩张战略",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "极地纬度探险公司正在经历一场重大转型，组建了一支更大的船队并吸收了两家公司。创始人兼主席约翰·麦肯 (John McKeon) 将其描述为一次深思熟虑的、多方面的努力。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/polar-latitudes-expansion-strategy/"
+    },
+    {
       "d": "2026-07-22",
       "co": "unknown",
       "title": "Pearl Expeditions 2027 年金伯利终极套餐",
@@ -2326,17 +2336,7 @@
       "desc": "赫伯罗特游轮宣布到 2028 年扩大其船队的日本行程，其中包括连接所有四个主要岛屿的探险航线和新的阿拉斯加航线。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/ports-destinations/hapag-lloyd-expands-japan-cruise-programme-through-2028"
-    },
-    {
-      "d": "2026-05-20",
-      "co": "silversea",
-      "title": "银海邮轮的阿拉斯加、北极季节开始",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "据新闻稿称，银海邮轮上周拉开了 2026 年阿拉斯加和北极季节的序幕。  5 月 14 日，客人们参加了第一次阿拉斯加航行，而北极季节则于第二天开始。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/silverseas-alaska-arctic-seasons-begin/"
     }
   ],
-  "updated": "2026-07-23T03:22:22"
+  "updated": "2026-07-23T14:14:11"
 }
