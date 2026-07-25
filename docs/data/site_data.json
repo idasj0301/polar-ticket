@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-25",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗特将于 2027 年首次推出由音乐家主持的音乐会游轮",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "赫伯罗特邮轮为其邮轮推出了一种独特的新音乐会形式——策划音乐会，将古典音乐与邮轮行程中的目的地结合起来。音乐家亚历山大·克里奇",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/hapag-lloyd-debuting-musician-hosted-concert-cruises-in-2027/"
+    },
+    {
       "d": "2026-07-24",
       "co": "polar_latitudes",
       "title": "Polar Latitudes 宣布 2028 年北极季节",
@@ -2326,17 +2336,7 @@
       "desc": "银海邮轮在一份新闻稿中表示，该邮轮将于 2027 年航行威尼斯协会团聚航程。  银色黎明号的 7 天航程将于 9 月从哥本哈根航行至南安普顿",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/silversea-reveals-2027-venetian-society-reunion-voyage/"
-    },
-    {
-      "d": "2026-05-22",
-      "co": "unknown",
-      "title": "荷美航运公司 2028 年 Grand Voyages 开放预订",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "荷美邮轮公司于 4 月下旬宣布，已开始接受 2028 年两趟 Grand Voyages 的预订。福伦丹号为期 129 天的大世界航程将包括完整的南极体验和",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/booking-open-for-holland-america-lines-2028-grand-voyages/"
     }
   ],
-  "updated": "2026-07-24T13:55:18"
+  "updated": "2026-07-25T03:15:04"
 }
