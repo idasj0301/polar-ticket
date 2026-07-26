@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-26",
+      "co": "unknown",
+      "title": "Selar 首艘船在毛里求斯的建造进展",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "北极船长号将成为初创公司 Selar Expeditions 的第一艘船，目前正在毛里求斯路易港的 Chantier Naval de l’Ocean Indien (CNOI) 进行建造。雅阁",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/construction-of-selars-first-ship-progressing-in-mauritius/"
+    },
+    {
       "d": "2026-07-25",
       "co": "hapag_lloyd",
       "title": "赫伯罗特将于 2027 年首次推出由音乐家主持的音乐会游轮",
@@ -2326,17 +2336,7 @@
       "desc": "这位 DFDS 的资深人士将接替已故的帕特里克·肖 (Patrick Shaw)。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/filip-werne-hermann-new-ceo-polar-latitudes-expeditions"
-    },
-    {
-      "d": "2026-05-25",
-      "co": "silversea",
-      "title": "银海邮轮公布 2027 年威尼斯人协会团聚航程",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "银海邮轮在一份新闻稿中表示，该邮轮将于 2027 年航行威尼斯协会团聚航程。  银色黎明号的 7 天航程将于 9 月从哥本哈根航行至南安普顿",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/silversea-reveals-2027-venetian-society-reunion-voyage/"
     }
   ],
-  "updated": "2026-07-26T03:28:49"
+  "updated": "2026-07-26T13:39:30"
 }
