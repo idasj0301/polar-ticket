@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-27",
+      "co": "atlas",
+      "title": "野生动物专家罗恩·马吉尔开始进行阿特拉斯南极洲探险",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "他将通过演讲、野生动物摄影研讨会和非正式对话来丰富 2027 年 3 月的航程。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/wildlife-expert-ron-magill-set-for-atlas-antarctica-expedition"
+    },
+    {
       "d": "2026-07-26",
       "co": "unknown",
       "title": "Selar 首艘船在毛里求斯的建造进展",
@@ -2326,17 +2336,7 @@
       "desc": "Filip Werne Hermann 已被任命为极地纬度探险公司的新首席执行官 (CEO)。他将接替今年早些时候突然去世的前首席执行官帕特里克·肖(Patrick Shaw)。他的",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/filip-hermann-named-polar-latitudes-ceo/"
-    },
-    {
-      "d": "2026-05-26",
-      "co": "polar_latitudes",
-      "title": "Filip Werne Hermann 担任极地纬度探险公司新任首席执行官",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "这位 DFDS 的资深人士将接替已故的帕特里克·肖 (Patrick Shaw)。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/filip-werne-hermann-new-ceo-polar-latitudes-expeditions"
     }
   ],
-  "updated": "2026-07-27T03:37:04"
+  "updated": "2026-07-27T14:47:03"
 }
