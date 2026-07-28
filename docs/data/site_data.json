@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-28",
+      "co": "heritage",
+      "title": "Heritage Expeditions 的 Heritage Discovery 首个 2027-28 赛季",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "该船此前以 Exploris One 名义航行。一些北极和南极出发的航班被包租给极地纬度探险公司。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/maiden-2027-28-season-for-heritage-expeditions-heritage-discoverer"
+    },
+    {
       "d": "2026-07-27",
       "co": "atlas",
       "title": "野生动物专家罗恩·马吉尔开始进行阿特拉斯南极洲探险",
@@ -2326,17 +2336,7 @@
       "desc": "据泛海探险公司称，根据 GGD Rotterdam 关于额外清洁程序的建议，Hondius 从鹿特丹到弗利辛恩的出发时间已被推迟。延迟也",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/hondius-cleaning-delayed-in-rotterdam-captain-escorted-to-poland/"
-    },
-    {
-      "d": "2026-05-26",
-      "co": "polar_latitudes",
-      "title": "Filip Hermann 被任命为 Polar Latitudes 首席执行官",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Filip Werne Hermann 已被任命为极地纬度探险公司的新首席执行官 (CEO)。他将接替今年早些时候突然去世的前首席执行官帕特里克·肖(Patrick Shaw)。他的",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/filip-hermann-named-polar-latitudes-ceo/"
     }
   ],
-  "updated": "2026-07-28T02:53:27"
+  "updated": "2026-07-28T14:21:22"
 }
