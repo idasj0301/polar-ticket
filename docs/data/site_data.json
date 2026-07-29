@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-07-29",
+      "co": "seabourn",
+      "title": "Seabourn Venture 为偏远的格陵兰社区带来新鲜农产品",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "在 Seabourn Venture 最近的一次电话会议中，Seabourn 向东格陵兰岛的 Ittoqqortoormiit 社区捐赠了新鲜农产品。运送了约500公斤新鲜水果和蔬菜",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/seabourn-venture-brings-fresh-produce-to-remote-greenland-community/"
+    },
+    {
+      "d": "2026-07-29",
       "co": "poseidon",
       "title": "联合水道推进新建项目；波塞冬将获得新的探险船",
       "cat": "行业动态",
@@ -2326,17 +2336,7 @@
       "desc": "据该地区销售总监古斯塔沃·贝内蒂 (Gustavo Benetti) 称，Swan Hellenic 在整个拉丁美洲市场正在经历显着增长。在经历了强劲的 2025 年之后，他表示公司",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/05/swan-hellenic-eyes-further-growth-in-latin-america/"
-    },
-    {
-      "d": "2026-05-28",
-      "co": "ponant",
-      "title": "为 Ponant 2027 年探险家俱乐部航程推出的扬声器",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Ponant Explorations Group 宣布了与探索者俱乐部 (The Explorers Club) 合作的 2027 年航程系列的发言人。进入第四个年头，2027 年版将有 12 条行程，",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/speakers-unveiled-for-ponants-2027-explorers-club-voyages/"
     }
   ],
-  "updated": "2026-07-29T03:12:53"
+  "updated": "2026-07-29T14:21:03"
 }
