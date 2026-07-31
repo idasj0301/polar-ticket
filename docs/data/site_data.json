@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-07-31",
+      "co": "aurora",
+      "title": "极光探险为孩子们带来了乐趣",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "半品脱啤酒可享受半价优惠。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/aurora-expeditions-makes-a-play-for-children"
+    },
+    {
       "d": "2026-07-29",
       "co": "seabourn",
       "title": "Seabourn Venture 为偏远的格陵兰社区带来新鲜农产品",
@@ -2326,17 +2336,7 @@
       "desc": "她接替乔·马洛尼 (Joe Maloney)，后者成为 VacationPort 总裁，该公司于 2027 年开通了第二艘前世邦邮轮的航线。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/kelly-predmesky-new-sales-head-at-mitsui-s-north-american-gsa"
-    },
-    {
-      "d": "2026-05-28",
-      "co": "swan_hellenic",
-      "title": "Swan Hellenic 着眼于拉丁美洲的进一步增长",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "据该地区销售总监古斯塔沃·贝内蒂 (Gustavo Benetti) 称，Swan Hellenic 在整个拉丁美洲市场正在经历显着增长。在经历了强劲的 2025 年之后，他表示公司",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/swan-hellenic-eyes-further-growth-in-latin-america/"
     }
   ],
-  "updated": "2026-07-30T14:14:06"
+  "updated": "2026-07-31T03:28:10"
 }
