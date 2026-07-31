@@ -1339,6 +1339,46 @@
   "news": [
     {
       "d": "2026-07-31",
+      "co": "heritage",
+      "title": "Heritage Expeditions 推出探索者处女航季新 7 条航程",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Heritage Expeditions 宣布 Heritage Discoverer 2027-28 年首航季将有 7 个新航次，该航次将于 7 月 28 日发售。Heritage Discover 以前称为 Silver Explorer，",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/heritage-expeditions-unveils-new-7-voyages-for-discoverers-maiden-season/"
+    },
+    {
+      "d": "2026-07-31",
+      "co": "atlas",
+      "title": "阿特拉斯欢迎野生动物专家罗恩·马吉尔登上世界旅行者号",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Atlas Ocean Voyages 宣布国际知名野生动物专家、保护大使和屡获殊荣的野生动物摄影师 Ron Magill 将与 World Travell 的客人一起搭乘",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/atlas-welcomes-wildlife-expert-ron-magill-aboard-world-traveller/"
+    },
+    {
+      "d": "2026-07-31",
+      "co": "silversea",
+      "title": "尼古拉·麦克尼什 (Nicola McNeish) 加入银海邮轮担任英国销售总监",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "她将于九月底从精致游轮加入。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/nicola-mcneish-joins-silversea-as-uk-sales-director"
+    },
+    {
+      "d": "2026-07-31",
+      "co": "ponant",
+      "title": "Ponant 扩大南极洲计划，2028-29 年将有 30 多个航班出发",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "Ponant Explorations 宣布 2028-2029 年季，四艘船将进行 30 多次南极出发，其中包括首次全程环绕南极洲。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/ponant-expands-antarctic-programme-with-30-departures-for-2028-29"
+    },
+    {
+      "d": "2026-07-31",
       "co": "aurora",
       "title": "极光探险为孩子们带来了乐趣",
       "cat": "行业动态",
@@ -2296,47 +2336,7 @@
       "desc": "据泛海探险公司称，在鹿特丹完成深度清洁和消毒过程后，Hondius 号现已获准恢复全面运营。荷兰健康管理局",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hondius-cleared-for-operations-after-deep-clean-and-disinfection/"
-    },
-    {
-      "d": "2026-06-01",
-      "co": "silversea",
-      "title": "银海邮轮在里斯本结束 2026 年世界邮轮之旅",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "银海邮轮 2026 年世界邮轮之旅已在葡萄牙里斯本落下帷幕。  “好奇号与海洋”是银色黎明号为期 140 天的旅程，访问了 30 个国家的 59 个目的地，",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/silversea-wraps-up-2026-world-cruise-in-lisbon/"
-    },
-    {
-      "d": "2026-05-29",
-      "co": "hapag_lloyd",
-      "title": "赫伯罗特在 2027 年计划中新增两条五大湖航线",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "赫伯罗特游轮 (Hapag-Lloyd Cruises) 在其 2027 年五大湖计划中新增了两条更长的航线。  该邮轮公司在一份新闻稿中表示，汉萨灵感号上的行程将取代三个",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/hapag-lloyd-adds-two-new-great-lakes-itineraries-to-2027-program/"
-    },
-    {
-      "d": "2026-05-29",
-      "co": "lindblad",
-      "title": "Lindblad 宣布 2026 年访问科学家计划 北极项目",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "国家地理学会和林德布拉德探险队公布了 2026 年北极季节访问科学家计划选定的项目。这些项目包括六个国家地理",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/05/lindblad-announces-2026-visiting-scientist-program-arctic-projects/"
-    },
-    {
-      "d": "2026-05-29",
-      "co": "seabourn",
-      "title": "Kelly Predmesky 担任三井北美 GSA 新销售主管",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "她接替乔·马洛尼 (Joe Maloney)，后者成为 VacationPort 总裁，该公司于 2027 年开通了第二艘前世邦邮轮的航线。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/kelly-predmesky-new-sales-head-at-mitsui-s-north-american-gsa"
     }
   ],
-  "updated": "2026-07-31T03:28:10"
+  "updated": "2026-07-31T14:20:06"
 }
