@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-08-01",
+      "co": "unknown",
+      "title": "维珍航程飞往阿姆斯特丹，开启第一个北欧季节",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "共有四趟斯堪的纳维亚/波罗的海航线，其中包括一条前往北极圈的航线，并且全程提供季票。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/virgin-voyages-to-amsterdam-for-first-northern-europe-season"
+    },
+    {
       "d": "2026-07-31",
       "co": "heritage",
       "title": "Heritage Expeditions 推出探索者处女航季新 7 条航程",
@@ -2326,17 +2336,7 @@
       "desc": "赫伯罗特邮轮宣布 2026 年和 2027 年推出四趟特别的世界音乐巡游，国际艺术家将在可容纳 400 名乘客的 Europa 游轮上在独特的环境中进行表演",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/hapag-lloyd-launches-world-music-programme-on-europa"
-    },
-    {
-      "d": "2026-06-01",
-      "co": "oceanwide",
-      "title": "Hondius 经过深度清洁和消毒后获准运营",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "据泛海探险公司称，在鹿特丹完成深度清洁和消毒过程后，Hondius 号现已获准恢复全面运营。荷兰健康管理局",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hondius-cleared-for-operations-after-deep-clean-and-disinfection/"
     }
   ],
-  "updated": "2026-07-31T14:20:06"
+  "updated": "2026-08-01T03:27:03"
 }
