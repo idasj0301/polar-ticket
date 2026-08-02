@@ -1340,6 +1340,26 @@
     {
       "d": "2026-08-02",
       "co": "unknown",
+      "title": "Holland America 开启 28 晚日食巡游",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Nieuw Statendam号于7月25日从鹿特丹起航，开启荷美航运公司“格陵兰和苏格兰的传奇日食”航程。从船上航行往返&",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/holland-america-kicks-off-28-night-solar-eclipse-cruise/"
+    },
+    {
+      "d": "2026-08-02",
+      "co": "aurora",
+      "title": "极光探险队欢迎新一代年轻冒险家",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "极光探险公司宣布欢迎年轻的冒险家登上其探险船，让更多的家庭一起探索世界上最偏远、最非凡的地方。奥尔",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/aurora-expeditions-welcomes-new-generation-of-young-adventurers/"
+    },
+    {
+      "d": "2026-08-02",
+      "co": "unknown",
       "title": "AIDAluna 启航 21 晚格陵兰岛游轮",
       "cat": "航线",
       "imp": "med",
@@ -2316,27 +2336,7 @@
       "desc": "海达路德宣布任命 Chris Barker 为大客户经理，以进一步加强公司对英国和新兴市场旅游贸易伙伴的承诺。加入c",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hurtigruten-appoints-chris-barker-as-key-account-manager/"
-    },
-    {
-      "d": "2026-06-03",
-      "co": "hapag_lloyd",
-      "title": "赫伯罗特聚焦 2027–28 高尔夫航程",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "赫伯罗特邮轮重点介绍了 2027 年和 2028 年精选的高尔夫和邮轮航线，让高尔夫爱好者能够在世界各地的球场上打球。  这些特别设计的主题游轮",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hapag-lloyd-spotlights-2027-28-golf-voyages/"
-    },
-    {
-      "d": "2026-06-03",
-      "co": "antarctica21",
-      "title": "Antarctica21 为麦哲伦发现者号的抵达做准备",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Antarctica21 正准备迎接其最新的船只——麦哲伦发现者号，这家智利飞行游轮运营商将自己定位在南极洲飞行游轮探险市场的顶端。法师",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/antarctica21-prepares-for-arrival-of-magellan-discoverer/"
     }
   ],
-  "updated": "2026-08-02T03:26:54"
+  "updated": "2026-08-02T13:38:42"
 }
