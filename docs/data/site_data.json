@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-08-02",
+      "co": "unknown",
+      "title": "AIDAluna 启航 21 晚格陵兰岛游轮",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "AIDAluna 号本周早些时候从汉堡出发，开启了为期 21 晚的冰岛和格陵兰之旅。独特的行程重点是参观该地区的八个目的地，此外",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/aidaluna-sets-sail-on-21-night-cruise-to-greenland/"
+    },
+    {
       "d": "2026-08-01",
       "co": "unknown",
       "title": "维珍航程飞往阿姆斯特丹，开启第一个北欧季节",
@@ -2326,17 +2336,7 @@
       "desc": "Antarctica21 正准备迎接其最新的船只——麦哲伦发现者号，这家智利飞行游轮运营商将自己定位在南极洲飞行游轮探险市场的顶端。法师",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/antarctica21-prepares-for-arrival-of-magellan-discoverer/"
-    },
-    {
-      "d": "2026-06-02",
-      "co": "hapag_lloyd",
-      "title": "赫伯罗特在欧洲推出世界音乐节目",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "赫伯罗特邮轮宣布 2026 年和 2027 年推出四趟特别的世界音乐巡游，国际艺术家将在可容纳 400 名乘客的 Europa 游轮上在独特的环境中进行表演",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/hapag-lloyd-launches-world-music-programme-on-europa"
     }
   ],
-  "updated": "2026-08-01T13:38:18"
+  "updated": "2026-08-02T03:26:54"
 }
