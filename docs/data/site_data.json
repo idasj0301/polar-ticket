@@ -1339,6 +1339,36 @@
   "news": [
     {
       "d": "2026-08-03",
+      "co": "lindblad",
+      "title": "Lindblad 股价第二季度大幅上涨，入住率强劲",
+      "cat": "奖项",
+      "imp": "med",
+      "desc": "Lindblad Expeditions 的股价在 8 月 3 日星期一开盘时上涨了 15%，该公司公布了第二季度收益以及 10 年来最好的第二季度入住率（91%）。占领",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/lindblad-shares-rocket-up-off-q2-occupancy-strength/"
+    },
+    {
+      "d": "2026-08-03",
+      "co": "atlas",
+      "title": "Atlas Ocean 为 Adventurer 的首航季增加 4 次长途航程",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "阿特拉斯海洋航行 (Atlas Ocean Voyages) 推出了非凡探险 (Extraordinary Expeditions)，这是其豪华探险帆船阿特拉斯冒险家号 (Atlas Adventurer) 的四次长途航行，该船将于 2028 年 11 月首次亮相。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/atlas-ocean-adds-4-extended-voyages-to-adventurers-inaugural-season/"
+    },
+    {
+      "d": "2026-08-03",
+      "co": "lindblad",
+      "title": "Lindblad 报告 2026 年第二季度财务业绩",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Lindblad Expeditions Holdings 公布了截至 2026 年 6 月 30 日的第二季度财务业绩。首席执行官 Natalya Leahy 表示：“我们的第二季度业绩再次恶魔",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/lindblad-reports-2026-second-quarter-financial-results/"
+    },
+    {
+      "d": "2026-08-03",
       "co": "unknown",
       "title": "Holland America 亮点 2026 年秋季北极光航程",
       "cat": "航线",
@@ -2306,37 +2336,7 @@
       "desc": "Atlas Ocean Voyages 宣布，今年迄今为止所有未来航程的销售额比去年同期增长 49%，突显了勒克斯快速增长的持续势头",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/atlas-celebrates-49-year-over-year-sales-growth/"
-    },
-    {
-      "d": "2026-06-07",
-      "co": "seabourn",
-      "title": "前旅居者抵达日本，开启三井首航",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "前世邦旅居号最近抵达日本，为商船三井集团旗下的三井远洋邮轮进行首航。上个月在温哥华完成了该奢侈品牌的最后一次巡游",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/former-sojourn-arrives-in-japan-ahead-of-maiden-cruise-for-mitsui/"
-    },
-    {
-      "d": "2026-06-05",
-      "co": "seabourn",
-      "title": "Seabourn Quest 完成重大内饰检修",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "世邦探索号 (Seabourn Quest) 已从干船坞返回，世邦称这是其历史上最全面的内饰更新。   现在这艘船已经翻新，它将继续进行地中海航行",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/seabourn-quest-completes-major-interior-overhaul/"
-    },
-    {
-      "d": "2026-06-04",
-      "co": "hapag_lloyd",
-      "title": "赫伯罗特宣布 2026-27 年推出 4 条世界音乐主题游轮",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "赫伯罗特游轮宣布 2026 年和 2027 年将举办四场专门致力于世界音乐的特殊形式的航行。来自不同背景的艺术家将在欧罗巴号的特殊场地进行表演，提供各种精彩的表演。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hapag-lloyd-announces-4-world-music-themed-cruises-in-2026-27/"
     }
   ],
-  "updated": "2026-08-03T03:28:58"
+  "updated": "2026-08-03T14:49:51"
 }
