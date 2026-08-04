@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-08-04",
+      "co": "lindblad",
+      "title": "Lindblad 收入增长 19%，减少第二季度亏损",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "净收益为 1,294 美元，创本季度纪录，入住率从 86% 上升至 91%。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/lindblad-cuts-q2-loss-on-19-higher-revenue"
+    },
+    {
       "d": "2026-08-03",
       "co": "lindblad",
       "title": "Lindblad 股价第二季度大幅上涨，入住率强劲",
@@ -2326,17 +2336,7 @@
       "desc": "Poseidon Expeditions 运营着 114 名乘客的 Sea Spirit 帆船探险航线。在过去十年中，运营商竞相增加新船的探险市场中，单船标准",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/single-ship-strategy-working-for-poseidon-expeditions/"
-    },
-    {
-      "d": "2026-06-09",
-      "co": "atlas",
-      "title": "Atlas 庆祝销售额同比增长 49%",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "Atlas Ocean Voyages 宣布，今年迄今为止所有未来航程的销售额比去年同期增长 49%，突显了勒克斯快速增长的持续势头",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/atlas-celebrates-49-year-over-year-sales-growth/"
     }
   ],
-  "updated": "2026-08-04T02:56:54"
+  "updated": "2026-08-04T14:27:16"
 }
