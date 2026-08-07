@@ -1339,6 +1339,26 @@
   "news": [
     {
       "d": "2026-08-07",
+      "co": "heritage",
+      "title": "遗产发现者号在首航之前离开干船坞",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "发现者号最近在不来梅港完成了干船坞，准备进行遗产探险的首次航行。根据该公司分享的最新消息，该船正在准备迎接通过",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/heritage-discoverer-leaves-drydock-ahead-of-maiden-cruise/"
+    },
+    {
+      "d": "2026-08-07",
+      "co": "ponant",
+      "title": "Ponant 与 Vilebrequin 合作推出独家泳装系列",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Ponant Explorations 与法国泳装品牌 Vilebrequin 建立独家合作，以海洋主题为灵感打造限量版男士泳裤。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/ponant-partners-with-vilebrequin-for-exclusive-swimwear-collection"
+    },
+    {
+      "d": "2026-08-07",
       "co": "atlas",
       "title": "Secret Atlas 增加南极探险船 Aureum",
       "cat": "行业动态",
@@ -2316,27 +2336,7 @@
       "desc": "赫伯罗特游轮的 Hanseatic Spirit 在不来梅港劳埃德造船厂为期 10 天的停靠期间进行了大规模整修，更新了公共区域、水疗设施和餐厅",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/refurb-design-interiors/hapag-lloyd-s-hanseatic-spirit-completes-major-refit"
-    },
-    {
-      "d": "2026-06-17",
-      "co": "swan_hellenic",
-      "title": "SH Minerva 获得 DCA ESG 认证",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Swan Hellenic 的 Minerva 已获得 Dream&Charme（一家国际认可的酒店业专业认证机构）颁发的 DCA ESG 认证。审核在船上进行",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/sh-minerva-receives-dca-esg-certification/"
-    },
-    {
-      "d": "2026-06-16",
-      "co": "hapag_lloyd",
-      "title": "汉萨精神号在北极季节之前完成了第一个干船坞",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "汉萨精神号 (Hanseatic Spirit) 为赫伯罗特游轮 (Hapag-Lloyd Cruises) 进行了首次定期进坞，在不来梅港 (Bremerhaven) 的劳埃德造船厂 (Lloyd Werft) 停留了 10 天。该船重新粉刷一新，公共空间也进行了翻新",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hanseatic-spirit-completes-first-drydock-ahead-of-arctic-season/"
     }
   ],
-  "updated": "2026-08-07T02:52:40"
+  "updated": "2026-08-07T13:14:26"
 }
