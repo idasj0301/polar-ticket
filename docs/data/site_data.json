@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-08-07",
+      "co": "atlas",
+      "title": "Secret Atlas 增加南极探险船 Aureum",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Secret Atlas 宣布将 Aureum 添加到其探险组合中，标志着该运营商通过与 Antarpply Expeditions 合作将业务扩展到南极洲业务。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/secret-atlas-adds-antarctic-expedition-ship-aureum"
+    },
+    {
       "d": "2026-08-06",
       "co": "antarctica21",
       "title": "Antarctica21 与徕卡合作增强野生动物观赏",
@@ -2326,17 +2336,7 @@
       "desc": "汉萨精神号 (Hanseatic Spirit) 为赫伯罗特游轮 (Hapag-Lloyd Cruises) 进行了首次定期进坞，在不来梅港 (Bremerhaven) 的劳埃德造船厂 (Lloyd Werft) 停留了 10 天。该船重新粉刷一新，公共空间也进行了翻新",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hanseatic-spirit-completes-first-drydock-ahead-of-arctic-season/"
-    },
-    {
-      "d": "2026-06-16",
-      "co": "unknown",
-      "title": "弗雷德.奥尔森公布 2027 年秋冬计划，共 20 个航次",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "弗雷德.奥尔森游轮公司 (Olsen Cruise Lines) 推出了全新的 2027 年秋冬计划。 2027 年 10 月至 12 月期间有 20 个航班出发，让客人在北极观赏北极光",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/fred-olsen-unveils-autumn-winter-2027-program-with-20-sailings/"
     }
   ],
-  "updated": "2026-08-06T14:23:59"
+  "updated": "2026-08-07T02:52:40"
 }
