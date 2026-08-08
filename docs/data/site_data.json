@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-08-08",
+      "co": "antarpply",
+      "title": "Antarpply 将于 2027 年在船队中增加新的精品船",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "Antarpply Expeditions 宣布计划在 2027-28 南极洲季节之前为其船队增加第二艘探险船。根据社交媒体更新，Aureum 将提供精品游轮",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/antarpply-to-add-new-boutique-ship-to-fleet-in-2027/"
+    },
+    {
+      "d": "2026-08-08",
+      "co": "aurora",
+      "title": "2028年北半球极光季文化探险",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "这些是 16 次极地探险和 6 次发现探险的补充。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/cultural-expeditions-in-aurora-s-2028-northern-hemisphere-season"
+    },
+    {
       "d": "2026-08-07",
       "co": "heritage",
       "title": "遗产发现者号在首航之前离开干船坞",
@@ -2316,27 +2336,7 @@
       "desc": "Ponant Explorations 公布了 2028 年北极季节，现已开放预订。该航季的航行时间为 2028 年 5 月至 10 月，由四艘船运营超过 35 个班次。它",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/ponant-explorations-opens-2028-arctic-season-for-booking/"
-    },
-    {
-      "d": "2026-06-17",
-      "co": "aurora",
-      "title": "Karen Kuttner-Dimitry 出任 Aurora Expeditions 副总裁",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "她在国家地理-林德布拉德探险队工作了二十多年后加入。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/karen-kuttner-dimitry-takes-vp-role-at-aurora-expeditions"
-    },
-    {
-      "d": "2026-06-17",
-      "co": "hapag_lloyd",
-      "title": "赫伯罗特的 Hanseatic Spirit 完成重大改装",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "赫伯罗特游轮的 Hanseatic Spirit 在不来梅港劳埃德造船厂为期 10 天的停靠期间进行了大规模整修，更新了公共区域、水疗设施和餐厅",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/refurb-design-interiors/hapag-lloyd-s-hanseatic-spirit-completes-major-refit"
     }
   ],
-  "updated": "2026-08-07T13:14:26"
+  "updated": "2026-08-08T01:56:58"
 }
