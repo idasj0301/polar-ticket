@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-08-09",
+      "co": "atlas",
+      "title": "阿特拉斯海洋纪念世界航海家五岁生日",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "Atlas Ocean Voyages 正在庆祝 World Navigator 诞生五周年。该船于2021年8月4日作为该品牌的第一艘船启航，探索地中海",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/atlas-ocean-marks-world-navigators-fifth-birthday/"
+    },
+    {
+      "d": "2026-08-09",
+      "co": "aurora",
+      "title": "极光揭晓 2028 年北半球季节",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "极光探险队 (Aurora Expeditions) 2028 年北半球旅游季已开放预订，共有 29 支探险队出发，横跨 20 个国家和地区，并推出 7 艘全新文化探险队",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/aurora-unveils-2028-northern-hemisphere-season/"
+    },
+    {
       "d": "2026-08-08",
       "co": "antarpply",
       "title": "Antarpply 将于 2027 年在船队中增加新的精品船",
@@ -2316,27 +2336,7 @@
       "desc": "沿着蔚蓝海岸的“海上盖茨比之夜”短途游轮将返回赫伯罗特的欧罗巴。继邮轮公司表示 2026 年成功推出以及热情的宾客反馈之后",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hapag-lloyd-bringing-back-gatsby-nights-at-sea-cruise-in-2027/"
-    },
-    {
-      "d": "2026-06-17",
-      "co": "hx",
-      "title": "海达路德 (Hurtigruten) 的 Vesteralen 以新概念重新推出",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "海达路德重新推出了 Vesteralen 号，其独特的船上概念受到该公司 133 年挪威海岸航行历史的启发，将这一传统带入了宾客们的生活中。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hurtigrutens-vesteralen-relaunches-with-new-concept/"
-    },
-    {
-      "d": "2026-06-17",
-      "co": "ponant",
-      "title": "Ponant Explorations 开启 2028 年北极季预订",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Ponant Explorations 公布了 2028 年北极季节，现已开放预订。该航季的航行时间为 2028 年 5 月至 10 月，由四艘船运营超过 35 个班次。它",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/ponant-explorations-opens-2028-arctic-season-for-booking/"
     }
   ],
-  "updated": "2026-08-09T02:04:35"
+  "updated": "2026-08-09T13:00:16"
 }
