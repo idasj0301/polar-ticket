@@ -1338,6 +1338,36 @@
   ],
   "news": [
     {
+      "d": "2026-08-11",
+      "co": "unknown",
+      "title": "弗雷德.奥尔森 (Olsen) 迎来有史以来最强劲的交易日，推出 2028 年 Grand Voyage",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "弗雷德.奥尔森游轮公司 (Olsen Cruise Lines) 的 2028 亚马逊和南极洲远航 (2028 Amazon and Antarctica Grand Voyage) 于 7 月 22 日发售，创下了该游轮公司历史上最强劲的单日交易记录。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/fred-olsen-sees-strongest-trading-day-ever-with-2028-grand-voyage-launch/"
+    },
+    {
+      "d": "2026-08-11",
+      "co": "poseidon",
+      "title": "波塞冬探险队接受海洋建议中国新船",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "联合水道公司的海洋建设计划取得进展，订购了一艘额外的沿海和探险船。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/shipbuilding-equipment/poseidon-expeditions-takes-ocean-advice-china-newbuild"
+    },
+    {
+      "d": "2026-08-11",
+      "co": "unknown",
+      "title": "弗雷德.奥尔森凭借亚马逊和南极洲大航海创下销售纪录",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "弗雷德·奥尔森游轮公司 (Fred Olsen Cruise Lines) 推出 2028 年 87 晚亚马逊和南极洲航线后，创下了公司历史上最强劲的单日交易记录。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/marketing/fred-olsen-hits-record-sales-with-amazon-and-antarctica-grand-voyage"
+    },
+    {
       "d": "2026-08-09",
       "co": "atlas",
       "title": "阿特拉斯海洋纪念世界航海家五岁生日",
@@ -2306,37 +2336,7 @@
       "desc": "神秘邮轮公司的阿特拉斯冒险号号在中国招商局造船厂建造之前正处于水箱测试阶段。根据首席执行官 Mário Ferreira 分享的最新消息，规模模型",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/atlas-oceans-atlas-adventurer-in-tank-testing-phase/"
-    },
-    {
-      "d": "2026-06-18",
-      "co": "unknown",
-      "title": "Australis 认为随着乘客人口结构的变化，全球需求将增长",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "随着 Australis 在巴塔哥尼亚结束其 35 周年纪念季，这家智利探险游轮公司看到了强劲的乘客需求、复苏的欧洲市场以及不断扩大的人口。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/australis-sees-global-demand-growth-as-passenger-demographics-shift/"
-    },
-    {
-      "d": "2026-06-18",
-      "co": "swan_hellenic",
-      "title": "SH Minerva 成为第一艘获得 DCA ESG 认证的探险船",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Swan Hellenic 的 SH Minerva 成为第一艘获得国际认可机构 Dream&Charme DCA ESG 认证的探险游轮。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/environmental-health/sh-minerva-becomes-first-expedition-ship-to-receive-dca-esg-certification"
-    },
-    {
-      "d": "2026-06-17",
-      "co": "hapag_lloyd",
-      "title": "赫伯罗特将于 2027 年回归“海上盖茨比之夜”游轮",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "沿着蔚蓝海岸的“海上盖茨比之夜”短途游轮将返回赫伯罗特的欧罗巴。继邮轮公司表示 2026 年成功推出以及热情的宾客反馈之后",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hapag-lloyd-bringing-back-gatsby-nights-at-sea-cruise-in-2027/"
     }
   ],
-  "updated": "2026-08-10T13:19:06"
+  "updated": "2026-08-11T02:04:11"
 }
