@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-08-11",
+      "co": "lindblad",
+      "title": "国家地理 - Lindblad 揭示 2028-29 部署",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "国家地理-林布拉德探险队公布了 2028-29 年的部署。本季推出了横跨南极洲、北极、阿拉斯加、欧洲和南太平洋的新的和扩展的行程",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/national-geographic-lindblad-reveals-2028-29-deployment/"
+    },
+    {
+      "d": "2026-08-11",
       "co": "unknown",
       "title": "弗雷德.奥尔森 (Olsen) 迎来有史以来最强劲的交易日，推出 2028 年 Grand Voyage",
       "cat": "新船/新设施",
@@ -2326,17 +2336,7 @@
       "desc": "北极探险邮轮运营商协会任命五名行业专业人士为其首批大使，以促进负责任的北极探险邮轮旅游实践。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/aeco-names-first-ambassadors-for-arctic-tourism-advocacy"
-    },
-    {
-      "d": "2026-06-18",
-      "co": "atlas",
-      "title": "Atlas Ocean 的 Atlas Adventurer 处于水箱测试阶段",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "神秘邮轮公司的阿特拉斯冒险号号在中国招商局造船厂建造之前正处于水箱测试阶段。根据首席执行官 Mário Ferreira 分享的最新消息，规模模型",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/atlas-oceans-atlas-adventurer-in-tank-testing-phase/"
     }
   ],
-  "updated": "2026-08-11T02:04:11"
+  "updated": "2026-08-11T13:16:06"
 }
