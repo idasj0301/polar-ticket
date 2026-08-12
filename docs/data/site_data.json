@@ -1338,6 +1338,36 @@
   ],
   "news": [
     {
+      "d": "2026-08-12",
+      "co": "seabourn",
+      "title": "世邦邮轮推出 2028-29 加勒比海航线",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Seabourn 已开放 2028-29 年冬季加勒比季节的预订。   世邦 Ovation 和世邦 Quest 于 2028 年 12 月 28 日至 2029 年 3 月 29 日期间航行，本季节有 10 个行程",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/seabourn-unveils-2028-29-caribbean-voyages/"
+    },
+    {
+      "d": "2026-08-12",
+      "co": "scenic",
+      "title": "汉堡港迎来 Scenic Eclipse II 的首次访问",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "据社交媒体更新消息，本月早些时候，汉堡迎来了 Scenic Eclipse II 的首次访问。这艘2023年建造的邮轮停靠在港口新城邮轮码头，也标志着首艘邮轮",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/port-of-hamburg-welcomes-scenic-eclipse-iis-maiden-visit/"
+    },
+    {
+      "d": "2026-08-12",
+      "co": "unknown",
+      "title": "游轮在冰岛-格陵兰日食路径上的位置",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "邮轮业协调了在北极水域的大量船只部署，将船只从冰岛部署到格陵兰岛，以供乘客准备目睹罕见的日全食。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/cruise-fleet-positions-in-iceland-for-total-solar-eclipse"
+    },
+    {
       "d": "2026-08-11",
       "co": "lindblad",
       "title": "国家地理 - Lindblad 揭示 2028-29 部署",
@@ -2306,37 +2336,7 @@
       "desc": "国家地理-林德布拉德探险队在一份新闻稿中宣布，对于 2026 年 10 月 1 日至 2027 年 12 月 31 日出发的所有活跃航程，乘客可享受 50% 的押金折扣",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/lindblad-offers-reduced-deposit-on-voyages-in-october/"
-    },
-    {
-      "d": "2026-06-19",
-      "co": "atlas",
-      "title": "Atlas 任命商业和销售团队",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "Atlas Ocean Voyages 最近任命了三名经验丰富的邮轮行业专业人士，扩大了其商业团队，他们的专业知识将支持公司的持续增长。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/atlas-makes-appointments-in-commercial-and-sales-teams/"
-    },
-    {
-      "d": "2026-06-19",
-      "co": "atlas",
-      "title": "Atlas Ocean Voyages 扩大商业团队",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "妮可·阿吉雷、罗德·加达拉和多萝西娅·斯特拉图达基斯将出演关键角色。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/atlas-ocean-voyages-expands-commercial-team"
-    },
-    {
-      "d": "2026-06-19",
-      "co": "unknown",
-      "title": "AECO 任命首批北极旅游宣传大使",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "北极探险邮轮运营商协会任命五名行业专业人士为其首批大使，以促进负责任的北极探险邮轮旅游实践。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/aeco-names-first-ambassadors-for-arctic-tourism-advocacy"
     }
   ],
-  "updated": "2026-08-12T02:21:11"
+  "updated": "2026-08-12T13:19:52"
 }
