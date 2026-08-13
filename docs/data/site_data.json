@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-08-13",
+      "co": "atlas",
+      "title": "Atlas 在 2028 年帆船游艇首次亮相之前选择 Versonix Seaware",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Atlas Ocean Voyages 已选择 Versonix 的 Seaware 平台来支持其下一阶段的增长，该豪华探险系列正在为 2028 年 Atlas Adventurer 的首次亮相做准备。海洁公司",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/atlas-ocean-voyages-selects-versonix-seaware-ahead-of-2028-sailing-yacht-debut/"
+    },
+    {
+      "d": "2026-08-13",
+      "co": "atlas",
+      "title": "Versonix Seaware 是 Atlas Ocean Voyages 的选择",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "随着公司的发展，该软件提供了一个可扩展的平台。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/information-technology/versonix-seaware-is-the-choice-of-atlas-ocean-voyages"
+    },
+    {
       "d": "2026-08-12",
       "co": "seabourn",
       "title": "世邦邮轮推出 2028-29 加勒比海航线",
@@ -2316,27 +2336,7 @@
       "desc": "本月早些时候，Noordam 号从西雅图出发，开启了荷美航运公司为期 28 晚的传奇阿拉斯加北极圈至日航程。作为该公司在世界上最长的邮轮之一",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/noordam-on-holland-americas-28-night-cruise-to-alaska/"
-    },
-    {
-      "d": "2026-06-19",
-      "co": "hx",
-      "title": "HX Greenland 预订保证延长至 2027 年航班",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "HX Expeditions 正在扩大其 HX 格陵兰承诺，以覆盖 2027 年前往该地区的所有航行。该协议最初于 1 月份推出，现在适用于 2026 年和 2027 年所有格陵兰岛航行。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hx-greenland-booking-reassurance-extended-to-2027-sailings/"
-    },
-    {
-      "d": "2026-06-19",
-      "co": "lindblad",
-      "title": "Lindblad 提供 10 月份航次押金优惠",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "国家地理-林德布拉德探险队在一份新闻稿中宣布，对于 2026 年 10 月 1 日至 2027 年 12 月 31 日出发的所有活跃航程，乘客可享受 50% 的押金折扣",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/lindblad-offers-reduced-deposit-on-voyages-in-october/"
     }
   ],
-  "updated": "2026-08-12T13:19:52"
+  "updated": "2026-08-13T02:23:04"
 }
