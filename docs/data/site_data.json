@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-08-14",
+      "co": "ponant",
+      "title": "Ponant 宣布 2027 年伍兹霍尔航程专家阵容",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Ponant Explorations 宣布了其 2027 年伍兹霍尔海洋研究所南极洲航行的专家团队，其中包括四位顶尖科学家。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/ponant-announces-expert-lineup-for-2027-woods-hole-voyages"
+    },
+    {
+      "d": "2026-08-14",
+      "co": "lindblad",
+      "title": "2028 年阿拉斯加 NCL、MSC、Lindblad 会做什么",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "精选的大、中、小型船只展示了游览第 49 个州的多种方式。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/what-s-cooking-for-ncl-msc-lindblad-in-2028-alaska"
+    },
+    {
       "d": "2026-08-13",
       "co": "atlas",
       "title": "Atlas 在 2028 年帆船游艇首次亮相之前选择 Versonix Seaware",
@@ -2316,27 +2336,7 @@
       "desc": "海达路德集团 (Hurtigruten Group) 已完成 4.3 亿欧元的债务融资再融资。新的 3.3 亿欧元融资取代了现有债务，并显着降低了年度融资成本，同时还配备了",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/hurtigruten-completes-eur-430-million-debt-refinancing/"
-    },
-    {
-      "d": "2026-06-21",
-      "co": "atlas",
-      "title": "Atlas Ocean Voyages 在佛罗里达州寻找办公空间",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "阿特拉斯海洋航行 (Atlas Ocean Voyages) 母公司神秘邮轮 (Mystic Cruises) 首席执行官马里奥·费雷拉 (Mário Ferreira) 表示，该公司正在寻找办公空间作为其位于佛罗里达州的新总部。在最近的社交媒体上",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/atlas-ocean-voyages-looking-for-office-space-in-florida/"
-    },
-    {
-      "d": "2026-06-20",
-      "co": "unknown",
-      "title": "诺丹 (Noordam) 搭乘荷兰美国航空 28 晚阿拉斯加游轮",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "本月早些时候，Noordam 号从西雅图出发，开启了荷美航运公司为期 28 晚的传奇阿拉斯加北极圈至日航程。作为该公司在世界上最长的邮轮之一",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/noordam-on-holland-americas-28-night-cruise-to-alaska/"
     }
   ],
-  "updated": "2026-08-13T13:21:42"
+  "updated": "2026-08-14T02:21:42"
 }
