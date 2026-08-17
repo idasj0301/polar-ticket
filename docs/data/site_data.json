@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-08-17",
+      "co": "quark",
+      "title": "夸克船在格陵兰岛上空捕获日食",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "夸克探险队的群青号和海洋探索号船上的客人于 2026 年 8 月 12 日在格陵兰岛哈峡湾目睹了日全食。  第一次可见的日全食",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/quark-ships-catch-solar-eclipse-above-greenland/"
+    },
+    {
       "d": "2026-08-16",
       "co": "oceanwide",
       "title": "泛海客人在格陵兰岛东北部看到日全食",
@@ -2326,17 +2336,7 @@
       "desc": "这位 Club Med 资深人士将领导一个旨在提升端到端宾客体验的新部门。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/ponant-hires-gino-andreetta-as-chief-client-hospitality-officer"
-    },
-    {
-      "d": "2026-06-26",
-      "co": "scenic",
-      "title": "风景区主席将主持美国第 250 次游轮",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Glen Moroney 将参加 Scenic Eclipse 十月的东海岸航行。该公司还推出了独立日奖金储蓄活动。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/scenic-chairman-to-host-america-s-250th-cruise"
     }
   ],
-  "updated": "2026-08-16T12:48:17"
+  "updated": "2026-08-17T01:38:30"
 }
