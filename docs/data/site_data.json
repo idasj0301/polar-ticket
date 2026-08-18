@@ -1338,6 +1338,36 @@
   ],
   "news": [
     {
+      "d": "2026-08-18",
+      "co": "unknown",
+      "title": "格陵兰岛建议限制游轮活动",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "据 High North News 报道，格陵兰岛政府建议游轮避免在部分峡湾地区航行。新闻来源报道称，该建议是在询问之后做出的",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/greenland-recommends-limiting-cruise-ship-activities/"
+    },
+    {
+      "d": "2026-08-18",
+      "co": "unknown",
+      "title": "AECO 为北极游轮排放项目获得 40 万挪威克朗",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "北极探险游轮运营商协会获得额外资金，将其气候变化项目延长至 2028 年，重点关注排放报告和北极港口基础设施建设",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/aeco-secures-nok-400k-for-arctic-cruise-emissions-project"
+    },
+    {
+      "d": "2026-08-18",
+      "co": "lindblad",
+      "title": "Nat Geo-Lindblad 的首条欧洲内河游轮启航",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "Transcend Connect 标志着国家地理 - Lindblad Expeditions 到 2027 年区域扩张计划的开始。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/river-cruising/nat-geo-lindblad-launches-european-river-cruises-with-new-ship"
+    },
+    {
       "d": "2026-08-17",
       "co": "quark",
       "title": "夸克船在格陵兰岛上空捕获日食",
@@ -2306,37 +2336,7 @@
       "desc": "Ponant Explorations 已任命 Gino Andreetta 为其首席客户兼接待官。自 2026 年 7 月 1 日起，他将领导新成立的客户和酒店部门，将",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/ponant-exploration-names-andreetta-as-chief-client-hospitality-officer/"
-    },
-    {
-      "d": "2026-06-26",
-      "co": "swan_hellenic",
-      "title": "Swan Hellenic 宣布三名高级任命",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Swan Hellenic 通过三项高级任命加强了其在美洲的商业领导力，以加速旅游业的增长。戈登·德克 (Gordon Dirker) 被任命为高级 VI",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/swan-hellenic-announces-three-senior-appointments/"
-    },
-    {
-      "d": "2026-06-26",
-      "co": "scenic",
-      "title": "Scenic 与两位名厨一起揭开探索之旅的味道",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Scenic 宣布将乘坐 Scenic Eclipse I 和 II 号进行两次穿越北欧和地中海的探索之旅。  这些身临其境的美食之旅将由主厨 Gabriel R 带领",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/scenic-unveils-tastes-of-discovery-voyages-with-two-celebrity-chefs/"
-    },
-    {
-      "d": "2026-06-26",
-      "co": "ponant",
-      "title": "波南特聘请吉诺·安德烈塔 (Gino Andreetta) 担任首席客户兼接待官",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "这位 Club Med 资深人士将领导一个旨在提升端到端宾客体验的新部门。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/ponant-hires-gino-andreetta-as-chief-client-hospitality-officer"
     }
   ],
-  "updated": "2026-08-18T01:27:34"
+  "updated": "2026-08-18T12:54:55"
 }
