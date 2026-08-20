@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-08-20",
+      "co": "heritage",
+      "title": "新西兰遗产探险队的澳大利亚路演",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Heritage Discoverer 2027-28 赛季首个赛季的部署细节正在分享。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/australian-road-show-for-new-zealand-s-heritage-expeditions"
+    },
+    {
       "d": "2026-08-19",
       "co": "silversea",
       "title": "Silversea 的目标是 2028-29 年探索较少的希腊岛屿",
@@ -2326,17 +2336,7 @@
       "desc": "Antarctica21 宣布启动南极旅行设计师大赛，这是一项以成绩为基础的 FAM 计划，面向美国和加拿大想要开始与他们合作的旅行顾问开放",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/06/antarctica21-launches-antarctic-travel-designers-contest/"
-    },
-    {
-      "d": "2026-06-27",
-      "co": "aurora",
-      "title": "极光探险展示北极光航行",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "极光探险公司重点介绍了其北极航程系列，旨在最大限度地增加客人目睹北极光和参观地球上最偏远地区的机会",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/aurora-expeditions-with-northern-lights-in-greenland/"
     }
   ],
-  "updated": "2026-08-19T12:55:15"
+  "updated": "2026-08-20T01:34:16"
 }
