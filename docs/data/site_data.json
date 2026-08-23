@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-08-23",
+      "co": "silversea",
+      "title": "Silver Whisper 已满 25 岁，预订开放至 2029 年",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Silver Whisper 号于 2001 年 6 月 15 日交付，最近为 Silversea 服务了 25 年。这艘豪华船在意大利 T. Mariotti 造船厂建造，被设计为 si",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/silver-whisper-turns-25-with-bookings-open-through-2029/"
+    },
+    {
+      "d": "2026-08-23",
+      "co": "silversea",
+      "title": "银海邮轮2026南太平洋探险启航",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "银海邮轮已启程踏上 2026 年南太平洋大远征之旅，搭乘银云号从西澳大利亚弗里曼特尔（珀斯）出发前往智利瓦尔帕莱索，为期 77 天。航程停靠 57 目的地",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/silversea-sets-sail-on-2026-grand-south-pacific-expedition/"
+    },
+    {
       "d": "2026-08-20",
       "co": "heritage",
       "title": "新西兰遗产探险队的澳大利亚路演",
@@ -2316,27 +2336,7 @@
       "desc": "Holland America Line & Seabourn 食品和饮料运营及开发副总裁 Marisa Christenson 分享了她在邮轮行业的第一次经历。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/my-first-cruise-connections-marisa-christenson-avp-f-b-operations-hal-and-seabourn"
-    },
-    {
-      "d": "2026-06-29",
-      "co": "quark",
-      "title": "夸克推出北极 2028 和南极 2028/2029 季节",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "夸克探险队的北极 2028 和南极 2028/2029 季节有新的摄影项目、探险延期和烹饪体验。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/quark-launched-arctic-2028-and-antarctic-2028-2029-seasons"
-    },
-    {
-      "d": "2026-06-28",
-      "co": "antarctica21",
-      "title": "Antarctica21 启动南极旅游设计师大赛",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "Antarctica21 宣布启动南极旅行设计师大赛，这是一项以成绩为基础的 FAM 计划，面向美国和加拿大想要开始与他们合作的旅行顾问开放",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/06/antarctica21-launches-antarctic-travel-designers-contest/"
     }
   ],
-  "updated": "2026-08-23T01:42:18"
+  "updated": "2026-08-23T12:49:17"
 }
