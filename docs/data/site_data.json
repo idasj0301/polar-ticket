@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-08-29",
+      "co": "unknown",
+      "title": "Terra Nova Swaps Ships to Ensure Antarctica Season",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Terra Nova Expeditions will launch its Antarctica operation with the Terra Nova Adventurer, the expedition vessel previously known as the MS Expeditio",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/terra-nova-swaps-ships-to-ensure-antarctica-season/"
+    },
+    {
       "d": "2026-08-28",
       "co": "heritage",
       "title": "Heritage Updates: New Sales Director and Discoverer Sales",
@@ -2326,17 +2336,7 @@
       "desc": "MSC Preziosa 号最近抵达斯瓦尔巴群岛，这是其计划于 2026 年两次访问挪威群岛中的第一次。这艘 MSC 邮轮从夏季母港汉堡出发，抵达斯瓦尔巴群岛",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/msc-preziosa-makes-first-visit-to-svalbard-in-2026/"
-    },
-    {
-      "d": "2026-07-03",
-      "co": "oceanwide",
-      "title": "泛海绘制了 2027 年前往南极洲别林斯高晋海的罕见航线",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "Oceanwide Expeditions 将于 2027 年 1 月推出 Ortelius 号全新 24 晚探险之旅，深入南大洋最偏远且人迹罕至的海域之一——B 洲。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/oceanwide-charts-rare-course-to-antarcticas-bellingshausen-sea-in-2027/"
     }
   ],
-  "updated": "2026-08-28T22:01:12"
+  "updated": "2026-08-29T06:33:31"
 }
