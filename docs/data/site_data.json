@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-08-29",
+      "co": "atlas",
+      "title": "Atlas Ocean 为 2029 年航行增加 7 种航前狩猎体验",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Atlas Ocean Voyages 宣布推出七项新的航前陆地体验计划，旨在补充 Atlas Adventurer 在 2029 年春季的肯尼亚和南非行程。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/atlas-ocean-adds-7-pre-voyage-safari-experiences-for-2029-sailings/"
+    },
+    {
+      "d": "2026-08-29",
       "co": "unknown",
       "title": "Terra Nova Swaps Ships to Ensure Antarctica Season",
       "cat": "新船/新设施",
@@ -2326,17 +2336,7 @@
       "desc": "他在加入 Silversea 之前，还拥有豪华酒店和 Google 的销售背景。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/riviera-travel-appoints-hunter-swindle-vp-sales-north-america"
-    },
-    {
-      "d": "2026-07-05",
-      "co": "unknown",
-      "title": "MSC Preziosa 将于 2026 年首次访问斯瓦尔巴群岛",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "MSC Preziosa 号最近抵达斯瓦尔巴群岛，这是其计划于 2026 年两次访问挪威群岛中的第一次。这艘 MSC 邮轮从夏季母港汉堡出发，抵达斯瓦尔巴群岛",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/msc-preziosa-makes-first-visit-to-svalbard-in-2026/"
     }
   ],
-  "updated": "2026-08-29T06:33:31"
+  "updated": "2026-08-29T16:30:46"
 }
