@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-08-30",
+      "co": "seabourn",
+      "title": "Seabourn Enriching Fall Sailings with Top Voices from The Atlantic",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "Seabourn has announced the first lineup of speakers from The Atlantic who will sail with the cruise line in the Fall of 2026 as part of Seabourn Conve",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/seabourn-enriching-fall-sailings-with-top-voices-from-the-atlantic/"
+    },
+    {
+      "d": "2026-08-30",
+      "co": "quark",
+      "title": "Quark Appoints Max Truen as Area Sales Director, South USA",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "Quark Expeditions has appointed Max Truen as area sales director for the South USA to lead its sales strategy, focusing on revenue growth, engagement ",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/quark-appoints-max-truen-as-area-sales-director-south-usa/"
+    },
+    {
       "d": "2026-08-29",
       "co": "atlas",
       "title": "Atlas Ocean 为 2029 年航行增加 7 种航前狩猎体验",
@@ -2316,27 +2336,7 @@
       "desc": "Ponant Explorations 推出了 2028 年新的加勒比航线“北加勒比的珠宝”，其中有四趟航班从多米尼加共和国的拉罗马纳出发，前往 拿骚。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/ponant-new-2028-itinerary-to-bahamas-and-northern-caribbean/"
-    },
-    {
-      "d": "2026-07-07",
-      "co": "ponant",
-      "title": "DR Monte Cristi 是 Ponant 2028 年新加勒比航线的独家航线",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "此外，还有令人眼花缭乱的特克斯和凯科斯群岛珊瑚礁、红树林、沙洲登陆和丰富的文化历史。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/monte-cristi-dr-exclusive-in-ponant-s-new-2028-caribbean-route"
-    },
-    {
-      "d": "2026-07-06",
-      "co": "silversea",
-      "title": "Riviera Travel 任命 Hunter Swindle 为北美销售副总裁",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "他在加入 Silversea 之前，还拥有豪华酒店和 Google 的销售背景。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/riviera-travel-appoints-hunter-swindle-vp-sales-north-america"
     }
   ],
-  "updated": "2026-08-30T04:46:02"
+  "updated": "2026-08-30T16:24:47"
 }
