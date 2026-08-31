@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-08-31",
+      "co": "hx",
+      "title": "DeWitte 重返海达路德担任美洲销售副总裁",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "马特·德威特 (Matt DeWitte) 被任命为海达路德美洲区销售和营销副总裁。他将返回原来的 Hurtigruten 品牌，并在该品牌担任美洲营销主管。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/dewitte-returns-to-hurtigruten-as-vp-sales-americas/"
+    },
+    {
+      "d": "2026-08-31",
+      "co": "unknown",
+      "title": "Terra Nova Expeditions 为即将到来的南极季节确保船只安全",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "由于圣赫勒拿岛无法及时为即将到来的南极洲季节重新定位，Terra Nova Adventurer 将运营该公司 2026/27 和 2027/28 南极洲季节",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/terra-nova-expeditions-secures-vessel-for-upcoming-antarctic-seasons"
+    },
+    {
       "d": "2026-08-30",
       "co": "seabourn",
       "title": "Seabourn Enriching Fall Sailings with Top Voices from The Atlantic",
@@ -2316,27 +2336,7 @@
       "desc": "“让世界为您带来惊喜”系列覆盖 71 个国家/地区的 497 个目的地。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/ports-destinations/silversea-s-2028-29-more-med-expeditions-antarctica-fly-cruises"
-    },
-    {
-      "d": "2026-07-07",
-      "co": "oceanwide",
-      "title": "泛海首席执行官在汉坦病毒爆发后发表声明",
-      "cat": "紧急",
-      "imp": "high",
-      "desc": "Oceanwide Expeditions 证实，Hondius 号在从乌斯怀出发期间爆发汉坦病毒，造成 3 人死亡，另外乘客和船员接受了治疗",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/oceanwide-ceo-issues-statement-following-hantavirus-outbreak/"
-    },
-    {
-      "d": "2026-07-07",
-      "co": "ponant",
-      "title": "Ponant：巴哈马和北加勒比海 2028 年新行程",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Ponant Explorations 推出了 2028 年新的加勒比航线“北加勒比的珠宝”，其中有四趟航班从多米尼加共和国的拉罗马纳出发，前往 拿骚。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/ponant-new-2028-itinerary-to-bahamas-and-northern-caribbean/"
     }
   ],
-  "updated": "2026-08-31T04:49:40"
+  "updated": "2026-08-31T18:59:18"
 }
