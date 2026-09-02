@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-09-02",
+      "co": "seabourn",
+      "title": "Seabourn Quest Taking Guests to 58 Destinations in 2029 World Cruise",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Seabourn has opened bookings for its 138-day 2029 World Cruise. The Seabourn Quest will operate the &#8220;Iconic Islands &#38; Remote Horizons&#8221;",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/seabourn-quest-taking-guests-to-58-destinations-in-2029-world-cruise/"
+    },
+    {
+      "d": "2026-09-02",
+      "co": "unknown",
+      "title": "SeaDream's first new ship in 25 years to debut 2029",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "SeaDream Yacht Club announces SeaDream III's July 2029 service entry, featuring 181-night world voyages, Arctic operations and Great Lakes deployment ",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/shipbuilding-equipment/seadream-iii-to-debut-2029-with-global-itinerary-portfolio"
+    },
+    {
       "d": "2026-08-31",
       "co": "hx",
       "title": "DeWitte 重返海达路德担任美洲销售副总裁",
@@ -2316,27 +2336,7 @@
       "desc": "据 Aurora Expeditions 的采访称，2025 年是 Aurora Expeditions 有史以来规模最大的一年，公司最近凭借新的 Douglas Mawson 号将船队规模扩大到了三艘，并以此势头为基础继续发展。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/aurora-expeditions-biggest-year-yet-new-ship-new-markets/"
-    },
-    {
-      "d": "2026-07-08",
-      "co": "silversea",
-      "title": "银海邮轮公布 2028-29 年计划，包含 278 趟航程",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "银海邮轮公布了 2028-29 年计划，提供该公司所说的最广泛的地中海探险航程。  该集合包含 278 个从",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/silversea-unveils-2028-29-program-with-278-voyages/"
-    },
-    {
-      "d": "2026-07-08",
-      "co": "silversea",
-      "title": "银海邮轮 2028-29：更多地中海探险、南极洲飞行巡航",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "“让世界为您带来惊喜”系列覆盖 71 个国家/地区的 497 个目的地。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/silversea-s-2028-29-more-med-expeditions-antarctica-fly-cruises"
     }
   ],
-  "updated": "2026-09-02T03:52:31"
+  "updated": "2026-09-02T16:19:19"
 }
