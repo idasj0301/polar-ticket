@@ -1339,6 +1339,26 @@
   "news": [
     {
       "d": "2026-09-03",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗特聚焦年轻探险家教育计划",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "赫伯罗特游轮重点介绍了针对 10 至 17 岁儿童和青少年的青年探索者计划。该学习计划在前往冰岛、斯瓦尔巴群岛和格陵兰岛的特定航线期间提供",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/hapag-lloyd-spotlights-young-explorers-educational-program/"
+    },
+    {
+      "d": "2026-09-03",
+      "co": "seabourn",
+      "title": "世邦邮轮 2029 年世界巡游以岛屿和“偏远”地区为特色",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "为期 138 天的旅程将覆盖 31 个国家的 58 个目的地，航程超过 32,000 海里。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/seabourn-s-2029-world-cruise-highlights-islands-remote-places"
+    },
+    {
+      "d": "2026-09-03",
       "co": "swan_hellenic",
       "title": "Josie Bielmeier 加入 Swan Hellenic 北美销售市场",
       "cat": "促销",
@@ -2316,27 +2336,7 @@
       "desc": "赫伯罗特游轮宣布其 2027/28 航季的五艘豪华和探险船队将推出新的首航航线。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/hapag-lloyd-cruises-unveils-2027-28-premiere-routes"
-    },
-    {
-      "d": "2026-07-09",
-      "co": "seabourn",
-      "title": "突然间，一大堆夏季邮轮销售",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "一些最新的优惠来自挪威邮轮公司、歌诗达邮轮公司、世邦邮轮公司、Uniworld 和 Star Clippers。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/marketing/suddenly-a-bevy-of-summer-cruise-sales"
-    },
-    {
-      "d": "2026-07-08",
-      "co": "hx",
-      "title": "HX 纪念首次极地探险 130 周年",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "HX 将于 2026 年 7 月 8 日庆祝其首次探险航行 130 周年。1896 年的这一天，DS Lofoten 轮船从哈默菲斯特驶往斯瓦尔巴群岛。那是北极的时代",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/hx-marks-130-years-since-first-polar-expedition/"
     }
   ],
-  "updated": "2026-09-03T03:51:17"
+  "updated": "2026-09-03T16:09:49"
 }
