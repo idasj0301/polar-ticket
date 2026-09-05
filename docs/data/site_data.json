@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-09-05",
+      "co": "hapag_lloyd",
+      "title": "汉萨精神：为赫伯罗特服务五年",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Hanseatic Spirit 号于 2026 年 6 月 29 日交付，标志着 Hapag-Lloyd Cruises 服务五周年。这艘船由 Fincantieri 的子公司 Vard 建造，可容纳 230 名乘客",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/hanseatic-spirit-five-years-of-service-for-hapag-lloyd/"
+    },
+    {
       "d": "2026-09-03",
       "co": "hapag_lloyd",
       "title": "赫伯罗特聚焦年轻探险家教育计划",
@@ -2326,17 +2336,7 @@
       "desc": "赫伯罗特游轮重点关注其 2026-27 年圣诞节和新年游轮，其航线横跨加勒比海、印度洋、北欧风景和南极洲。该公司表示",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/hapag-showcases-2026-27-christmas-and-new-year-sailings/"
-    },
-    {
-      "d": "2026-07-09",
-      "co": "hapag_lloyd",
-      "title": "赫伯罗特将汉萨性质从极地航线转向印度洋航线",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "赫伯罗特游轮宣布其 2027/28 航季的五艘豪华和探险船队将推出新的首航航线。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/hapag-lloyd-cruises-unveils-2027-28-premiere-routes"
     }
   ],
-  "updated": "2026-09-05T03:50:53"
+  "updated": "2026-09-05T14:54:31"
 }
