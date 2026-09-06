@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-09-06",
+      "co": "unknown",
+      "title": "Selar 的北极船长漂浮在毛里求斯",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "北极船长号是从位于毛里求斯印度海洋海军舰船 (CNOI) 的船坞下水的。这艘可容纳 36 名乘客的探险船将于今年晚些时候交付",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/selars-captain-arctic-floats-out-in-mauritius/"
+    },
+    {
       "d": "2026-09-05",
       "co": "hapag_lloyd",
       "title": "汉萨精神：为赫伯罗特服务五年",
@@ -2326,17 +2336,7 @@
       "desc": "荷美航运公司的福伦丹号于 6 月下旬从波士顿出发，开始了为期 28 晚的航行，前往加拿大、冰岛和格陵兰岛。作为该公司传奇航程计划的一部分，为期一个月的旅程",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/holland-america-volendam-sailing-28-night-cruise-to-iceland-and-greenland/"
-    },
-    {
-      "d": "2026-07-10",
-      "co": "hapag_lloyd",
-      "title": "赫伯罗展示 2026-27 圣诞和新年航程",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "赫伯罗特游轮重点关注其 2026-27 年圣诞节和新年游轮，其航线横跨加勒比海、印度洋、北欧风景和南极洲。该公司表示",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/hapag-showcases-2026-27-christmas-and-new-year-sailings/"
     }
   ],
-  "updated": "2026-09-06T03:55:23"
+  "updated": "2026-09-06T15:14:43"
 }
