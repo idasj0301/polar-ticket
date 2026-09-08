@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-09-08",
+      "co": "atlas",
+      "title": "Atlas 创下有史以来最强劲的单日预订表现",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "Atlas Ocean Voyages 宣布，8 月 31 日创下了其历史上最强劲的单日预订业绩，其船队和 Atlas Adven 未来航行的需求不断增加",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/atlas-records-strongest-ever-single-day-booking-performance/"
+    },
+    {
       "d": "2026-09-07",
       "co": "silversea",
       "title": "银海邮轮 2026 年阿拉斯加航季结束，2027 年阿拉斯加航程亮点",
@@ -2326,17 +2336,7 @@
       "desc": "Atlas Ocean Voyages 在 2027-28 年的南极洲飞行巡航探险中增加了 6 个出发班次。  该游轮公司 2027-28 季的航线已扩大，新增两种航线：Drake Expre",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/atlas-ocean-adds-more-fly-the-drake-options-for-2027-28-antarctica/"
-    },
-    {
-      "d": "2026-07-11",
-      "co": "ponant",
-      "title": "Ponant 于 2027 年 28 月开通地中海、北欧和大西洋航线",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "Ponant Explorations 宣布，将于 2027 年 10 月至 2028 年 11 月期间提供超过 150 个穿越地中海、北欧和大西洋群岛的出发航班，目前这些航班已开通",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/ponant-opens-2027-28-med-northern-europe-and-atlantic-sailings/"
     }
   ],
-  "updated": "2026-09-08T03:57:07"
+  "updated": "2026-09-08T16:22:24"
 }
