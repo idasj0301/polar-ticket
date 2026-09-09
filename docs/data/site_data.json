@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-09-09",
+      "co": "atlas",
+      "title": "Atlas Ocean Voyages 创下预订日纪录",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "对 2026 年南极洲号和 2028 年新船阿特拉斯冒险号的需求旺盛，以及旅行顾问支持的不断增加，推动了销售。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/atlas-ocean-voyages-scores-record-booking-day"
+    },
+    {
+      "d": "2026-09-09",
+      "co": "unknown",
+      "title": "博德通过五分钟机场接送服务实现周转",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "博德凭借邻近机场、全年北极探险和世界上最强的漩涡展示了其扭亏为盈的潜力。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/bod-makes-case-for-turnarounds-with-five-minute-airport-transfer"
+    },
+    {
       "d": "2026-09-08",
       "co": "atlas",
       "title": "Atlas 创下有史以来最强劲的单日预订表现",
@@ -2316,27 +2336,7 @@
       "desc": "Seabourn 宣布推出“探索等待活动”，通过 en 的全球精选航线提供高达 15% 的折扣，以及高达 15% 的押金折扣。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/seabourn-unveils-exploration-awaits-event-with-15-savings/"
-    },
-    {
-      "d": "2026-07-12",
-      "co": "aurora",
-      "title": "道格拉斯·莫森 (Douglas Mawson) 首次停靠巴斯蒂亚港",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "Aurora Expeditions 的道格拉斯·莫森 (Douglas Mawson) 于 7 月 8 日在法国科西嘉岛巴斯蒂亚港进行了首航。这是这艘去年年底下水的船的处女航季。  安德烈·吉上尉",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/douglas-mawson-makes-maiden-call-at-port-of-bastia/"
-    },
-    {
-      "d": "2026-07-12",
-      "co": "atlas",
-      "title": "Atlas Ocean 为 2027-28 南极洲增加了更多飞翔德雷克的选项",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Atlas Ocean Voyages 在 2027-28 年的南极洲飞行巡航探险中增加了 6 个出发班次。  该游轮公司 2027-28 季的航线已扩大，新增两种航线：Drake Expre",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/atlas-ocean-adds-more-fly-the-drake-options-for-2027-28-antarctica/"
     }
   ],
-  "updated": "2026-09-08T16:22:24"
+  "updated": "2026-09-09T04:03:03"
 }
