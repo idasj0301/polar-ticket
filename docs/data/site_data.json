@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-09-09",
+      "co": "hx",
+      "title": "Hurtigruten Launches 2027 Offer for Norway All-Year-Round Sailings",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Hurtigruten has announced a new wave offer, allowing guests to save at least 15 percent on 2027 fly cruises when discovering Norway. The offer is avai",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/hurtigruten-launches-2027-offer-for-norway-all-year-round-sailings/"
+    },
+    {
+      "d": "2026-09-09",
       "co": "atlas",
       "title": "Atlas Ocean Voyages 创下预订日纪录",
       "cat": "促销",
@@ -2326,17 +2336,7 @@
       "desc": "2027/28 赛季又增加了 6 个日期，并且 2026 年 12 月的两次旅行的可用空间有限。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/atlas-ocean-voyages-increases-antarctica-fly-cruise-departures"
-    },
-    {
-      "d": "2026-07-12",
-      "co": "seabourn",
-      "title": "Seabourn 推出探索等待活动，可享受 15% 优惠",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "Seabourn 宣布推出“探索等待活动”，通过 en 的全球精选航线提供高达 15% 的折扣，以及高达 15% 的押金折扣。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/seabourn-unveils-exploration-awaits-event-with-15-savings/"
     }
   ],
-  "updated": "2026-09-09T04:03:03"
+  "updated": "2026-09-09T16:17:52"
 }
