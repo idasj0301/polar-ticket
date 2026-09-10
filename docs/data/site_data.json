@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-09-10",
+      "co": "swan_hellenic",
+      "title": "Swan Hellenic 推出个性化优惠",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Swan Hellenic 宣布推出秋季优惠，“升级您的视野。提升您的探险之旅。” “我们在这个提议上花了很多心思，”Swan Hellenic 说",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/swan-hellenic-launches-offer-that-can-be-personalized/"
+    },
+    {
+      "d": "2026-09-10",
+      "co": "swan_hellenic",
+      "title": "选定 Swan Hellenic 探险游轮的个性化升级",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "增强的体验包括免费阳台升级、个性化免费附加服务以及 Swan Hellenic 在 2027 年精选航班上推出的特别单人价格。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/personalised-upgrades-on-selected-swan-hellenic-expedition-cruises"
+    },
+    {
       "d": "2026-09-09",
       "co": "hx",
       "title": "Hurtigruten Launches 2027 Offer for Norway All-Year-Round Sailings",
@@ -2316,27 +2336,7 @@
       "desc": "十五个新项目包括意大利亚得里亚海海岸和哥斯达黎加生态探险。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/ponant-expands-smithsonian-journeys-voyages-in-2028"
-    },
-    {
-      "d": "2026-07-15",
-      "co": "silversea",
-      "title": "Silversea 与 PerryGolf 合作开启新高尔夫之旅",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "银海邮轮将与 PerryGolf 合作，于 2027 年和 2028 年推出以高尔夫为主题的行程。   该邮轮的高尔夫套餐将包括使用球场和练习设施、餐饮选择",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/silversea-partners-with-perrygolf-on-new-golf-voyages/"
-    },
-    {
-      "d": "2026-07-13",
-      "co": "atlas",
-      "title": "Atlas Ocean Voyages 增加了南极洲飞游轮班次",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "2027/28 赛季又增加了 6 个日期，并且 2026 年 12 月的两次旅行的可用空间有限。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/atlas-ocean-voyages-increases-antarctica-fly-cruise-departures"
     }
   ],
-  "updated": "2026-09-10T04:01:36"
+  "updated": "2026-09-10T16:08:49"
 }
