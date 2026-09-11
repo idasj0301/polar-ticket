@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-09-11",
+      "co": "scenic",
+      "title": "Scenic Discovery 游艇展示 2027 年智利和巴塔哥尼亚航程",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Scenic Discovery Yachts 将于 2027 年搭乘 Scenic Eclipse 号进行一系列穿越智利和巴塔哥尼亚峡湾的探索航行。该邮轮公司在一份新闻稿中表示，客人可以期待",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/scenic-discovery-yachts-showcases-2027-chile-and-patagonia-voyages/"
+    },
+    {
       "d": "2026-09-10",
       "co": "swan_hellenic",
       "title": "Swan Hellenic 推出个性化优惠",
@@ -2326,17 +2336,7 @@
       "desc": "银海邮轮与 PerryGolf 合作推出了一系列以高尔夫为主题的全新航线，为乘客提供前往世界著名球场的机会，包括皇家利物浦球场和未来的莱德杯主办方",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/silversea-partners-with-perrygolf-for-premium-golf-voyages"
-    },
-    {
-      "d": "2026-07-15",
-      "co": "ponant",
-      "title": "Ponant 于 2028 年扩大史密森尼之旅航程",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "十五个新项目包括意大利亚得里亚海海岸和哥斯达黎加生态探险。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/ponant-expands-smithsonian-journeys-voyages-in-2028"
     }
   ],
-  "updated": "2026-09-11T03:58:28"
+  "updated": "2026-09-11T16:12:21"
 }
