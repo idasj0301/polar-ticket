@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-09-12",
+      "co": "seabourn",
+      "title": "Seabourn Announces New Amazon 2028 Voyage",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Seabourn has announced a new 30-day &#8220;Amazon Explorer: Rivers &#38; Rainforests&#8221; voyage on the Seabourn Quest, sailing roundtrip from Miami",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/seabourn-announces-new-amazon-2028-voyage/"
+    },
+    {
       "d": "2026-09-11",
       "co": "scenic",
       "title": "Scenic Discovery 游艇展示 2027 年智利和巴塔哥尼亚航程",
@@ -2326,17 +2336,7 @@
       "desc": "他们代表 Windstar Cruises、Swan Hellenic、Quark Expeditions 和 Azamara。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/international-panellists-named-for-cruise360-australasia-2026"
-    },
-    {
-      "d": "2026-07-16",
-      "co": "silversea",
-      "title": "Silversea 与 PerryGolf 合作打造优质高尔夫之旅",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "银海邮轮与 PerryGolf 合作推出了一系列以高尔夫为主题的全新航线，为乘客提供前往世界著名球场的机会，包括皇家利物浦球场和未来的莱德杯主办方",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/silversea-partners-with-perrygolf-for-premium-golf-voyages"
     }
   ],
-  "updated": "2026-09-12T04:00:08"
+  "updated": "2026-09-12T15:19:39"
 }
