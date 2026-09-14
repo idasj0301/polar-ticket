@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-09-14",
+      "co": "quark",
+      "title": "Travelmarvel and Quark Announce Partnership for New Ship",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Travelmarvel has announced a partnership with Quark Expeditions for a new purpose-built small ship scheduled to enter service in 2029. Under a 10-year",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/travelmarvel-and-quark-announce-partnership-for-new-ship/"
+    },
+    {
+      "d": "2026-09-14",
+      "co": "quark",
+      "title": "Travelmarvel and Quark Expeditions team on newbuild",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Travelmarvel, the premium arm of APT Travel Group, and Quark Expeditions are partnering on a purpose-built vessel scheduled to enter service in 2029.",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/travelmarvel-and-quark-expeditions-team-on-newbuild"
+    },
+    {
       "d": "2026-09-12",
       "co": "seabourn",
       "title": "Seabourn Announces New Amazon 2028 Voyage",
@@ -2316,27 +2336,7 @@
       "desc": "Ponant Explorations 宣布与史密森尼旅程 (Smithsonian Journeys) 合作，在 2028 年推出 15 个新航程。该邮轮公司在一份新闻稿中表示，这些最新的行程完善了 36 个航程的名单。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/ponant-expands-smithsonian-journeys-program-for-2028/"
-    },
-    {
-      "d": "2026-07-17",
-      "co": "seabourn",
-      "title": "世邦邮轮的“红宝石系列”将于 2028 年进行 54 次航行",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "跨越五艘船和探险船队的航线是为了纪念该航线成立 40 周年，即“红宝石禧年”。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/seabourn-s-ruby-collection-of-54-voyages-in-2028"
-    },
-    {
-      "d": "2026-07-17",
-      "co": "quark",
-      "title": "2026 年 Cruise360 澳大利亚邮轮国际小组成员名单",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "他们代表 Windstar Cruises、Swan Hellenic、Quark Expeditions 和 Azamara。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/international-panellists-named-for-cruise360-australasia-2026"
     }
   ],
-  "updated": "2026-09-14T04:18:07"
+  "updated": "2026-09-14T17:57:25"
 }
