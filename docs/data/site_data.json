@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-09-17",
+      "co": "silversea",
+      "title": "在银海邮轮的新套房分组中，前两名可获得额外福利",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "住宅，尤其是别墅类别将配备额外的便利设施和服务。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/in-silversea-s-new-suite-groupings-the-top-two-get-added-perks"
+    },
+    {
       "d": "2026-09-15",
       "co": "antarctica21",
       "title": "Antarctica21 发布第一份可持续发展报告",
@@ -2326,17 +2336,7 @@
       "desc": "世界探索号位于葡萄牙西海造船厂，准备于今年 12 月与 Windstar Cruises 一起首次亮相。在完成夸克探险队的最后一个赛季后，这艘 2019 年建造的船只",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/world-explorer-undergoing-windstar-conversion-at-west-sea/"
-    },
-    {
-      "d": "2026-07-20",
-      "co": "lindblad",
-      "title": "Lindblad 将于 8 月 3 日公布第二季度财务业绩",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "与分析师的电话会议将进行网络直播。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/lindblad-to-report-q2-financial-results-aug-3"
     }
   ],
-  "updated": "2026-09-16T16:32:42"
+  "updated": "2026-09-17T04:20:50"
 }
