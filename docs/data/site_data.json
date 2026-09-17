@@ -1339,6 +1339,26 @@
   "news": [
     {
       "d": "2026-09-17",
+      "co": "atlas",
+      "title": "Atlas Ocean 深化与 Cabin Select 的技术合作",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Cabin Select 和 Atlas Ocean Voyages 正在继续扩大其技术合作伙伴关系。此次合作旨在支持邮轮公司不断发展的数字生态系统，加强全球分销",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/atlas-ocean-deepens-tech-partnership-with-cabin-select/"
+    },
+    {
+      "d": "2026-09-17",
+      "co": "hx",
+      "title": "北极陈年巴罗洛葡萄酒将在挪威海达路德船上首次亮相",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Hurtigruten 在挪威北部北极水域水下 34 米处开采了 1,002 瓶巴罗洛葡萄酒。该邮轮公司在一份新闻稿中表示，这标志着北极湾号的全球首次亮相",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/arctic-aged-barolo-wine-to-debut-on-hurtigruten-ships-in-norway/"
+    },
+    {
+      "d": "2026-09-17",
       "co": "silversea",
       "title": "在银海邮轮的新套房分组中，前两名可获得额外福利",
       "cat": "行业动态",
@@ -2316,27 +2336,7 @@
       "desc": "Scenic Group 推出了全新的 2028-29 年 Scenic Eclipse II 航程和陆地旅程系列，横跨澳大利亚、新西兰、亚洲和南太平洋。该系列标志着游艇的重新设计",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/scenic-group-unveils-2028-29-scenic-eclipse-ii-sailings/"
-    },
-    {
-      "d": "2026-07-20",
-      "co": "lindblad",
-      "title": "Lindblad 安排 2026 年第二季度收益电话会议",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Lindblad Expeditions Holdings 将于 2026 年 8 月 3 日星期一开盘前公布 2026 年第二季度财务业绩。   随后将举行音频会议网络广播来讨论结果",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/lindblad-schedules-q2-2026-earnings-call/"
-    },
-    {
-      "d": "2026-07-20",
-      "co": "quark",
-      "title": "世界探索号在西海进行 Windstar 改造",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "世界探索号位于葡萄牙西海造船厂，准备于今年 12 月与 Windstar Cruises 一起首次亮相。在完成夸克探险队的最后一个赛季后，这艘 2019 年建造的船只",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/world-explorer-undergoing-windstar-conversion-at-west-sea/"
     }
   ],
-  "updated": "2026-09-17T04:20:50"
+  "updated": "2026-09-17T16:37:53"
 }
