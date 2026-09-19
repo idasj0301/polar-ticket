@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-09-19",
+      "co": "ponant",
+      "title": "Ponant Explorations 欢迎传奇的 Carita house 加入船上",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "这家高端游轮公司是一家法国公司，致力于卓越的豪华酒店服务，与标志性的美容和健康品牌建立了独家合作伙伴关系。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/wellness/ponant-explorations-welcomes-legendary-carita-house-on-board"
+    },
+    {
       "d": "2026-09-18",
       "co": "seabourn",
       "title": "随着 2026 年阿拉斯加季节的结束，世邦邮轮将目光投向 2027 年夏季",
@@ -2326,17 +2336,7 @@
       "desc": "在工作中的牛站和自然保护区住宿，并搭配帕斯帕雷珍珠 (Paspaley Pearl) 的探险游船。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/pearl-expeditions-ultimate-2027-kimberley-package"
-    },
-    {
-      "d": "2026-07-21",
-      "co": "unknown",
-      "title": "弗雷德.奥尔森将于 2028 年航行亚马逊和南极洲大航程",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "弗雷德.奥尔森游轮公司将于 2028 年开启为期 87 晚的亚马逊和南极洲大航程。“亚马逊和南极洲冒险之旅”中北欧化工号将于 1 月从南安普顿出发",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/fred-olsen-to-sail-amazon-and-antarctica-grand-voyage-in-2028/"
     }
   ],
-  "updated": "2026-09-18T16:09:36"
+  "updated": "2026-09-19T04:01:30"
 }
