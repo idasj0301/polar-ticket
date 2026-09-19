@@ -1339,6 +1339,46 @@
   "news": [
     {
       "d": "2026-09-19",
+      "co": "aurora",
+      "title": "极光号开启 2026-27 南极季，进行 27 次航行和海上科学",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Aurora Expeditions 宣布准备启动 2026-27 南极季节，三艘船将进行 27 次航行，探索南大洋。西尔维娅·格雷格·莫蒂默号上航行",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/aurora-launches-2026-27-antarctic-season-with-27-voyages-and-science-at-sea/"
+    },
+    {
+      "d": "2026-09-19",
+      "co": "hx",
+      "title": "海达路德在忠诚月期间为会员提供双倍折扣",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "海达路德于 2026 年 9 月 15 日启动了年度忠诚月，为其 1893 大使忠诚计划的会员提供额外折扣。 “我们希望确保我们备受推崇的 1893 Ambas",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/hurtigruten-offers-members-double-discount-during-loyalty-month/"
+    },
+    {
+      "d": "2026-09-19",
+      "co": "lindblad",
+      "title": "Lindblad 为 2027 年探险活动提供航空积分",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "国家地理 - Lindblad Expeditions 为参加 2027 年精选探险活动的旅行者提供每人高达 2,000 美元的航空积分。此优惠适用于 9 月 15 日至",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/lindblad-offers-air-credit-on-2027-expeditions/"
+    },
+    {
+      "d": "2026-09-19",
+      "co": "seabourn",
+      "title": "Seabourn Quest 已服务 15 年",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Seabourn Quest 于 2011 年 5 月 31 日交付给 Seabourn，最近完成了 15 年的服务。作为 2008 年 Seabourn Odyssey 开始的系列中的第三艘船，该船",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/seabourn-quest-completes-15-years-of-service/"
+    },
+    {
+      "d": "2026-09-19",
       "co": "ponant",
       "title": "Ponant Explorations 欢迎传奇的 Carita house 加入船上",
       "cat": "行业动态",
@@ -2296,47 +2336,7 @@
       "desc": "Polar Latitudes Expeditions 公布了 2028 年北极航季，包括穿越斯瓦尔巴群岛、格陵兰岛、冰岛、扬马延岛和北极挪威的航行。行程范围从经典的为期一周的斯瓦尔布",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/polar-latitudes-announces-arctic-2028-season/"
-    },
-    {
-      "d": "2026-07-24",
-      "co": "silversea",
-      "title": "银海邮轮推出 S.A.L.T. 系列美食之旅",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "银海邮轮 (Silversea) 推出首个 S.A.L.T. 系列（海陆品味）美食之旅，行程围绕通过食物、风味和人物体验每个目的地而构建。第四",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/silversea-launches-collection-of-s-a-l-t-culinary-voyages/"
-    },
-    {
-      "d": "2026-07-24",
-      "co": "hx",
-      "title": "HX：“深入，而不仅仅是进一步”",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "HX Expeditions 继续发展其南极洲计划，声称该计划承载的旅客比任何其他运营商都多。 “上一季是我们迄今为止最成功的一季，”首席执行官格布哈德·雷纳 (Gebhard Rainer) 说道，“",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/hx-going-deeper-not-just-further/"
-    },
-    {
-      "d": "2026-07-23",
-      "co": "polar_latitudes",
-      "title": "极地纬度：扩张战略",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "极地纬度探险公司正在经历一场重大转型，组建了一支更大的船队并吸收了两家公司。创始人兼主席约翰·麦肯 (John McKeon) 将其描述为一次深思熟虑的、多方面的努力。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/polar-latitudes-expansion-strategy/"
-    },
-    {
-      "d": "2026-07-22",
-      "co": "unknown",
-      "title": "Pearl Expeditions 2027 年金伯利终极套餐",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "在工作中的牛站和自然保护区住宿，并搭配帕斯帕雷珍珠 (Paspaley Pearl) 的探险游船。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/pearl-expeditions-ultimate-2027-kimberley-package"
     }
   ],
-  "updated": "2026-09-19T04:01:30"
+  "updated": "2026-09-19T15:41:39"
 }
