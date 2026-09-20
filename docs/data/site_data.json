@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-09-20",
+      "co": "swan_hellenic",
+      "title": "Swan Hellenic 开设首个南半球办事处",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "目前还没有立即在澳大利亚水域航行的计划，但预计有一些航线会吸引澳大利亚人。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/marketing/swan-hellenic-opens-first-southern-hemisphere-office"
+    },
+    {
       "d": "2026-09-19",
       "co": "aurora",
       "title": "极光号开启 2026-27 南极季，进行 27 次航行和海上科学",
@@ -2326,17 +2336,7 @@
       "desc": "赫伯罗特邮轮为其邮轮推出了一种独特的新音乐会形式——策划音乐会，将古典音乐与邮轮行程中的目的地结合起来。音乐家亚历山大·克里奇",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/hapag-lloyd-debuting-musician-hosted-concert-cruises-in-2027/"
-    },
-    {
-      "d": "2026-07-24",
-      "co": "polar_latitudes",
-      "title": "Polar Latitudes 宣布 2028 年北极季节",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Polar Latitudes Expeditions 公布了 2028 年北极航季，包括穿越斯瓦尔巴群岛、格陵兰岛、冰岛、扬马延岛和北极挪威的航行。行程范围从经典的为期一周的斯瓦尔布",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/polar-latitudes-announces-arctic-2028-season/"
     }
   ],
-  "updated": "2026-09-20T04:20:33"
+  "updated": "2026-09-20T15:47:10"
 }
