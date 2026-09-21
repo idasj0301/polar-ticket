@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-09-21",
+      "co": "swan_hellenic",
+      "title": "Swan Hellenic 的 Cruise4Oceans 计划加入 GlobalCoast 网络",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Swan Hellenic 宣布，其 Cruise4Oceans 计划现已被认可为全球海岸网络内的试点项目，这项工作得到了联合国海洋科学十年的支持",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/swan-hellenics-cruising4oceans-initiative-joins-globalcoast-network/"
+    },
+    {
+      "d": "2026-09-21",
+      "co": "silversea",
+      "title": "银海邮轮的银魂号 (Silver Spirit) 启航 2026 年地中海大航程",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "银海邮轮 (Silversea) 已开启 2026 年地中海大航程，搭乘银魂号 (Silver Spirit) 进行为期 50 天的旅程，连接里斯本和雅典（比雷埃夫斯）。 “Silversea 的 Grand Voyages 旨在让我",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/silverseas-silver-spirit-departs-on-grand-voyage-mediterranean-2026/"
+    },
+    {
       "d": "2026-09-20",
       "co": "swan_hellenic",
       "title": "Swan Hellenic 开设首个南半球办事处",
@@ -2316,27 +2336,7 @@
       "desc": "他将通过演讲、野生动物摄影研讨会和非正式对话来丰富 2027 年 3 月的航程。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/wildlife-expert-ron-magill-set-for-atlas-antarctica-expedition"
-    },
-    {
-      "d": "2026-07-26",
-      "co": "unknown",
-      "title": "Selar 首艘船在毛里求斯的建造进展",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "北极船长号将成为初创公司 Selar Expeditions 的第一艘船，目前正在毛里求斯路易港的 Chantier Naval de l’Ocean Indien (CNOI) 进行建造。雅阁",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/construction-of-selars-first-ship-progressing-in-mauritius/"
-    },
-    {
-      "d": "2026-07-25",
-      "co": "hapag_lloyd",
-      "title": "赫伯罗特将于 2027 年首次推出由音乐家主持的音乐会游轮",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "赫伯罗特邮轮为其邮轮推出了一种独特的新音乐会形式——策划音乐会，将古典音乐与邮轮行程中的目的地结合起来。音乐家亚历山大·克里奇",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/hapag-lloyd-debuting-musician-hosted-concert-cruises-in-2027/"
     }
   ],
-  "updated": "2026-09-21T04:18:04"
+  "updated": "2026-09-21T18:04:53"
 }
