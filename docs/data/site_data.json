@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-09-23",
+      "co": "quark",
+      "title": "Travelmarvel 将其第一艘远洋船的运营与 Quark 分开",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "Travelmarvel 的第一艘远洋船将于 2029 年 4 月完工，将由两个品牌运营。 APT旅游集团将完全拥有这艘新船，但在半年内，它将有效地将钥匙交给Qua",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/travelmarvel-splits-operation-of-its-first-ocean-ship-with-quark/"
+    },
+    {
+      "d": "2026-09-23",
+      "co": "swan_hellenic",
+      "title": "Swan Hellenic 的 Cruise4Oceans 加入联合国全球海岸网络",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Swan Hellenic 的 Cruise4Oceans 计划被认为是 GlobalCoast Network（联合国支持可持续发展的一项努力）内的试点。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/swan-hellenic-s-cruising4oceans-joins-un-globalcoast-network"
+    },
+    {
       "d": "2026-09-21",
       "co": "swan_hellenic",
       "title": "Swan Hellenic 的 Cruise4Oceans 计划加入 GlobalCoast 网络",
@@ -2316,27 +2336,7 @@
       "desc": "United Waterways 及其海洋部门 Ocean Advice 宣布签署为 Poseidon Expeditions 建造一艘新探险船的协议。该船将于9月从招商局交付",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/07/united-waterways-advances-newbuild-program-poseidon-to-get-new-expedition-ship/"
-    },
-    {
-      "d": "2026-07-28",
-      "co": "heritage",
-      "title": "Heritage Expeditions 的 Heritage Discovery 首个 2027-28 赛季",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "该船此前以 Exploris One 名义航行。一些北极和南极出发的航班被包租给极地纬度探险公司。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/maiden-2027-28-season-for-heritage-expeditions-heritage-discoverer"
-    },
-    {
-      "d": "2026-07-27",
-      "co": "atlas",
-      "title": "野生动物专家罗恩·马吉尔开始进行阿特拉斯南极洲探险",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "他将通过演讲、野生动物摄影研讨会和非正式对话来丰富 2027 年 3 月的航程。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/wildlife-expert-ron-magill-set-for-atlas-antarctica-expedition"
     }
   ],
-  "updated": "2026-09-23T04:11:06"
+  "updated": "2026-09-23T16:32:10"
 }
