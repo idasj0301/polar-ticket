@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-09-27",
+      "co": "seabourn",
+      "title": "世邦邮轮 Ovation 首次造访魁北克市",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "根据魁北克港分享的最新消息，世邦 Ovation 号于 2026 年 9 月 23 日首次停靠魁北克市。 Seabourn 游轮提供前往加拿大和新英格兰的 12 天航行",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/seabourn-ovation-makes-maiden-visit-to-quebec-city/"
+    },
+    {
+      "d": "2026-09-27",
+      "co": "ponant",
+      "title": "Le Commandant Charcot 纪念 Ponant 极地探险五年",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Ponant 的 Le Commandant Charcot 号自 2021 年 8 月 2 日交付以来，已经完成了五年的极地探险巡航。该船由 Fincantieri 子公司 VARD 建造，被设计为业界领先的",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/le-commandant-charcot-marks-five-years-of-polar-expeditions-for-ponant/"
+    },
+    {
       "d": "2026-09-25",
       "co": "seabourn",
       "title": "三井海洋樱花在日本开启首季",
@@ -2316,27 +2336,7 @@
       "desc": "她将于九月底从精致游轮加入。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/nicola-mcneish-joins-silversea-as-uk-sales-director"
-    },
-    {
-      "d": "2026-07-31",
-      "co": "ponant",
-      "title": "Ponant 扩大南极洲计划，2028-29 年将有 30 多个航班出发",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Ponant Explorations 宣布 2028-2029 年季，四艘船将进行 30 多次南极出发，其中包括首次全程环绕南极洲。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/ponant-expands-antarctic-programme-with-30-departures-for-2028-29"
-    },
-    {
-      "d": "2026-07-31",
-      "co": "aurora",
-      "title": "极光探险为孩子们带来了乐趣",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "半品脱啤酒可享受半价优惠。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/aurora-expeditions-makes-a-play-for-children"
     }
   ],
-  "updated": "2026-09-27T04:41:46"
+  "updated": "2026-09-27T16:43:45"
 }
