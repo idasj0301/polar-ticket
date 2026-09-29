@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-09-29",
+      "co": "ponant",
+      "title": "APT提前发布2028年金伯利探险",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Ponant 的 Le Jacques Cartier 将负责运营该航线。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/marketing/apt-s-early-release-of-2028-kimberley-expeditions"
+    },
+    {
+      "d": "2026-09-29",
+      "co": "heritage",
+      "title": "Heritage Expeditions 斐济出发的南太平洋往返航程",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "参观当地村庄和市场、深入了解二战历史以及水上和水下非凡的野生动物。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/heritage-expeditions-south-pacific-round-voyage-from-fiji"
+    },
+    {
       "d": "2026-09-28",
       "co": "hx",
       "title": "海达路德举办海上 VIP 合作伙伴峰会",
@@ -2316,27 +2336,7 @@
       "desc": "共有四趟斯堪的纳维亚/波罗的海航线，其中包括一条前往北极圈的航线，并且全程提供季票。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/ports-destinations/virgin-voyages-to-amsterdam-for-first-northern-europe-season"
-    },
-    {
-      "d": "2026-07-31",
-      "co": "heritage",
-      "title": "Heritage Expeditions 推出探索者处女航季新 7 条航程",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "Heritage Expeditions 宣布 Heritage Discoverer 2027-28 年首航季将有 7 个新航次，该航次将于 7 月 28 日发售。Heritage Discover 以前称为 Silver Explorer，",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/heritage-expeditions-unveils-new-7-voyages-for-discoverers-maiden-season/"
-    },
-    {
-      "d": "2026-07-31",
-      "co": "atlas",
-      "title": "阿特拉斯欢迎野生动物专家罗恩·马吉尔登上世界旅行者号",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Atlas Ocean Voyages 宣布国际知名野生动物专家、保护大使和屡获殊荣的野生动物摄影师 Ron Magill 将与 World Travell 的客人一起搭乘",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/07/atlas-welcomes-wildlife-expert-ron-magill-aboard-world-traveller/"
     }
   ],
-  "updated": "2026-09-29T05:10:01"
+  "updated": "2026-09-29T17:55:13"
 }
