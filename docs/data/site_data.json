@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-01",
+      "co": "ponant",
+      "title": "Ponant 与 Aviate 打包邮轮合作伙伴关系上线",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Ponant Travel Collection 推出，让英国代理商可以通过 Aviate 享受全套 Ponant Explorations 邮轮服务。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/marketing/ponant-aviate-packaged-cruise-partnership-goes-live"
+    },
+    {
       "d": "2026-09-30",
       "co": "unknown",
       "title": "UnCruise 开放 2027 年冬季 28 年墨西哥远征游轮预订",
@@ -2326,17 +2336,7 @@
       "desc": "阿特拉斯海洋航行 (Atlas Ocean Voyages) 推出了非凡探险 (Extraordinary Expeditions)，这是其豪华探险帆船阿特拉斯冒险家号 (Atlas Adventurer) 的四次长途航行，该船将于 2028 年 11 月首次亮相。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/atlas-ocean-adds-4-extended-voyages-to-adventurers-inaugural-season/"
-    },
-    {
-      "d": "2026-08-03",
-      "co": "lindblad",
-      "title": "Lindblad 报告 2026 年第二季度财务业绩",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Lindblad Expeditions Holdings 公布了截至 2026 年 6 月 30 日的第二季度财务业绩。首席执行官 Natalya Leahy 表示：“我们的第二季度业绩再次恶魔",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/lindblad-reports-2026-second-quarter-financial-results/"
     }
   ],
-  "updated": "2026-10-01T05:10:46"
+  "updated": "2026-10-01T18:16:26"
 }
