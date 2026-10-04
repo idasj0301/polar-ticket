@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-04",
+      "co": "seabourn",
+      "title": "世鹏公布 2026-27 南极洲探险队",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "世鹏介绍了 2026-27 南极赛季的探险队。 2026 年 11 月至 2027 年 3 月期间，Seabourn Venture 和 Seabourn Pursuit 将提供 19 个从美国出发的往返航班",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/seabourn-unveils-2026-27-antarctica-expedition-team/"
+    },
+    {
       "d": "2026-10-03",
       "co": "hapag_lloyd",
       "title": "赫伯罗特 (Hapag-Lloyd) 2027 年夏季探险活动亮点",
@@ -2326,17 +2336,7 @@
       "desc": "Scenic Group 重点介绍了 2027 年 2 月乘坐 Scenic Eclipse 和 Scenic Eclipse II 进行的南极洲航行。   客人可以在极地专家探索团队的陪同下探索该地区",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/scenic-showcases-eclipses-2027-antarctica-voyages/"
-    },
-    {
-      "d": "2026-08-06",
-      "co": "atlas",
-      "title": "Atlas Ocean 的欧洲 2028：更多波罗的海，重返埃及和土耳其",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Atlas Ocean Voyages 宣布了欧洲 2028 计划，航行时间为 2028 年 4 月至 9 月。该航线横跨地中海和北欧，行程将著名地标与 sma 结合在一起",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/atlas-oceans-europe-2028-more-baltic-return-to-egypt-and-turkey/"
     }
   ],
-  "updated": "2026-10-04T05:14:39"
+  "updated": "2026-10-04T16:41:18"
 }
