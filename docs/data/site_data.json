@@ -1338,6 +1338,36 @@
   ],
   "news": [
     {
+      "d": "2026-10-05",
+      "co": "hapag_lloyd",
+      "title": "Susset 退休后，Kebschull 将领导赫伯罗特游轮",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "根据公司声明，赫伯罗特邮轮董事总经理伊索尔德·苏塞特 (Isolde Susset) 将于今年年底退休，此前他已在该邮轮公司工作了 30 年。她将继续留任直至",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/kebschull-to-lead-hapag-lloyd-cruises-as-susset-retires/"
+    },
+    {
+      "d": "2026-10-05",
+      "co": "hapag_lloyd",
+      "title": "汉萨精神号成为访问英国伊普斯威奇的最大游轮",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "赫伯罗特游轮探险船在从冰岛到德国的 13 晚航程中访问了伊普斯威奇港口。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/hanseatic-spirit-becomes-largest-cruise-ship-to-visit-ipswich-uk"
+    },
+    {
+      "d": "2026-10-05",
+      "co": "unknown",
+      "title": "日本是 Virtuoso 最受青睐的目的地",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "顶级游轮行程依次为地中海、阿拉斯加、希腊群岛、南极洲和多瑙河，多世代旅行与探险游轮融合在一起，被称为“Gen-XYZ-peditio”",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/resources/japan-is-virtuoso-s-most-requested-destination"
+    },
+    {
       "d": "2026-10-04",
       "co": "seabourn",
       "title": "世鹏公布 2026-27 南极洲探险队",
@@ -2306,37 +2336,7 @@
       "desc": "Ponant Explorations 与法国泳装品牌 Vilebrequin 建立独家合作，以海洋主题为灵感打造限量版男士泳裤。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/ponant-partners-with-vilebrequin-for-exclusive-swimwear-collection"
-    },
-    {
-      "d": "2026-08-07",
-      "co": "atlas",
-      "title": "Secret Atlas 增加南极探险船 Aureum",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Secret Atlas 宣布将 Aureum 添加到其探险组合中，标志着该运营商通过与 Antarpply Expeditions 合作将业务扩展到南极洲业务。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/secret-atlas-adds-antarctic-expedition-ship-aureum"
-    },
-    {
-      "d": "2026-08-06",
-      "co": "antarctica21",
-      "title": "Antarctica21 与徕卡合作增强野生动物观赏",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Antarctica21 与徕卡合作，提升客人的南极空中巡航体验。   从 2026-27 赛季开始，徕卡的设备和专业知识将在整个南极洲展示",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/antarctica21-teams-up-with-leica-to-enhance-wildlife-viewing/"
-    },
-    {
-      "d": "2026-08-06",
-      "co": "scenic",
-      "title": "风景优美的 Eclipse 2027 年南极洲航行",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Scenic Group 重点介绍了 2027 年 2 月乘坐 Scenic Eclipse 和 Scenic Eclipse II 进行的南极洲航行。   客人可以在极地专家探索团队的陪同下探索该地区",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/scenic-showcases-eclipses-2027-antarctica-voyages/"
     }
   ],
-  "updated": "2026-10-05T04:58:19"
+  "updated": "2026-10-05T20:25:59"
 }
