@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-10-06",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗特的 Europa 和 Europa 2 将于 2027 年前往干船坞",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "赫伯罗特邮轮公司宣布其两艘游轮 Europa 和 Europa 2 将于明年驶入干船坞。首先是 Europa 2，计划于 1 月进入新加坡干船坞",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/hapag-lloyds-europa-and-europa-2-heading-to-drydock-in-2027/"
+    },
+    {
+      "d": "2026-10-06",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗特邮轮公司总经理 Isolde Susset 退休，Salika Kebschull 被任命为继任者",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "伊索尔德·苏塞特 (Isolde Susset) 在赫伯罗特 (Hapag-Lloyd) 任职三十年后将于年底退休，萨利卡·凯布舒尔 (Salika Kebschull) 在过渡期后于 2027 年 1 月接任。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/hapag-lloyd-cruises-md-isolde-susset-retiring-salika-kebschull-named-successor"
+    },
+    {
       "d": "2026-10-05",
       "co": "hapag_lloyd",
       "title": "Susset 退休后，Kebschull 将领导赫伯罗特游轮",
@@ -2316,27 +2336,7 @@
       "desc": "这些是 16 次极地探险和 6 次发现探险的补充。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/cultural-expeditions-in-aurora-s-2028-northern-hemisphere-season"
-    },
-    {
-      "d": "2026-08-07",
-      "co": "heritage",
-      "title": "遗产发现者号在首航之前离开干船坞",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "发现者号最近在不来梅港完成了干船坞，准备进行遗产探险的首次航行。根据该公司分享的最新消息，该船正在准备迎接通过",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/heritage-discoverer-leaves-drydock-ahead-of-maiden-cruise/"
-    },
-    {
-      "d": "2026-08-07",
-      "co": "ponant",
-      "title": "Ponant 与 Vilebrequin 合作推出独家泳装系列",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Ponant Explorations 与法国泳装品牌 Vilebrequin 建立独家合作，以海洋主题为灵感打造限量版男士泳裤。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/ponant-partners-with-vilebrequin-for-exclusive-swimwear-collection"
     }
   ],
-  "updated": "2026-10-06T05:46:09"
+  "updated": "2026-10-06T18:09:48"
 }
