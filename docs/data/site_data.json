@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-07",
+      "co": "silversea",
+      "title": "新 S.A.L.T.银海邮轮 2028/29 南美洲美食之旅",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "另外值得注意的是：独特的卡努安岛目的地体验、美妙地点的新年前夜和狂欢节、新鲜的行程组合和首次拜访。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/new-s-a-l-t-culinary-voyages-s-america-in-silversea-s-2028-29"
+    },
+    {
       "d": "2026-10-06",
       "co": "hapag_lloyd",
       "title": "赫伯罗特的 Europa 和 Europa 2 将于 2027 年前往干船坞",
@@ -2326,17 +2336,7 @@
       "desc": "Antarpply Expeditions 宣布计划在 2027-28 南极洲季节之前为其船队增加第二艘探险船。根据社交媒体更新，Aureum 将提供精品游轮",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/antarpply-to-add-new-boutique-ship-to-fleet-in-2027/"
-    },
-    {
-      "d": "2026-08-08",
-      "co": "aurora",
-      "title": "2028年北半球极光季文化探险",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "这些是 16 次极地探险和 6 次发现探险的补充。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/cultural-expeditions-in-aurora-s-2028-northern-hemisphere-season"
     }
   ],
-  "updated": "2026-10-06T18:09:48"
+  "updated": "2026-10-07T05:17:47"
 }
