@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-10-08",
+      "co": "unknown",
+      "title": "加拿大探险公司 (Adventure Canada) 推出 2028 年探险探险系列",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "加拿大探险公司 (Adventure Canada) 宣布将扩大其 2028 年探险项目组合，新增穿越加拿大北极、北欧和南极洲的旅程。该系列推出了新的东门",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/adventure-canada-unveils-expanded-2028-expedition-collection/"
+    },
+    {
+      "d": "2026-10-08",
+      "co": "atlas",
+      "title": "Atlas Ocean 2028-29 南极洲德雷克飞行和航行计划加倍",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Atlas Ocean Voyages 公布了 2028-29 南极洲航季，从 2028 年 10 月到 2029 年 3 月期间将有 25 次探险活动。新航季将 Atlas 的 Drake Fly & Sail 计划扩大到 4 次。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/atlas-ocean-doubles-drake-fly-sail-program-for-2028-29-antarctica/"
+    },
+    {
       "d": "2026-10-07",
       "co": "silversea",
       "title": "银海邮轮推出 103 趟 2028-29 年新航次",
@@ -2316,27 +2336,7 @@
       "desc": "弗雷德·奥尔森游轮公司 (Fred Olsen Cruise Lines) 推出 2028 年 87 晚亚马逊和南极洲航线后，创下了公司历史上最强劲的单日交易记录。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/marketing/fred-olsen-hits-record-sales-with-amazon-and-antarctica-grand-voyage"
-    },
-    {
-      "d": "2026-08-09",
-      "co": "atlas",
-      "title": "阿特拉斯海洋纪念世界航海家五岁生日",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Atlas Ocean Voyages 正在庆祝 World Navigator 诞生五周年。该船于2021年8月4日作为该品牌的第一艘船启航，探索地中海",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/atlas-ocean-marks-world-navigators-fifth-birthday/"
-    },
-    {
-      "d": "2026-08-09",
-      "co": "aurora",
-      "title": "极光揭晓 2028 年北半球季节",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "极光探险队 (Aurora Expeditions) 2028 年北半球旅游季已开放预订，共有 29 支探险队出发，横跨 20 个国家和地区，并推出 7 艘全新文化探险队",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/aurora-unveils-2028-northern-hemisphere-season/"
     }
   ],
-  "updated": "2026-10-08T05:27:19"
+  "updated": "2026-10-08T18:41:03"
 }
