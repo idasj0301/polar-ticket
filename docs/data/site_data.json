@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-09",
+      "co": "hx",
+      "title": "HX Expeditions 在北极记录了 26,491 项科学贡献",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "HX Expeditions 完成了有史以来最大规模的北极科学数据收集，其中包括数千名公民科学贡献和一项重大的人工智能鲸鱼探测试验。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/hx-expeditions-records-26-491-science-contributions-in-arctic"
+    },
+    {
       "d": "2026-10-08",
       "co": "unknown",
       "title": "加拿大探险公司 (Adventure Canada) 推出 2028 年探险探险系列",
@@ -2326,17 +2336,7 @@
       "desc": "联合水道公司的海洋建设计划取得进展，订购了一艘额外的沿海和探险船。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/shipbuilding-equipment/poseidon-expeditions-takes-ocean-advice-china-newbuild"
-    },
-    {
-      "d": "2026-08-11",
-      "co": "unknown",
-      "title": "弗雷德.奥尔森凭借亚马逊和南极洲大航海创下销售纪录",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "弗雷德·奥尔森游轮公司 (Fred Olsen Cruise Lines) 推出 2028 年 87 晚亚马逊和南极洲航线后，创下了公司历史上最强劲的单日交易记录。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/marketing/fred-olsen-hits-record-sales-with-amazon-and-antarctica-grand-voyage"
     }
   ],
-  "updated": "2026-10-09T05:30:52"
+  "updated": "2026-10-09T18:11:53"
 }
