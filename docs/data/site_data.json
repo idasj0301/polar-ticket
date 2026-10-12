@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-12",
+      "co": "atlas",
+      "title": "Atlas Ocean Voyages 2028/29 季 Drake 航班和游轮班次增加了一倍",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "Atlas Ocean Voyages 还提供前往南乔治亚岛和福克兰群岛的长途旅行。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/atlas-ocean-voyages-doubles-drake-fly-cruise-departures-for-2028-29-season"
+    },
+    {
       "d": "2026-10-09",
       "co": "hx",
       "title": "HX Expeditions 在北极记录了 26,491 项科学贡献",
@@ -2326,17 +2336,7 @@
       "desc": "弗雷德.奥尔森游轮公司 (Olsen Cruise Lines) 的 2028 亚马逊和南极洲远航 (2028 Amazon and Antarctica Grand Voyage) 于 7 月 22 日发售，创下了该游轮公司历史上最强劲的单日交易记录。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/fred-olsen-sees-strongest-trading-day-ever-with-2028-grand-voyage-launch/"
-    },
-    {
-      "d": "2026-08-11",
-      "co": "poseidon",
-      "title": "波塞冬探险队接受海洋建议中国新船",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "联合水道公司的海洋建设计划取得进展，订购了一艘额外的沿海和探险船。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/shipbuilding-equipment/poseidon-expeditions-takes-ocean-advice-china-newbuild"
     }
   ],
-  "updated": "2026-10-12T05:19:32"
+  "updated": "2026-10-12T21:07:10"
 }
