@@ -1339,6 +1339,26 @@
   "news": [
     {
       "d": "2026-10-14",
+      "co": "seabourn",
+      "title": "世邦航空 2029 年夏季：重返埃及、更多北欧",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "世邦邮轮 (Seabourn) 推出了 2029 年夏季远洋航程，共有 166 趟航班，前往地中海、北欧、阿拉斯加、加拿大和新英格兰的 180 多个目的地。亮点包括",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/seabourns-2029-summer-season-return-to-egypt-more-northern-europe/"
+    },
+    {
+      "d": "2026-10-14",
+      "co": "seabourn",
+      "title": "埃及将于 2029 年重回世邦航空及更多北欧航线排行榜",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "地中海、阿拉斯加和加拿大/新英格兰也可在夏季和秋季开放。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/ports-destinations/egypt-back-in-the-charts-for-seabourn-plus-more-n-europe-in-2029"
+    },
+    {
+      "d": "2026-10-14",
       "co": "ponant",
       "title": "Ponant 宣布 2028-29 赛季 12 条探险行程",
       "cat": "航线",
@@ -2316,27 +2336,7 @@
       "desc": "Seabourn 已开放 2028-29 年冬季加勒比季节的预订。   世邦 Ovation 和世邦 Quest 于 2028 年 12 月 28 日至 2029 年 3 月 29 日期间航行，本季节有 10 个行程",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/seabourn-unveils-2028-29-caribbean-voyages/"
-    },
-    {
-      "d": "2026-08-12",
-      "co": "scenic",
-      "title": "汉堡港迎来 Scenic Eclipse II 的首次访问",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "据社交媒体更新消息，本月早些时候，汉堡迎来了 Scenic Eclipse II 的首次访问。这艘2023年建造的邮轮停靠在港口新城邮轮码头，也标志着首艘邮轮",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/port-of-hamburg-welcomes-scenic-eclipse-iis-maiden-visit/"
-    },
-    {
-      "d": "2026-08-12",
-      "co": "unknown",
-      "title": "游轮在冰岛-格陵兰日食路径上的位置",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "邮轮业协调了在北极水域的大量船只部署，将船只从冰岛部署到格陵兰岛，以供乘客准备目睹罕见的日全食。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/cruise-fleet-positions-in-iceland-for-total-solar-eclipse"
     }
   ],
-  "updated": "2026-10-14T04:19:40"
+  "updated": "2026-10-14T16:53:56"
 }
