@@ -1339,6 +1339,36 @@
   "news": [
     {
       "d": "2026-10-16",
+      "co": "hapag_lloyd",
+      "title": "赫伯罗特聚焦 2027 年 Europa 上的时事会谈",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "赫伯罗特邮轮重点介绍了 Europa Talks（原 Europa Salon），这是其讨论当前主题以及 2027 年 Europa 精选航线的发展动态的平台。 专家",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/hapag-lloyd-spotlights-current-affairs-talks-aboard-europa-in-2027/"
+    },
+    {
+      "d": "2026-10-16",
+      "co": "ponant",
+      "title": "马里兰州邮轮庆祝 L’Austral 首次到访",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "据 Cruise Maryland 报道，巴尔的摩港于 2026 年 10 月 13 日首次迎来 Ponant Explorations 旗下的 L’Austral。地方当局和船舶官员举办了特别欢迎会",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/cruise-maryland-celebrates-maiden-visit-of-laustral/"
+    },
+    {
+      "d": "2026-10-16",
+      "co": "swan_hellenic",
+      "title": "Swan Hellenic 确认 2027 年将进行六次 SETI 巡航",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Swan Hellenic 与 SETI 研究所的科学家一起展开了“探索海上太空”航行，横跨太平洋、大西洋、北极和南极地区。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/swan-hellenic-confirms-six-seti-cruises-for-2027"
+    },
+    {
+      "d": "2026-10-16",
       "co": "swan_hellenic",
       "title": "Swan Hellenic to Host SETI Experts for 2027 Explore Space at Sea",
       "cat": "行业动态",
@@ -2306,37 +2336,7 @@
       "desc": "Ponant Explorations 宣布了其 2027 年伍兹霍尔海洋研究所南极洲航行的专家团队，其中包括四位顶尖科学家。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/ponant-announces-expert-lineup-for-2027-woods-hole-voyages"
-    },
-    {
-      "d": "2026-08-14",
-      "co": "lindblad",
-      "title": "2028 年阿拉斯加 NCL、MSC、Lindblad 会做什么",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "精选的大、中、小型船只展示了游览第 49 个州的多种方式。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/what-s-cooking-for-ncl-msc-lindblad-in-2028-alaska"
-    },
-    {
-      "d": "2026-08-13",
-      "co": "atlas",
-      "title": "Atlas 在 2028 年帆船游艇首次亮相之前选择 Versonix Seaware",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Atlas Ocean Voyages 已选择 Versonix 的 Seaware 平台来支持其下一阶段的增长，该豪华探险系列正在为 2028 年 Atlas Adventurer 的首次亮相做准备。海洁公司",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/atlas-ocean-voyages-selects-versonix-seaware-ahead-of-2028-sailing-yacht-debut/"
-    },
-    {
-      "d": "2026-08-13",
-      "co": "atlas",
-      "title": "Versonix Seaware 是 Atlas Ocean Voyages 的选择",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "随着公司的发展，该软件提供了一个可扩展的平台。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/information-technology/versonix-seaware-is-the-choice-of-atlas-ocean-voyages"
     }
   ],
-  "updated": "2026-10-16T03:58:39"
+  "updated": "2026-10-16T16:23:18"
 }
