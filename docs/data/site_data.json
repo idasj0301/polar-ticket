@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-16",
+      "co": "swan_hellenic",
+      "title": "Swan Hellenic to Host SETI Experts for 2027 Explore Space at Sea",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Swan Hellenic has announced details of its 2027 Explore Space at Sea Series, created in partnership with the SETI Institute, an organization searching",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/swan-hellenic-to-host-seti-experts-for-2027-explore-space-at-sea/"
+    },
+    {
       "d": "2026-10-14",
       "co": "seabourn",
       "title": "世邦航空 2029 年夏季：重返埃及、更多北欧",
@@ -2326,17 +2336,7 @@
       "desc": "随着公司的发展，该软件提供了一个可扩展的平台。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/information-technology/versonix-seaware-is-the-choice-of-atlas-ocean-voyages"
-    },
-    {
-      "d": "2026-08-12",
-      "co": "seabourn",
-      "title": "世邦邮轮推出 2028-29 加勒比海航线",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Seabourn 已开放 2028-29 年冬季加勒比季节的预订。   世邦 Ovation 和世邦 Quest 于 2028 年 12 月 28 日至 2029 年 3 月 29 日期间航行，本季节有 10 个行程",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/seabourn-unveils-2028-29-caribbean-voyages/"
     }
   ],
-  "updated": "2026-10-15T16:40:34"
+  "updated": "2026-10-16T03:58:39"
 }
