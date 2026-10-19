@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-10-19",
+      "co": "lindblad",
+      "title": "Lindblad 将报告 2026 年第三季度财务业绩",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Lindblad Expeditions Holdings 宣布将于 2026 年 11 月 3 日星期二开盘前公布 2026 年第三季度财务业绩。该公司还将举办音频会议",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/lindblad-to-report-2026-third-quarter-financial-results/"
+    },
+    {
+      "d": "2026-10-19",
+      "co": "lindblad",
+      "title": "Lindblad 将于 11 月 3 日公布第三季度财务业绩",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "当天计划与分析师进行电话会议。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/lindblad-to-report-third-quarter-financial-results-nov-3"
+    },
+    {
       "d": "2026-10-16",
       "co": "hapag_lloyd",
       "title": "赫伯罗特聚焦 2027 年 Europa 上的时事会谈",
@@ -2316,27 +2336,7 @@
       "desc": "7 至 12 天迈阿密往返和巴巴多斯-圣路易斯提供圣马丁游轮服务。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/ports-destinations/seabourn-s-2028-29-caribbean-is-open-to-book"
-    },
-    {
-      "d": "2026-08-14",
-      "co": "atlas",
-      "title": "Atlas Ocean Voyages 推出 2028 年欧洲 37 航次系列",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "该系列扩大了波罗的海业务，同时重返埃及和土耳其。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/atlas-ocean-voyages-launches-37-voyage-europe-2028-collection"
-    },
-    {
-      "d": "2026-08-14",
-      "co": "ponant",
-      "title": "Ponant 宣布 2027 年伍兹霍尔航程专家阵容",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Ponant Explorations 宣布了其 2027 年伍兹霍尔海洋研究所南极洲航行的专家团队，其中包括四位顶尖科学家。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/ponant-announces-expert-lineup-for-2027-woods-hole-voyages"
     }
   ],
-  "updated": "2026-10-19T04:04:12"
+  "updated": "2026-10-19T18:34:21"
 }
