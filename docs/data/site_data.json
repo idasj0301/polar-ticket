@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-20",
+      "co": "lindblad",
+      "title": "Sven Lindblad 出售 Lindblad Expeditions 股票 560 万美元",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "这是在该股交易接近 52 周高点时发生的。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/sven-lindblad-sells-5-6m-in-lindblad-expeditions-stock"
+    },
+    {
       "d": "2026-10-19",
       "co": "lindblad",
       "title": "Lindblad 将报告 2026 年第三季度财务业绩",
@@ -2326,17 +2336,7 @@
       "desc": "Mein Schiff 7 最近在前往北欧和北极的 17 晚航行中航行到挪威斯瓦尔巴群岛。 TUI Cruises 游轮从基尔母港出发往返",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/tuis-mein-schiff-7-sails-to-svalbard/"
-    },
-    {
-      "d": "2026-08-15",
-      "co": "seabourn",
-      "title": "世邦邮轮 2028/29 加勒比海航线已开放预订",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "7 至 12 天迈阿密往返和巴巴多斯-圣路易斯提供圣马丁游轮服务。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/seabourn-s-2028-29-caribbean-is-open-to-book"
     }
   ],
-  "updated": "2026-10-20T04:17:16"
+  "updated": "2026-10-20T16:37:38"
 }
