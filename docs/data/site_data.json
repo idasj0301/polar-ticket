@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-10-21",
+      "co": "lindblad",
+      "title": "国家地理决议：林德布拉德服务五年",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "国家地理分辨率号最近完成了五年的服役，于 2021 年 9 月 30 日交付给 Lindblad Expeditions。它是 2020 年建造的国家地理 Enduran 的姐妹船",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/national-geographic-resolution-five-years-of-service-for-lindblad/"
+    },
+    {
+      "d": "2026-10-21",
       "co": "silversea",
       "title": "银海南极洲季节在 55 南提供鸬鹚预览",
       "cat": "促销",
@@ -2326,17 +2336,7 @@
       "desc": "北极探险游轮运营商协会获得额外资金，将其气候变化项目延长至 2028 年，重点关注排放报告和北极港口基础设施建设",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/aeco-secures-nok-400k-for-arctic-cruise-emissions-project"
-    },
-    {
-      "d": "2026-08-18",
-      "co": "lindblad",
-      "title": "Nat Geo-Lindblad 的首条欧洲内河游轮启航",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Transcend Connect 标志着国家地理 - Lindblad Expeditions 到 2027 年区域扩张计划的开始。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/river-cruising/nat-geo-lindblad-launches-european-river-cruises-with-new-ship"
     }
   ],
-  "updated": "2026-10-21T04:05:44"
+  "updated": "2026-10-21T16:56:03"
 }
