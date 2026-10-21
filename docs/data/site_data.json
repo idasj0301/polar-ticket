@@ -1338,6 +1338,46 @@
   ],
   "news": [
     {
+      "d": "2026-10-21",
+      "co": "silversea",
+      "title": "银海南极洲季节在 55 南提供鸬鹚预览",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "银海邮轮 2026-27 南极洲航季包括首次从乔治王岛出发的银奋号和从智利威廉姆斯港出发的银风号，游客将提前预览",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/silversea-antarctica-season-offers-cormorant-at-55-south-previews/"
+    },
+    {
+      "d": "2026-10-21",
+      "co": "seabourn",
+      "title": "世邦邮轮 (Seabourn) 推出地球与海洋烹饪理念",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "世鹏宣布推出“地球与海洋”这一烹饪理念，将全球美食食材与目的地美食相结合。世邦说，这个哲学",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/seabourn-introduces-earth-ocean-culinary-philosophy/"
+    },
+    {
+      "d": "2026-10-21",
+      "co": "silversea",
+      "title": "安缦海上聘请 Ertan Vasvi 船长，延长加勒比季节",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "他带来了世邦邮轮 (Seabourn) 和银海邮轮 (Silversea) 的经验，新宣布的航程对已经概述的 2027 年秋季航程进行了补充。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/aman-at-sea-taps-capt-ertan-vasvi-extends-caribbean-season"
+    },
+    {
+      "d": "2026-10-21",
+      "co": "silversea",
+      "title": "银海邮轮以其全新的智利酒店门户开启南极季节",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "位于威廉姆斯港 55 South 的 Cormorant 号称是世界上最南端的酒店。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/silversea-opens-antarctica-season-with-its-new-chile-hotel-gateway"
+    },
+    {
       "d": "2026-10-20",
       "co": "lindblad",
       "title": "Sven Lindblad 出售 Lindblad Expeditions 股票 560 万美元",
@@ -2296,47 +2336,7 @@
       "desc": "Transcend Connect 标志着国家地理 - Lindblad Expeditions 到 2027 年区域扩张计划的开始。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/river-cruising/nat-geo-lindblad-launches-european-river-cruises-with-new-ship"
-    },
-    {
-      "d": "2026-08-17",
-      "co": "quark",
-      "title": "夸克船在格陵兰岛上空捕获日食",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "夸克探险队的群青号和海洋探索号船上的客人于 2026 年 8 月 12 日在格陵兰岛哈峡湾目睹了日全食。  第一次可见的日全食",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/quark-ships-catch-solar-eclipse-above-greenland/"
-    },
-    {
-      "d": "2026-08-16",
-      "co": "oceanwide",
-      "title": "泛海客人在格陵兰岛东北部看到日全食",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Oceanwide Expeditions 公司两艘船上的客人在 8 月 12 日围绕日全食线设计的行程中，在格陵兰岛东北部的斯科斯比松德欣赏了日全食，",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/total-eclipse-seen-by-oceanwide-guests-in-northeast-greenland/"
-    },
-    {
-      "d": "2026-08-15",
-      "co": "ponant",
-      "title": "Ponant 和 WHOI 宣布 2027 年南极洲航行阵容",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Ponant Explorations 与伍兹霍尔海洋研究所 (WHOI) 宣布，专家组将加入 2027 年“南极洲：与伍兹霍尔海洋研究所共同想象的海洋”",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/ponant-and-whoi-announce-lineup-for-2027-antarctica-voyage/"
-    },
-    {
-      "d": "2026-08-15",
-      "co": "unknown",
-      "title": "TUI 的 Mein Schiff 7 航行至斯瓦尔巴群岛",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Mein Schiff 7 最近在前往北欧和北极的 17 晚航行中航行到挪威斯瓦尔巴群岛。 TUI Cruises 游轮从基尔母港出发往返",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/tuis-mein-schiff-7-sails-to-svalbard/"
     }
   ],
-  "updated": "2026-10-20T16:37:38"
+  "updated": "2026-10-21T04:05:44"
 }
