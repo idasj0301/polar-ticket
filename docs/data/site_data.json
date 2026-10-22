@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-22",
+      "co": "atlas",
+      "title": "Atlas 推出 Atlas Adventurer 号专属主人套房",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Atlas Ocean Voyages 公布了 Atlas Adventurer 号上其专属船东套房的详细信息，该套房计划于 2028 年末首次亮相。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/atlas-reveals-exclusive-owners-suite-on-atlas-adventurer/"
+    },
+    {
       "d": "2026-10-21",
       "co": "lindblad",
       "title": "国家地理决议：林德布拉德服务五年",
@@ -2326,17 +2336,7 @@
       "desc": "据 High North News 报道，格陵兰岛政府建议游轮避免在部分峡湾地区航行。新闻来源报道称，该建议是在询问之后做出的",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/greenland-recommends-limiting-cruise-ship-activities/"
-    },
-    {
-      "d": "2026-08-18",
-      "co": "unknown",
-      "title": "AECO 为北极游轮排放项目获得 40 万挪威克朗",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "北极探险游轮运营商协会获得额外资金，将其气候变化项目延长至 2028 年，重点关注排放报告和北极港口基础设施建设",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/aeco-secures-nok-400k-for-arctic-cruise-emissions-project"
     }
   ],
-  "updated": "2026-10-21T16:56:03"
+  "updated": "2026-10-22T04:06:36"
 }
