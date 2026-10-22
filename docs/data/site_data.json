@@ -1339,6 +1339,36 @@
   "news": [
     {
       "d": "2026-10-22",
+      "co": "unknown",
+      "title": "赫尔辛基造船厂：向探险游轮敞开大门",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "赫尔辛基造船厂突然忙于建造破冰船和防御船，但它仍向探险游轮敞开大门。破冰船业务背后的专业知识也是其成功的原因",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/helsinki-shipyard-door-open-to-expedition-cruise-ships/"
+    },
+    {
+      "d": "2026-10-22",
+      "co": "oceanwide",
+      "title": "Oceanwide Expeditions 发布第一份 ESG 报告",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "首席执行官雷米·布伊塞特 (Rémi Bouysset) 称这是重要的一步，旨在透明化公司的现状、已取得的成就以及仍需改进的地方。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/oceanwide-expeditions-publishes-its-first-esg-report"
+    },
+    {
+      "d": "2026-10-22",
+      "co": "antarctica21",
+      "title": "Antarctica21 开放 2028-29 航空邮轮季预​​订",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "共有 47 个班次，这标志着该探险游轮运营商迄今为止最大的南极航空游轮季节，所有行程均以智利蓬塔阿雷纳斯为起点和终点。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/antarctica21-opens-bookings-for-2028-29-air-cruise-season"
+    },
+    {
+      "d": "2026-10-22",
       "co": "atlas",
       "title": "Atlas 推出 Atlas Adventurer 号专属主人套房",
       "cat": "航线",
@@ -2306,37 +2336,7 @@
       "desc": "银海邮轮已启程踏上 2026 年南太平洋大远征之旅，搭乘银云号从西澳大利亚弗里曼特尔（珀斯）出发前往智利瓦尔帕莱索，为期 77 天。航程停靠 57 目的地",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/silversea-sets-sail-on-2026-grand-south-pacific-expedition/"
-    },
-    {
-      "d": "2026-08-20",
-      "co": "heritage",
-      "title": "新西兰遗产探险队的澳大利亚路演",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Heritage Discoverer 2027-28 赛季首个赛季的部署细节正在分享。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/australian-road-show-for-new-zealand-s-heritage-expeditions"
-    },
-    {
-      "d": "2026-08-19",
-      "co": "silversea",
-      "title": "Silversea 的目标是 2028-29 年探索较少的希腊岛屿",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Silversea 的全新 Voyage Collection 2028-2029 瞄准了偏远的北大西洋和地中海岛屿。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/ports-destinations/silversea-targets-lesser-explored-greek-islands-for-2028-29"
-    },
-    {
-      "d": "2026-08-18",
-      "co": "unknown",
-      "title": "格陵兰岛建议限制游轮活动",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "据 High North News 报道，格陵兰岛政府建议游轮避免在部分峡湾地区航行。新闻来源报道称，该建议是在询问之后做出的",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/greenland-recommends-limiting-cruise-ship-activities/"
     }
   ],
-  "updated": "2026-10-22T04:06:36"
+  "updated": "2026-10-22T16:55:39"
 }
