@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-10-23",
+      "co": "oceanwide",
+      "title": "泛海ESG报告指出两艘新船",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Oceanwide Expeditions 刚刚发布了第一份环境、社会和治理 (ESG) 报告。它涵盖了减少环境影响的努力，以及对科学和准备的更多支持",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/oceanwide-esg-report-points-to-2-new-ships/"
+    },
+    {
+      "d": "2026-10-23",
+      "co": "quark",
+      "title": "NHLPA 和 Quark 向努勒维特青少年捐赠曲棍球装备和设备",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "国家冰球联盟球员协会的慈善机构 NHLPA 目标与梦想和夸克探险队向 Panniqtuuq Minor Hock 捐赠并交付了 15 套全套冰球装备",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/nhlpa-and-quark-donate-hockey-sets-and-equipment-to-nunavut-youth/"
+    },
+    {
       "d": "2026-10-22",
       "co": "unknown",
       "title": "赫尔辛基造船厂：向探险游轮敞开大门",
@@ -2316,27 +2336,7 @@
       "desc": "海达路德 (Hurtigruten) 推出了名为“北方欢乐：斯瓦尔巴群岛和北极挪威”的新六日游，扩大了其北极探险服务。该公司表示，新产品已上市",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/hurtigruten-expands-arctic-exploration-with-northern-delights-voyage/"
-    },
-    {
-      "d": "2026-08-23",
-      "co": "silversea",
-      "title": "Silver Whisper 已满 25 岁，预订开放至 2029 年",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Silver Whisper 号于 2001 年 6 月 15 日交付，最近为 Silversea 服务了 25 年。这艘豪华船在意大利 T. Mariotti 造船厂建造，被设计为 si",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/silver-whisper-turns-25-with-bookings-open-through-2029/"
-    },
-    {
-      "d": "2026-08-23",
-      "co": "silversea",
-      "title": "银海邮轮2026南太平洋探险启航",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "银海邮轮已启程踏上 2026 年南太平洋大远征之旅，搭乘银云号从西澳大利亚弗里曼特尔（珀斯）出发前往智利瓦尔帕莱索，为期 77 天。航程停靠 57 目的地",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/silversea-sets-sail-on-2026-grand-south-pacific-expedition/"
     }
   ],
-  "updated": "2026-10-23T04:10:00"
+  "updated": "2026-10-23T16:47:35"
 }
