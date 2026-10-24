@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-24",
+      "co": "lindblad",
+      "title": "Sven Lindblad 出售 Lindblad Expeditions 股票 860 万美元",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "紧接着他出售了价值 560 万美元的股票。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/sven-lindblad-sells-8-6m-in-lindblad-expeditions-stock"
+    },
+    {
       "d": "2026-10-23",
       "co": "oceanwide",
       "title": "泛海ESG报告指出两艘新船",
@@ -2326,17 +2336,7 @@
       "desc": "Polar expedition voyages drive massive growth alongside fast-rising demand for new Asia-Pacific and Africa itineraries.",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/swan-hellenic-reports-record-breaking-july"
-    },
-    {
-      "d": "2026-08-25",
-      "co": "hx",
-      "title": "海达路德 (Hurtigruten) 通过 Northern Delights Voyage 拓展北极探险",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "海达路德 (Hurtigruten) 推出了名为“北方欢乐：斯瓦尔巴群岛和北极挪威”的新六日游，扩大了其北极探险服务。该公司表示，新产品已上市",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/hurtigruten-expands-arctic-exploration-with-northern-delights-voyage/"
     }
   ],
-  "updated": "2026-10-23T16:47:35"
+  "updated": "2026-10-24T04:02:20"
 }
