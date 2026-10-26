@@ -1338,6 +1338,36 @@
   ],
   "news": [
     {
+      "d": "2026-10-26",
+      "co": "lindblad",
+      "title": "彼得·希拉里 (Peter Hillary) 将参加林德布拉德国家精选探险队",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "国家地理-林布拉德探险队宣布，著名登山家和慈善家彼得·希拉里 (Peter Hillary) 将参加 2027 年 5 月和 12 月的阿拉斯加和南极洲探险活动。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/peter-hillary-to-join-select-national-lindblad-expeditions/"
+    },
+    {
+      "d": "2026-10-26",
+      "co": "unknown",
+      "title": "北极船长将于 11 月在北极首次亮相之前交接",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "随着海试的推进、2027 年北极计划的形成以及早期预订的增加，Selar 的 Captain Arctic 即将于 11 月在毛里求斯进行交接。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/captain-arctic-set-for-november-handover-ahead-of-arctic-debut"
+    },
+    {
+      "d": "2026-10-26",
+      "co": "unknown",
+      "title": "AECO 加强北极排放报告的新措施",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "通用燃料报告框架将有助于建立排放基线、跟踪一段时间内的发展情况并提高对温室气体排放的了解。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/environmental-health/new-aeco-measures-to-strengthen-arctic-emissions-reporting"
+    },
+    {
       "d": "2026-10-24",
       "co": "lindblad",
       "title": "Sven Lindblad 出售 Lindblad Expeditions 股票 860 万美元",
@@ -2306,37 +2336,7 @@
       "desc": "Heritage Expeditions has named Meg Murgatroyd as sales director, Americas, adding more than 25 years of travel industry experience to its commercial t",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/heritage-updates-new-sales-director-and-discoverer-sales/"
-    },
-    {
-      "d": "2026-08-28",
-      "co": "hapag_lloyd",
-      "title": "Jens Kröger heads PWL Group's shore excursions division",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "He has well-rounded experience from sea chefs, TUI Cruises and Hapag-Lloyd Cruises.",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/people-opinions/jens-kr-ger-heads-pwl-group-s-shore-excursions-division"
-    },
-    {
-      "d": "2026-08-26",
-      "co": "swan_hellenic",
-      "title": "Swan Hellenic Logs Best Month Ever in Record-Breaking July",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Swan Hellenic has reported that July 2026 was its strongest operational month on record.  In a press release, the company shared that July revenue inc",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/swan-hellenic-logs-best-month-ever-in-record-breaking-july/"
-    },
-    {
-      "d": "2026-08-26",
-      "co": "swan_hellenic",
-      "title": "Swan Hellenic reports record-breaking July",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Polar expedition voyages drive massive growth alongside fast-rising demand for new Asia-Pacific and Africa itineraries.",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/swan-hellenic-reports-record-breaking-july"
     }
   ],
-  "updated": "2026-10-26T04:07:35"
+  "updated": "2026-10-26T18:31:17"
 }
