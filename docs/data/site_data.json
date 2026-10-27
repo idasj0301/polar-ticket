@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-27",
+      "co": "aurora",
+      "title": "Aurora 使用人工智能海洋技术进行南极试验",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "早期海上试验表明，24 小时内可节省超过 2% 至 5% 的燃油，而初步建模表明，在合适的条件下，节省的燃油甚至更高。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/environmental-health/aurora-s-antarctic-trial-using-ai-powered-ocean-technology"
+    },
+    {
       "d": "2026-10-26",
       "co": "lindblad",
       "title": "彼得·希拉里 (Peter Hillary) 将参加林德布拉德国家精选探险队",
@@ -2326,17 +2336,7 @@
       "desc": "Terra Nova Expeditions will launch its Antarctica operation with the Terra Nova Adventurer, the expedition vessel previously known as the MS Expeditio",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/terra-nova-swaps-ships-to-ensure-antarctica-season/"
-    },
-    {
-      "d": "2026-08-28",
-      "co": "heritage",
-      "title": "Heritage Updates: New Sales Director and Discoverer Sales",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "Heritage Expeditions has named Meg Murgatroyd as sales director, Americas, adding more than 25 years of travel industry experience to its commercial t",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/heritage-updates-new-sales-director-and-discoverer-sales/"
     }
   ],
-  "updated": "2026-10-27T04:27:20"
+  "updated": "2026-10-27T17:46:37"
 }
