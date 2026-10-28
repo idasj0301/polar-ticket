@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-28",
+      "co": "swan_hellenic",
+      "title": "Swan Hellenic 将提供 2026-27 南极摄影项目",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "Swan Hellenic 宣布推出南极摄影计划，这是一项独特的长航程体验，共有 9 趟航班探索南极洲。每个航程仅限 10 名参与者，该计划结合了",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/swan-hellenic-to-offer-2026-27-antarctic-photography-program/"
+    },
+    {
       "d": "2026-10-27",
       "co": "aurora",
       "title": "Aurora 使用人工智能海洋技术进行南极试验",
@@ -2326,17 +2336,7 @@
       "desc": "Atlas Ocean Voyages 宣布推出七项新的航前陆地体验计划，旨在补充 Atlas Adventurer 在 2029 年春季的肯尼亚和南非行程。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/atlas-ocean-adds-7-pre-voyage-safari-experiences-for-2029-sailings/"
-    },
-    {
-      "d": "2026-08-29",
-      "co": "unknown",
-      "title": "Terra Nova Swaps Ships to Ensure Antarctica Season",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "Terra Nova Expeditions will launch its Antarctica operation with the Terra Nova Adventurer, the expedition vessel previously known as the MS Expeditio",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/terra-nova-swaps-ships-to-ensure-antarctica-season/"
     }
   ],
-  "updated": "2026-10-28T04:58:18"
+  "updated": "2026-10-28T18:10:22"
 }
