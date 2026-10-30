@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-10-30",
+      "co": "aurora",
+      "title": "奥罗拉（Aurora）：道格拉斯·莫森（Douglas Mawson）完成第一年的服务",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "Douglas Mawson 最近完成了 Aurora Expeditions 的第一年服务，并于 2025 年 9 月 9 日交付。该船由招商局重工在中国海门建造，",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/10/aurora-douglas-mawson-completes-first-year-of-service/"
+    },
+    {
       "d": "2026-10-29",
       "co": "ponant",
       "title": "Ponant 在 2025 年可持续发展报告中强调废物回收收益",
@@ -2326,17 +2336,7 @@
       "desc": "Seabourn has announced the first lineup of speakers from The Atlantic who will sail with the cruise line in the Fall of 2026 as part of Seabourn Conve",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/08/seabourn-enriching-fall-sailings-with-top-voices-from-the-atlantic/"
-    },
-    {
-      "d": "2026-08-30",
-      "co": "quark",
-      "title": "Quark Appoints Max Truen as Area Sales Director, South USA",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "Quark Expeditions has appointed Max Truen as area sales director for the South USA to lead its sales strategy, focusing on revenue growth, engagement ",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/quark-appoints-max-truen-as-area-sales-director-south-usa/"
     }
   ],
-  "updated": "2026-10-30T05:09:56"
+  "updated": "2026-10-30T17:52:52"
 }
