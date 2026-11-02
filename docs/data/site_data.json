@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-11-02",
+      "co": "lindblad",
+      "title": "国家地理-林布拉德在 2028-29 年新增拉丁美洲和埃及",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "国家地理-林布拉德探险队宣布了 2028-29 年部署的第二部分航程。在8月份公布的第一部分的基础上，新发布的行程进一步扩展",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/national-geographic-lindblad-adds-latin-america-egypt-for-2028-29/"
+    },
+    {
       "d": "2026-11-01",
       "co": "atlas",
       "title": "Atlas Ocean 公布 2027 年美食探险厨师阵容",
@@ -2326,17 +2336,7 @@
       "desc": "SeaDream Yacht Club announces SeaDream III's July 2029 service entry, featuring 181-night world voyages, Arctic operations and Great Lakes deployment ",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/shipbuilding-equipment/seadream-iii-to-debut-2029-with-global-itinerary-portfolio"
-    },
-    {
-      "d": "2026-08-31",
-      "co": "hx",
-      "title": "DeWitte 重返海达路德担任美洲销售副总裁",
-      "cat": "促销",
-      "imp": "med",
-      "desc": "马特·德威特 (Matt DeWitte) 被任命为海达路德美洲区销售和营销副总裁。他将返回原来的 Hurtigruten 品牌，并在该品牌担任美洲营销主管。",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/08/dewitte-returns-to-hurtigruten-as-vp-sales-americas/"
     }
   ],
-  "updated": "2026-11-01T17:48:23"
+  "updated": "2026-11-02T05:22:04"
 }
