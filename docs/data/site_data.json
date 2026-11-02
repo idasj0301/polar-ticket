@@ -1339,6 +1339,26 @@
   "news": [
     {
       "d": "2026-11-02",
+      "co": "antarctica21",
+      "title": "Magellan Discoverer En Route to Punta Arenas Ahead of Nov. 6 Christening",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "离开位于智利瓦尔迪维亚的 ASENAV 造船厂后，Antarctica21 即将推出的混合动力极地探险船麦哲伦发现者号正在前往蓬塔阿雷纳斯。根据",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/magellan-discoverer-en-route-to-punta-arenas-ahead-of-nov6-christening/"
+    },
+    {
+      "d": "2026-11-02",
+      "co": "hapag_lloyd",
+      "title": "Europa 2 Suites 于 2027 年新加坡干船坞焕然一新",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "赫伯罗特邮轮公司 (Hapag-Lloyd Cruises) 曾透露，欧洲 2 号 (Europa 2) 将于 2027 年初进入干船坞后，船上约 250 间套房将是什么样子。正如之前报道的那样，欧洲 2 号 (Europa 2) 计划于 2027 年初进入干船坞。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/europa-2-suites-getting-a-new-look-in-2027-singapore-drydock/"
+    },
+    {
+      "d": "2026-11-02",
       "co": "lindblad",
       "title": "国家地理-林布拉德在 2028-29 年新增拉丁美洲和埃及",
       "cat": "纪录",
@@ -2316,27 +2336,7 @@
       "desc": "",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/people-opinions/josie-bielmeier-joins-swan-hellenic-in-north-america-sales"
-    },
-    {
-      "d": "2026-09-02",
-      "co": "seabourn",
-      "title": "Seabourn Quest Taking Guests to 58 Destinations in 2029 World Cruise",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Seabourn has opened bookings for its 138-day 2029 World Cruise. The Seabourn Quest will operate the &#8220;Iconic Islands &#38; Remote Horizons&#8221;",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/seabourn-quest-taking-guests-to-58-destinations-in-2029-world-cruise/"
-    },
-    {
-      "d": "2026-09-02",
-      "co": "unknown",
-      "title": "SeaDream's first new ship in 25 years to debut 2029",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "SeaDream Yacht Club announces SeaDream III's July 2029 service entry, featuring 181-night world voyages, Arctic operations and Great Lakes deployment ",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/shipbuilding-equipment/seadream-iii-to-debut-2029-with-global-itinerary-portfolio"
     }
   ],
-  "updated": "2026-11-02T05:22:04"
+  "updated": "2026-11-02T21:35:00"
 }
