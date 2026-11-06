@@ -1338,6 +1338,36 @@
   ],
   "news": [
     {
+      "d": "2026-11-06",
+      "co": "seabourn",
+      "title": "Seabourn Refreshes Inclusive Wine Collection Across Fleet",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Seabourn has updated its inclusive wine collection onboard. Following a 12-month search, the collection now covers more than 40 wines from 10 countrie",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/seabourn-refreshes-inclusive-wine-collection-across-fleet/"
+    },
+    {
+      "d": "2026-11-06",
+      "co": "quark",
+      "title": "Quark Strengthens Leadership with Operations and Product Appointments",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Quark Expeditions has announced the appointments of Jake Morrison as senior director, expedition operations, and Sarah Friedlander as senior product m",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/quark-strengthens-leadership-with-operations-and-product-appointments/"
+    },
+    {
+      "d": "2026-11-06",
+      "co": "quark",
+      "title": "Quark Expeditions names new operations and product leaders",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "The appointments of Jake Morrison and Sarah Friedlander follows other recent hirings, as Quark strengthens its polar operations team.",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/quark-expeditions-names-new-operations-and-product-leaders"
+    },
+    {
       "d": "2026-11-05",
       "co": "silversea",
       "title": "Silversea 黑色星期五 850 多个航次的票价下调",
@@ -2306,37 +2336,7 @@
       "desc": "Travelmarvel, the premium arm of APT Travel Group, and Quark Expeditions are partnering on a purpose-built vessel scheduled to enter service in 2029.",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/travelmarvel-and-quark-expeditions-team-on-newbuild"
-    },
-    {
-      "d": "2026-09-12",
-      "co": "seabourn",
-      "title": "Seabourn Announces New Amazon 2028 Voyage",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Seabourn has announced a new 30-day &#8220;Amazon Explorer: Rivers &#38; Rainforests&#8221; voyage on the Seabourn Quest, sailing roundtrip from Miami",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/seabourn-announces-new-amazon-2028-voyage/"
-    },
-    {
-      "d": "2026-09-11",
-      "co": "scenic",
-      "title": "Scenic Discovery 游艇展示 2027 年智利和巴塔哥尼亚航程",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Scenic Discovery Yachts 将于 2027 年搭乘 Scenic Eclipse 号进行一系列穿越智利和巴塔哥尼亚峡湾的探索航行。该邮轮公司在一份新闻稿中表示，客人可以期待",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/scenic-discovery-yachts-showcases-2027-chile-and-patagonia-voyages/"
-    },
-    {
-      "d": "2026-09-10",
-      "co": "swan_hellenic",
-      "title": "Swan Hellenic 推出个性化优惠",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "Swan Hellenic 宣布推出秋季优惠，“升级您的视野。提升您的探险之旅。” “我们在这个提议上花了很多心思，”Swan Hellenic 说",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/swan-hellenic-launches-offer-that-can-be-personalized/"
     }
   ],
-  "updated": "2026-11-06T05:55:04"
+  "updated": "2026-11-06T19:07:40"
 }
