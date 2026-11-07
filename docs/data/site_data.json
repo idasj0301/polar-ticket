@@ -1339,6 +1339,36 @@
   "news": [
     {
       "d": "2026-11-07",
+      "co": "unknown",
+      "title": "神秘游轮为本月开始的南极季节做好准备",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "神秘游轮的船队和船员正准备于本月启动该公司的南极项目。世界领航员 Novem 赛季将于 11 月 8 日开始，持续到 2027 年 3 月",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/mystic-cruises-gears-up-for-antarctic-season-start-this-month/"
+    },
+    {
+      "d": "2026-11-07",
+      "co": "ponant",
+      "title": "Ponant 和 Paul Gauguin 推出 20% 折扣假日促销",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "Ponant Explorations 和 Paul Gauguin Cruises 宣布推出假日促销活动，200 多个全球行程可享受高达 20% 的折扣，其中包括 2027 年联盟的大部分航程。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/ponant-and-paul-gauguin-offer-holiday-sale-with-20-savings/"
+    },
+    {
+      "d": "2026-11-07",
+      "co": "hx",
+      "title": "Hurtigruten 推出黑色星期五促销",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "海达路德 (Hurtigruten) 推出黑色星期五促销活动，在挪威海岸的精选原始航程中可享受买二送一的优惠，此外，还可享受高达 20% 的精选航程折扣以及精选船上积分",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/hurtigruten-launches-black-friday-sale/"
+    },
+    {
+      "d": "2026-11-07",
       "co": "silversea",
       "title": "银海邮轮鸬鹚开业 55 周年",
       "cat": "行业动态",
@@ -2306,37 +2336,7 @@
       "desc": "Lindblad Expeditions Holdings 收购了南极豪华公司 White Desert 和新航空旅行品牌 Echo Charlie 的多数股权，后者提供前往目的地的专业服务",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/09/lindblad-buys-into-2-air-travel-brands-in-its-largest-ever-deal/"
-    },
-    {
-      "d": "2026-09-15",
-      "co": "lindblad",
-      "title": "Lindblad 收购白色沙漠南极洲和 Echo Charlie",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "两家公司将共同开启空中、陆地和海上的探索。这笔价值超过 6100 万美元的交易是 Lindblad 历史上最大的一笔交易。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/finance-legal-regulatory/lindblad-acquires-white-desert-antarctica-and-echo-charlie"
-    },
-    {
-      "d": "2026-09-15",
-      "co": "hx",
-      "title": "HX Expeditions 开启广阔的 2028/29 赛季",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "一些适合时间紧迫的旅行者的较短行程，新的格陵兰岛和阿拉斯加航线，南极洲和南乔治亚岛一趟航程，更多斯堪的纳维亚和斯瓦尔巴群岛以及西北航道都在其中。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/hx-expeditions-unfurls-expansive-2028-29-season"
-    },
-    {
-      "d": "2026-09-14",
-      "co": "quark",
-      "title": "Travelmarvel and Quark Announce Partnership for New Ship",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "Travelmarvel has announced a partnership with Quark Expeditions for a new purpose-built small ship scheduled to enter service in 2029. Under a 10-year",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/travelmarvel-and-quark-announce-partnership-for-new-ship/"
     }
   ],
-  "updated": "2026-11-07T05:26:41"
+  "updated": "2026-11-07T17:38:34"
 }
