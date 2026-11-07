@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-11-07",
+      "co": "silversea",
+      "title": "银海邮轮鸬鹚开业 55 周年",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "银海邮轮酒店 (The Cormorant) 于 55 South 正式开业，该酒店拥有 150 间客房，位于地球最南端城市智利威廉姆斯港。酒店于11月5日举行剪彩仪式，",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/silversea-opens-cormorant-at-55/"
+    },
+    {
       "d": "2026-11-06",
       "co": "seabourn",
       "title": "Seabourn Refreshes Inclusive Wine Collection Across Fleet",
@@ -2326,17 +2336,7 @@
       "desc": "Travelmarvel has announced a partnership with Quark Expeditions for a new purpose-built small ship scheduled to enter service in 2029. Under a 10-year",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/09/travelmarvel-and-quark-announce-partnership-for-new-ship/"
-    },
-    {
-      "d": "2026-09-14",
-      "co": "quark",
-      "title": "Travelmarvel and Quark Expeditions team on newbuild",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Travelmarvel, the premium arm of APT Travel Group, and Quark Expeditions are partnering on a purpose-built vessel scheduled to enter service in 2029.",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/travelmarvel-and-quark-expeditions-team-on-newbuild"
     }
   ],
-  "updated": "2026-11-06T19:07:40"
+  "updated": "2026-11-07T05:26:41"
 }
