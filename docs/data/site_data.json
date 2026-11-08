@@ -1338,6 +1338,36 @@
   ],
   "news": [
     {
+      "d": "2026-11-08",
+      "co": "atlas",
+      "title": "Atlas Ocean Launches 2027-28 Grand Voyage Collection",
+      "cat": "新船/新设施",
+      "imp": "high",
+      "desc": "Atlas Ocean Voyages has announced a new Grand Voyage Collection of 16 Extended Journeys for 2027 and 2028, along with a 31-night Extraordinary Expedit",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/atlas-ocean-launches-2027-28-grand-voyage-collection/"
+    },
+    {
+      "d": "2026-11-08",
+      "co": "silversea",
+      "title": "Silversea Wraps Up 2026 Grand South Pacific Expedition",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Silversea has concluded its Grand South Pacific Expedition 2026, which called at 57 destinations in 11 countries. The 77-day voyage sailed from Freman",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/silversea-wraps-up-2026-grand-south-pacific-expedition/"
+    },
+    {
+      "d": "2026-11-08",
+      "co": "aurora",
+      "title": "Aurora Unveils 2028-29 Antarctic Season with 37 Voyages",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Aurora Expeditions has unveiled its 2028-29 Antarctic season, featuring 37 voyages, four new itineraries and seven Special Edition voyages, inviting t",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/aurora-unveils-2028-29-antarctic-season-with-37-voyages/"
+    },
+    {
       "d": "2026-11-07",
       "co": "unknown",
       "title": "神秘游轮为本月开始的南极季节做好准备",
@@ -2306,37 +2336,7 @@
       "desc": "Hurtigruten 在挪威北部北极水域水下 34 米处开采了 1,002 瓶巴罗洛葡萄酒。该邮轮公司在一份新闻稿中表示，这标志着北极湾号的全球首次亮相",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/09/arctic-aged-barolo-wine-to-debut-on-hurtigruten-ships-in-norway/"
-    },
-    {
-      "d": "2026-09-17",
-      "co": "silversea",
-      "title": "在银海邮轮的新套房分组中，前两名可获得额外福利",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "住宅，尤其是别墅类别将配备额外的便利设施和服务。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/hotel-operations-entertainment/in-silversea-s-new-suite-groupings-the-top-two-get-added-perks"
-    },
-    {
-      "d": "2026-09-15",
-      "co": "antarctica21",
-      "title": "Antarctica21 发布第一份可持续发展报告",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Antarctica21 发布了第一份可持续发展报告。它的标题为“白色大陆的大使”，记录了该公司如何衡量和管理其环境、社会和经济影响",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/antarctica21-publishes-first-sustainability-report/"
-    },
-    {
-      "d": "2026-09-15",
-      "co": "lindblad",
-      "title": "Lindblad 有史以来最大一笔交易收购了 2 个航空旅行品牌",
-      "cat": "纪录",
-      "imp": "high",
-      "desc": "Lindblad Expeditions Holdings 收购了南极豪华公司 White Desert 和新航空旅行品牌 Echo Charlie 的多数股权，后者提供前往目的地的专业服务",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/lindblad-buys-into-2-air-travel-brands-in-its-largest-ever-deal/"
     }
   ],
-  "updated": "2026-11-08T05:26:19"
+  "updated": "2026-11-08T17:48:35"
 }
