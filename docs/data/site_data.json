@@ -1338,6 +1338,26 @@
   ],
   "news": [
     {
+      "d": "2026-11-09",
+      "co": "viking",
+      "title": "密尔沃基港庆祝 2026 年破纪录季节",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "密尔沃基港于 10 月 31 日星期六结束了创纪录的 2026 年邮轮季节，整个季节迎来了近 20,000 名乘客。港口称维京北极星号抵达",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/port-milwaukee-celebrates-record-breaking-2026-season/"
+    },
+    {
+      "d": "2026-11-09",
+      "co": "antarctica21",
+      "title": "Antarctica21 欢迎最新船麦哲伦发现者号",
+      "cat": "纪录",
+      "imp": "high",
+      "desc": "第一艘专为南极空中巡航建造的混合动力探险船在蓬塔阿雷纳斯命名。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/expedition-cruising/antarctica21-welcomes-newest-ship-magellan-discoverer"
+    },
+    {
       "d": "2026-11-08",
       "co": "atlas",
       "title": "Atlas Ocean Launches 2027-28 Grand Voyage Collection",
@@ -2316,27 +2336,7 @@
       "desc": "Silversea 为其 17 种套房类型引入了四种不同的类别。新类别将提供自己的一套舒适设施，每间套房都继续包含银海邮轮的福利，",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/09/silversea-rolls-out-four-new-suite-categories/"
-    },
-    {
-      "d": "2026-09-17",
-      "co": "atlas",
-      "title": "Atlas Ocean 深化与 Cabin Select 的技术合作",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "Cabin Select 和 Atlas Ocean Voyages 正在继续扩大其技术合作伙伴关系。此次合作旨在支持邮轮公司不断发展的数字生态系统，加强全球分销",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/atlas-ocean-deepens-tech-partnership-with-cabin-select/"
-    },
-    {
-      "d": "2026-09-17",
-      "co": "hx",
-      "title": "北极陈年巴罗洛葡萄酒将在挪威海达路德船上首次亮相",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Hurtigruten 在挪威北部北极水域水下 34 米处开采了 1,002 瓶巴罗洛葡萄酒。该邮轮公司在一份新闻稿中表示，这标志着北极湾号的全球首次亮相",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/arctic-aged-barolo-wine-to-debut-on-hurtigruten-ships-in-norway/"
     }
   ],
-  "updated": "2026-11-09T05:37:18"
+  "updated": "2026-11-09T22:08:03"
 }
