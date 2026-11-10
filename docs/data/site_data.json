@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-11-10",
+      "co": "seabourn",
+      "title": "Mark Tamis has quietly exited the Seabourn presidency",
+      "cat": "行业动态",
+      "imp": "med",
+      "desc": "Beth Bodensteiner is now president of both Holland America Line and Seabourn.",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/mark-tamis-has-quietly-exited-the-seabourn-presidency"
+    },
+    {
       "d": "2026-11-09",
       "co": "viking",
       "title": "密尔沃基港庆祝 2026 年破纪录季节",
@@ -2326,17 +2336,7 @@
       "desc": "随着世邦邮轮 2026 年阿拉斯加航季于 9 月 18 日结束，该邮轮公司展望 2027 年夏季。世邦邮轮安可号将于 5 月至 5 月返回探索阿拉斯加和不列颠哥伦比亚省。",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/09/seabourn-sets-sights-on-summer-2027-as-2026-alaska-season-ends/"
-    },
-    {
-      "d": "2026-09-18",
-      "co": "silversea",
-      "title": "银海邮轮推出四种新套房类别",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "Silversea 为其 17 种套房类型引入了四种不同的类别。新类别将提供自己的一套舒适设施，每间套房都继续包含银海邮轮的福利，",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/silversea-rolls-out-four-new-suite-categories/"
     }
   ],
-  "updated": "2026-11-09T22:08:03"
+  "updated": "2026-11-10T06:46:35"
 }
