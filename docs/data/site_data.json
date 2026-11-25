@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-11-25",
+      "co": "seabourn",
+      "title": "Windstar 任命 Pierre van Breda 为其提供全球包机和激励措施",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "最近加入世邦邮轮，他在船上运营、包机销售和国际业务开发方面拥有 19 年的经验。",
+      "src": "seatrade-cruise.com",
+      "url": "https://www.seatrade-cruise.com/people-opinions/windstar-taps-pierre-van-breda-for-global-charters-incentives"
+    },
+    {
       "d": "2026-11-24",
       "co": "silversea",
       "title": "Silver Dawn Emerges from Drydock with New Pool and Dining Concept",
@@ -2326,17 +2336,7 @@
       "desc": "海达路德于 9 月 22 日至 25 日在 Trollfjord 上为媒体和旅行社成员举办了全球 VIP 合作伙伴海上峰会，这是卑尔根和奥斯陆之间的独家航行。展示一个sh",
       "src": "cruiseindustrynews.com",
       "url": "https://cruiseindustrynews.com/cruise-news/2026/09/hurtigruten-hosts-vip-partner-summit-at-sea/"
-    },
-    {
-      "d": "2026-09-27",
-      "co": "seabourn",
-      "title": "世邦邮轮 Ovation 首次造访魁北克市",
-      "cat": "新船/新设施",
-      "imp": "high",
-      "desc": "根据魁北克港分享的最新消息，世邦 Ovation 号于 2026 年 9 月 23 日首次停靠魁北克市。 Seabourn 游轮提供前往加拿大和新英格兰的 12 天航行",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/seabourn-ovation-makes-maiden-visit-to-quebec-city/"
     }
   ],
-  "updated": "2026-11-24T22:09:56"
+  "updated": "2026-11-25T07:51:55"
 }
