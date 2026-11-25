@@ -1339,6 +1339,16 @@
   "news": [
     {
       "d": "2026-11-25",
+      "co": "atlas",
+      "title": "Atlas Ocean 探索新型帆船的色彩概念",
+      "cat": "航线",
+      "imp": "med",
+      "desc": "Atlas Ocean Voyages 在探索其新型帆船 Atlas Adventurer 的色彩概念时，正在征求客人的意见。在社交媒体更新中，该公司表示有四种涂装",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/atlas-ocean-explores-color-concepts-for-new-sailing-yacht/"
+    },
+    {
+      "d": "2026-11-25",
       "co": "seabourn",
       "title": "Windstar 任命 Pierre van Breda 为其提供全球包机和激励措施",
       "cat": "促销",
@@ -2326,17 +2336,7 @@
       "desc": "参观当地村庄和市场、深入了解二战历史以及水上和水下非凡的野生动物。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/expedition-cruising/heritage-expeditions-south-pacific-round-voyage-from-fiji"
-    },
-    {
-      "d": "2026-09-28",
-      "co": "hx",
-      "title": "海达路德举办海上 VIP 合作伙伴峰会",
-      "cat": "行业动态",
-      "imp": "med",
-      "desc": "海达路德于 9 月 22 日至 25 日在 Trollfjord 上为媒体和旅行社成员举办了全球 VIP 合作伙伴海上峰会，这是卑尔根和奥斯陆之间的独家航行。展示一个sh",
-      "src": "cruiseindustrynews.com",
-      "url": "https://cruiseindustrynews.com/cruise-news/2026/09/hurtigruten-hosts-vip-partner-summit-at-sea/"
     }
   ],
-  "updated": "2026-11-25T07:51:55"
+  "updated": "2026-11-25T21:26:12"
 }
