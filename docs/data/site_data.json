@@ -1338,6 +1338,16 @@
   ],
   "news": [
     {
+      "d": "2026-11-26",
+      "co": "unknown",
+      "title": "冒险家在 Terra Nova 首次亮相之前启航前往南美洲",
+      "cat": "促销",
+      "imp": "med",
+      "desc": "在 Terra Nova Expeditions 在南极洲首次亮相之前，冒险家号目前正在重新定位到南美。这艘载有 127 名乘客的游轮计划取代 RMS 圣赫勒拿号，提供系列服务。",
+      "src": "cruiseindustrynews.com",
+      "url": "https://cruiseindustrynews.com/cruise-news/2026/11/adventurer-sets-sail-for-south-america-ahead-of-terra-nova-debut/"
+    },
+    {
       "d": "2026-11-25",
       "co": "atlas",
       "title": "Atlas Ocean 探索新型帆船的色彩概念",
@@ -2326,17 +2336,7 @@
       "desc": "Ponant 的 Le Jacques Cartier 将负责运营该航线。",
       "src": "seatrade-cruise.com",
       "url": "https://www.seatrade-cruise.com/marketing/apt-s-early-release-of-2028-kimberley-expeditions"
-    },
-    {
-      "d": "2026-09-29",
-      "co": "heritage",
-      "title": "Heritage Expeditions 斐济出发的南太平洋往返航程",
-      "cat": "航线",
-      "imp": "med",
-      "desc": "参观当地村庄和市场、深入了解二战历史以及水上和水下非凡的野生动物。",
-      "src": "seatrade-cruise.com",
-      "url": "https://www.seatrade-cruise.com/expedition-cruising/heritage-expeditions-south-pacific-round-voyage-from-fiji"
     }
   ],
-  "updated": "2026-11-26T07:42:22"
+  "updated": "2026-11-26T21:12:40"
 }
